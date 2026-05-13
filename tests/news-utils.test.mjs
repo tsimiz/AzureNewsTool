@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { filterItems, formatDate, buildDebugPanelHtml } from '../public/js/news-utils.js';
+import { filterItems, formatDate, buildDebugPanelHtml, categorySlug } from '../public/js/news-utils.js';
 
 test('filterItems finds by keyword and category', () => {
   const items = [
@@ -57,4 +57,12 @@ test('buildDebugPanelHtml includes source URL as link', () => {
   const html = buildDebugPanelHtml(sources, [], '2024-01-01T00:00:00Z');
 
   assert.ok(html.includes('href="https://example.com/feed"'), 'should include feed URL as link');
+});
+
+test('categorySlug converts category names to CSS-safe slugs', () => {
+  assert.equal(categorySlug('Azure'), 'azure');
+  assert.equal(categorySlug('Microsoft 365'), 'microsoft-365');
+  assert.equal(categorySlug('Power Platform'), 'power-platform');
+  assert.equal(categorySlug('Security'), 'security');
+  assert.equal(categorySlug(''), '');
 });

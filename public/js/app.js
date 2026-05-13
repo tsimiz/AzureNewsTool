@@ -1,4 +1,4 @@
-import { filterItems, formatDate, buildDebugPanelHtml } from './news-utils.js';
+import { filterItems, formatDate, buildDebugPanelHtml, categorySlug } from './news-utils.js';
 
 const state = {
   items: [],
@@ -149,7 +149,7 @@ const render = () => {
   elements.list.innerHTML = filtered
     .map(
       (item, index) => `
-        <article class="card" data-index="${index}">
+        <article class="card" data-index="${index}" data-category="${categorySlug(item.category)}">
           <div class="meta">
             <span>${item.category}</span>
             <span>${item.source}</span>
