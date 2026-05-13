@@ -103,7 +103,7 @@ const summariseWithAi = async (title, summary) => {
         content: `Please summarise the following news article.\n\nTitle: ${title}\n\nContent: ${summary}`
       }
     ],
-    max_tokens: 200,
+    max_completion_tokens: 200,
     temperature: 0.5
   };
 
