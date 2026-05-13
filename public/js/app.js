@@ -232,7 +232,8 @@ const init = async () => {
 elements.topicBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     state.activeCategory = btn.dataset.category;
-    elements.topicBtns.forEach((b) => b.classList.toggle('active', b === btn));
+    elements.topicBtns.forEach((b) => b.classList.remove('active'));
+    btn.classList.add('active');
     render();
   });
 });
