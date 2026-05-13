@@ -125,8 +125,21 @@ input[type='search'] {
 
 #newsList {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 0.8rem;
   margin-top: 1rem;
+}
+
+@media (max-width: 900px) {
+  #newsList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  #newsList {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {
@@ -148,6 +161,22 @@ input[type='search'] {
 }
 
 .card a:hover { text-decoration: underline; }
+
+/* Category color accents */
+.card[data-category="azure"] { border-top: 3px solid #0078d4; }
+.card[data-category="microsoft-365"] { border-top: 3px solid #107c10; }
+.card[data-category="power-platform"] { border-top: 3px solid #8764b8; }
+.card[data-category="security"] { border-top: 3px solid #d83b01; }
+
+.card[data-category="azure"] .meta span:first-child { background: #e3f0ff; color: #004d8a; }
+.card[data-category="microsoft-365"] .meta span:first-child { background: #dff6dd; color: #0a5c0a; }
+.card[data-category="power-platform"] .meta span:first-child { background: #f0eaff; color: #5c3d8f; }
+.card[data-category="security"] .meta span:first-child { background: #fde8df; color: #9e2b00; }
+
+.dark .card[data-category="azure"] .meta span:first-child { background: #0d2b4a; color: #81c3f7; }
+.dark .card[data-category="microsoft-365"] .meta span:first-child { background: #0c2a0c; color: #5dba5d; }
+.dark .card[data-category="power-platform"] .meta span:first-child { background: #241840; color: #c0a0e8; }
+.dark .card[data-category="security"] .meta span:first-child { background: #3a1508; color: #f5a07a; }
 
 .meta {
   display: flex;

@@ -1,5 +1,8 @@
 export const normalize = (value = '') => value.toLowerCase().trim();
 
+export const categorySlug = (category = '') =>
+  category.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+
 export const filterItems = (items, keyword) => {
   const normalizedKeyword = normalize(keyword);
   if (!normalizedKeyword) {
