@@ -310,3 +310,68 @@ input[type='search'] {
 }
 
 .btn-secondary:hover { background: var(--bg-meta); }
+
+/* Debug panel */
+#debugPanel {
+  margin-bottom: 1rem;
+  background: var(--bg-panel);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: background 0.25s, border-color 0.25s;
+}
+
+.debug-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-meta);
+  font-size: 0.875rem;
+  color: var(--muted);
+  border-bottom: 1px solid var(--card-border);
+}
+
+.debug-badge {
+  font-weight: 700;
+  font-size: 0.8rem;
+  background: var(--azure-500);
+  color: white;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+}
+
+.debug-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.debug-table th,
+.debug-table td {
+  text-align: left;
+  padding: 0.55rem 1rem;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.debug-table thead th {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.debug-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.debug-table a {
+  color: var(--azure-700);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.debug-table a:hover { text-decoration: underline; }
+
+.debug-status { font-size: 1rem; }
