@@ -8,14 +8,29 @@
   </head>
   <body>
     <header>
-      <div class="inner">
-        <h1>Azure &amp; Microsoft Release News</h1>
-        <p class="subtitle">Track fresh Azure and Microsoft release announcements in one place.</p>
+      <div class="header-inner">
+        <div class="header-brand">
+          <h1>Azure &amp; Microsoft Release News</h1>
+          <p class="subtitle">Track fresh Azure and Microsoft release announcements in one place.</p>
+        </div>
+        <div class="header-right">
+          <div class="header-search">
+            <input id="searchInput" type="search" list="suggestions" placeholder="Search…" aria-label="Search by keyword or category" />
+            <datalist id="suggestions"></datalist>
+          </div>
+          <div class="header-actions">
+            <button class="btn-icon" id="aiSettingsBtn" title="Configure Azure AI Foundry" aria-label="Configure Azure AI Foundry">⚙️</button>
+            <button class="btn-icon" id="darkModeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
+          </div>
+        </div>
       </div>
-      <div class="header-actions">
-        <button class="btn-icon" id="aiSettingsBtn" title="Configure Azure AI Foundry" aria-label="Configure Azure AI Foundry">⚙️</button>
-        <button class="btn-icon" id="darkModeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
-      </div>
+      <nav class="topic-filters" aria-label="Filter by topic">
+        <button class="topic-btn active" data-category="">All</button>
+        <button class="topic-btn" data-category="azure">Azure</button>
+        <button class="topic-btn" data-category="microsoft-365">Microsoft 365</button>
+        <button class="topic-btn" data-category="power-platform">Power Platform</button>
+        <button class="topic-btn" data-category="security">Security</button>
+      </nav>
     </header>
 
     <!-- AI Settings Modal -->
@@ -38,15 +53,10 @@
 
     <main>
       <section id="debugPanel" hidden aria-label="Debug: source status"></section>
-      <section class="panel">
-        <div class="search-row">
-          <label for="searchInput">Search by keyword or category</label>
-          <input id="searchInput" type="search" list="suggestions" placeholder="Try: Security, Kubernetes, Copilot..." />
-          <datalist id="suggestions"></datalist>
-        </div>
+      <div class="stats-row">
         <p id="stats"></p>
         <p id="generatedAt"></p>
-      </section>
+      </div>
       <section id="newsList" aria-live="polite"></section>
     </main>
     <script type="module" src="./js/app.js"></script>

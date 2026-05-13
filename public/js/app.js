@@ -2,7 +2,8 @@ import { filterItems, formatDate, buildDebugPanelHtml, categorySlug } from './ne
 
 const state = {
   items: [],
-  suggestions: []
+  suggestions: [],
+  activeCategory: ''
 };
 
 const elements = {
@@ -19,7 +20,8 @@ const elements = {
   aiKey: document.getElementById('aiKey'),
   aiModalSave: document.getElementById('aiModalSave'),
   aiModalCancel: document.getElementById('aiModalCancel'),
-  debugPanel: document.getElementById('debugPanel')
+  debugPanel: document.getElementById('debugPanel'),
+  topicBtns: document.querySelectorAll('.topic-btn')
 };
 
 const isDebugMode = new URLSearchParams(location.search).has('debug');
@@ -138,7 +140,11 @@ export const renderDebugPanel = (sources, items, generatedAt) => {
 // ── Rendering ──────────────────────────────────────────────────────────────
 
 const render = () => {
-  const filtered = filterItems(state.items, elements.search.value).slice(0, 100);
+  let filtered = filterItems(state.items, elements.search.value);
+  if (state.activeCategory) {
+    filtered = filtered.filter((item) => categorySlug(item.category) === state.activeCategory);
+  }
+  filtered = filtered.slice(0, 100);
   elements.stats.textContent = `Showing ${filtered.length} of ${state.items.length} entries`;
 
   if (filtered.length === 0) {
@@ -222,6 +228,14 @@ const init = async () => {
   renderSuggestions();
   render();
 };
+
+elements.topicBtns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    state.activeCategory = btn.dataset.category;
+    elements.topicBtns.forEach((b) => b.classList.toggle('active', b === btn));
+    render();
+  });
+});
 
 elements.search.addEventListener('input', render);
 
