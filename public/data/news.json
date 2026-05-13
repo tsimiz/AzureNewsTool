@@ -1,0 +1,273 @@
+{
+  "generatedAt": "2026-05-13T09:36:44.768Z",
+  "itemCount": 30,
+  "sources": [
+    {
+      "name": "Azure Updates",
+      "category": "Azure",
+      "url": "https://azure.microsoft.com/en-us/updates/feed/"
+    },
+    {
+      "name": "Azure Blog",
+      "category": "Azure",
+      "url": "https://azure.microsoft.com/en-us/blog/feed/"
+    },
+    {
+      "name": "Microsoft Security Blog",
+      "category": "Security",
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/"
+    },
+    {
+      "name": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/"
+    },
+    {
+      "name": "Power Platform Blog",
+      "category": "Power Platform",
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/feed/"
+    }
+  ],
+  "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Accelerating detection engineering using AI-assisted synthetic attack logs generation",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/",
+      "summary": "What if you could generate realistic attack telemetry on demand? Explore research methods that translate attacker behaviors (TTPs) into synthetic logs that can trigger detections at scale and without sensitive data. The post Accelerating detection engineering using AI-assisted synthetic attack logs generation appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-12T22:53:09.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
+      "summary": "Today Microsoft is announcing a major step forward in AI-powered cyber defense: a new multi-model agentic scanning harness (codenamed MDASH). The post Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-12T22:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Defending consumer web properties against modern DDoS attacks",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/",
+      "summary": "Read how to protect consumer websites and defend against modern DDoS attacks with layered security, resilient architecture, and graceful service degradation. The post Defending consumer web properties against modern DDoS attacks appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-12T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
+      "summary": "Microsoft Incident Response investigated an attack operated through legitimate and trusted administrative mechanisms to blend seamlessly into routine operations and remain undetected demonstrating that intrusions have increasingly avoided using noisy exploits, obvious malware, or custom tooling, instead leveraging systems that organizations already trust within their environments. The post Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-12T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Active attack: Dirty Frag Linux vulnerability expands post-compromise risk",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/",
+      "summary": "Dirty Frag is a newly disclosed Linux local privilege escalation vulnerability affecting kernel networking and memory-fragment handling components including esp4, esp6, and rxrpc. The vulnerability enables reliable escalation from an unprivileged user to root and may be leveraged after initial compromise through SSH access, web shells, containers, or low-privileged accounts. Microsoft Defender is actively monitoring limited in-the-wild activity and provides detection coverage for exploitation attempts. The post Active attack: Dirty Frag Linux vulnerability expands post-compromise risk appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-08T17:12:46.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "When prompts become shells: RCE vulnerabilities in AI agent frameworks",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/",
+      "summary": "New research exposes how prompt injection in AI agent frameworks can lead to remote code execution. Learn how these vulnerabilities work, what’s impacted, and how to secure your agents. The post When prompts become shells: RCE vulnerabilities in AI agent frameworks appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-07T20:22:39.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "World Passkey Day: Advancing passwordless authentication",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/",
+      "summary": "This World Passkey Day, read how Microsoft is advancing passkey adoption to replace passwords, cut phishing risk, and deliver simpler, more secure sign-ins. The post World Passkey Day: Advancing passwordless authentication appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-07T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "​​Microsoft named an overall leader in KuppingerCole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report ​​",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/microsoft-named-an-overall-leader-in-kuppingercole-analysts-2026-emerging-ai-security-operations-center-soc-report/",
+      "summary": "Microsoft is excited to be named an Overall Leader, and the Market Leader in the Kuppinger Cole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report, as we see automation and AI as core components of the future of cybersecurity. The post ​​Microsoft named an overall leader in KuppingerCole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report ​​ appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-06T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "ClickFix campaign uses fake macOS utilities lures to deliver infostealers",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/",
+      "summary": "Threat actors are targeting macOS users with fake utility fixes that trick them into running malicious Terminal commands. This campaign evades traditional defenses by stealing credentials, wallets, and sensitive data. The post ClickFix campaign uses fake macOS utilities lures to deliver infostealers appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-06T15:20:32.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Dataverse Is Your Agent Data Platform: Here’s What’s New",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/05/05/dataverse-agent-data-platform/",
+      "summary": "Microsoft Dataverse is the agent data platform: the layer that gives agents not just data access, but real business understanding. The post Dataverse Is Your Agent Data Platform: Here’s What’s New appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-05-05T16:30:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
+      "summary": "Today, we’re announcing additional capabilities in Cowork to expand on what it can make possible for you. The post Copilot Cowork: From conversation to action across skills, integrations, and devices appeared first on Microsoft 365 Blog .",
+      "publishedAt": "2026-05-05T10:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
+      "summary": "As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes. The post Microsoft 365 Copilot, human agency, and the opportunity for every organization appeared first on Microsoft 365 Blog .",
+      "publishedAt": "2026-05-05T10:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Breaking the code: Multi-stage ‘code of conduct’ phishing campaign leads to AiTM token compromise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/",
+      "summary": "Microsoft Defender Research observed a large-scale credential theft campaign that exemplifies this trend, using code of conduct-themed lures, a multi-step attack chain, and legitimate email services to distribute fully authenticated messages from attacker-controlled domains. The post Breaking the code: Multi-stage ‘code of conduct’ phishing campaign leads to AiTM token compromise appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-04T15:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Introducing business skills: Teach agents how your organization works",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/05/01/business-skills/",
+      "summary": "Business skills in Dataverse can capture your organization’s processes, policies, and domain expertise as natural-language instructions that AI agents discover and follow. The post Introducing business skills: Teach agents how your organization works appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-05-01T18:05:46.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
+      "summary": "Microsoft Agent 365 helps you take control of agent sprawl as your control plane to observe, govern, and secure agents and their interactions. The post Microsoft Agent 365, now generally available, expands capabilities and integrations appeared first on Microsoft 365 Blog .",
+      "publishedAt": "2026-05-01T15:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "From Ideas to Impact: How Frontier Firms scale agents with confidence",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/27/from-ideas-to-impact-how-frontier-firms-scale-agents-with-confidence/",
+      "summary": "Frontier Firms scale AI agents by starting with workflows and embedding them into existing apps. With strong governance, deliberate adoption, and focus on measurable value, they move beyond pilots to deliver real, scalable business impact. The post From Ideas to Impact: How Frontier Firms scale agents with confidence appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-04-27T15:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "More Secure SharePoint Integration in Power Pages with Site‑Scoped Permissions",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/more-secure-sharepoint-integration-in-power-pages-with-site%e2%80%91scoped-permissions/",
+      "summary": "Strong security and governance are essential for any external-facing web presence. Power Pages now strengthens this with enhanced SharePoint permission management shifting from broad site collection access to precise, site-level controls. Key improvements This change ensures that Power Pages site only has access to the SharePoint resources it truly needs nothing more. The post More Secure SharePoint Integration in Power Pages with Site‑Scoped Permissions appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-04-23T13:25:07.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
+      "summary": "From first draft to final polish, Copilot acts as a true collaborator, taking action while you stay in control. The post Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available appeared first on Microsoft 365 Blog .",
+      "publishedAt": "2026-04-23T00:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Custom tools and rich UI for app-based conversations are now in Public Preview",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/22/custom-tools-and-rich-ui-for-app-based-conversations-are-now-in-public-preview/",
+      "summary": "Discover how custom tools and rich, app‑powered UI experiences can elevate business app conversations in Microsoft 365 Copilot. This public preview introduces new ways to surface app intelligence, drive action, and deliver more contextual, intuitive interactions - directly within the flow of work. The post Custom tools and rich UI for app-based conversations are now in Public Preview appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-04-22T19:11:22.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Intelligent apps, human leadership, and the new shape of work",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/20/intelligent-apps-human-leadership-and-the-new-shape-of-work/",
+      "summary": "When people talk about AI at work, the conversation usually jumps straight to speed. Faster tasks. Faster decisions. Faster output. The post Intelligent apps, human leadership, and the new shape of work appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-04-20T15:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Build your server-side logic with AI: new Power Pages Agentic Code skills",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/build-your-server-side-logic-with-ai-new-power-pages-agentic-code-skills/",
+      "summary": "We’re introducing three new skills for the Power Pages agentic code plugin for GitHub Copilot and Claude Code CLI that together unlock a missing capability in AI‑assisted site building: server‑side logic. The post Build your server-side logic with AI: new Power Pages Agentic Code skills appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-04-16T08:28:27.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Making business apps smarter with AI, Copilot, and agents in Power Apps",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/15/making-business-apps-smarter-with-ai-copilot-and-agents-in-power-apps/",
+      "summary": "Explore new Power Apps updates that introduce Copilot, app skills, and agents to apps, extending intelligence to the AI surfaces where work happens. The post Making business apps smarter with AI, Copilot, and agents in Power Apps appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-04-15T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
+      "summary": "Microsoft 365 Copilot can now bring your go-to apps directly into the conversation, which closes the gap between AI-powered insight and real, in-app action. The post Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot appeared first on Microsoft 365 Blog .",
+      "publishedAt": "2026-04-13T15:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "What’s new in Power Platform: April 2026 feature update",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/09/whats-new-in-power-platform-april-2026-feature-update/",
+      "summary": "Power Apps Generally available: custom theming for model-driven apps Custom theming for model-driven apps using the modern, refreshed look is now generally available. This capability lets organizations align their model-driven apps with company branding by customizing colors, fonts, and app header styling using the Microsoft Fluent 2 design system. The post What’s new in Power Platform: April 2026 feature update appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-04-09T15:35:58.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Power Platform Monitor Alerts Are Now Generally Available",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-platform-monitor-alerts-are-now-generally-available/",
+      "summary": "We are excited to announce that Power Platform Monitor alerts for apps, agents, and flows are now generally available! Monitor alerts meet the reliability and maturity standards required for general availability, following sustained investments to improve quality. The post Power Platform Monitor Alerts Are Now Generally Available appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-04-08T17:12:51.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
+      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
+      "summary": "Learn what’s new in Copilot Studio: Multi-agent systems are now generally available, plus recent updates to the Prompt Editor and governance controls. The post New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration appeared first on Microsoft 365 Blog .",
+      "publishedAt": "2026-04-01T21:45:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Copilot Cowork: Now available in Frontier",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
+      "summary": "Today, Copilot Cowork—designed for long-running, multi-step work in Microsoft 365—is available via the Frontier program. The post Copilot Cowork: Now available in Frontier appeared first on Microsoft 365 Blog .",
+      "publishedAt": "2026-03-30T13:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Copilot Cowork: A new way of getting work done",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/",
+      "summary": "We’re excited to announce Copilot Cowork, the execution layer for Microsoft 365—delegate tasks, coordinate workflows, and stay in control. The post Copilot Cowork: A new way of getting work done appeared first on Microsoft 365 Blog .",
+      "publishedAt": "2026-03-09T13:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Powering Frontier Transformation with Copilot and agents",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/",
+      "summary": "Wave 3 marks a new version of Microsoft 365 Copilot, moving beyond assistance to embedded agentic capabilities. The post Powering Frontier Transformation with Copilot and agents appeared first on Microsoft 365 Blog .",
+      "publishedAt": "2026-03-09T13:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "SharePoint at 25: How Microsoft is putting knowledge to work in the AI era",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/02/sharepoint-at-25-how-microsoft-is-putting-knowledge-to-work-in-the-ai-era/",
+      "summary": "Twenty-five years ago, SharePoint set out to help people share knowledge and work better together, a mission that today operates at extraordinary scale. The post SharePoint at 25: How Microsoft is putting knowledge to work in the AI era appeared first on Microsoft 365 Blog .",
+      "publishedAt": "2026-03-02T15:30:00.000Z"
+    }
+  ]
+}

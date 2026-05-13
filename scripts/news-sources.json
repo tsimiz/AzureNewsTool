@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Azure Updates",
+    "category": "Azure",
+    "url": "https://azure.microsoft.com/en-us/updates/feed/"
+  },
+  {
+    "name": "Azure Blog",
+    "category": "Azure",
+    "url": "https://azure.microsoft.com/en-us/blog/feed/"
+  },
+  {
+    "name": "Microsoft Security Blog",
+    "category": "Security",
+    "url": "https://www.microsoft.com/en-us/security/blog/feed/"
+  },
+  {
+    "name": "Microsoft 365 Blog",
+    "category": "Microsoft 365",
+    "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/"
+  },
+  {
+    "name": "Power Platform Blog",
+    "category": "Power Platform",
+    "url": "https://www.microsoft.com/en-us/power-platform/blog/feed/"
+  }
+]
