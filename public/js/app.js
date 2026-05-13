@@ -1,4 +1,4 @@
-import { filterItems, formatDate } from './news-utils.js';
+import { filterItems, formatDate, buildDebugPanelHtml } from './news-utils.js';
 
 const state = {
   items: [],
@@ -18,8 +18,11 @@ const elements = {
   aiDeployment: document.getElementById('aiDeployment'),
   aiKey: document.getElementById('aiKey'),
   aiModalSave: document.getElementById('aiModalSave'),
-  aiModalCancel: document.getElementById('aiModalCancel')
+  aiModalCancel: document.getElementById('aiModalCancel'),
+  debugPanel: document.getElementById('debugPanel')
 };
+
+const isDebugMode = new URLSearchParams(location.search).has('debug');
 
 // ── Dark mode ──────────────────────────────────────────────────────────────
 
@@ -125,6 +128,13 @@ const summariseWithAi = async (title, summary) => {
   return data.choices?.[0]?.message?.content?.trim() || 'No summary returned.';
 };
 
+// ── Debug panel ────────────────────────────────────────────────────────────
+
+export const renderDebugPanel = (sources, items, generatedAt) => {
+  elements.debugPanel.hidden = false;
+  elements.debugPanel.innerHTML = buildDebugPanelHtml(sources, items, generatedAt);
+};
+
 // ── Rendering ──────────────────────────────────────────────────────────────
 
 const render = () => {
@@ -204,6 +214,11 @@ const init = async () => {
   state.suggestions = suggestions.values || [];
 
   elements.generatedAt.textContent = `Data refreshed: ${formatDate(news.generatedAt)}`;
+
+  if (isDebugMode) {
+    renderDebugPanel(news.sources || [], state.items, news.generatedAt);
+  }
+
   renderSuggestions();
   render();
 };
