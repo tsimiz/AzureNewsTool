@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T12:35:28.213Z",
+  "generatedAt": "2026-05-14T18:36:13.836Z",
   "itemCount": 200,
   "sources": [
     {
@@ -29,6 +29,46 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Support for workloads with large files in Azure NetApp Files",
+      "link": "https://azure.microsoft.com/updates?id=561722",
+      "summary": "To support seamless migration and operation of workloads that use large files including Azure VMware Solution (AVS) virtual machines with large VMDK disks, Azure NetApp Files now supports file sizes of up to 64 TiB for regular volumes. This enhancement en",
+      "publishedAt": "2026-05-14T18:00:48.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Managed Identity Support for Azure Files SMB Is now GA",
+      "link": "https://azure.microsoft.com/updates?id=562350",
+      "summary": "Azure Files now supports Managed Identities for SMB access, enabling applications and services to authenticate without storing static credentials or account keys. This feature aligns with Zero Trust principles, allowing workloads to use Entra-issued token",
+      "publishedAt": "2026-05-14T17:30:02.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Defense in depth for autonomous AI agents",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/defense-in-depth-autonomous-ai-agents/",
+      "summary": "As AI agents gain autonomy, defense in depth must evolve, with application-layer design, identity, and human oversight at the center. The post Defense in depth for autonomous AI agents appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-14T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Kazuar: Anatomy of a nation-state botnet",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
+      "summary": "Kazuar, a sophisticated malware family attributed to the Russian state actor Secret Blizzard, has been under constant development for years and continues to evolve in support of espionage-focused operations. Over time, Kazuar has expanded from a relatively traditional backdoor into a highly modular peer-to-peer (P2P) botnet ecosystem designed to enable persistent, covert access to target environments. The post Kazuar: Anatomy of a nation-state botnet appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-14T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/configuration-becomes-vulnerability-exploitable-misconfigurations-ai-apps/",
+      "summary": "Exposed UIs, weak authentication, and risky defaults could turn cloud-native AI apps on Kubernetes into potential targets by threat actors. Learn how exploitable misconfigurations lead to RCE and data leaks. The post When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-14T14:20:55.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -102,28 +142,28 @@
       "publishedAt": "2026-05-12T16:00:00.000Z"
     },
     {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Power Apps MCP server introduces closed-loop learning for enterprise agents",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-apps-mcp-server-introduces-closed-loop-learning-for-enterprise-agents/",
+      "summary": "Building agents is fast. Teaching them how your organization works has been the hard part. Introducing closed-loop learning on the Power Apps MCP server: every correction calibrates the agent to your business, automatically. The post Power Apps MCP server introduces closed-loop learning for enterprise agents appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-05-12T16:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Agentic Administration: Dataverse Admin Skills now available in Public Preview",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/05/12/dataverse-agentic-administration/",
+      "summary": "Dataverse Admin Skills (dv-admin) lets Power Platform admins use natural language to manage Dataverse environments at scale. The post Agentic Administration: Dataverse Admin Skills now available in Public Preview appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-05-12T15:33:42.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
       "summary": "Microsoft Incident Response investigated an attack operated through legitimate and trusted administrative mechanisms to blend seamlessly into routine operations and remain undetected demonstrating that intrusions have increasingly avoided using noisy exploits, obvious malware, or custom tooling, instead leveraging systems that organizations already trust within their environments. The post Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise appeared first on Microsoft Security Blog .",
       "publishedAt": "2026-05-12T15:00:00.000Z"
-    },
-    {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "Red Hat Summit 2026: Platform modernization and AI on Microsoft Azure Red Hat OpenShift",
-      "link": "https://azure.microsoft.com/en-us/blog/red-hat-summit-2026-platform-modernization-and-ai-on-azure-microsoft-red-hat-openshift/",
-      "summary": "Microsoft and Red Hat show how Azure Red Hat OpenShift powers modernization and production AI with secure, scalable enterprise governance. The post Red Hat Summit 2026: Platform modernization and AI on Microsoft Azure Red Hat OpenShift appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-05-11T19:00:00.000Z"
-    },
-    {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "Build AI apps with Azure Cosmos DB: Key trends from Cosmos Conf 2026",
-      "link": "https://azure.microsoft.com/en-us/blog/build-ai-apps-with-azure-cosmos-db-key-trends-from-cosmos-conf-2026/",
-      "summary": "AI is reshaping application development. Explore key trends from Cosmos DB Conf 2026 and how teams are building scalable, AI-native applications with Azure Cosmos DB. The post Build AI apps with Azure Cosmos DB: Key trends from Cosmos Conf 2026 appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-05-11T16:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -212,22 +252,6 @@
       "link": "https://azure.microsoft.com/updates?id=561167",
       "summary": "Azure Cosmos DB now offers spherical quantization in public preview to help you achieve faster vector indexing with higher recall and accuracy at scale. Spherical quantization is an advanced vector compression technique designed to preserve search quality",
       "publishedAt": "2026-05-06T18:30:28.000Z"
-    },
-    {
-      "source": "Microsoft Security Blog",
-      "category": "Security",
-      "title": "​​Microsoft named an overall leader in KuppingerCole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report ​​",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/microsoft-named-an-overall-leader-in-kuppingercole-analysts-2026-emerging-ai-security-operations-center-soc-report/",
-      "summary": "Microsoft is excited to be named an Overall Leader, and the Market Leader in the Kuppinger Cole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report, as we see automation and AI as core components of the future of cybersecurity. The post ​​Microsoft named an overall leader in KuppingerCole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report ​​ appeared first on Microsoft Security Blog .",
-      "publishedAt": "2026-05-06T16:00:00.000Z"
-    },
-    {
-      "source": "Microsoft Security Blog",
-      "category": "Security",
-      "title": "ClickFix campaign uses fake macOS utilities lures to deliver infostealers",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/",
-      "summary": "Threat actors are targeting macOS users with fake utility fixes that trick them into running malicious Terminal commands. This campaign evades traditional defenses by stealing credentials, wallets, and sensitive data. The post ClickFix campaign uses fake macOS utilities lures to deliver infostealers appeared first on Microsoft Security Blog .",
-      "publishedAt": "2026-05-06T15:20:32.000Z"
     },
     {
       "source": "Azure Blog",
@@ -324,14 +348,6 @@
       "link": "https://azure.microsoft.com/en-us/blog/azure-iaas-defense-in-depth-built-on-secure-by-design-principles/",
       "summary": "Security for cloud infrastructure is no longer defined by a single control, product, or boundary. Modern threats target identity, software supply chains, control planes, networks, and data simultaneously. The post Azure IaaS: Defense in depth built on secure-by-design principles appeared first on Microsoft Azure Blog .",
       "publishedAt": "2026-05-04T16:00:00.000Z"
-    },
-    {
-      "source": "Microsoft Security Blog",
-      "category": "Security",
-      "title": "Breaking the code: Multi-stage ‘code of conduct’ phishing campaign leads to AiTM token compromise",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/",
-      "summary": "Microsoft Defender Research observed a large-scale credential theft campaign that exemplifies this trend, using code of conduct-themed lures, a multi-step attack chain, and legitimate email services to distribute fully authenticated messages from attacker-controlled domains. The post Breaking the code: Multi-stage ‘code of conduct’ phishing campaign leads to AiTM token compromise appeared first on Microsoft Security Blog .",
-      "publishedAt": "2026-05-04T15:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -750,6 +766,14 @@
       "publishedAt": "2026-04-15T17:15:38.000Z"
     },
     {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Cloud Cost Optimization: Principles that still matter",
+      "link": "https://azure.microsoft.com/en-us/blog/cloud-cost-optimization-principles-that-still-matter/",
+      "summary": "Discover how cloud cost optimization adapts in the age of AI, with best practices for managing spend, improving efficiency, and maximizing value. The post Cloud Cost Optimization: Principles that still matter appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-04-15T16:00:00.000Z"
+    },
+    {
       "source": "Power Platform Blog",
       "category": "Power Platform",
       "title": "Making business apps smarter with AI, Copilot, and agents in Power Apps",
@@ -780,6 +804,14 @@
       "link": "https://azure.microsoft.com/updates?id=559746",
       "summary": "Announcing the GA of smart tier for Azure Blob and Data Lake Storage (ADLS). Smart Tier is Generally Available (GA) today in nearly all zonal public cloud regions. (The Azure regions Israel Central, Qatar Central and UAE North are not part of this GA anno",
       "publishedAt": "2026-04-14T17:15:47.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Optimize object storage costs automatically with smart tier—now generally available",
+      "link": "https://azure.microsoft.com/en-us/blog/optimize-object-storage-costs-automatically-with-smart-tier-now-generally-available/",
+      "summary": "By continuously optimizing data placement, smart tier ensures your storage costs are aligned with actual usage. The post Optimize object storage costs automatically with smart tier—now generally available appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-04-14T15:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -854,14 +886,6 @@
       "publishedAt": "2026-04-10T17:00:41.000Z"
     },
     {
-      "source": "Power Platform Blog",
-      "category": "Power Platform",
-      "title": "What’s new in Power Platform: April 2026 feature update",
-      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/09/whats-new-in-power-platform-april-2026-feature-update/",
-      "summary": "Power Apps Generally available: custom theming for model-driven apps Custom theming for model-driven apps using the modern, refreshed look is now generally available. This capability lets organizations align their model-driven apps with company branding by customizing colors, fonts, and app header styling using the Microsoft Fluent 2 design system. The post What’s new in Power Platform: April 2026 feature update appeared first on Microsoft Power Platform Blog .",
-      "publishedAt": "2026-04-09T15:35:58.000Z"
-    },
-    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Enhancements to maintenance notifications in Azure Service Health",
@@ -892,14 +916,6 @@
       "link": "https://azure.microsoft.com/updates?id=560025",
       "summary": "Azure Migrate now supports assessments for Azure Files, allowing customers and partners to efficiently plan migrations of on-premises SMB and NFS file shares (Windows and Linux) to Azure Files. This feature enables discovery of file shares, visibility int",
       "publishedAt": "2026-04-08T17:30:02.000Z"
-    },
-    {
-      "source": "Power Platform Blog",
-      "category": "Power Platform",
-      "title": "Power Platform Monitor Alerts Are Now Generally Available",
-      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-platform-monitor-alerts-are-now-generally-available/",
-      "summary": "We are excited to announce that Power Platform Monitor alerts for apps, agents, and flows are now generally available! Monitor alerts meet the reliability and maturity standards required for general availability, following sustained investments to improve quality. The post Power Platform Monitor Alerts Are Now Generally Available appeared first on Microsoft Power Platform Blog .",
-      "publishedAt": "2026-04-08T17:12:51.000Z"
     },
     {
       "source": "Azure Updates",
@@ -1612,22 +1628,6 @@
       "link": "https://azure.microsoft.com/updates?id=558078",
       "summary": "Azure Premium SSD v2 is now available in a third Availability Zone in New Zealand North. Azure Premium SSD v2 disk, a next-generation general-purpose block storage option for Azure virtual machines, offers sub-millisecond latencies and exceptional pric",
       "publishedAt": "2026-02-27T23:15:13.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: DCesv6, DCedsv6, ECesv6, and ECedsv6 confidential VMs",
-      "link": "https://azure.microsoft.com/updates?id=558051",
-      "summary": "The DCesv6, DCedsv6, ECesv6, and ECedsv6 series are Azure’s next generation of confidential Virtual Machines (VMs) based on 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs help organizations to",
-      "publishedAt": "2026-02-27T23:15:13.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "Retirement: Managed NGINX Ingress with Application Routing Add-on Retiring November 2026",
-      "link": "https://azure.microsoft.com/updates?id=555839",
-      "summary": "The upstream Ingress-NGINX project is being deprecated and will stop receiving updates after March 2026. Microsoft will continue providing critical security patches through 30 November 2026, after which the NGINX ingress controller will no longer be suppo",
-      "publishedAt": "2026-02-27T21:45:03.000Z"
     }
   ]
 }
