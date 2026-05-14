@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T18:40:44.830Z",
+  "generatedAt": "2026-05-14T00:34:56.129Z",
   "itemCount": 200,
   "sources": [
     {
@@ -36,14 +36,6 @@
       "link": "https://azure.microsoft.com/updates?id=559242",
       "summary": "Azure Container Apps Express is now available in public preview. It is the simplest and fastest way to launch and scale powerful applications on Azure, from zero to hyperscale, without infrastructure decisions. It represents the first Azure compute platfo",
       "publishedAt": "2026-05-13T17:30:20.000Z"
-    },
-    {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "From commit to cloud: Powering what’s next for PostgreSQL",
-      "link": "https://azure.microsoft.com/en-us/blog/from-commit-to-cloud-powering-whats-next-for-postgresql/",
-      "summary": "PostgreSQL has become foundational to how modern applications are built. It powers everything from early‑stage startups to some of the most demanding production systems in the world. Its longevity isn’t accidental, it’s the result of decades of engineering discipline, community collaboration, and a relentless focus on correctness and extensibility. The post From commit to cloud: Powering what’s next for PostgreSQL appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-05-13T16:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -654,6 +646,14 @@
       "publishedAt": "2026-04-22T17:30:14.000Z"
     },
     {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Microsoft Discovery: Advancing agentic R&#038;D at scale",
+      "link": "https://azure.microsoft.com/en-us/blog/microsoft-discovery-advancing-agentic-rd-at-scale/",
+      "summary": "Expanded preview access for Microsoft Discovery brings new enterprise-grade, agentic AI capabilities for research and development teams. The post Microsoft Discovery: Advancing agentic R&D at scale appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-04-22T16:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Azure Monitor pipeline",
@@ -1016,7 +1016,7 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
-      "title": "[In development] Public Preview: Azure NetApp Files storage with cool access enhancement",
+      "title": "[In preview] Public Preview: Azure NetApp Files storage with cool access enhancement",
       "link": "https://azure.microsoft.com/updates?id=559504",
       "summary": "QoS update with cool access enabled on Premium and Ultra service levels improves how Azure NetApp Files balances performance and cost for mixed hot and cool workloads. Throughput automatically adjusts as data moves to cool storage, maintaining hot‑tier pe",
       "publishedAt": "2026-04-01T18:15:44.000Z"
