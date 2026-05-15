@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T00:32:03.539Z",
+  "generatedAt": "2026-05-15T07:05:17.796Z",
   "itemCount": 200,
   "sources": [
     {
@@ -29,6 +29,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "What’s new in Power Platform: May 2026 feature update",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/05/14/whats-new-in-power-platform-may-2026-feature-update/",
+      "summary": "Power Apps Generally available: Power Fx user defined types (UDTs) User defined types (UDTs) are now generally available, as of version 3.26044. They are enabled for all new apps and can be enabled for existing apps through settings &#62; updates &#62; new &#62; user-defined types. UDTs are defined with the Type function in the App. The post What’s new in Power Platform: May 2026 feature update appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-05-14T18:16:52.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -70,20 +78,20 @@
       "publishedAt": "2026-05-14T14:20:55.000Z"
     },
     {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Power Fx: User Defined Types Generally Available",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-fx-user-defined-types-generally-available/",
+      "summary": "User Defined Types (UDTs) are now generally available! As of Power Apps Studio version 3.26044, UDTs are enabled by default for new apps and can be enabled for existing apps under Settings &#62; Updates &#62; New &#62; User-Defined types. The post Power Fx: User Defined Types Generally Available appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-05-13T18:59:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure Container Apps Express",
       "link": "https://azure.microsoft.com/updates?id=559242",
       "summary": "Azure Container Apps Express is now available in public preview. It is the simplest and fastest way to launch and scale powerful applications on Azure, from zero to hyperscale, without infrastructure decisions. It represents the first Azure compute platfo",
       "publishedAt": "2026-05-13T17:30:20.000Z"
-    },
-    {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "From commit to cloud: Powering what’s next for PostgreSQL",
-      "link": "https://azure.microsoft.com/en-us/blog/from-commit-to-cloud-powering-whats-next-for-postgresql/",
-      "summary": "PostgreSQL has become foundational to how modern applications are built. It powers everything from early‑stage startups to some of the most demanding production systems in the world. Its longevity isn’t accidental, it’s the result of decades of engineering discipline, community collaboration, and a relentless focus on correctness and extensibility. The post From commit to cloud: Powering what’s next for PostgreSQL appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-05-13T16:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -124,14 +132,6 @@
       "link": "https://azure.microsoft.com/updates?id=561942",
       "summary": "Confidential computing for Azure Service Bus Premium is now generally available in Korea Central and UAE North. This capability enables Service Bus to process messages inside hardware-based trusted execution environments (TEEs), adding protection for data",
       "publishedAt": "2026-05-12T18:30:55.000Z"
-    },
-    {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "Advancing enterprise AI: New SAP on Azure announcements from SAP Sapphire 2026",
-      "link": "https://azure.microsoft.com/en-us/blog/advancing-enterprise-ai-new-sap-on-azure-announcements-from-sap-sapphire-2026/",
-      "summary": "Together, Microsoft and SAP are helping enterprises transform operations, decision-making, and innovation at scale on Azure. The post Advancing enterprise AI: New SAP on Azure announcements from SAP Sapphire 2026 appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-05-12T18:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -188,6 +188,14 @@
       "link": "https://azure.microsoft.com/en-us/blog/red-hat-summit-2026-platform-modernization-and-ai-on-azure-microsoft-red-hat-openshift/",
       "summary": "Microsoft and Red Hat show how Azure Red Hat OpenShift powers modernization and production AI with secure, scalable enterprise governance. The post Red Hat Summit 2026: Platform modernization and AI on Microsoft Azure Red Hat OpenShift appeared first on Microsoft Azure Blog .",
       "publishedAt": "2026-05-11T19:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
+      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
+      "summary": "See what's new in Copilot Studio, April 2026: updates to workflows, increased control over agent operations, and an expanded agent usage estimator. The post New and improved: Agent governance, intelligent workflows, and connected app experiences appeared first on Microsoft 365 Blog .",
+      "publishedAt": "2026-05-11T17:25:12.000Z"
     },
     {
       "source": "Azure Blog",
@@ -686,6 +694,22 @@
       "publishedAt": "2026-04-22T17:30:14.000Z"
     },
     {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Microsoft Discovery: Advancing agentic R&#038;D at scale",
+      "link": "https://azure.microsoft.com/en-us/blog/microsoft-discovery-advancing-agentic-rd-at-scale/",
+      "summary": "Expanded preview access for Microsoft Discovery brings new enterprise-grade, agentic AI capabilities for research and development teams. The post Microsoft Discovery: Advancing agentic R&D at scale appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-04-22T16:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Introducing Azure Accelerate for Databases: Modernize your data for AI with experts and investments",
+      "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-accelerate-for-databases-modernize-your-data-for-ai-with-experts-and-investments/",
+      "summary": "Azure Accelerate for Databases helps organizations modernize their databases and build AI-ready capabilities. The post Introducing Azure Accelerate for Databases: Modernize your data for AI with experts and investments appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-04-22T00:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Azure Monitor pipeline",
@@ -758,14 +782,6 @@
       "publishedAt": "2026-04-16T18:00:13.000Z"
     },
     {
-      "source": "Power Platform Blog",
-      "category": "Power Platform",
-      "title": "Build your server-side logic with AI: new Power Pages Agentic Code skills",
-      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/build-your-server-side-logic-with-ai-new-power-pages-agentic-code-skills/",
-      "summary": "We’re introducing three new skills for the Power Pages agentic code plugin for GitHub Copilot and Claude Code CLI that together unlock a missing capability in AI‑assisted site building: server‑side logic. The post Build your server-side logic with AI: new Power Pages Agentic Code skills appeared first on Microsoft Power Platform Blog .",
-      "publishedAt": "2026-04-16T08:28:27.000Z"
-    },
-    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Retirement: End of life reminder of HBv2/HC-Series/NP-Series Azure Virtual Machine in Azure Batch Pool",
@@ -780,14 +796,6 @@
       "link": "https://azure.microsoft.com/updates?id=559761",
       "summary": "Cross-tenant customer-managed keys (CMK) for Premium SSD v2 and Ultra Disks are now generally available. This capability allows managed disks to be encrypted using a customer-managed key stored in an Azure Key Vault located in a different Microsoft Entra",
       "publishedAt": "2026-04-15T17:15:38.000Z"
-    },
-    {
-      "source": "Power Platform Blog",
-      "category": "Power Platform",
-      "title": "Making business apps smarter with AI, Copilot, and agents in Power Apps",
-      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/15/making-business-apps-smarter-with-ai-copilot-and-agents-in-power-apps/",
-      "summary": "Explore new Power Apps updates that introduce Copilot, app skills, and agents to apps, extending intelligence to the AI surfaces where work happens. The post Making business apps smarter with AI, Copilot, and agents in Power Apps appeared first on Microsoft Power Platform Blog .",
-      "publishedAt": "2026-04-15T15:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -1612,14 +1620,6 @@
       "link": "https://azure.microsoft.com/updates?id=557991",
       "summary": "Today we’re announcing the General Availability of Azure Databricks Lakebase, a managed PostgreSQL environment with next generation separation of storage and compute for OLTP, providing instant availability, instant clones, and scale-to-zero. Lakebase let",
       "publishedAt": "2026-03-02T19:15:14.000Z"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "category": "Microsoft 365",
-      "title": "SharePoint at 25: How Microsoft is putting knowledge to work in the AI era",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/02/sharepoint-at-25-how-microsoft-is-putting-knowledge-to-work-in-the-ai-era/",
-      "summary": "Twenty-five years ago, SharePoint set out to help people share knowledge and work better together, a mission that today operates at extraordinary scale. The post SharePoint at 25: How Microsoft is putting knowledge to work in the AI era appeared first on Microsoft 365 Blog .",
-      "publishedAt": "2026-03-02T15:30:00.000Z"
     },
     {
       "source": "Azure Updates",
