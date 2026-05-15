@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T18:36:13.836Z",
+  "generatedAt": "2026-05-15T00:32:03.539Z",
   "itemCount": 200,
   "sources": [
     {
@@ -78,6 +78,14 @@
       "publishedAt": "2026-05-13T17:30:20.000Z"
     },
     {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "From commit to cloud: Powering what’s next for PostgreSQL",
+      "link": "https://azure.microsoft.com/en-us/blog/from-commit-to-cloud-powering-whats-next-for-postgresql/",
+      "summary": "PostgreSQL has become foundational to how modern applications are built. It powers everything from early‑stage startups to some of the most demanding production systems in the world. Its longevity isn’t accidental, it’s the result of decades of engineering discipline, community collaboration, and a relentless focus on correctness and extensibility. The post From commit to cloud: Powering what’s next for PostgreSQL appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-05-13T16:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Azure Monitor dashboards with Grafana in Public, Government (Fairfax) and China",
@@ -116,6 +124,14 @@
       "link": "https://azure.microsoft.com/updates?id=561942",
       "summary": "Confidential computing for Azure Service Bus Premium is now generally available in Korea Central and UAE North. This capability enables Service Bus to process messages inside hardware-based trusted execution environments (TEEs), adding protection for data",
       "publishedAt": "2026-05-12T18:30:55.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Advancing enterprise AI: New SAP on Azure announcements from SAP Sapphire 2026",
+      "link": "https://azure.microsoft.com/en-us/blog/advancing-enterprise-ai-new-sap-on-azure-announcements-from-sap-sapphire-2026/",
+      "summary": "Together, Microsoft and SAP are helping enterprises transform operations, decision-making, and innovation at scale on Azure. The post Advancing enterprise AI: New SAP on Azure announcements from SAP Sapphire 2026 appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-05-12T18:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -164,6 +180,22 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
       "summary": "Microsoft Incident Response investigated an attack operated through legitimate and trusted administrative mechanisms to blend seamlessly into routine operations and remain undetected demonstrating that intrusions have increasingly avoided using noisy exploits, obvious malware, or custom tooling, instead leveraging systems that organizations already trust within their environments. The post Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise appeared first on Microsoft Security Blog .",
       "publishedAt": "2026-05-12T15:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Red Hat Summit 2026: Platform modernization and AI on Microsoft Azure Red Hat OpenShift",
+      "link": "https://azure.microsoft.com/en-us/blog/red-hat-summit-2026-platform-modernization-and-ai-on-azure-microsoft-red-hat-openshift/",
+      "summary": "Microsoft and Red Hat show how Azure Red Hat OpenShift powers modernization and production AI with secure, scalable enterprise governance. The post Red Hat Summit 2026: Platform modernization and AI on Microsoft Azure Red Hat OpenShift appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-05-11T19:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Build AI apps with Azure Cosmos DB: Key trends from Cosmos Conf 2026",
+      "link": "https://azure.microsoft.com/en-us/blog/build-ai-apps-with-azure-cosmos-db-key-trends-from-cosmos-conf-2026/",
+      "summary": "AI is reshaping application development. Explore key trends from Cosmos DB Conf 2026 and how teams are building scalable, AI-native applications with Azure Cosmos DB. The post Build AI apps with Azure Cosmos DB: Key trends from Cosmos Conf 2026 appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-05-11T16:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -654,22 +686,6 @@
       "publishedAt": "2026-04-22T17:30:14.000Z"
     },
     {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "Microsoft Discovery: Advancing agentic R&#038;D at scale",
-      "link": "https://azure.microsoft.com/en-us/blog/microsoft-discovery-advancing-agentic-rd-at-scale/",
-      "summary": "Expanded preview access for Microsoft Discovery brings new enterprise-grade, agentic AI capabilities for research and development teams. The post Microsoft Discovery: Advancing agentic R&D at scale appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-04-22T16:00:00.000Z"
-    },
-    {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "Introducing Azure Accelerate for Databases: Modernize your data for AI with experts and investments",
-      "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-accelerate-for-databases-modernize-your-data-for-ai-with-experts-and-investments/",
-      "summary": "Azure Accelerate for Databases helps organizations modernize their databases and build AI-ready capabilities. The post Introducing Azure Accelerate for Databases: Modernize your data for AI with experts and investments appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-04-22T00:00:00.000Z"
-    },
-    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Azure Monitor pipeline",
@@ -766,14 +782,6 @@
       "publishedAt": "2026-04-15T17:15:38.000Z"
     },
     {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "Cloud Cost Optimization: Principles that still matter",
-      "link": "https://azure.microsoft.com/en-us/blog/cloud-cost-optimization-principles-that-still-matter/",
-      "summary": "Discover how cloud cost optimization adapts in the age of AI, with best practices for managing spend, improving efficiency, and maximizing value. The post Cloud Cost Optimization: Principles that still matter appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-04-15T16:00:00.000Z"
-    },
-    {
       "source": "Power Platform Blog",
       "category": "Power Platform",
       "title": "Making business apps smarter with AI, Copilot, and agents in Power Apps",
@@ -804,14 +812,6 @@
       "link": "https://azure.microsoft.com/updates?id=559746",
       "summary": "Announcing the GA of smart tier for Azure Blob and Data Lake Storage (ADLS). Smart Tier is Generally Available (GA) today in nearly all zonal public cloud regions. (The Azure regions Israel Central, Qatar Central and UAE North are not part of this GA anno",
       "publishedAt": "2026-04-14T17:15:47.000Z"
-    },
-    {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "Optimize object storage costs automatically with smart tier—now generally available",
-      "link": "https://azure.microsoft.com/en-us/blog/optimize-object-storage-costs-automatically-with-smart-tier-now-generally-available/",
-      "summary": "By continuously optimizing data placement, smart tier ensures your storage costs are aligned with actual usage. The post Optimize object storage costs automatically with smart tier—now generally available appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-04-14T15:00:00.000Z"
     },
     {
       "source": "Azure Updates",
