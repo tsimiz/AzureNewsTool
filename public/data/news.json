@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T12:35:50.887Z",
+  "generatedAt": "2026-05-15T18:32:27.371Z",
   "itemCount": 200,
   "sources": [
     {
@@ -29,14 +29,6 @@
     }
   ],
   "items": [
-    {
-      "source": "Power Platform Blog",
-      "category": "Power Platform",
-      "title": "What’s new in Power Platform: May 2026 feature update",
-      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/05/14/whats-new-in-power-platform-may-2026-feature-update/",
-      "summary": "Power Apps Generally available: Power Fx user defined types (UDTs) User defined types (UDTs) are now generally available, as of version 3.26044. They are enabled for all new apps and can be enabled for existing apps through settings &#62; updates &#62; new &#62; user-defined types. UDTs are defined with the Type function in the App. The post What’s new in Power Platform: May 2026 feature update appeared first on Microsoft Power Platform Blog .",
-      "publishedAt": "2026-05-14T18:16:52.000Z"
-    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -780,6 +772,14 @@
       "link": "https://azure.microsoft.com/updates?id=558483",
       "summary": "For organizations leveraging individual user and group quotas in Azure NetApp Files to manage capacity on NFS, SMB, and dual-protocol volumes, the user and group quota reporting feature offers clear visibility into key metrics such as quota limits, used c",
       "publishedAt": "2026-04-16T18:00:13.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Build your server-side logic with AI: new Power Pages Agentic Code skills",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/build-your-server-side-logic-with-ai-new-power-pages-agentic-code-skills/",
+      "summary": "We’re introducing three new skills for the Power Pages agentic code plugin for GitHub Copilot and Claude Code CLI that together unlock a missing capability in AI‑assisted site building: server‑side logic. The post Build your server-side logic with AI: new Power Pages Agentic Code skills appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-04-16T08:28:27.000Z"
     },
     {
       "source": "Azure Updates",
