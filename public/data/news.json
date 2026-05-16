@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T18:32:27.371Z",
+  "generatedAt": "2026-05-16T00:30:23.124Z",
   "itemCount": 200,
   "sources": [
     {
@@ -29,6 +29,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Update: Microsoft Foundry built-in RBAC role naming and enhancements",
+      "link": "https://azure.microsoft.com/updates?id=562533",
+      "summary": "Role names in Microsoft Foundry have been updated to align with the product brand. The following built-in roles are now renamed:Azure AI Account Owner → Foundry Account OwnerAzure AI Owner → Foundry OwnerAzure AI User → Foundry UserAzure AI Project Manage",
+      "publishedAt": "2026-05-15T22:00:42.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Blob Storage SDK for Rust",
+      "link": "https://azure.microsoft.com/updates?id=562516",
+      "summary": "The Azure Blob Storage SDK for Rust is now generally available. The Rust SDK allows you to connect to an Azure Blob Storage account and perform operations on containers and blobs, including uploading, downloading, listing, and managing blobs. This release",
+      "publishedAt": "2026-05-15T18:15:26.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -1612,22 +1628,6 @@
       "link": "https://azure.microsoft.com/updates?id=558060",
       "summary": "Azure Databricks workspaces have two network configurations – Azure Databricks-managed VNet and VNet Injection. The ability to update the Network Configuration of your workspace is now generally available. This enhancement provides greater flexibility and",
       "publishedAt": "2026-03-02T19:15:14.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Azure Databricks Lakebase",
-      "link": "https://azure.microsoft.com/updates?id=557991",
-      "summary": "Today we’re announcing the General Availability of Azure Databricks Lakebase, a managed PostgreSQL environment with next generation separation of storage and compute for OLTP, providing instant availability, instant clones, and scale-to-zero. Lakebase let",
-      "publishedAt": "2026-03-02T19:15:14.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Azure Premium SSD v2 Disk Storage is now available in a third Availability Zone in New Zealand North",
-      "link": "https://azure.microsoft.com/updates?id=558078",
-      "summary": "Azure Premium SSD v2 is now available in a third Availability Zone in New Zealand North. Azure Premium SSD v2 disk, a next-generation general-purpose block storage option for Azure virtual machines, offers sub-millisecond latencies and exceptional pric",
-      "publishedAt": "2026-02-27T23:15:13.000Z"
     }
   ]
 }
