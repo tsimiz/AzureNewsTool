@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T00:32:04.651Z",
+  "generatedAt": "2026-05-17T06:56:57.288Z",
   "itemCount": 200,
   "sources": [
     {
@@ -220,6 +220,14 @@
       "link": "https://azure.microsoft.com/en-us/blog/red-hat-summit-2026-platform-modernization-and-ai-on-azure-microsoft-red-hat-openshift/",
       "summary": "Microsoft and Red Hat show how Azure Red Hat OpenShift powers modernization and production AI with secure, scalable enterprise governance. The post Red Hat Summit 2026: Platform modernization and AI on Microsoft Azure Red Hat OpenShift appeared first on Microsoft Azure Blog .",
       "publishedAt": "2026-05-11T19:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
+      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
+      "summary": "See what's new in Copilot Studio, April 2026: updates to workflows, increased control over agent operations, and an expanded agent usage estimator. The post New and improved: Agent governance, intelligent workflows, and connected app experiences appeared first on Microsoft 365 Blog .",
+      "publishedAt": "2026-05-11T17:25:12.000Z"
     },
     {
       "source": "Azure Blog",
@@ -1619,14 +1627,6 @@
       "title": "[Launched] Generally Available: Azure Databricks update workspace network configuration",
       "link": "https://azure.microsoft.com/updates?id=558060",
       "summary": "Azure Databricks workspaces have two network configurations – Azure Databricks-managed VNet and VNet Injection. The ability to update the Network Configuration of your workspace is now generally available. This enhancement provides greater flexibility and",
-      "publishedAt": "2026-03-02T19:15:14.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Azure Databricks Lakebase",
-      "link": "https://azure.microsoft.com/updates?id=557991",
-      "summary": "Today we’re announcing the General Availability of Azure Databricks Lakebase, a managed PostgreSQL environment with next generation separation of storage and compute for OLTP, providing instant availability, instant clones, and scale-to-zero. Lakebase let",
       "publishedAt": "2026-03-02T19:15:14.000Z"
     }
   ]
