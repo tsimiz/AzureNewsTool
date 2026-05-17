@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T12:18:59.625Z",
+  "generatedAt": "2026-05-17T18:21:31.149Z",
   "itemCount": 200,
   "sources": [
     {
@@ -46,6 +46,14 @@
       "publishedAt": "2026-05-15T18:15:26.000Z"
     },
     {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "What’s new in Power Platform: May 2026 feature update",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/05/14/whats-new-in-power-platform-may-2026-feature-update/",
+      "summary": "Power Apps Generally available: Power Fx user defined types (UDTs) User defined types (UDTs) are now generally available, as of version 3.26044. They are enabled for all new apps and can be enabled for existing apps through settings &#62; updates &#62; new &#62; user-defined types. UDTs are defined with the Type function in the App. The post What’s new in Power Platform: May 2026 feature update appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-05-14T18:16:52.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Support for workloads with large files in Azure NetApp Files",
@@ -84,6 +92,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/configuration-becomes-vulnerability-exploitable-misconfigurations-ai-apps/",
       "summary": "Exposed UIs, weak authentication, and risky defaults could turn cloud-native AI apps on Kubernetes into potential targets by threat actors. Learn how exploitable misconfigurations lead to RCE and data leaks. The post When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps appeared first on Microsoft Security Blog .",
       "publishedAt": "2026-05-14T14:20:55.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Power Fx: User Defined Types Generally Available",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-fx-user-defined-types-generally-available/",
+      "summary": "User Defined Types (UDTs) are now generally available! As of Power Apps Studio version 3.26044, UDTs are enabled by default for new apps and can be enabled for existing apps under Settings &#62; Updates &#62; New &#62; User-Defined types. The post Power Fx: User Defined Types Generally Available appeared first on Microsoft Power Platform Blog .",
+      "publishedAt": "2026-05-13T18:59:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -782,14 +798,6 @@
       "publishedAt": "2026-04-16T18:00:13.000Z"
     },
     {
-      "source": "Power Platform Blog",
-      "category": "Power Platform",
-      "title": "Build your server-side logic with AI: new Power Pages Agentic Code skills",
-      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/build-your-server-side-logic-with-ai-new-power-pages-agentic-code-skills/",
-      "summary": "We’re introducing three new skills for the Power Pages agentic code plugin for GitHub Copilot and Claude Code CLI that together unlock a missing capability in AI‑assisted site building: server‑side logic. The post Build your server-side logic with AI: new Power Pages Agentic Code skills appeared first on Microsoft Power Platform Blog .",
-      "publishedAt": "2026-04-16T08:28:27.000Z"
-    },
-    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Retirement: End of life reminder of HBv2/HC-Series/NP-Series Azure Virtual Machine in Azure Batch Pool",
@@ -804,14 +812,6 @@
       "link": "https://azure.microsoft.com/updates?id=559761",
       "summary": "Cross-tenant customer-managed keys (CMK) for Premium SSD v2 and Ultra Disks are now generally available. This capability allows managed disks to be encrypted using a customer-managed key stored in an Azure Key Vault located in a different Microsoft Entra",
       "publishedAt": "2026-04-15T17:15:38.000Z"
-    },
-    {
-      "source": "Power Platform Blog",
-      "category": "Power Platform",
-      "title": "Making business apps smarter with AI, Copilot, and agents in Power Apps",
-      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/15/making-business-apps-smarter-with-ai-copilot-and-agents-in-power-apps/",
-      "summary": "Explore new Power Apps updates that introduce Copilot, app skills, and agents to apps, extending intelligence to the AI surfaces where work happens. The post Making business apps smarter with AI, Copilot, and agents in Power Apps appeared first on Microsoft Power Platform Blog .",
-      "publishedAt": "2026-04-15T15:00:00.000Z"
     },
     {
       "source": "Azure Updates",
