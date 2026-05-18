@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T13:10:55.753Z",
+  "generatedAt": "2026-05-18T18:35:52.782Z",
   "itemCount": 200,
   "sources": [
     {
@@ -29,6 +29,38 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Application Insights Auto-instrumentation for Azure Kubernetes Service apps",
+      "link": "https://azure.microsoft.com/updates?id=562049",
+      "summary": "Azure Monitor Application Insights auto-instrumentation for Azure Kubernetes Service (AKS) apps is now generally available, making it easier to monitor your applications without modifying source code. With just a few configuration steps, you can automatic",
+      "publishedAt": "2026-05-18T18:00:18.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Auto activation for SaaS subscriptions in Microsoft Marketplace",
+      "link": "https://azure.microsoft.com/updates?id=561771",
+      "summary": "Auto activation for SaaS solutions is now available in Microsoft Marketplace, making it faster and easier to get the value from your SaaS products. When auto activation is enabled, your subscription—and billing cycle—begins the moment you complete your pu",
+      "publishedAt": "2026-05-18T18:00:18.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Front Door WebSocket",
+      "link": "https://azure.microsoft.com/updates?id=562548",
+      "summary": "Azure Front Door Standard and Premium now support WebSocket in general availability. WebSocket is enabled by default and requires no additional configuration. WebSocket provides full-duplex communication over a single, long-lived TCP connection, enabling",
+      "publishedAt": "2026-05-18T17:45:33.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "How to better protect your growing business in an AI-powered world",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/how-to-better-protect-your-growing-business-in-an-ai-powered-world/",
+      "summary": "See how built-in security helps keep your growing business running, protect customer trust, and support growth. The post How to better protect your growing business in an AI-powered world appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-18T16:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -268,14 +300,6 @@
       "link": "https://azure.microsoft.com/updates?id=560734",
       "summary": "Azure has announced the general availability of the new Dl/D/E v7 Virtual Machines, powered by the latest Intel® Xeon® 6 (Granite Rapids) processors. These general‑purpose and memory‑optimized VMs deliver up to 20% better general compute performance compa",
       "publishedAt": "2026-05-07T18:00:38.000Z"
-    },
-    {
-      "source": "Microsoft Security Blog",
-      "category": "Security",
-      "title": "World Passkey Day: Advancing passwordless authentication",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/",
-      "summary": "This World Passkey Day, read how Microsoft is advancing passkey adoption to replace passwords, cut phishing risk, and deliver simpler, more secure sign-ins. The post World Passkey Day: Advancing passwordless authentication appeared first on Microsoft Security Blog .",
-      "publishedAt": "2026-05-07T16:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -1604,30 +1628,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/",
       "summary": "Wave 3 marks a new version of Microsoft 365 Copilot, moving beyond assistance to embedded agentic capabilities. The post Powering Frontier Transformation with Copilot and agents appeared first on Microsoft 365 Blog .",
       "publishedAt": "2026-03-09T13:00:00.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "Retirement: Azure Policy faster enforcement and retirement of login/logout workaround",
-      "link": "https://azure.microsoft.com/updates?id=558102",
-      "summary": "Over the years, we’ve made significant investments to improve the responsiveness of the Azure Policy service. As a result, policy assignment creation and updates for Resource Manager mode policies now get enforced within 5 minutes.In light of cache refres",
-      "publishedAt": "2026-03-04T21:15:02.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Draft & Deploy on Azure Firewall",
-      "link": "https://azure.microsoft.com/updates?id=558072",
-      "summary": "The new Draft & Deploy feature for Azure Firewall Policy introduces a streamlined, two-phase approach to managing firewall policies, significantly reducing deployment time and disruption. Traditionally, any policy update would trigger a full deployment of",
-      "publishedAt": "2026-03-03T01:00:04.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Azure Databricks update workspace network configuration",
-      "link": "https://azure.microsoft.com/updates?id=558060",
-      "summary": "Azure Databricks workspaces have two network configurations – Azure Databricks-managed VNet and VNet Injection. The ability to update the Network Configuration of your workspace is now generally available. This enhancement provides greater flexibility and",
-      "publishedAt": "2026-03-02T19:15:14.000Z"
     }
   ]
 }
