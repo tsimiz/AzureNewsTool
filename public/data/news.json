@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T00:35:37.604Z",
+  "generatedAt": "2026-05-19T07:10:55.601Z",
   "itemCount": 200,
   "sources": [
     {
@@ -29,6 +29,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "How Storm-2949 turned a compromised identity into a cloud-wide breach",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach/",
+      "summary": "Storm-2949 turned stolen credentials into a cloud-wide breach, moving from identity compromise to large-scale data theft without using malware. This incident shows how threat actors can exploit trusted systems to operate undetected. The post How Storm-2949 turned a compromised identity into a cloud-wide breach appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-18T22:42:50.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -276,14 +284,6 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/",
       "summary": "Dirty Frag is a newly disclosed Linux local privilege escalation vulnerability affecting kernel networking and memory-fragment handling components including esp4, esp6, and rxrpc. The vulnerability enables reliable escalation from an unprivileged user to root and may be leveraged after initial compromise through SSH access, web shells, containers, or low-privileged accounts. Microsoft Defender is actively monitoring limited in-the-wild activity and provides detection coverage for exploitation attempts. The post Active attack: Dirty Frag Linux vulnerability expands post-compromise risk appeared first on Microsoft Security Blog .",
       "publishedAt": "2026-05-08T17:12:46.000Z"
-    },
-    {
-      "source": "Microsoft Security Blog",
-      "category": "Security",
-      "title": "When prompts become shells: RCE vulnerabilities in AI agent frameworks",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/",
-      "summary": "New research exposes how prompt injection in AI agent frameworks can lead to remote code execution. Learn how these vulnerabilities work, what’s impacted, and how to secure your agents. The post When prompts become shells: RCE vulnerabilities in AI agent frameworks appeared first on Microsoft Security Blog .",
-      "publishedAt": "2026-05-07T20:22:39.000Z"
     },
     {
       "source": "Azure Updates",
