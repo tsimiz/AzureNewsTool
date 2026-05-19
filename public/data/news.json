@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T13:02:39.204Z",
+  "generatedAt": "2026-05-19T18:36:37.612Z",
   "itemCount": 200,
   "sources": [
     {
@@ -29,6 +29,54 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Evaluate feature rollouts with Azure App Configuration Scorecards",
+      "link": "https://azure.microsoft.com/updates?id=561049",
+      "summary": "Azure App Configuration now supports a scorecards capability in public preview. Scorecards provide a telemetry-driven view of how feature flag variants are performing in production, helping teams identify measurable changes after a rollout without manuall",
+      "publishedAt": "2026-05-19T17:15:23.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure NetApp Files cache volumes",
+      "link": "https://azure.microsoft.com/updates?id=562259",
+      "summary": "Azure NetApp Files cache volumes is now Generally Available. Azure NetApp Files now support cache volumes, which are cloud-based caches of an external origin volume, containing only the most actively accessed data on the volume. This brings data and files",
+      "publishedAt": "2026-05-19T17:00:29.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Virtual Network updates – default limits increased for NSGs and route tables",
+      "link": "https://azure.microsoft.com/updates?id=562695",
+      "summary": "Azure Virtual Network has increased the default platform limits for network security groups (NSGs) and route tables. The new defaults are now 2,000 security rules per NSG, 6,000 addresses or ports per NSG rule, 1,000 routes per route table, and 600 route",
+      "publishedAt": "2026-05-19T16:45:42.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Network Watcher rule impact analyser",
+      "link": "https://azure.microsoft.com/updates?id=562690",
+      "summary": "Azure Network Watcher rule impact analyzer is now generally available, enabling you to assess the potential impact of your network security group (NSG) or security admin rule changes on live network traffic before applying them. With this capability, you",
+      "publishedAt": "2026-05-19T16:45:42.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Mock runs for Azure Storage Actions – Validate before you execute",
+      "link": "https://azure.microsoft.com/updates?id=559494",
+      "summary": "Azure Storage Actions, our fully managed platform that transforms how organizations automate data management tasks for Azure Blob and Data Lake Storage, now supports mock runs - a new way to simulate task execution at full scale without modifying any data",
+      "publishedAt": "2026-05-19T16:00:11.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Exposing Fox Tempest: A malware-signing service operation",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
+      "summary": "Fox Tempest is a financially motivated threat actor operating a malware‑signing‑as‑a‑service (MSaaS) used by other cybercriminals, including Vanilla Tempest and Storm groups, to more effectively distribute malicious code, including ransomware. The post Exposing Fox Tempest: A malware-signing service operation appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-19T15:07:01.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
@@ -276,14 +324,6 @@
       "link": "https://azure.microsoft.com/en-us/blog/build-ai-apps-with-azure-cosmos-db-key-trends-from-cosmos-conf-2026/",
       "summary": "AI is reshaping application development. Explore key trends from Cosmos DB Conf 2026 and how teams are building scalable, AI-native applications with Azure Cosmos DB. The post Build AI apps with Azure Cosmos DB: Key trends from Cosmos Conf 2026 appeared first on Microsoft Azure Blog .",
       "publishedAt": "2026-05-11T16:00:00.000Z"
-    },
-    {
-      "source": "Microsoft Security Blog",
-      "category": "Security",
-      "title": "Active attack: Dirty Frag Linux vulnerability expands post-compromise risk",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/",
-      "summary": "Dirty Frag is a newly disclosed Linux local privilege escalation vulnerability affecting kernel networking and memory-fragment handling components including esp4, esp6, and rxrpc. The vulnerability enables reliable escalation from an unprivileged user to root and may be leveraged after initial compromise through SSH access, web shells, containers, or low-privileged accounts. Microsoft Defender is actively monitoring limited in-the-wild activity and provides detection coverage for exploitation attempts. The post Active attack: Dirty Frag Linux vulnerability expands post-compromise risk appeared first on Microsoft Security Blog .",
-      "publishedAt": "2026-05-08T17:12:46.000Z"
     },
     {
       "source": "Azure Updates",
@@ -1588,46 +1628,6 @@
       "link": "https://azure.microsoft.com/updates?id=558140",
       "summary": "You can now monitor your Azure Database for PostgreSQL with rich, built-in Grafana dashboards—right from the Azure portal. This native integration with Azure Monitor means you no longer need to set up or manage a separate Grafana instance to get deep visi",
       "publishedAt": "2026-03-11T18:00:35.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[In preview] Public Preview: Customer‑managed encryption keys now supported on Premium SSD v2 disks for Azure Database for PostgreSQL",
-      "link": "https://azure.microsoft.com/updates?id=557527",
-      "summary": "You can now enhance data security for your Azure Database for PostgreSQL workloads by using customer managed keys (CMKs) with Premium SSD v2 disks. Available in public preview, this update gives you greater control over how your data at rest is encrypted,",
-      "publishedAt": "2026-03-11T18:00:35.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Azure SRE Agent with new capabilities",
-      "link": "https://azure.microsoft.com/updates?id=558321",
-      "summary": "Azure SRE Agent is now generally available. This AI-powered operations agent helps teams improve uptime, reduce incident impact, and cut operational toil by accelerating diagnosis and automating response workflows. The GA release introduces deep context g",
-      "publishedAt": "2026-03-11T17:45:49.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[In preview] Public Preview: Query Profiler in MSSQL extension for Visual Studio Code",
-      "link": "https://azure.microsoft.com/updates?id=558164",
-      "summary": "The MSSQL extension for Visual Studio Code now introduces Query Profiler in public preview, bringing real-time insight into your database activity directly inside Visual Studio Code. With Query Profiler, you can capture query and database activity as it h",
-      "publishedAt": "2026-03-11T17:45:49.000Z"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "category": "Microsoft 365",
-      "title": "Copilot Cowork: A new way of getting work done",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/",
-      "summary": "We’re excited to announce Copilot Cowork, the execution layer for Microsoft 365—delegate tasks, coordinate workflows, and stay in control. The post Copilot Cowork: A new way of getting work done appeared first on Microsoft 365 Blog .",
-      "publishedAt": "2026-03-09T13:00:00.000Z"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "category": "Microsoft 365",
-      "title": "Powering Frontier Transformation with Copilot and agents",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/",
-      "summary": "Wave 3 marks a new version of Microsoft 365 Copilot, moving beyond assistance to embedded agentic capabilities. The post Powering Frontier Transformation with Copilot and agents appeared first on Microsoft 365 Blog .",
-      "publishedAt": "2026-03-09T13:00:00.000Z"
     }
   ]
 }
