@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T07:11:49.468Z",
+  "generatedAt": "2026-05-20T12:50:05.288Z",
   "itemCount": 200,
   "sources": [
     {
@@ -29,14 +29,6 @@
     }
   ],
   "items": [
-    {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "Azure Files Entra-Only identities: Advancing cloud-native identity and security",
-      "link": "https://azure.microsoft.com/en-us/blog/azure-files-entra-only-identities-advancing-cloud-native-identity-and-security/",
-      "summary": "We are excited to announce the general availability (GA) of Entra-Only identities for Azure Files SMB. With native Microsoft Entra ID authentication, organizations can now grant secure, identity-based access to SMB file shares using cloud-native-only identities. The post Azure Files Entra-Only identities: Advancing cloud-native identity and security appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-05-19T19:00:00.000Z"
-    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -692,6 +684,14 @@
       "link": "https://azure.microsoft.com/updates?id=560889",
       "summary": "Azure Elastic SAN now supports CRC‑32C checksum verification when enabled on the client for connections to Elastic SAN volumes. CRC protection can be enabled at creation time or on an existing Elastic SAN.Elastic SAN also provides a volume group–level enf",
       "publishedAt": "2026-04-24T16:45:30.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform",
+      "link": "https://azure.microsoft.com/en-us/blog/openais-gpt-5-5-in-microsoft-foundry-frontier-intelligence-on-an-enterprise-ready-platform/",
+      "summary": "OpenAI’s GPT-5.5 will be generally available in Microsoft Foundry, bringing OpenAI’s latest frontier model to Azure and the enterprise teams building agents for real production work. The post OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-04-23T22:00:00.000Z"
     },
     {
       "source": "Azure Updates",
