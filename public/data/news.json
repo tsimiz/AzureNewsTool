@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T12:50:05.288Z",
+  "generatedAt": "2026-05-20T18:46:24.201Z",
   "itemCount": 200,
   "sources": [
     {
@@ -29,6 +29,78 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: langchain-azure-cosmosdb python package for Azure Cosmos DB",
+      "link": "https://azure.microsoft.com/updates?id=562074",
+      "summary": "You can now build production-ready AI and agent applications faster using the new LangChain and LangGraph integration for Azure Cosmos DB. This Python package enables you to directly use Cosmos DB for vector and hybrid search, semantic caching, chat histo",
+      "publishedAt": "2026-05-20T17:15:19.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Storage Mover Blob-to-Blob migration",
+      "link": "https://azure.microsoft.com/updates?id=562753",
+      "summary": "Azure Storage Mover now supports Blob container-to-Blob container data transfers, enabling customers to move data seamlessly across regions, subscriptions, and accounts with a fully managed experience. Customers can now use Azure Storage Mover to migrate",
+      "publishedAt": "2026-05-20T17:00:39.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Schedule one-time or recurring migrations with Azure Storage Mover",
+      "link": "https://azure.microsoft.com/updates?id=562622",
+      "summary": "Azure Storage Mover now supports built-in job scheduling, giving customers more control over when migrations run and making it easier to automate repeatable data transfers into Azure. Customers can configure jobs to start automatically at a specific date",
+      "publishedAt": "2026-05-20T17:00:39.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Summarized advertised gateway prefixes for route advertisement",
+      "link": "https://azure.microsoft.com/updates?id=562813",
+      "summary": "Summarized advertised gateway prefixes for route advertisement is now in public preview, enabling you to define summarized prefixes that Azure gateways, including ExpressRoute and VPN Gateway, advertise to on-premises networks, instead of advertising all",
+      "publishedAt": "2026-05-20T16:45:53.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: site-to-site VPN connections with certificate authentication",
+      "link": "https://azure.microsoft.com/updates?id=562705",
+      "summary": "Azure Site-to-Site VPN with digital certificate authentication provides an alternative to the traditional pre-shared key (PSK) model by using a certificate-based asymmetric trust model. In this configuration, Azure and the on-premises VPN device authentic",
+      "publishedAt": "2026-05-20T16:45:53.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Securing the gaming culture of cultures",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/securing-the-gaming-culture-of-cultures/",
+      "summary": "Read about the unique challenges and rewards of securing gaming platforms and how to better protect gaming communities. The post Securing the gaming culture of cultures appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-20T16:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Event Grid Subscription Identifiers",
+      "link": "https://azure.microsoft.com/updates?id=562970",
+      "summary": "Gain more flexibility in message handling with Subscription Identifiers by enabling subscribers to identify which subscription triggered delivery, helping streamline client-side processing in more advanced MQTT scenarios. Together, these enhanc",
+      "publishedAt": "2026-05-20T15:15:40.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Event Grid releases for April 2026",
+      "link": "https://azure.microsoft.com/updates?id=562240",
+      "summary": "Azure Event Grid namespaces are expanding MQTT capabilities to help organizations build more connected, scalable, and MQTT V5 standards-based real-time solutions. These updates make it easier to deliver responsive device experiences, simplify backend inte",
+      "publishedAt": "2026-05-20T15:15:40.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Introducing RAMPART and Clarity: Open source tools to bring safety into Agent development workflow",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/",
+      "summary": "The AI systems shipping inside enterprises today are fundamentally different from the ones we were building even two years ago, because they have moved well past answering questions and into accessing your email, retrieving records from your CRM, writing and executing code, and taking actions on your behalf across dozens of connected systems. The post Introducing RAMPART and Clarity: Open source tools to bring safety into Agent development workflow appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-20T15:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -270,14 +342,6 @@
       "publishedAt": "2026-05-12T17:30:34.000Z"
     },
     {
-      "source": "Microsoft Security Blog",
-      "category": "Security",
-      "title": "Defending consumer web properties against modern DDoS attacks",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/",
-      "summary": "Read how to protect consumer websites and defend against modern DDoS attacks with layered security, resilient architecture, and graceful service degradation. The post Defending consumer web properties against modern DDoS attacks appeared first on Microsoft Security Blog .",
-      "publishedAt": "2026-05-12T16:00:00.000Z"
-    },
-    {
       "source": "Power Platform Blog",
       "category": "Power Platform",
       "title": "Power Apps MCP server introduces closed-loop learning for enterprise agents",
@@ -292,14 +356,6 @@
       "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/05/12/dataverse-agentic-administration/",
       "summary": "Dataverse Admin Skills (dv-admin) lets Power Platform admins use natural language to manage Dataverse environments at scale. The post Agentic Administration: Dataverse Admin Skills now available in Public Preview appeared first on Microsoft Power Platform Blog .",
       "publishedAt": "2026-05-12T15:33:42.000Z"
-    },
-    {
-      "source": "Microsoft Security Blog",
-      "category": "Security",
-      "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
-      "summary": "Microsoft Incident Response investigated an attack operated through legitimate and trusted administrative mechanisms to blend seamlessly into routine operations and remain undetected demonstrating that intrusions have increasingly avoided using noisy exploits, obvious malware, or custom tooling, instead leveraging systems that organizations already trust within their environments. The post Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise appeared first on Microsoft Security Blog .",
-      "publishedAt": "2026-05-12T15:00:00.000Z"
     },
     {
       "source": "Azure Blog",
@@ -1572,62 +1628,6 @@
       "link": "https://azure.microsoft.com/updates?id=543279",
       "summary": "Azure Batch had retired Low-Priority VMs on September 30, 2025 and will begin a system-initiated migration to Spot VMs beginning March 1, 2026. This change aligns Batch with the broader Azure Spot infrastructure and simplifies the platform’s VM offering.",
       "publishedAt": "2026-03-16T18:45:11.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[In preview] Public Preview: Entra ID-Based Access for Azure Blob Storage SFTP",
-      "link": "https://azure.microsoft.com/updates?id=558662",
-      "summary": "Microsoft Entra ID-based access for Azure Blob Storage SFTP is now in public preview. This new capability empowers you to use Microsoft Entra ID identities (including guest users via Entra External Identities) to securely connect to Azure Blob Storage via",
-      "publishedAt": "2026-03-16T18:30:34.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "Retirement: End of life reminder of NVv3 and NVv4-series Azure virtual machine in Azure Batch pools",
-      "link": "https://azure.microsoft.com/updates?id=516070",
-      "summary": "Microsoft Azure will retire support for NVv3 or NVv4-series VMs on September 30th, 2026, including NVv3 Series (NVIDIA Tesla M60 GPU): Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3, Standard_NV24ms_v3, Standard_NV32ms_v3, Standard_NV48s_v3 NVv4",
-      "publishedAt": "2026-03-16T18:30:34.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "Retirement: Flatcar Container Linux for AKS (preview)",
-      "link": "https://azure.microsoft.com/updates?id=557929",
-      "summary": "Azure Kubernetes Service support for Flatcar Container Linux for AKS (preview) will be retired on June 8, 2026, transition to a supported alternative by that date. From now to June 7, 2026, you can continue to use Flatcar Container Linux for AKS (preview)",
-      "publishedAt": "2026-03-16T18:15:54.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Summary rules in Log Analytics workspace now support manual “Retry bin”",
-      "link": "https://azure.microsoft.com/updates?id=558656",
-      "summary": "Summary rules run batch aggregation inside your Log Analytics workspace and re-ingest the summarized results into a custom destination table. When a bin fails, that can create gaps in your summarized dataset. “Retry bin” helps you remediate bin-level fail",
-      "publishedAt": "2026-03-12T21:15:25.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[In preview] Public Preview: Azure Storage Mover enables private data transfers from AWS S3 to Azure Blob",
-      "link": "https://azure.microsoft.com/updates?id=558651",
-      "summary": "Azure Storage Mover now enables direct, secure data migration from AWS S3 data in Virtual Private Cloud to Azure Blob Storage with private networking. This update removes the need for manual pipelines or third-party tools, supports automation through the",
-      "publishedAt": "2026-03-12T21:15:25.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Terraform, Bicep, Ansible support for elastic clusters on Azure Database for PostgreSQL",
-      "link": "https://azure.microsoft.com/updates?id=558145",
-      "summary": "You can now provision and manage Azure Database for PostgreSQL elastic clusters using Terraform, Bicep, and Ansible, with full General Availability support. With native infrastructure-as-code support, you can consistently create, scale, and manage elastic",
-      "publishedAt": "2026-03-11T18:00:35.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Azure Database for PostgreSQL dashboards with Grafana",
-      "link": "https://azure.microsoft.com/updates?id=558140",
-      "summary": "You can now monitor your Azure Database for PostgreSQL with rich, built-in Grafana dashboards—right from the Azure portal. This native integration with Azure Monitor means you no longer need to set up or manage a separate Grafana instance to get deep visi",
-      "publishedAt": "2026-03-11T18:00:35.000Z"
     }
   ]
 }
