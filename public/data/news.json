@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T18:46:24.201Z",
+  "generatedAt": "2026-05-21T00:36:52.703Z",
   "itemCount": 200,
   "sources": [
     {
@@ -29,6 +29,30 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: SQL Server on Azure VMs in Malaysia West, Indonesia Central",
+      "link": "https://azure.microsoft.com/updates?id=562094",
+      "summary": "SQL Server on Azure Virtual Machines is now generally available in the Malaysia West and Indonesia Central Azure regions. With this regional expansion, you can deploy and manage SQL Server workloads closer to your users while helping meet data residency r",
+      "publishedAt": "2026-05-20T23:15:14.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Update: Microsoft Entra ID token refresh support for Python, .NET, and JavaScript in Azure Database for PostgreSQL",
+      "link": "https://azure.microsoft.com/updates?id=562079",
+      "summary": "You can now take advantage of Microsoft Entra ID token refresh support in Python, .NET, and JavaScript client libraries to simplify authentication in your applications backed by Azure Database for PostgreSQL. With this release, your applications can autom",
+      "publishedAt": "2026-05-20T23:15:14.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
+      "summary": "Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials across GitHub, AWS, Kubernetes, Vault, npm, and 1Password platforms. The post Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-20T17:48:44.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -100,6 +124,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/",
       "summary": "The AI systems shipping inside enterprises today are fundamentally different from the ones we were building even two years ago, because they have moved well past answering questions and into accessing your email, retrieving records from your CRM, writing and executing code, and taking actions on your behalf across dozens of connected systems. The post Introducing RAMPART and Clarity: Open source tools to bring safety into Agent development workflow appeared first on Microsoft Security Blog .",
       "publishedAt": "2026-05-20T15:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Azure Files Entra-Only identities: Advancing cloud-native identity and security",
+      "link": "https://azure.microsoft.com/en-us/blog/azure-files-entra-only-identities-advancing-cloud-native-identity-and-security/",
+      "summary": "We are excited to announce the general availability (GA) of Entra-Only identities for Azure Files SMB. With native Microsoft Entra ID authentication, organizations can now grant secure, identity-based access to SMB file shares using cloud-native-only identities. The post Azure Files Entra-Only identities: Advancing cloud-native identity and security appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-05-19T19:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -292,14 +324,6 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/",
       "summary": "What if you could generate realistic attack telemetry on demand? Explore research methods that translate attacker behaviors (TTPs) into synthetic logs that can trigger detections at scale and without sensitive data. The post Accelerating detection engineering using AI-assisted synthetic attack logs generation appeared first on Microsoft Security Blog .",
       "publishedAt": "2026-05-12T22:53:09.000Z"
-    },
-    {
-      "source": "Microsoft Security Blog",
-      "category": "Security",
-      "title": "Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
-      "summary": "Today Microsoft is announcing a major step forward in AI-powered cyber defense: a new multi-model agentic scanning harness (codenamed MDASH). The post Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark appeared first on Microsoft Security Blog .",
-      "publishedAt": "2026-05-12T22:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -740,14 +764,6 @@
       "link": "https://azure.microsoft.com/updates?id=560889",
       "summary": "Azure Elastic SAN now supports CRC‑32C checksum verification when enabled on the client for connections to Elastic SAN volumes. CRC protection can be enabled at creation time or on an existing Elastic SAN.Elastic SAN also provides a volume group–level enf",
       "publishedAt": "2026-04-24T16:45:30.000Z"
-    },
-    {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform",
-      "link": "https://azure.microsoft.com/en-us/blog/openais-gpt-5-5-in-microsoft-foundry-frontier-intelligence-on-an-enterprise-ready-platform/",
-      "summary": "OpenAI’s GPT-5.5 will be generally available in Microsoft Foundry, bringing OpenAI’s latest frontier model to Azure and the enterprise teams building agents for real production work. The post OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-04-23T22:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -1612,22 +1628,6 @@
       "link": "https://azure.microsoft.com/updates?id=557094",
       "summary": "Microsoft is announcing the retirement of the AV36P and AV52 Nodes on June 30, 2029. The terms of your current AV36P and AV52 Reserved Instance (RI) are not affected by this announcement. At this time, we recommend that you review your current RI expirati",
       "publishedAt": "2026-03-17T17:30:11.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "Retirement: Support for Windows Server 2016 Marketplace images on Azure Batch pools will end on January 12, 2027",
-      "link": "https://azure.microsoft.com/updates?id=549077",
-      "summary": "Azure Batch periodically retires support for operating systems that reach end-of-life status. Support for Windows Server 2016 concluded on January 11, 2022, with extended support scheduled to end on January 12, 2027. Marketplace images for Windows Server",
-      "publishedAt": "2026-03-16T18:45:11.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "Retirement: Migration of Azure Batch Low-Priority VMs to Spot VMs in early March",
-      "link": "https://azure.microsoft.com/updates?id=543279",
-      "summary": "Azure Batch had retired Low-Priority VMs on September 30, 2025 and will begin a system-initiated migration to Spot VMs beginning March 1, 2026. This change aligns Batch with the broader Azure Spot infrastructure and simplifies the platform’s VM offering.",
-      "publishedAt": "2026-03-16T18:45:11.000Z"
     }
   ]
 }
