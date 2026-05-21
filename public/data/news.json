@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T07:15:36.778Z",
+  "generatedAt": "2026-05-21T13:05:17.872Z",
   "itemCount": 200,
   "sources": [
     {
@@ -92,6 +92,14 @@
       "link": "https://azure.microsoft.com/updates?id=562705",
       "summary": "Azure Site-to-Site VPN with digital certificate authentication provides an alternative to the traditional pre-shared key (PSK) model by using a certificate-based asymmetric trust model. In this configuration, Azure and the on-premises VPN device authentic",
       "publishedAt": "2026-05-20T16:45:53.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Azure IaaS: Deploy high-performance workloads with a system-level approach",
+      "link": "https://azure.microsoft.com/en-us/blog/azure-iaas-deploy-high-performance-workloads-with-a-system-level-approach/",
+      "summary": "Performance in the cloud is no longer defined by individual resources—it’s shaped by how compute, storage, and networking work together. Azure IaaS takes a system-level approach to help organizations achieve consistent, scalable performance across AI, cloud-native, and business-critical workloads. The post Azure IaaS: Deploy high-performance workloads with a system-level approach appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-05-20T16:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -684,14 +692,6 @@
       "link": "https://azure.microsoft.com/updates?id=561002",
       "summary": "Foundry Agent Service now supports bring‑your‑own‑model scenarios, allowing agents to use AI models deployed and managed outside of Foundry, including models hosted behind enterprise AI gateways such as Azure API Management. This enables organizations to",
       "publishedAt": "2026-04-27T18:00:52.000Z"
-    },
-    {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "Microsoft Sovereign Private Cloud scales to thousands of nodes with Azure Local",
-      "link": "https://blogs.microsoft.com/blog/2026/04/27/microsoft-sovereign-private-cloud-scales-to-thousands-of-nodes-with-azure-local/",
-      "summary": "Azure Local scales Microsoft Sovereign Private Cloud, supporting AI and data workloads with full control, compliance, and disconnected operations. The post Microsoft Sovereign Private Cloud scales to thousands of nodes with Azure Local appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-04-27T18:00:00.000Z"
     },
     {
       "source": "Azure Updates",
