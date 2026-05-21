@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T13:05:17.872Z",
+  "generatedAt": "2026-05-21T18:37:03.238Z",
   "itemCount": 200,
   "sources": [
     {
@@ -29,6 +29,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "What’s new in Microsoft Security: May 2026",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/21/whats-new-in-microsoft-security-may-2026/",
+      "summary": "Microsoft Security’s latest updates extend visibility, control, and protection across expanding ecosystems as organizations accelerate AI adoption. The post What’s new in Microsoft Security: May 2026 appeared first on Microsoft Security Blog .",
+      "publishedAt": "2026-05-21T16:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -324,14 +332,6 @@
       "link": "https://azure.microsoft.com/updates?id=561564",
       "summary": "Azure Monitor dashboards with Grafana are generally available, bringing the power of Grafana’s open and composable visualization platform directly into the Azure Portal. This capability enables developers and operators to create, edit, and share Grafana d",
       "publishedAt": "2026-05-12T23:45:17.000Z"
-    },
-    {
-      "source": "Microsoft Security Blog",
-      "category": "Security",
-      "title": "Accelerating detection engineering using AI-assisted synthetic attack logs generation",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/",
-      "summary": "What if you could generate realistic attack telemetry on demand? Explore research methods that translate attacker behaviors (TTPs) into synthetic logs that can trigger detections at scale and without sensitive data. The post Accelerating detection engineering using AI-assisted synthetic attack logs generation appeared first on Microsoft Security Blog .",
-      "publishedAt": "2026-05-12T22:53:09.000Z"
     },
     {
       "source": "Azure Updates",
@@ -1040,7 +1040,7 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
-      "title": "[In preview] Public Preview: Event Grid as a destination for Stripe events now in Public Preview",
+      "title": "[In preview] Generally Available: Event Grid as a destination for Stripe events now in Public Preview",
       "link": "https://azure.microsoft.com/updates?id=559836",
       "summary": "Developers can now route Stripe events directly into Azure Event Grid and build scalable, event-driven architectures without managing webhook infrastructure or custom brokers.This means that Event Grid acts as a fully managed event broker between Stripe a",
       "publishedAt": "2026-04-10T17:00:41.000Z"
