@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T00:35:03.049Z",
+  "generatedAt": "2026-05-22T07:11:32.932Z",
   "itemCount": 200,
   "sources": [
     {
@@ -26,6 +26,11 @@
       "name": "Power Platform Blog",
       "category": "Power Platform",
       "url": "https://www.microsoft.com/en-us/power-platform/blog/feed/"
+    },
+    {
+      "name": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "url": "https://devblogs.microsoft.com/landing"
     }
   ],
   "items": [
@@ -126,6 +131,30 @@
       "publishedAt": "2026-05-20T17:00:39.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.121",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.121",
+      "summary": "Learn what's new in Visual Studio Code 1.121 Read the full article",
+      "publishedAt": "2026-05-20T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.121",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-121",
+      "summary": "Learn what's new in Visual Studio Code 1.121 (Insiders) Read the full article",
+      "publishedAt": "2026-05-20T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Your dev loop is full of tribal knowledge",
+      "link": "https://devblogs.microsoft.com/aspire/dev-loop-tribal-knowledge",
+      "summary": "Teams often treat developer experience as work that competes with shipping the product. That is understandable, but it is also backwards. The local loop, setup, debugging, repeatable operations, and agent workflows are part of how the product gets shipped. When those things are slow or unclear, every feature pays the tax. The tricky",
+      "publishedAt": "2026-05-20T17:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Summarized advertised gateway prefixes for route advertisement",
@@ -140,14 +169,6 @@
       "link": "https://azure.microsoft.com/updates?id=562705",
       "summary": "Azure Site-to-Site VPN with digital certificate authentication provides an alternative to the traditional pre-shared key (PSK) model by using a certificate-based asymmetric trust model. In this configuration, Azure and the on-premises VPN device authentic",
       "publishedAt": "2026-05-20T16:45:53.000Z"
-    },
-    {
-      "source": "Azure Blog",
-      "category": "Azure",
-      "title": "Azure IaaS: Deploy high-performance workloads with a system-level approach",
-      "link": "https://azure.microsoft.com/en-us/blog/azure-iaas-deploy-high-performance-workloads-with-a-system-level-approach/",
-      "summary": "Performance in the cloud is no longer defined by individual resources—it’s shaped by how compute, storage, and networking work together. Azure IaaS takes a system-level approach to help organizations achieve consistent, scalable performance across AI, cloud-native, and business-critical workloads. The post Azure IaaS: Deploy high-performance workloads with a system-level approach appeared first on Microsoft Azure Blog .",
-      "publishedAt": "2026-05-20T16:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -180,6 +201,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/",
       "summary": "The AI systems shipping inside enterprises today are fundamentally different from the ones we were building even two years ago, because they have moved well past answering questions and into accessing your email, retrieving records from your CRM, writing and executing code, and taking actions on your behalf across dozens of connected systems. The post Introducing RAMPART and Clarity: Open source tools to bring safety into Agent development workflow appeared first on Microsoft Security Blog .",
       "publishedAt": "2026-05-20T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Stop prompt injection from hijacking your agent, new security capabilities now released within Agent Framework",
+      "link": "https://devblogs.microsoft.com/agent-framework/fides",
+      "summary": "Prompt injection is the #1 risk on the OWASP LLM Top 10, and most agents in production today defend against it with one of two heuristics: a defensive system prompt, or a hand-rolled allowlist. Neither is deterministic. Both fail silently the day someone slips a [SYSTEM OVERRIDE] line into an issue body,",
+      "publishedAt": "2026-05-20T14:58:20.000Z"
     },
     {
       "source": "Azure Blog",
@@ -222,6 +251,22 @@
       "publishedAt": "2026-05-19T16:45:42.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How to run evals for the model router",
+      "link": "https://devblogs.microsoft.com/foundry/how-to-run-evals-for-model-router",
+      "summary": "One endpoint. Smarter spend. Model router in Foundry Models picks the optimal LLM for every prompt in real time based on signals like complexity, reasoning, and task type. Now with access to 28 frontier models, the model router makes model selection easier for developers and reduces manual overhead. This article walks you through how to run ev",
+      "publishedAt": "2026-05-19T16:34:07.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Package Identity",
+      "link": "https://devblogs.microsoft.com/insidemsix/package-identity",
+      "summary": "An MSIX package identity is composed of a five-part tuple that uniquely identifies a package. It consists of the following attributes: Name Version Architecture",
+      "publishedAt": "2026-05-19T16:00:30.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Mock runs for Azure Storage Actions – Validate before you execute",
@@ -230,12 +275,44 @@
       "publishedAt": "2026-05-19T16:00:11.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing Sample Profile Guided Optimization in MSVC",
+      "link": "https://devblogs.microsoft.com/cppblog/introducing-sample-profile-guided-optimization-in-msvc",
+      "summary": "Profile Guided Optimization (PGO) has long been one of the most powerful tools in the MSVC compiler's arsenal for improving the runtime performance of C and C++ applications. By using execution profile data collected from representative workloads, PGO enables the compiler to make smarter decisions about inlining, code layout, and hot/cold code",
+      "publishedAt": "2026-05-19T15:44:08.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Exposing Fox Tempest: A malware-signing service operation",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
       "summary": "Fox Tempest is a financially motivated threat actor operating a malware‑signing‑as‑a‑service (MSaaS) used by other cybercriminals, including Vanilla Tempest and Storm groups, to more effectively distribute malicious code, including ransomware. The post Exposing Fox Tempest: A malware-signing service operation appeared first on Microsoft Security Blog .",
       "publishedAt": "2026-05-19T15:07:01.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)",
+      "link": "https://devblogs.microsoft.com/blog/agentic-agile-why-agent-development-needs-agile-not-just-prompts",
+      "summary": "\"A bad system will beat a good person [or agent] every time\" ~Dr. William Edwards Deming (with apologies) I started vibe coding by writing prompts (often dictated into my phone), refining them with an agent in M365 Copilot, and creating handoff files to use with GitHub Copil",
+      "publishedAt": "2026-05-19T15:00:09.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Eliminate LLM Cold starts: Load models up to 6x Faster with Azure Blob Storage and Run:AI Model Streamer",
+      "link": "https://devblogs.microsoft.com/azure-sdk/eliminate-llm-cold-starts-load-models-up-to-6x-faster-with-azure-blob-storage-and-runai-model-streamer",
+      "summary": "",
+      "publishedAt": "2026-05-19T15:00:07.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What is the history of the ERROR_ ARENA_ TRASHED error code?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260519-00/?p=112339",
+      "summary": "Error code 7 is ERROR_ARENA_TRASHED. What does this mean? It sounds like a heavy metal band ran amok and made a mess of the performance area that they rented. This error message was inherited from MS-DOS. MS-DOS internally kept track of memory in the form of a sequence of variable-sized memory blocks, each",
+      "publishedAt": "2026-05-19T14:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -732,6 +809,14 @@
       "link": "https://azure.microsoft.com/updates?id=561002",
       "summary": "Foundry Agent Service now supports bring‑your‑own‑model scenarios, allowing agents to use AI models deployed and managed outside of Foundry, including models hosted behind enterprise AI gateways such as Azure API Management. This enables organizations to",
       "publishedAt": "2026-04-27T18:00:52.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Microsoft Sovereign Private Cloud scales to thousands of nodes with Azure Local",
+      "link": "https://blogs.microsoft.com/blog/2026/04/27/microsoft-sovereign-private-cloud-scales-to-thousands-of-nodes-with-azure-local/",
+      "summary": "Azure Local scales Microsoft Sovereign Private Cloud, supporting AI and data workloads with full control, compliance, and disconnected operations. The post Microsoft Sovereign Private Cloud scales to thousands of nodes with Azure Local appeared first on Microsoft Azure Blog .",
+      "publishedAt": "2026-04-27T18:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -1548,86 +1633,6 @@
       "link": "https://azure.microsoft.com/updates?id=548543",
       "summary": "On May 31, 2027, Microsoft Azure will retire the following HC-series virtual machine (VMs) sizes: Standard_HC44rs, Standard_HC44-16rs, and Standard_HC44-32rs. To ensure continuity and improved performance, we recommend transitioning to one of the current‑",
       "publishedAt": "2026-03-19T16:30:27.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "Retirement: HBv2-series Azure Virtual Machines will be retired on May 31, 2027",
-      "link": "https://azure.microsoft.com/updates?id=548525",
-      "summary": "On May 31, 2027, Microsoft Azure will retire the following HBv2-series virtual machine (VMs) sizes: Standard_HB120rs_v2, Standard_HB120-96rs_v2, Standard_HB120-64rs_v2, Standard_HB120-32rs_v2, and Standard_HB120-16rs_v2. To ensure continuity and improved",
-      "publishedAt": "2026-03-19T16:30:27.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "Retirement: NP-series Azure Virtual Machines will be retired on May 31, 2027",
-      "link": "https://azure.microsoft.com/updates?id=548497",
-      "summary": "On May 31, 2027, Microsoft Azure will retire the follow NP-series virtual machine (VMs) sizes: Standard_NP10s, Standard_NP20s, and Standard_NP40s. To ensure continuity and optimal performance, we recommend transitioning to one of the following Azure GPU V",
-      "publishedAt": "2026-03-19T16:30:27.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "Retirement: Emissions Impact Dashboard for Azure",
-      "link": "https://azure.microsoft.com/updates?id=558278",
-      "summary": "Effective March 31, 2027, the Emissions Impact Dashboard for Azure hosted by Power BI will be retired. After this date, the dashboard will no longer be accessible and technical support will be discontinued. We strongly encourage customers to export their",
-      "publishedAt": "2026-03-18T18:45:54.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] General availability: Azure SQL updates for mid-March 2026",
-      "link": "https://azure.microsoft.com/updates?id=558121",
-      "summary": "In mid-March 2026, the following updates and enhancements were made to Azure SQL: Publish SQL database projects directly from Visual Studio Code to streamline database deployment workflows. View and edit SQL table data directly in the MSSQ",
-      "publishedAt": "2026-03-18T18:30:05.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Azure Red Hat OpenShift Managed Identity and Workload Identity",
-      "link": "https://azure.microsoft.com/updates?id=557917",
-      "summary": "Azure Red Hat OpenShift now supports managed identities and workload identities as a generally available capability, enabling you to run OpenShift clusters and applications on Azure without long lived service principal credentials. This aligns Azure Red H",
-      "publishedAt": "2026-03-18T18:30:05.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[In preview] Public preview: GitHub Copilot integration in Schema Designer for the MSSQL extension",
-      "link": "https://azure.microsoft.com/updates?id=558169",
-      "summary": "The MSSQL extension for Visual Studio Code now introduces GitHub Copilot integration in Schema Designer, expanding the visual schema design experience with AI-assisted capabilities. Based on developer feedback and evolving workflows, you can now understan",
-      "publishedAt": "2026-03-18T18:15:04.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[In preview] Public Preview: Database DevOps in SSMS powered by SQL projects",
-      "link": "https://azure.microsoft.com/updates?id=558155",
-      "summary": "Bring the benefits of schema-as-code to your database development workflow. SQL database projects enable you to source control your database schema, perform reliable deployments to any environment, and integrate code quality checks into your development p",
-      "publishedAt": "2026-03-18T18:15:04.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[In preview] Public Preview: SQL MCP Server",
-      "link": "https://azure.microsoft.com/updates?id=558150",
-      "summary": "Announcing SQL MCP Server, our Model Context Protocol (MCP) connector for production databases. SQL MCP Server is a feature rich component of data API builder (DAB) that gives you a simple, predictable, secure way to bring AI agents into your data workflo",
-      "publishedAt": "2026-03-18T18:15:04.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: GitHub Copilot in SQL Server Management Studio 22",
-      "link": "https://azure.microsoft.com/updates?id=558134",
-      "summary": "GitHub Copilot is now generally available in SQL Server Management Studio (SSMS) 22, bringing AI‑powered assistance directly into the application that you use every day. With GitHub Copilot in SSMS, you can use natural language to develop, explain, fix,",
-      "publishedAt": "2026-03-18T18:15:04.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Lakeflow Connect Free Tier now available in Azure Databricks",
-      "link": "https://azure.microsoft.com/updates?id=558810",
-      "summary": "Azure Databricks now offers a Lakeflow Connect Free Tier that gives each workspace 100 free DBUs per workspace per day for ingestion from SaaS applications and databases. This allows you to bring roughly 100 million records of data per workspace per day i",
-      "publishedAt": "2026-03-18T17:00:05.000Z"
     }
   ]
 }
