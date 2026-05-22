@@ -2,6 +2,9 @@ import { filterItems, formatDate, buildDebugPanelHtml, categorySlug, getSubcateg
 
 const WINDOW_DAYS = 30;
 const ARCHIVE_START = new Date('2026-01-01T00:00:00.000Z');
+const CARD_ANIMATION_DELAY_INCREMENT = 0.04;
+const CARD_ANIMATION_MAX_DELAY = 0.4;
+const FADE_TRANSITION_DURATION_MS = 180;
 
 const state = {
   items: [],
@@ -196,87 +199,127 @@ const render = () => {
   elements.stats.textContent = `Showing ${visibleItems.length} of ${state.items.length} entries`;
   elements.olderContainer.hidden = !showOlder;
 
-  if (visibleItems.length === 0) {
-    elements.list.innerHTML = showOlder
-      ? `<p class="empty">No entries in the past ${state.visibleWindows * WINDOW_DAYS} days. Click "Older" below to load earlier entries.</p>`
-      : '<p class="empty">No release notes match your search.</p>';
-    return;
+  const updateList = () => {
+    if (visibleItems.length === 0) {
+      elements.list.innerHTML = showOlder
+        ? `<p class="empty">No entries in the past ${state.visibleWindows * WINDOW_DAYS} days. Click "Older" below to load earlier entries.</p>`
+        : '<p class="empty">No release notes match your search.</p>';
+      return;
+    }
+
+    elements.list.innerHTML = visibleItems
+      .map(
+        (item, index) => {
+          const subcat = getSubcategory(item);
+          const subcatSlug = subcat ? categorySlug(subcat) : '';
+          const subcatHtml = subcat
+            ? `<button class="meta-tag meta-subcategory meta-subcategory--${subcatSlug}" data-subcategory="${subcatSlug}">${subcat}</button>`
+            : '';
+          const animDelay = Math.min(index * CARD_ANIMATION_DELAY_INCREMENT, CARD_ANIMATION_MAX_DELAY);
+          return `
+          <article class="card" data-index="${index}" data-category="${categorySlug(item.category)}" style="animation-delay:${animDelay}s">
+            <div class="meta">
+              <button class="meta-tag meta-category" data-category="${categorySlug(item.category)}">${item.category}</button>
+              ${subcatHtml}
+              <span>${item.source}</span>
+              <span>${formatDate(item.publishedAt)}</span>
+            </div>
+            <h3><a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a></h3>
+            <p title="Click to read full summary">${item.summary || 'No summary available.'}</p>
+            <div class="card-footer">
+              <button class="btn-ai" data-index="${index}" title="Generate an AI summary using Azure AI Foundry">✨ Summarize with AI</button>
+              <button class="btn-collapse" aria-label="Show less">↑ Show less</button>
+            </div>
+            <div class="ai-summary" id="ai-summary-${index}" aria-live="polite" hidden></div>
+          </article>
+        `;
+        }
+      )
+      .join('');
+
+    elements.list.querySelectorAll('.meta-category').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        state.activeCategory = btn.dataset.category;
+        state.activeSubcategory = '';
+        state.visibleWindows = 1;
+        elements.topicBtns.forEach((b) => b.classList.toggle('active', b.dataset.category === state.activeCategory));
+        render();
+      });
+    });
+
+    elements.list.querySelectorAll('.meta-subcategory').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const card = btn.closest('.card');
+        state.activeCategory = card.dataset.category;
+        state.activeSubcategory = btn.dataset.subcategory === state.activeSubcategory ? '' : btn.dataset.subcategory;
+        state.visibleWindows = 1;
+        elements.topicBtns.forEach((b) => b.classList.toggle('active', b.dataset.category === state.activeCategory));
+        render();
+      });
+    });
+
+    // Expand/collapse summary on click
+    elements.list.querySelectorAll('.card > p').forEach((p) => {
+      p.addEventListener('click', () => {
+        const card = p.closest('.card');
+        const isExpanded = card.classList.toggle('expanded');
+        if (isExpanded) {
+          // Collapse any other expanded cards
+          elements.list.querySelectorAll('.card.expanded').forEach((other) => {
+            if (other !== card) other.classList.remove('expanded');
+          });
+        }
+      });
+    });
+
+    elements.list.querySelectorAll('.btn-collapse').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        btn.closest('.card').classList.remove('expanded');
+      });
+    });
+
+    elements.list.querySelectorAll('.btn-ai').forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const index = Number(btn.dataset.index);
+        const item = visibleItems[index];
+        const summaryEl = document.getElementById(`ai-summary-${index}`);
+
+        btn.disabled = true;
+        btn.setAttribute('aria-busy', 'true');
+        btn.textContent = '⏳ Summarizing…';
+        summaryEl.hidden = false;
+        summaryEl.innerHTML = '<span class="ai-summary-label">AI Summary</span>Generating summary…';
+
+        try {
+          const result = await summariseWithAi(item.title, item.summary || item.title);
+          summaryEl.innerHTML = `<span class="ai-summary-label">✨ AI Summary</span>${result}`;
+          btn.textContent = '✨ Regenerate';
+        } catch (err) {
+          summaryEl.innerHTML = `<span class="ai-error">⚠ ${err.message}</span>`;
+          btn.textContent = '✨ Summarize with AI';
+        } finally {
+          btn.disabled = false;
+          btn.removeAttribute('aria-busy');
+        }
+      });
+    });
+  };
+
+  // Animate filter transition: fade out → update → fade in
+  if (elements.list.children.length > 0) {
+    elements.list.classList.add('fading');
+    clearTimeout(render._timer);
+    render._timer = setTimeout(() => {
+      updateList();
+      // Use rAF to ensure DOM is painted before removing fade class
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => elements.list.classList.remove('fading'));
+      });
+    }, FADE_TRANSITION_DURATION_MS);
+  } else {
+    updateList();
   }
-
-  elements.list.innerHTML = visibleItems
-    .map(
-      (item, index) => {
-        const subcat = getSubcategory(item);
-        const subcatSlug = subcat ? categorySlug(subcat) : '';
-        const subcatHtml = subcat
-          ? `<button class="meta-tag meta-subcategory meta-subcategory--${subcatSlug}" data-subcategory="${subcatSlug}">${subcat}</button>`
-          : '';
-        return `
-        <article class="card" data-index="${index}" data-category="${categorySlug(item.category)}">
-          <div class="meta">
-            <button class="meta-tag meta-category" data-category="${categorySlug(item.category)}">${item.category}</button>
-            ${subcatHtml}
-            <span>${item.source}</span>
-            <span>${formatDate(item.publishedAt)}</span>
-          </div>
-          <h3><a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a></h3>
-          <p>${item.summary || 'No summary available.'}</p>
-          <div class="card-footer">
-            <button class="btn-ai" data-index="${index}" title="Generate an AI summary using Azure AI Foundry">✨ Summarize with AI</button>
-          </div>
-          <div class="ai-summary" id="ai-summary-${index}" aria-live="polite" hidden></div>
-        </article>
-      `;
-      }
-    )
-    .join('');
-
-  elements.list.querySelectorAll('.meta-category').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      state.activeCategory = btn.dataset.category;
-      state.activeSubcategory = '';
-      state.visibleWindows = 1;
-      elements.topicBtns.forEach((b) => b.classList.toggle('active', b.dataset.category === state.activeCategory));
-      render();
-    });
-  });
-
-  elements.list.querySelectorAll('.meta-subcategory').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const card = btn.closest('.card');
-      state.activeCategory = card.dataset.category;
-      state.activeSubcategory = btn.dataset.subcategory === state.activeSubcategory ? '' : btn.dataset.subcategory;
-      state.visibleWindows = 1;
-      elements.topicBtns.forEach((b) => b.classList.toggle('active', b.dataset.category === state.activeCategory));
-      render();
-    });
-  });
-
-  elements.list.querySelectorAll('.btn-ai').forEach((btn) => {
-    btn.addEventListener('click', async () => {
-      const index = Number(btn.dataset.index);
-      const item = visibleItems[index];
-      const summaryEl = document.getElementById(`ai-summary-${index}`);
-
-      btn.disabled = true;
-      btn.setAttribute('aria-busy', 'true');
-      btn.textContent = '⏳ Summarizing…';
-      summaryEl.hidden = false;
-      summaryEl.innerHTML = '<span class="ai-summary-label">AI Summary</span>Generating summary…';
-
-      try {
-        const result = await summariseWithAi(item.title, item.summary || item.title);
-        summaryEl.innerHTML = `<span class="ai-summary-label">✨ AI Summary</span>${result}`;
-        btn.textContent = '✨ Regenerate';
-      } catch (err) {
-        summaryEl.innerHTML = `<span class="ai-error">⚠ ${err.message}</span>`;
-        btn.textContent = '✨ Summarize with AI';
-      } finally {
-        btn.disabled = false;
-        btn.removeAttribute('aria-busy');
-      }
-    });
-  });
 };
 
 const renderSuggestions = () => {
@@ -328,6 +371,13 @@ elements.search.addEventListener('input', () => {
 elements.olderBtn.addEventListener('click', () => {
   state.visibleWindows += 1;
   render();
+});
+
+// Collapse expanded cards on Escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    elements.list.querySelectorAll('.card.expanded').forEach((card) => card.classList.remove('expanded'));
+  }
 });
 
 init().catch((error) => {

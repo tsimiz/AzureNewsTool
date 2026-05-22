@@ -79,7 +79,7 @@
       "category": "Security",
       "title": "What’s new in Microsoft Security: May 2026",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/21/whats-new-in-microsoft-security-may-2026/",
-      "summary": "Microsoft Security’s latest updates extend visibility, control, and protection across expanding ecosystems as organizations accelerate AI adoption. The post What’s new in Microsoft Security: May 2026 appeared first on Microsoft Security Blog .",
+      "summary": "Microsoft Security’s latest updates extend visibility, control, and protection across expanding ecosystems as organizations accelerate AI adoption.",
       "publishedAt": "2026-05-21T16:00:00.000Z"
     },
     {
@@ -103,7 +103,7 @@
       "category": "Security",
       "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
-      "summary": "Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials across GitHub, AWS, Kubernetes, Vault, npm, and 1Password platforms. The post Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft appeared first on Microsoft Security Blog .",
+      "summary": "Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials across GitHub, AWS, Kubernetes, Vault, npm, and 1Password platforms.",
       "publishedAt": "2026-05-20T17:48:44.000Z"
     },
     {
@@ -175,7 +175,7 @@
       "category": "Security",
       "title": "Securing the gaming culture of cultures",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/securing-the-gaming-culture-of-cultures/",
-      "summary": "Read about the unique challenges and rewards of securing gaming platforms and how to better protect gaming communities. The post Securing the gaming culture of cultures appeared first on Microsoft Security Blog .",
+      "summary": "Read about the unique challenges and rewards of securing gaming platforms and how to better protect gaming communities.",
       "publishedAt": "2026-05-20T16:00:00.000Z"
     },
     {
@@ -199,7 +199,7 @@
       "category": "Security",
       "title": "Introducing RAMPART and Clarity: Open source tools to bring safety into Agent development workflow",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/",
-      "summary": "The AI systems shipping inside enterprises today are fundamentally different from the ones we were building even two years ago, because they have moved well past answering questions and into accessing your email, retrieving records from your CRM, writing and executing code, and taking actions on your behalf across dozens of connected systems. The post Introducing RAMPART and Clarity: Open source tools to bring safety into Agent development workflow appeared first on Microsoft Security Blog .",
+      "summary": "The AI systems shipping inside enterprises today are fundamentally different from the ones we were building even two years ago, because they have moved well past answering questions and into accessing your email, retrieving records from your CRM, writing and executing code, and taking actions on your behalf across dozens of connected systems.",
       "publishedAt": "2026-05-20T15:00:00.000Z"
     },
     {
@@ -215,7 +215,7 @@
       "category": "Azure",
       "title": "Azure Files Entra-Only identities: Advancing cloud-native identity and security",
       "link": "https://azure.microsoft.com/en-us/blog/azure-files-entra-only-identities-advancing-cloud-native-identity-and-security/",
-      "summary": "We are excited to announce the general availability (GA) of Entra-Only identities for Azure Files SMB. With native Microsoft Entra ID authentication, organizations can now grant secure, identity-based access to SMB file shares using cloud-native-only identities. The post Azure Files Entra-Only identities: Advancing cloud-native identity and security appeared first on Microsoft Azure Blog .",
+      "summary": "We are excited to announce the general availability (GA) of Entra-Only identities for Azure Files SMB. With native Microsoft Entra ID authentication, organizations can now grant secure, identity-based access to SMB file shares using cloud-native-only identities.",
       "publishedAt": "2026-05-19T19:00:00.000Z"
     },
     {
@@ -287,7 +287,7 @@
       "category": "Security",
       "title": "Exposing Fox Tempest: A malware-signing service operation",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
-      "summary": "Fox Tempest is a financially motivated threat actor operating a malware‑signing‑as‑a‑service (MSaaS) used by other cybercriminals, including Vanilla Tempest and Storm groups, to more effectively distribute malicious code, including ransomware. The post Exposing Fox Tempest: A malware-signing service operation appeared first on Microsoft Security Blog .",
+      "summary": "Fox Tempest is a financially motivated threat actor operating a malware‑signing‑as‑a‑service (MSaaS) used by other cybercriminals, including Vanilla Tempest and Storm groups, to more effectively distribute malicious code, including ransomware.",
       "publishedAt": "2026-05-19T15:07:01.000Z"
     },
     {
@@ -319,7 +319,7 @@
       "category": "Security",
       "title": "How Storm-2949 turned a compromised identity into a cloud-wide breach",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach/",
-      "summary": "Storm-2949 turned stolen credentials into a cloud-wide breach, moving from identity compromise to large-scale data theft without using malware. This incident shows how threat actors can exploit trusted systems to operate undetected. The post How Storm-2949 turned a compromised identity into a cloud-wide breach appeared first on Microsoft Security Blog .",
+      "summary": "Storm-2949 turned stolen credentials into a cloud-wide breach, moving from identity compromise to large-scale data theft without using malware. This incident shows how threat actors can exploit trusted systems to operate undetected.",
       "publishedAt": "2026-05-18T22:42:50.000Z"
     },
     {
@@ -351,7 +351,7 @@
       "category": "Security",
       "title": "How to better protect your growing business in an AI-powered world",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/how-to-better-protect-your-growing-business-in-an-ai-powered-world/",
-      "summary": "See how built-in security helps keep your growing business running, protect customer trust, and support growth. The post How to better protect your growing business in an AI-powered world appeared first on Microsoft Security Blog .",
+      "summary": "See how built-in security helps keep your growing business running, protect customer trust, and support growth.",
       "publishedAt": "2026-05-18T16:00:00.000Z"
     },
     {
@@ -375,7 +375,7 @@
       "category": "Power Platform",
       "title": "What’s new in Power Platform: May 2026 feature update",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/05/14/whats-new-in-power-platform-may-2026-feature-update/",
-      "summary": "Power Apps Generally available: Power Fx user defined types (UDTs) User defined types (UDTs) are now generally available, as of version 3.26044. They are enabled for all new apps and can be enabled for existing apps through settings &#62; updates &#62; new &#62; user-defined types. UDTs are defined with the Type function in the App. The post What’s new in Power Platform: May 2026 feature update appeared first on Microsoft Power Platform Blog .",
+      "summary": "Power Apps Generally available: Power Fx user defined types (UDTs) User defined types (UDTs) are now generally available, as of version 3.26044. They are enabled for all new apps and can be enabled for existing apps through settings &#62; updates &#62; new &#62; user-defined types. UDTs are defined with the Type function in the App.",
       "publishedAt": "2026-05-14T18:16:52.000Z"
     },
     {
@@ -399,7 +399,7 @@
       "category": "Security",
       "title": "Defense in depth for autonomous AI agents",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/defense-in-depth-autonomous-ai-agents/",
-      "summary": "As AI agents gain autonomy, defense in depth must evolve, with application-layer design, identity, and human oversight at the center. The post Defense in depth for autonomous AI agents appeared first on Microsoft Security Blog .",
+      "summary": "As AI agents gain autonomy, defense in depth must evolve, with application-layer design, identity, and human oversight at the center.",
       "publishedAt": "2026-05-14T16:00:00.000Z"
     },
     {
@@ -407,7 +407,7 @@
       "category": "Security",
       "title": "Kazuar: Anatomy of a nation-state botnet",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
-      "summary": "Kazuar, a sophisticated malware family attributed to the Russian state actor Secret Blizzard, has been under constant development for years and continues to evolve in support of espionage-focused operations. Over time, Kazuar has expanded from a relatively traditional backdoor into a highly modular peer-to-peer (P2P) botnet ecosystem designed to enable persistent, covert access to target environments. The post Kazuar: Anatomy of a nation-state botnet appeared first on Microsoft Security Blog .",
+      "summary": "Kazuar, a sophisticated malware family attributed to the Russian state actor Secret Blizzard, has been under constant development for years and continues to evolve in support of espionage-focused operations. Over time, Kazuar has expanded from a relatively traditional backdoor into a highly modular peer-to-peer (P2P) botnet ecosystem designed to enable persistent, covert access to target environments.",
       "publishedAt": "2026-05-14T15:00:00.000Z"
     },
     {
@@ -415,7 +415,7 @@
       "category": "Security",
       "title": "When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/configuration-becomes-vulnerability-exploitable-misconfigurations-ai-apps/",
-      "summary": "Exposed UIs, weak authentication, and risky defaults could turn cloud-native AI apps on Kubernetes into potential targets by threat actors. Learn how exploitable misconfigurations lead to RCE and data leaks. The post When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps appeared first on Microsoft Security Blog .",
+      "summary": "Exposed UIs, weak authentication, and risky defaults could turn cloud-native AI apps on Kubernetes into potential targets by threat actors. Learn how exploitable misconfigurations lead to RCE and data leaks.",
       "publishedAt": "2026-05-14T14:20:55.000Z"
     },
     {
@@ -423,7 +423,7 @@
       "category": "Power Platform",
       "title": "Power Fx: User Defined Types Generally Available",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-fx-user-defined-types-generally-available/",
-      "summary": "User Defined Types (UDTs) are now generally available! As of Power Apps Studio version 3.26044, UDTs are enabled by default for new apps and can be enabled for existing apps under Settings &#62; Updates &#62; New &#62; User-Defined types. The post Power Fx: User Defined Types Generally Available appeared first on Microsoft Power Platform Blog .",
+      "summary": "User Defined Types (UDTs) are now generally available! As of Power Apps Studio version 3.26044, UDTs are enabled by default for new apps and can be enabled for existing apps under Settings &#62; Updates &#62; New &#62; User-Defined types.",
       "publishedAt": "2026-05-13T18:59:00.000Z"
     },
     {
@@ -439,7 +439,7 @@
       "category": "Azure",
       "title": "From commit to cloud: Powering what’s next for PostgreSQL",
       "link": "https://azure.microsoft.com/en-us/blog/from-commit-to-cloud-powering-whats-next-for-postgresql/",
-      "summary": "PostgreSQL has become foundational to how modern applications are built. It powers everything from early‑stage startups to some of the most demanding production systems in the world. Its longevity isn’t accidental, it’s the result of decades of engineering discipline, community collaboration, and a relentless focus on correctness and extensibility. The post From commit to cloud: Powering what’s next for PostgreSQL appeared first on Microsoft Azure Blog .",
+      "summary": "PostgreSQL has become foundational to how modern applications are built. It powers everything from early‑stage startups to some of the most demanding production systems in the world. Its longevity isn’t accidental, it’s the result of decades of engineering discipline, community collaboration, and a relentless focus on correctness and extensibility.",
       "publishedAt": "2026-05-13T16:00:00.000Z"
     },
     {
@@ -471,7 +471,7 @@
       "category": "Azure",
       "title": "Advancing enterprise AI: New SAP on Azure announcements from SAP Sapphire 2026",
       "link": "https://azure.microsoft.com/en-us/blog/advancing-enterprise-ai-new-sap-on-azure-announcements-from-sap-sapphire-2026/",
-      "summary": "Together, Microsoft and SAP are helping enterprises transform operations, decision-making, and innovation at scale on Azure. The post Advancing enterprise AI: New SAP on Azure announcements from SAP Sapphire 2026 appeared first on Microsoft Azure Blog .",
+      "summary": "Together, Microsoft and SAP are helping enterprises transform operations, decision-making, and innovation at scale on Azure.",
       "publishedAt": "2026-05-12T18:00:00.000Z"
     },
     {
@@ -495,7 +495,7 @@
       "category": "Power Platform",
       "title": "Power Apps MCP server introduces closed-loop learning for enterprise agents",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-apps-mcp-server-introduces-closed-loop-learning-for-enterprise-agents/",
-      "summary": "Building agents is fast. Teaching them how your organization works has been the hard part. Introducing closed-loop learning on the Power Apps MCP server: every correction calibrates the agent to your business, automatically. The post Power Apps MCP server introduces closed-loop learning for enterprise agents appeared first on Microsoft Power Platform Blog .",
+      "summary": "Building agents is fast. Teaching them how your organization works has been the hard part. Introducing closed-loop learning on the Power Apps MCP server: every correction calibrates the agent to your business, automatically.",
       "publishedAt": "2026-05-12T16:00:00.000Z"
     },
     {
@@ -503,7 +503,7 @@
       "category": "Power Platform",
       "title": "Agentic Administration: Dataverse Admin Skills now available in Public Preview",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/05/12/dataverse-agentic-administration/",
-      "summary": "Dataverse Admin Skills (dv-admin) lets Power Platform admins use natural language to manage Dataverse environments at scale. The post Agentic Administration: Dataverse Admin Skills now available in Public Preview appeared first on Microsoft Power Platform Blog .",
+      "summary": "Dataverse Admin Skills (dv-admin) lets Power Platform admins use natural language to manage Dataverse environments at scale.",
       "publishedAt": "2026-05-12T15:33:42.000Z"
     },
     {
@@ -511,7 +511,7 @@
       "category": "Azure",
       "title": "Red Hat Summit 2026: Platform modernization and AI on Microsoft Azure Red Hat OpenShift",
       "link": "https://azure.microsoft.com/en-us/blog/red-hat-summit-2026-platform-modernization-and-ai-on-azure-microsoft-red-hat-openshift/",
-      "summary": "Microsoft and Red Hat show how Azure Red Hat OpenShift powers modernization and production AI with secure, scalable enterprise governance. The post Red Hat Summit 2026: Platform modernization and AI on Microsoft Azure Red Hat OpenShift appeared first on Microsoft Azure Blog .",
+      "summary": "Microsoft and Red Hat show how Azure Red Hat OpenShift powers modernization and production AI with secure, scalable enterprise governance.",
       "publishedAt": "2026-05-11T19:00:00.000Z"
     },
     {
@@ -519,7 +519,7 @@
       "category": "Microsoft 365",
       "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
       "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
-      "summary": "See what's new in Copilot Studio, April 2026: updates to workflows, increased control over agent operations, and an expanded agent usage estimator. The post New and improved: Agent governance, intelligent workflows, and connected app experiences appeared first on Microsoft 365 Blog .",
+      "summary": "See what's new in Copilot Studio, April 2026: updates to workflows, increased control over agent operations, and an expanded agent usage estimator.",
       "publishedAt": "2026-05-11T17:25:12.000Z"
     },
     {
@@ -527,7 +527,7 @@
       "category": "Azure",
       "title": "Build AI apps with Azure Cosmos DB: Key trends from Cosmos Conf 2026",
       "link": "https://azure.microsoft.com/en-us/blog/build-ai-apps-with-azure-cosmos-db-key-trends-from-cosmos-conf-2026/",
-      "summary": "AI is reshaping application development. Explore key trends from Cosmos DB Conf 2026 and how teams are building scalable, AI-native applications with Azure Cosmos DB. The post Build AI apps with Azure Cosmos DB: Key trends from Cosmos Conf 2026 appeared first on Microsoft Azure Blog .",
+      "summary": "AI is reshaping application development. Explore key trends from Cosmos DB Conf 2026 and how teams are building scalable, AI-native applications with Azure Cosmos DB.",
       "publishedAt": "2026-05-11T16:00:00.000Z"
     },
     {
@@ -599,7 +599,7 @@
       "category": "Azure",
       "title": "Scaling cloud and AI: Microsoft Azure&#8217;s commitment to Europe&#8217;s digital future",
       "link": "https://azure.microsoft.com/en-us/blog/scaling-cloud-and-ai-microsoft-azures-commitment-to-europes-digital-future/",
-      "summary": "As demand for cloud and AI grows, Microsoft is expanding Azure across Europe to deliver scalable, resilient infrastructure that supports innovation, compliance, and performance. The post Scaling cloud and AI: Microsoft Azure&#8217;s commitment to Europe&#8217;s digital future appeared first on Microsoft Azure Blog .",
+      "summary": "As demand for cloud and AI grows, Microsoft is expanding Azure across Europe to deliver scalable, resilient infrastructure that supports innovation, compliance, and performance.",
       "publishedAt": "2026-05-06T14:00:00.000Z"
     },
     {
@@ -623,7 +623,7 @@
       "category": "Power Platform",
       "title": "Dataverse Is Your Agent Data Platform: Here’s What’s New",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/05/05/dataverse-agent-data-platform/",
-      "summary": "Microsoft Dataverse is the agent data platform: the layer that gives agents not just data access, but real business understanding. The post Dataverse Is Your Agent Data Platform: Here’s What’s New appeared first on Microsoft Power Platform Blog .",
+      "summary": "Microsoft Dataverse is the agent data platform: the layer that gives agents not just data access, but real business understanding.",
       "publishedAt": "2026-05-05T16:30:00.000Z"
     },
     {
@@ -655,7 +655,7 @@
       "category": "Microsoft 365",
       "title": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
-      "summary": "Today, we’re announcing additional capabilities in Cowork to expand on what it can make possible for you. The post Copilot Cowork: From conversation to action across skills, integrations, and devices appeared first on Microsoft 365 Blog .",
+      "summary": "Today, we’re announcing additional capabilities in Cowork to expand on what it can make possible for you.",
       "publishedAt": "2026-05-05T10:00:00.000Z"
     },
     {
@@ -663,7 +663,7 @@
       "category": "Microsoft 365",
       "title": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
-      "summary": "As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes. The post Microsoft 365 Copilot, human agency, and the opportunity for every organization appeared first on Microsoft 365 Blog .",
+      "summary": "As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes.",
       "publishedAt": "2026-05-05T10:00:00.000Z"
     },
     {
@@ -687,7 +687,7 @@
       "category": "Azure",
       "title": "Azure IaaS: Defense in depth built on secure-by-design principles",
       "link": "https://azure.microsoft.com/en-us/blog/azure-iaas-defense-in-depth-built-on-secure-by-design-principles/",
-      "summary": "Security for cloud infrastructure is no longer defined by a single control, product, or boundary. Modern threats target identity, software supply chains, control planes, networks, and data simultaneously. The post Azure IaaS: Defense in depth built on secure-by-design principles appeared first on Microsoft Azure Blog .",
+      "summary": "Security for cloud infrastructure is no longer defined by a single control, product, or boundary. Modern threats target identity, software supply chains, control planes, networks, and data simultaneously.",
       "publishedAt": "2026-05-04T16:00:00.000Z"
     },
     {
@@ -703,7 +703,7 @@
       "category": "Power Platform",
       "title": "Introducing business skills: Teach agents how your organization works",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/05/01/business-skills/",
-      "summary": "Business skills in Dataverse can capture your organization’s processes, policies, and domain expertise as natural-language instructions that AI agents discover and follow. The post Introducing business skills: Teach agents how your organization works appeared first on Microsoft Power Platform Blog .",
+      "summary": "Business skills in Dataverse can capture your organization’s processes, policies, and domain expertise as natural-language instructions that AI agents discover and follow.",
       "publishedAt": "2026-05-01T18:05:46.000Z"
     },
     {
@@ -711,7 +711,7 @@
       "category": "Microsoft 365",
       "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-      "summary": "Microsoft Agent 365 helps you take control of agent sprawl as your control plane to observe, govern, and secure agents and their interactions. The post Microsoft Agent 365, now generally available, expands capabilities and integrations appeared first on Microsoft 365 Blog .",
+      "summary": "Microsoft Agent 365 helps you take control of agent sprawl as your control plane to observe, govern, and secure agents and their interactions.",
       "publishedAt": "2026-05-01T15:00:00.000Z"
     },
     {
@@ -727,7 +727,7 @@
       "category": "Azure",
       "title": "Enforcing trust and transparency: Open-sourcing the Azure Integrated HSM",
       "link": "https://azure.microsoft.com/en-us/blog/enforcing-trust-and-transparency-open-sourcing-the-azure-integrated-hsm/",
-      "summary": "As cloud workloads become more agentic and AI systems handle increasingly sensitive data, trust must be engineered directly into infrastructure. Azure Integrated HSM brings hardware‑enforced key protection into Azure, extending cryptographic trust from silicon to services through verifiable and transparent design. The post Enforcing trust and transparency: Open-sourcing the Azure Integrated HSM appeared first on Microsoft Azure Blog .",
+      "summary": "As cloud workloads become more agentic and AI systems handle increasingly sensitive data, trust must be engineered directly into infrastructure. Azure Integrated HSM brings hardware‑enforced key protection into Azure, extending cryptographic trust from silicon to services through verifiable and transparent design.",
       "publishedAt": "2026-04-30T18:00:00.000Z"
     },
     {
@@ -799,7 +799,7 @@
       "category": "Azure",
       "title": "Microsoft named a Leader in the IDC MarketScape: Worldwide API Management 2026 Vendor Assessment",
       "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-idc-marketscape-worldwide-api-management-2026-vendor-assessment/",
-      "summary": "Azure API Management provides a single, Azure-native platform to govern everything from traditional APIs to AI models, tools, and agents. The post Microsoft named a Leader in the IDC MarketScape: Worldwide API Management 2026 Vendor Assessment appeared first on Microsoft Azure Blog .",
+      "summary": "Azure API Management provides a single, Azure-native platform to govern everything from traditional APIs to AI models, tools, and agents.",
       "publishedAt": "2026-04-28T16:00:00.000Z"
     },
     {
@@ -815,7 +815,7 @@
       "category": "Azure",
       "title": "Microsoft Sovereign Private Cloud scales to thousands of nodes with Azure Local",
       "link": "https://blogs.microsoft.com/blog/2026/04/27/microsoft-sovereign-private-cloud-scales-to-thousands-of-nodes-with-azure-local/",
-      "summary": "Azure Local scales Microsoft Sovereign Private Cloud, supporting AI and data workloads with full control, compliance, and disconnected operations. The post Microsoft Sovereign Private Cloud scales to thousands of nodes with Azure Local appeared first on Microsoft Azure Blog .",
+      "summary": "Azure Local scales Microsoft Sovereign Private Cloud, supporting AI and data workloads with full control, compliance, and disconnected operations.",
       "publishedAt": "2026-04-27T18:00:00.000Z"
     },
     {
@@ -831,7 +831,7 @@
       "category": "Power Platform",
       "title": "From Ideas to Impact: How Frontier Firms scale agents with confidence",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/27/from-ideas-to-impact-how-frontier-firms-scale-agents-with-confidence/",
-      "summary": "Frontier Firms scale AI agents by starting with workflows and embedding them into existing apps. With strong governance, deliberate adoption, and focus on measurable value, they move beyond pilots to deliver real, scalable business impact. The post From Ideas to Impact: How Frontier Firms scale agents with confidence appeared first on Microsoft Power Platform Blog .",
+      "summary": "Frontier Firms scale AI agents by starting with workflows and embedding them into existing apps. With strong governance, deliberate adoption, and focus on measurable value, they move beyond pilots to deliver real, scalable business impact.",
       "publishedAt": "2026-04-27T15:00:00.000Z"
     },
     {
@@ -911,7 +911,7 @@
       "category": "Power Platform",
       "title": "More Secure SharePoint Integration in Power Pages with Site‑Scoped Permissions",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/more-secure-sharepoint-integration-in-power-pages-with-site%e2%80%91scoped-permissions/",
-      "summary": "Strong security and governance are essential for any external-facing web presence. Power Pages now strengthens this with enhanced SharePoint permission management shifting from broad site collection access to precise, site-level controls. Key improvements This change ensures that Power Pages site only has access to the SharePoint resources it truly needs nothing more. The post More Secure SharePoint Integration in Power Pages with Site‑Scoped Permissions appeared first on Microsoft Power Platform Blog .",
+      "summary": "Strong security and governance are essential for any external-facing web presence. Power Pages now strengthens this with enhanced SharePoint permission management shifting from broad site collection access to precise, site-level controls. Key improvements This change ensures that Power Pages site only has access to the SharePoint resources it truly needs nothing more.",
       "publishedAt": "2026-04-23T13:25:07.000Z"
     },
     {
@@ -919,7 +919,7 @@
       "category": "Microsoft 365",
       "title": "Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-      "summary": "From first draft to final polish, Copilot acts as a true collaborator, taking action while you stay in control. The post Copilot&#8217;s agentic capabilities in Word, Excel, and PowerPoint are generally available appeared first on Microsoft 365 Blog .",
+      "summary": "From first draft to final polish, Copilot acts as a true collaborator, taking action while you stay in control.",
       "publishedAt": "2026-04-23T00:00:00.000Z"
     },
     {
@@ -935,7 +935,7 @@
       "category": "Power Platform",
       "title": "Custom tools and rich UI for app-based conversations are now in Public Preview",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/22/custom-tools-and-rich-ui-for-app-based-conversations-are-now-in-public-preview/",
-      "summary": "Discover how custom tools and rich, app‑powered UI experiences can elevate business app conversations in Microsoft 365 Copilot. This public preview introduces new ways to surface app intelligence, drive action, and deliver more contextual, intuitive interactions - directly within the flow of work. The post Custom tools and rich UI for app-based conversations are now in Public Preview appeared first on Microsoft Power Platform Blog .",
+      "summary": "Discover how custom tools and rich, app‑powered UI experiences can elevate business app conversations in Microsoft 365 Copilot. This public preview introduces new ways to surface app intelligence, drive action, and deliver more contextual, intuitive interactions - directly within the flow of work.",
       "publishedAt": "2026-04-22T19:11:22.000Z"
     },
     {
@@ -1015,7 +1015,7 @@
       "category": "Power Platform",
       "title": "Intelligent apps, human leadership, and the new shape of work",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/04/20/intelligent-apps-human-leadership-and-the-new-shape-of-work/",
-      "summary": "When people talk about AI at work, the conversation usually jumps straight to speed. Faster tasks. Faster decisions. Faster output. The post Intelligent apps, human leadership, and the new shape of work appeared first on Microsoft Power Platform Blog .",
+      "summary": "When people talk about AI at work, the conversation usually jumps straight to speed. Faster tasks. Faster decisions. Faster output.",
       "publishedAt": "2026-04-20T15:00:00.000Z"
     },
     {
@@ -1159,7 +1159,7 @@
       "category": "Microsoft 365",
       "title": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
-      "summary": "Microsoft 365 Copilot can now bring your go-to apps directly into the conversation, which closes the gap between AI-powered insight and real, in-app action. The post Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot appeared first on Microsoft 365 Blog .",
+      "summary": "Microsoft 365 Copilot can now bring your go-to apps directly into the conversation, which closes the gap between AI-powered insight and real, in-app action.",
       "publishedAt": "2026-04-13T15:00:00.000Z"
     },
     {
@@ -1271,7 +1271,7 @@
       "category": "Microsoft 365",
       "title": "New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration",
       "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-multi-agent-orchestration-connected-experiences-and-faster-prompt-iteration/",
-      "summary": "Learn what’s new in Copilot Studio: Multi-agent systems are now generally available, plus recent updates to the Prompt Editor and governance controls. The post New and improved: Multi-agent orchestration, connected experiences, and faster prompt iteration appeared first on Microsoft 365 Blog .",
+      "summary": "Learn what’s new in Copilot Studio: Multi-agent systems are now generally available, plus recent updates to the Prompt Editor and governance controls.",
       "publishedAt": "2026-04-01T21:45:00.000Z"
     },
     {
@@ -1439,7 +1439,7 @@
       "category": "Microsoft 365",
       "title": "Copilot Cowork: Now available in Frontier",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/",
-      "summary": "Today, Copilot Cowork—designed for long-running, multi-step work in Microsoft 365—is available via the Frontier program. The post Copilot Cowork: Now available in Frontier appeared first on Microsoft 365 Blog .",
+      "summary": "Today, Copilot Cowork—designed for long-running, multi-step work in Microsoft 365—is available via the Frontier program.",
       "publishedAt": "2026-03-30T13:00:00.000Z"
     },
     {
