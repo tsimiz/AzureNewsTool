@@ -6,8 +6,5 @@
   "scripts": {
     "fetch-news": "node scripts/fetch-news.mjs",
     "test": "node --test"
-  },
-  "devDependencies": {
-    "serve": "^14.2.6"
   }
 }

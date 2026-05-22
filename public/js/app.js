@@ -3,7 +3,11 @@ import { formatDate, buildDebugPanelHtml, categorySlug, getSubcategory, filterBy
 const WINDOW_DAYS = 30;
 const ARCHIVE_START = new Date('2026-01-01T00:00:00.000Z');
 const FLIP_DURATION_MS = 320;
+const FLIP_CLEANUP_BUFFER_MS = 50;
 const FADE_OUT_MS = 150;
+const APPEAR_DURATION_MS = 250;
+const APPEAR_STAGGER_MS = 25;
+const APPEAR_MAX_DELAY_MS = 120;
 
 const state = {
   items: [],
@@ -66,7 +70,7 @@ const getTimeGroup = (publishedAt) => {
   const now = new Date();
   const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
   const yesterdayStart = new Date(todayStart - 86400000);
-  const weekStart = new Date(todayStart - 6 * 86400000);
+  const weekStart = new Date(todayStart - 7 * 86400000);
 
   if (itemDate >= todayStart) return 'Today';
   if (itemDate >= yesterdayStart) return 'Yesterday';
@@ -271,7 +275,7 @@ const applyFLIP = (beforeRects, cards) => {
       setTimeout(() => {
         card.style.transition = '';
         card.style.transform = '';
-      }, FLIP_DURATION_MS + 50);
+      }, FLIP_DURATION_MS + FLIP_CLEANUP_BUFFER_MS);
     });
   });
 };
@@ -353,11 +357,11 @@ const applyFilter = () => {
       // Fade in newly appearing cards
       willAppear.forEach((card, i) => {
         setTimeout(() => {
-          card.style.transition = 'opacity 0.25s ease, transform 0.25s ease';
+          card.style.transition = `opacity ${APPEAR_DURATION_MS}ms ease, transform ${APPEAR_DURATION_MS}ms ease`;
           card.style.opacity = '';
           card.style.transform = '';
-          setTimeout(() => { card.style.transition = ''; }, 300);
-        }, Math.min(i * 25, 120));
+          setTimeout(() => { card.style.transition = ''; }, APPEAR_DURATION_MS + FLIP_CLEANUP_BUFFER_MS);
+        }, Math.min(i * APPEAR_STAGGER_MS, APPEAR_MAX_DELAY_MS));
       });
 
       updateCategoryCounts();
