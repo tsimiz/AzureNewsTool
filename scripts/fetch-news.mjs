@@ -21,6 +21,7 @@ const decode = (value = '') =>
     .replace(/&amp;/g, '&')
     .replace(/<[^>]*>/g, ' ')
     .replace(/\s+/g, ' ')
+    .replace(/\s*The post .+ appeared first on .+\s*\.?\s*$/, '')
     .trim();
 
 const pickField = (block, names) => {
