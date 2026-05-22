@@ -23,5 +23,10 @@
     "name": "Power Platform Blog",
     "category": "Power Platform",
     "url": "https://www.microsoft.com/en-us/power-platform/blog/feed/"
+  },
+  {
+    "name": "Microsoft Developer Blogs",
+    "category": "Developer",
+    "url": "https://devblogs.microsoft.com/landing"
   }
 ]
