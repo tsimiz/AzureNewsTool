@@ -9,7 +9,7 @@ const sourcesPath = path.join(__dirname, 'news-sources.json');
 const outputPath = path.join(repoRoot, 'public', 'data', 'news.json');
 const suggestionsPath = path.join(repoRoot, 'public', 'data', 'suggestions.json');
 
-const maxItems = 200;
+const ARCHIVE_START_ISO = '2026-01-01T00:00:00.000Z';
 
 const decode = (value = '') =>
   value
@@ -119,23 +119,31 @@ const main = async () => {
   );
 
   const dedupe = new Map();
-  for (const item of results.flat()) {
-    const key = `${item.link}|${item.title}`;
-    if (!dedupe.has(key)) {
+
+  // Load existing archive items as baseline (keeps accumulating over time)
+  let existingItems = [];
+  try {
+    const existing = JSON.parse(await readFile(outputPath, 'utf8'));
+    existingItems = Array.isArray(existing.items) ? existing.items : [];
+  } catch {
+    // No existing file yet; start fresh
+  }
+  for (const item of existingItems) {
+    if (item.publishedAt >= ARCHIVE_START_ISO) {
+      const key = `${item.link}|${item.title}`;
       dedupe.set(key, item);
     }
   }
 
-  let items = [...dedupe.values()].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)).slice(0, maxItems);
-
-  if (items.length === 0) {
-    try {
-      const existing = JSON.parse(await readFile(outputPath, 'utf8'));
-      items = Array.isArray(existing.items) ? existing.items : [];
-    } catch {
-      items = [];
+  // New feed items override existing entries (fresher data takes precedence)
+  for (const item of results.flat()) {
+    if (item.publishedAt >= ARCHIVE_START_ISO) {
+      const key = `${item.link}|${item.title}`;
+      dedupe.set(key, item);
     }
   }
+
+  const items = [...dedupe.values()].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 
   const payload = {
     generatedAt: new Date().toISOString(),

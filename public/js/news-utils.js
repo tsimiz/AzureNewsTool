@@ -1,5 +1,22 @@
 export const normalize = (value = '') => value.toLowerCase().trim();
 
+export const filterByDateWindow = (items, cutoffDate) => {
+  const cutoff = cutoffDate instanceof Date ? cutoffDate : new Date(cutoffDate);
+  return items.filter((item) => {
+    const d = new Date(item.publishedAt);
+    return !Number.isNaN(d.getTime()) && d >= cutoff;
+  });
+};
+
+export const hasOlderItems = (items, cutoffDate, archiveStart) => {
+  const cutoff = cutoffDate instanceof Date ? cutoffDate : new Date(cutoffDate);
+  const start = archiveStart instanceof Date ? archiveStart : new Date(archiveStart);
+  return items.some((item) => {
+    const d = new Date(item.publishedAt);
+    return !Number.isNaN(d.getTime()) && d < cutoff && d >= start;
+  });
+};
+
 export const categorySlug = (category = '') =>
   category.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
 

@@ -1,9 +1,13 @@
-import { filterItems, formatDate, buildDebugPanelHtml, categorySlug } from './news-utils.js';
+import { filterItems, formatDate, buildDebugPanelHtml, categorySlug, filterByDateWindow, hasOlderItems } from './news-utils.js';
+
+const WINDOW_DAYS = 30;
+const ARCHIVE_START = new Date('2026-01-01T00:00:00.000Z');
 
 const state = {
   items: [],
   suggestions: [],
-  activeCategory: ''
+  activeCategory: '',
+  visibleWindows: 1
 };
 
 const elements = {
@@ -21,7 +25,9 @@ const elements = {
   aiModalSave: document.getElementById('aiModalSave'),
   aiModalCancel: document.getElementById('aiModalCancel'),
   debugPanel: document.getElementById('debugPanel'),
-  topicBtns: document.querySelectorAll('.topic-btn')
+  topicBtns: document.querySelectorAll('.topic-btn'),
+  olderContainer: document.getElementById('olderContainer'),
+  olderBtn: document.getElementById('olderBtn')
 };
 
 const isDebugMode = new URLSearchParams(location.search).has('debug');
@@ -140,19 +146,27 @@ export const renderDebugPanel = (sources, items, generatedAt) => {
 // ── Rendering ──────────────────────────────────────────────────────────────
 
 const render = () => {
+  const windowCutoff = new Date(Date.now() - state.visibleWindows * WINDOW_DAYS * 24 * 60 * 60 * 1000);
+
   let filtered = filterItems(state.items, elements.search.value);
   if (state.activeCategory) {
     filtered = filtered.filter((item) => categorySlug(item.category) === state.activeCategory);
   }
-  filtered = filtered.slice(0, 100);
-  elements.stats.textContent = `Showing ${filtered.length} of ${state.items.length} entries`;
 
-  if (filtered.length === 0) {
-    elements.list.innerHTML = '<p class="empty">No release notes match your search.</p>';
+  const visibleItems = filterByDateWindow(filtered, windowCutoff);
+  const showOlder = hasOlderItems(filtered, windowCutoff, ARCHIVE_START);
+
+  elements.stats.textContent = `Showing ${visibleItems.length} of ${state.items.length} entries`;
+  elements.olderContainer.hidden = !showOlder;
+
+  if (visibleItems.length === 0) {
+    elements.list.innerHTML = showOlder
+      ? `<p class="empty">No entries in the past ${state.visibleWindows * WINDOW_DAYS} days. Click "Older" below to load earlier entries.</p>`
+      : '<p class="empty">No release notes match your search.</p>';
     return;
   }
 
-  elements.list.innerHTML = filtered
+  elements.list.innerHTML = visibleItems
     .map(
       (item, index) => `
         <article class="card" data-index="${index}" data-category="${categorySlug(item.category)}">
@@ -175,7 +189,7 @@ const render = () => {
   elements.list.querySelectorAll('.btn-ai').forEach((btn) => {
     btn.addEventListener('click', async () => {
       const index = Number(btn.dataset.index);
-      const item = filtered[index];
+      const item = visibleItems[index];
       const summaryEl = document.getElementById(`ai-summary-${index}`);
 
       btn.disabled = true;
@@ -232,13 +246,22 @@ const init = async () => {
 elements.topicBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     state.activeCategory = btn.dataset.category;
+    state.visibleWindows = 1;
     elements.topicBtns.forEach((b) => b.classList.remove('active'));
     btn.classList.add('active');
     render();
   });
 });
 
-elements.search.addEventListener('input', render);
+elements.search.addEventListener('input', () => {
+  state.visibleWindows = 1;
+  render();
+});
+
+elements.olderBtn.addEventListener('click', () => {
+  state.visibleWindows += 1;
+  render();
+});
 
 init().catch((error) => {
   console.error(error);
