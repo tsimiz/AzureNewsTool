@@ -20,6 +20,14 @@ export const hasOlderItems = (items, cutoffDate, archiveStart) => {
 export const categorySlug = (category = '') =>
   category.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
 
+export const getSubcategory = (item) => {
+  const text = `${item.title} ${item.summary || ''}`.toLowerCase();
+  if (/\bgenerally available\b|\blaunched\b/.test(text)) return 'Generally Available';
+  if (/\bpublic preview\b|\bin preview\b/.test(text)) return 'Public Preview';
+  if (/\bretirement\b|\bretiring\b/.test(text)) return 'Retirement';
+  return '';
+};
+
 export const filterItems = (items, keyword) => {
   const normalizedKeyword = normalize(keyword);
   if (!normalizedKeyword) {

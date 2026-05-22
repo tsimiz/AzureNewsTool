@@ -1,4 +1,4 @@
-import { filterItems, formatDate, buildDebugPanelHtml, categorySlug, filterByDateWindow, hasOlderItems } from './news-utils.js';
+import { filterItems, formatDate, buildDebugPanelHtml, categorySlug, getSubcategory, filterByDateWindow, hasOlderItems } from './news-utils.js';
 
 const WINDOW_DAYS = 30;
 const ARCHIVE_START = new Date('2026-01-01T00:00:00.000Z');
@@ -7,6 +7,7 @@ const state = {
   items: [],
   suggestions: [],
   activeCategory: '',
+  activeSubcategory: '',
   visibleWindows: 1
 };
 
@@ -26,6 +27,7 @@ const elements = {
   aiModalCancel: document.getElementById('aiModalCancel'),
   debugPanel: document.getElementById('debugPanel'),
   topicBtns: document.querySelectorAll('.topic-btn'),
+  subcategoryFilters: document.getElementById('subcategoryFilters'),
   olderContainer: document.getElementById('olderContainer'),
   olderBtn: document.getElementById('olderBtn')
 };
@@ -145,12 +147,47 @@ export const renderDebugPanel = (sources, items, generatedAt) => {
 
 // ── Rendering ──────────────────────────────────────────────────────────────
 
+const renderSubcategoryFilters = (categoryItems) => {
+  const subEl = elements.subcategoryFilters;
+  if (!state.activeCategory) {
+    subEl.hidden = true;
+    return;
+  }
+  const available = [...new Set(categoryItems.map(getSubcategory).filter(Boolean))];
+  if (available.length === 0) {
+    subEl.hidden = true;
+    return;
+  }
+  subEl.hidden = false;
+  subEl.innerHTML = available
+    .map((s) => {
+      const slug = categorySlug(s);
+      const isActive = state.activeSubcategory === slug;
+      return `<button class="subcategory-btn${isActive ? ' active' : ''}" data-subcategory="${slug}">${s}</button>`;
+    })
+    .join('');
+  subEl.querySelectorAll('.subcategory-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      state.activeSubcategory = btn.dataset.subcategory === state.activeSubcategory ? '' : btn.dataset.subcategory;
+      state.visibleWindows = 1;
+      render();
+    });
+  });
+};
+
 const render = () => {
   const windowCutoff = new Date(Date.now() - state.visibleWindows * WINDOW_DAYS * 24 * 60 * 60 * 1000);
 
   let filtered = filterItems(state.items, elements.search.value);
   if (state.activeCategory) {
     filtered = filtered.filter((item) => categorySlug(item.category) === state.activeCategory);
+  }
+
+  // Render subcategory pills based on category-filtered items (before subcategory filter)
+  renderSubcategoryFilters(filtered);
+
+  if (state.activeSubcategory) {
+    filtered = filtered.filter((item) => categorySlug(getSubcategory(item)) === state.activeSubcategory);
   }
 
   const visibleItems = filterByDateWindow(filtered, windowCutoff);
@@ -168,10 +205,17 @@ const render = () => {
 
   elements.list.innerHTML = visibleItems
     .map(
-      (item, index) => `
+      (item, index) => {
+        const subcat = getSubcategory(item);
+        const subcatSlug = subcat ? categorySlug(subcat) : '';
+        const subcatHtml = subcat
+          ? `<button class="meta-tag meta-subcategory meta-subcategory--${subcatSlug}" data-subcategory="${subcatSlug}">${subcat}</button>`
+          : '';
+        return `
         <article class="card" data-index="${index}" data-category="${categorySlug(item.category)}">
           <div class="meta">
-            <span>${item.category}</span>
+            <button class="meta-tag meta-category" data-category="${categorySlug(item.category)}">${item.category}</button>
+            ${subcatHtml}
             <span>${item.source}</span>
             <span>${formatDate(item.publishedAt)}</span>
           </div>
@@ -182,9 +226,31 @@ const render = () => {
           </div>
           <div class="ai-summary" id="ai-summary-${index}" aria-live="polite" hidden></div>
         </article>
-      `
+      `;
+      }
     )
     .join('');
+
+  elements.list.querySelectorAll('.meta-category').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      state.activeCategory = btn.dataset.category;
+      state.activeSubcategory = '';
+      state.visibleWindows = 1;
+      elements.topicBtns.forEach((b) => b.classList.toggle('active', b.dataset.category === state.activeCategory));
+      render();
+    });
+  });
+
+  elements.list.querySelectorAll('.meta-subcategory').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const card = btn.closest('.card');
+      state.activeCategory = card.dataset.category;
+      state.activeSubcategory = btn.dataset.subcategory === state.activeSubcategory ? '' : btn.dataset.subcategory;
+      state.visibleWindows = 1;
+      elements.topicBtns.forEach((b) => b.classList.toggle('active', b.dataset.category === state.activeCategory));
+      render();
+    });
+  });
 
   elements.list.querySelectorAll('.btn-ai').forEach((btn) => {
     btn.addEventListener('click', async () => {
@@ -246,6 +312,7 @@ const init = async () => {
 elements.topicBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     state.activeCategory = btn.dataset.category;
+    state.activeSubcategory = '';
     state.visibleWindows = 1;
     elements.topicBtns.forEach((b) => b.classList.remove('active'));
     btn.classList.add('active');

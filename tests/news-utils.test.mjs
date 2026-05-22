@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { filterItems, formatDate, buildDebugPanelHtml, categorySlug, filterByDateWindow, hasOlderItems } from '../public/js/news-utils.js';
+import { filterItems, formatDate, buildDebugPanelHtml, categorySlug, getSubcategory, filterByDateWindow, hasOlderItems } from '../public/js/news-utils.js';
 
 test('filterItems finds by keyword and category', () => {
   const items = [
@@ -66,6 +66,41 @@ test('categorySlug converts category names to CSS-safe slugs', () => {
   assert.equal(categorySlug('Security'), 'security');
   assert.equal(categorySlug('Developer'), 'developer');
   assert.equal(categorySlug(''), '');
+});
+
+test('getSubcategory detects Generally Available from "launched"', () => {
+  assert.equal(getSubcategory({ title: 'New feature launched today', summary: '' }), 'Generally Available');
+});
+
+test('getSubcategory detects Generally Available from title phrase', () => {
+  assert.equal(getSubcategory({ title: 'Feature is now generally available', summary: '' }), 'Generally Available');
+});
+
+test('getSubcategory detects Public Preview from "public preview"', () => {
+  assert.equal(getSubcategory({ title: 'New feature in public preview', summary: '' }), 'Public Preview');
+});
+
+test('getSubcategory detects Public Preview from "in preview"', () => {
+  assert.equal(getSubcategory({ title: 'Feature available in preview now', summary: '' }), 'Public Preview');
+});
+
+test('getSubcategory detects Retirement', () => {
+  assert.equal(getSubcategory({ title: 'Service retirement notice', summary: '' }), 'Retirement');
+});
+
+test('getSubcategory detects Retirement from "retiring"', () => {
+  assert.equal(getSubcategory({ title: 'Feature is retiring in June', summary: '' }), 'Retirement');
+});
+
+test('getSubcategory returns empty string for unmatched items', () => {
+  assert.equal(getSubcategory({ title: 'Azure Functions update', summary: 'General update' }), '');
+});
+
+test('getSubcategory checks summary when title does not match', () => {
+  assert.equal(
+    getSubcategory({ title: 'Azure news', summary: 'This feature is now generally available' }),
+    'Generally Available'
+  );
 });
 
 test('filterByDateWindow returns only items on or after the cutoff date', () => {
