@@ -4,11 +4,12 @@ AzureNewsTool is an Azure-inspired static web app that aggregates Microsoft and 
 
 ## Feed sources currently configured
 
-- Azure Updates — `https://azure.microsoft.com/en-us/updates/feed/`
+- Azure Updates — `https://www.microsoft.com/releasecommunications/api/v2/azure/rss`
 - Azure Blog — `https://azure.microsoft.com/en-us/blog/feed/`
 - Microsoft Security Blog — `https://www.microsoft.com/en-us/security/blog/feed/`
 - Microsoft 365 Blog — `https://www.microsoft.com/en-us/microsoft-365/blog/feed/`
 - Power Platform Blog — `https://www.microsoft.com/en-us/power-platform/blog/feed/`
+- Microsoft Developer Blogs — `https://devblogs.microsoft.com/landing`
 
 Source definitions live in `/scripts/news-sources.json`.
 
