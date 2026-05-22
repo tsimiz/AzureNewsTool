@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { filterItems, formatDate, buildDebugPanelHtml, categorySlug } from '../public/js/news-utils.js';
+import { filterItems, formatDate, buildDebugPanelHtml, categorySlug, filterByDateWindow, hasOlderItems } from '../public/js/news-utils.js';
 
 test('filterItems finds by keyword and category', () => {
   const items = [
@@ -64,5 +64,80 @@ test('categorySlug converts category names to CSS-safe slugs', () => {
   assert.equal(categorySlug('Microsoft 365'), 'microsoft-365');
   assert.equal(categorySlug('Power Platform'), 'power-platform');
   assert.equal(categorySlug('Security'), 'security');
+  assert.equal(categorySlug('Developer'), 'developer');
   assert.equal(categorySlug(''), '');
+});
+
+test('filterByDateWindow returns only items on or after the cutoff date', () => {
+  const now = new Date();
+  const recentDate = new Date(now.getTime() - 5 * 24 * 60 * 60 * 1000).toISOString();
+  const oldDate = new Date(now.getTime() - 60 * 24 * 60 * 60 * 1000).toISOString();
+  const cutoff = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+
+  const items = [
+    { title: 'Recent item', publishedAt: recentDate },
+    { title: 'Old item', publishedAt: oldDate }
+  ];
+
+  const result = filterByDateWindow(items, cutoff);
+  assert.equal(result.length, 1);
+  assert.equal(result[0].title, 'Recent item');
+});
+
+test('filterByDateWindow accepts a date string as cutoff', () => {
+  const cutoffStr = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString();
+  const recentDate = new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString();
+  const items = [{ title: 'Recent', publishedAt: recentDate }];
+
+  const result = filterByDateWindow(items, cutoffStr);
+  assert.equal(result.length, 1);
+});
+
+test('filterByDateWindow excludes items with invalid publishedAt', () => {
+  const cutoff = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
+  const items = [
+    { title: 'Valid recent', publishedAt: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString() },
+    { title: 'Invalid date', publishedAt: 'not-a-date' }
+  ];
+
+  const result = filterByDateWindow(items, cutoff);
+  assert.equal(result.length, 1);
+  assert.equal(result[0].title, 'Valid recent');
+});
+
+test('hasOlderItems returns true when items exist between archiveStart and cutoff', () => {
+  const now = new Date();
+  const archiveStart = new Date(now.getTime() - 365 * 24 * 60 * 60 * 1000);
+  const cutoff = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+  const recentDate = new Date(now.getTime() - 5 * 24 * 60 * 60 * 1000).toISOString();
+  const olderDate = new Date(now.getTime() - 60 * 24 * 60 * 60 * 1000).toISOString();
+
+  const items = [
+    { title: 'Recent', publishedAt: recentDate },
+    { title: 'Older', publishedAt: olderDate }
+  ];
+
+  assert.equal(hasOlderItems(items, cutoff, archiveStart), true);
+});
+
+test('hasOlderItems returns false when no items exist before cutoff within archive range', () => {
+  const now = new Date();
+  const archiveStart = new Date(now.getTime() - 365 * 24 * 60 * 60 * 1000);
+  const cutoff = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+  const recentDate = new Date(now.getTime() - 5 * 24 * 60 * 60 * 1000).toISOString();
+
+  const items = [{ title: 'Recent', publishedAt: recentDate }];
+
+  assert.equal(hasOlderItems(items, cutoff, archiveStart), false);
+});
+
+test('hasOlderItems returns false when older items are before archiveStart', () => {
+  const now = new Date();
+  const archiveStart = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+  const cutoff = new Date(now.getTime() - 5 * 24 * 60 * 60 * 1000);
+  const veryOldDate = new Date(now.getTime() - 60 * 24 * 60 * 60 * 1000).toISOString();
+
+  const items = [{ title: 'Very old', publishedAt: veryOldDate }];
+
+  assert.equal(hasOlderItems(items, cutoff, archiveStart), false);
 });
