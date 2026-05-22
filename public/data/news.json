@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-22T12:47:20.860Z",
-  "itemCount": 250,
+  "generatedAt": "2026-05-22T18:35:59.064Z",
+  "itemCount": 255,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,38 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
+      "summary": "Microsoft has been recognized as a Leader in The Forrester Wave™: Workforce Identity Security Platforms, Q2 2026, receiving the highest scores in both the current offering and strategy categories.",
+      "publishedAt": "2026-05-22T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "From edge appliance to enterprise compromise: Multi-stage Linux intrusion via F5 and Confluence",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/from-edge-appliance-to-enterprise-compromise-multi-stage-linux-intrusion-via-f5-and-confluence/",
+      "summary": "A multi-stage attack on Linux devices began with an exposed F5 BIG-IP edge appliance and pivoted to an internal Confluence server for credential theft and identity compromise. Learn how the threat actor attempted Kerberos relay and lateral movement, and how Microsoft Defender detected, blocked, and unraveled the attack.",
+      "publishedAt": "2026-05-22T16:53:39.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Microsoft Security success stories: How St. Luke&#8217;s and ManpowerGroup are securing AI foundations",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-security-success-stories-how-st-lukes-and-manpowergroup-are-securing-ai-foundations/",
+      "summary": "How Frontier firms secure AI at scale: read how Microsoft customers embed governance, identity, and cloud security to make protection an enabler of AI growth.",
+      "publishedAt": "2026-05-22T16:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Azure NetApp Files for EDA workloads: From revolution to breakthrough at scale",
+      "link": "https://azure.microsoft.com/en-us/blog/azure-netapp-files-for-eda-workloads-from-revolution-to-breakthrough-at-scale/",
+      "summary": "Azure NetApp Files is redefining what’s possible for EDA in the cloud—delivering scalable, high-performance storage that supports massive concurrency, low latency, and consistent production performance. With independent benchmark validation and real-world adoption, organizations can now run EDA workloads at scale without traditional storage bottlenecks.",
+      "publishedAt": "2026-05-22T15:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -1174,6 +1206,14 @@
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Generally Available: Event Grid as a destination for Stripe events now in Public Preview",
+      "link": "https://azure.microsoft.com/updates?id=559836",
+      "summary": "Developers can now route Stripe events directly into Azure Event Grid and build scalable, event-driven architectures without managing webhook infrastructure or custom brokers.This means that Event Grid acts as a fully managed event broker between Stripe a",
+      "publishedAt": "2026-04-10T17:00:41.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Generally Available: Event Grid as a destination for Stripe events",
       "link": "https://azure.microsoft.com/updates?id=559836",
       "summary": "Developers can now route Stripe events directly into Azure Event Grid and build scalable, event-driven architectures without managing webhook infrastructure or custom brokers.This means that Event Grid acts as a fully managed event broker between Stripe a",
       "publishedAt": "2026-04-10T17:00:41.000Z"
