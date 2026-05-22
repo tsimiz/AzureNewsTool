@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T18:37:03.238Z",
+  "generatedAt": "2026-05-22T00:35:03.049Z",
   "itemCount": 200,
   "sources": [
     {
@@ -29,6 +29,46 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Entra-only identities with Azure Files",
+      "link": "https://azure.microsoft.com/updates?id=562359",
+      "summary": "Azure Files announces general availability of Entra-only identities for SMB access, enabling organizations to securely access file shares using cloud-native identities without requiring Active Directory or hybrid identity infrastructure. With Microsoft En",
+      "publishedAt": "2026-05-21T22:00:20.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure NetApp Files object REST API",
+      "link": "https://azure.microsoft.com/updates?id=562254",
+      "summary": "The Object REST API (an S3-compatible REST API) on Azure NetApp Files bridges the gap between traditional file-based storage and modern cloud services, enabling you to use your existing data in new ways. With the Object REST API, you can seamlessly integr",
+      "publishedAt": "2026-05-21T21:45:32.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: TLS 1.0 and TLS 1.1 in Azure App Service, Azure Functions, and Azure Logic Apps",
+      "link": "https://azure.microsoft.com/updates?id=557852",
+      "summary": "As part of Azure’s ongoing security improvements, App Service, Functions, and Logic Apps will no longer accept connections using TLS 1.0 or TLS 1.1 after May 31, 2027. Any client, application, or service that continues to use these legacy TLS versions wil",
+      "publishedAt": "2026-05-21T21:45:32.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: User Groups and IP address pools for P2S connections",
+      "link": "https://azure.microsoft.com/updates?id=564460",
+      "summary": "User Groups and IP Address Pools for Point-to-Site connections in VPN Gateway enable customers to assign distinct IP address pools to remote users based on their credentials. With this capability, customers can organize remote users into separate groups a",
+      "publishedAt": "2026-05-21T18:45:42.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: TLS/SSL certificate support for Azure Functions Flex Consumption",
+      "link": "https://azure.microsoft.com/updates?id=562808",
+      "summary": "Flex Consumption introduces a site-scoped certificate model in public preview in all the regions where Flex Consumption is available. Unlike webspace-scoped certificates on other hosting plans which are shared across apps in the same region + resource gro",
+      "publishedAt": "2026-05-21T18:45:42.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
@@ -1588,46 +1628,6 @@
       "link": "https://azure.microsoft.com/updates?id=558810",
       "summary": "Azure Databricks now offers a Lakeflow Connect Free Tier that gives each workspace 100 free DBUs per workspace per day for ingestion from SaaS applications and databases. This allows you to bring roughly 100 million records of data per workspace per day i",
       "publishedAt": "2026-03-18T17:00:05.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Versionless key support for transparent data encryption in Azure SQL Database",
-      "link": "https://azure.microsoft.com/updates?id=558183",
-      "summary": "Azure SQL Database now supports versionless keys for transparent data encryption (TDE), giving you a simpler and more reliable way to manage your own encryption keys. You no longer need to reference a specific key version from Azure Key Vault or Managed H",
-      "publishedAt": "2026-03-18T17:00:05.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[In preview] Public Preview: Data API builder with built-in GitHub Copilot in MSSQL extension",
-      "link": "https://azure.microsoft.com/updates?id=558178",
-      "summary": "The MSSQL extension for Visual Studio Code now introduces Data API builder in public preview with built-in GitHub Copilot integration, bringing a guided back-end generation experience directly into your development workflow. You can generate REST, GraphQL",
-      "publishedAt": "2026-03-18T17:00:05.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Default Rule Set 2.2 and updates to ruleset support policy",
-      "link": "https://azure.microsoft.com/updates?id=558016",
-      "summary": "We are updating the managed ruleset support policy for Azure Web Application Firewall (WAF) following the general availability of Default Rule Set (DRS) 2.2 on Azure Application Gateway and Azure Front Door. This update provides a clearer, more predictabl",
-      "publishedAt": "2026-03-17T17:45:45.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: Foundry Agent Service",
-      "link": "https://azure.microsoft.com/updates?id=557141",
-      "summary": "Announcing general availability (GA) of the next-gen Foundry Agent Service—a redesigned API format and runtime experience designed to help teams build and operate agents that can move from prototype to production with confidence. This GA moment is anchore",
-      "publishedAt": "2026-03-17T17:45:45.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "Retirement: Azure VMware Solution AV36P and AV52 node retirement on June 30, 2029",
-      "link": "https://azure.microsoft.com/updates?id=557094",
-      "summary": "Microsoft is announcing the retirement of the AV36P and AV52 Nodes on June 30, 2029. The terms of your current AV36P and AV52 Reserved Instance (RI) are not affected by this announcement. At this time, we recommend that you review your current RI expirati",
-      "publishedAt": "2026-03-17T17:30:11.000Z"
     }
   ]
 }
