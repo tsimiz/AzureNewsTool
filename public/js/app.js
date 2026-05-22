@@ -1,10 +1,9 @@
-import { filterItems, formatDate, buildDebugPanelHtml, categorySlug, getSubcategory, filterByDateWindow, hasOlderItems } from './news-utils.js';
+import { formatDate, buildDebugPanelHtml, categorySlug, getSubcategory, filterByDateWindow, hasOlderItems } from './news-utils.js';
 
 const WINDOW_DAYS = 30;
 const ARCHIVE_START = new Date('2026-01-01T00:00:00.000Z');
-const CARD_ANIMATION_DELAY_INCREMENT = 0.04;
-const CARD_ANIMATION_MAX_DELAY = 0.4;
-const FADE_TRANSITION_DURATION_MS = 180;
+const FLIP_DURATION_MS = 320;
+const FADE_OUT_MS = 150;
 
 const state = {
   items: [],
@@ -21,13 +20,6 @@ const elements = {
   generatedAt: document.getElementById('generatedAt'),
   suggestions: document.getElementById('suggestions'),
   darkModeToggle: document.getElementById('darkModeToggle'),
-  aiSettingsBtn: document.getElementById('aiSettingsBtn'),
-  aiModal: document.getElementById('aiModal'),
-  aiEndpoint: document.getElementById('aiEndpoint'),
-  aiDeployment: document.getElementById('aiDeployment'),
-  aiKey: document.getElementById('aiKey'),
-  aiModalSave: document.getElementById('aiModalSave'),
-  aiModalCancel: document.getElementById('aiModalCancel'),
   debugPanel: document.getElementById('debugPanel'),
   topicBtns: document.querySelectorAll('.topic-btn'),
   subcategoryFilters: document.getElementById('subcategoryFilters'),
@@ -58,89 +50,6 @@ elements.darkModeToggle.addEventListener('click', () => {
   elements.darkModeToggle.title = isDark ? 'Switch to light mode' : 'Switch to dark mode';
 });
 
-// ── AI Settings modal ──────────────────────────────────────────────────────
-
-const AI_CONFIG_KEY = 'azureAiConfig';
-
-const loadAiConfig = () => {
-  try {
-    return JSON.parse(localStorage.getItem(AI_CONFIG_KEY) || '{}');
-  } catch {
-    return {};
-  }
-};
-
-const openAiModal = () => {
-  const cfg = loadAiConfig();
-  elements.aiEndpoint.value = cfg.endpoint || '';
-  elements.aiDeployment.value = cfg.deployment || '';
-  elements.aiKey.value = cfg.key || '';
-  elements.aiModal.classList.add('open');
-  elements.aiEndpoint.focus();
-};
-
-const closeAiModal = () => {
-  elements.aiModal.classList.remove('open');
-};
-
-elements.aiSettingsBtn.addEventListener('click', openAiModal);
-elements.aiModalCancel.addEventListener('click', closeAiModal);
-elements.aiModal.addEventListener('click', (e) => { if (e.target === elements.aiModal) closeAiModal(); });
-
-elements.aiModalSave.addEventListener('click', () => {
-  const cfg = {
-    endpoint: elements.aiEndpoint.value.trim().replace(/\/+$/, ''),
-    deployment: elements.aiDeployment.value.trim(),
-    key: elements.aiKey.value.trim()
-  };
-  localStorage.setItem(AI_CONFIG_KEY, JSON.stringify(cfg));
-  closeAiModal();
-});
-
-// ── AI summarisation ────────────────────────────────────────────────────────
-
-const summariseWithAi = async (title, summary) => {
-  const cfg = loadAiConfig();
-  if (!cfg.endpoint || !cfg.deployment || !cfg.key) {
-    openAiModal();
-    throw new Error('Please configure your Azure AI Foundry settings first.');
-  }
-
-  const url = `${cfg.endpoint}/openai/deployments/${encodeURIComponent(cfg.deployment)}/chat/completions?api-version=2024-02-01`;
-  const body = {
-    messages: [
-      {
-        role: 'system',
-        content:
-          'You are a helpful assistant that creates concise, informative summaries of Azure and Microsoft technology news. Focus on the most important and interesting aspects. Keep the summary to 2-3 sentences.'
-      },
-      {
-        role: 'user',
-        content: `Please summarise the following news article.\n\nTitle: ${title}\n\nContent: ${summary}`
-      }
-    ],
-    max_completion_tokens: 200,
-    temperature: 0.5
-  };
-
-  const response = await fetch(url, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'api-key': cfg.key
-    },
-    body: JSON.stringify(body)
-  });
-
-  if (!response.ok) {
-    const err = await response.text();
-    throw new Error(`Azure AI request failed (${response.status}): ${err}`);
-  }
-
-  const data = await response.json();
-  return data.choices?.[0]?.message?.content?.trim() || 'No summary returned.';
-};
-
 // ── Debug panel ────────────────────────────────────────────────────────────
 
 export const renderDebugPanel = (sources, items, generatedAt) => {
@@ -148,183 +57,366 @@ export const renderDebugPanel = (sources, items, generatedAt) => {
   elements.debugPanel.innerHTML = buildDebugPanelHtml(sources, items, generatedAt);
 };
 
-// ── Rendering ──────────────────────────────────────────────────────────────
+// ── Time grouping ──────────────────────────────────────────────────────────
 
-const renderSubcategoryFilters = (categoryItems) => {
-  const subEl = elements.subcategoryFilters;
-  if (!state.activeCategory) {
-    subEl.hidden = true;
+const GROUP_ORDER = ['Today', 'Yesterday', 'This week'];
+
+const getTimeGroup = (publishedAt) => {
+  const itemDate = new Date(publishedAt);
+  const now = new Date();
+  const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const yesterdayStart = new Date(todayStart - 86400000);
+  const weekStart = new Date(todayStart - 6 * 86400000);
+
+  if (itemDate >= todayStart) return 'Today';
+  if (itemDate >= yesterdayStart) return 'Yesterday';
+  if (itemDate >= weekStart) return 'This week';
+  return itemDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+};
+
+const compareGroups = (a, b) => {
+  const ai = GROUP_ORDER.indexOf(a);
+  const bi = GROUP_ORDER.indexOf(b);
+  if (ai !== -1 && bi !== -1) return ai - bi;
+  if (ai !== -1) return -1;
+  if (bi !== -1) return 1;
+  // Both are month labels like "May 2026" — sort newest first
+  return new Date('1 ' + b) - new Date('1 ' + a);
+};
+
+// ── Card rendering ─────────────────────────────────────────────────────────
+
+const textContent = (html) => {
+  const tmp = document.createElement('div');
+  tmp.innerHTML = html || '';
+  return tmp.textContent;
+};
+
+const renderCard = (item) => {
+  const catSlug = categorySlug(item.category);
+  const subcat = getSubcategory(item);
+  const subcatSlug = subcat ? categorySlug(subcat) : '';
+  const subcatHtml = subcat
+    ? `<button class="meta-tag meta-subcategory meta-subcategory--${subcatSlug}" data-subcategory="${subcatSlug}">${subcat}</button>`
+    : '';
+  const searchIndex = [item.title, textContent(item.summary), item.category, item.source]
+    .map(v => (v || '').toLowerCase())
+    .join(' ')
+    .replace(/"/g, '');
+  const summaryHtml = item.summary ? `<p>${item.summary}</p>` : '';
+  return `
+    <article class="card"
+      data-category="${catSlug}"
+      data-subcategory="${subcatSlug}"
+      data-search="${searchIndex}"
+    >
+      <div class="meta">
+        <button class="meta-tag meta-category" data-category="${catSlug}">${item.category}</button>
+        ${subcatHtml}
+        <span>${item.source}</span>
+        <span>${formatDate(item.publishedAt)}</span>
+      </div>
+      <h3><a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a></h3>
+      ${summaryHtml}
+    </article>
+  `;
+};
+
+// ── DOM building ───────────────────────────────────────────────────────────
+
+const renderAllCards = (items) => {
+  if (items.length === 0) {
+    elements.list.innerHTML = '<p class="empty">No release notes available.</p>';
     return;
   }
-  const available = [...new Set(categoryItems.map(getSubcategory).filter(Boolean))];
-  if (available.length === 0) {
-    subEl.hidden = true;
-    return;
-  }
-  subEl.hidden = false;
-  subEl.innerHTML = available
-    .map((s) => {
-      const slug = categorySlug(s);
-      const isActive = state.activeSubcategory === slug;
-      return `<button class="subcategory-btn${isActive ? ' active' : ''}" data-subcategory="${slug}">${s}</button>`;
-    })
+
+  const groups = new Map();
+  items.forEach(item => {
+    const group = getTimeGroup(item.publishedAt);
+    if (!groups.has(group)) groups.set(group, []);
+    groups.get(group).push(item);
+  });
+
+  const orderedGroups = [...groups.keys()].sort(compareGroups);
+
+  elements.list.innerHTML = orderedGroups
+    .map(group => `
+      <div class="time-group" data-group="${group}">
+        <h2 class="time-group-header">${group}</h2>
+        <div class="time-group-grid">
+          ${groups.get(group).map(renderCard).join('')}
+        </div>
+      </div>
+    `)
     .join('');
-  subEl.querySelectorAll('.subcategory-btn').forEach((btn) => {
+
+  attachCardListeners();
+};
+
+const attachCardListeners = () => {
+  elements.list.querySelectorAll('.meta-category').forEach((btn) => {
     btn.addEventListener('click', () => {
+      state.activeCategory = btn.dataset.category;
+      state.activeSubcategory = '';
+      elements.topicBtns.forEach((b) => b.classList.toggle('active', b.dataset.category === state.activeCategory));
+      applyFilter();
+    });
+  });
+
+  elements.list.querySelectorAll('.meta-subcategory').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const card = btn.closest('.card');
+      state.activeCategory = card.dataset.category;
       state.activeSubcategory = btn.dataset.subcategory === state.activeSubcategory ? '' : btn.dataset.subcategory;
-      state.visibleWindows = 1;
-      render();
+      elements.topicBtns.forEach((b) => b.classList.toggle('active', b.dataset.category === state.activeCategory));
+      applyFilter();
     });
   });
 };
 
-const render = () => {
-  const windowCutoff = new Date(Date.now() - state.visibleWindows * WINDOW_DAYS * 24 * 60 * 60 * 1000);
+// ── Subcategory filters ────────────────────────────────────────────────────
 
-  let filtered = filterItems(state.items, elements.search.value);
-  if (state.activeCategory) {
-    filtered = filtered.filter((item) => categorySlug(item.category) === state.activeCategory);
+const renderSubcategoryFilters = () => {
+  const subEl = elements.subcategoryFilters;
+
+  if (!state.activeCategory) {
+    subEl.hidden = true;
+    return;
   }
 
-  // Render subcategory pills based on category-filtered items (before subcategory filter)
-  renderSubcategoryFilters(filtered);
-
-  if (state.activeSubcategory) {
-    filtered = filtered.filter((item) => categorySlug(getSubcategory(item)) === state.activeSubcategory);
-  }
-
-  const visibleItems = filterByDateWindow(filtered, windowCutoff);
-  const showOlder = hasOlderItems(filtered, windowCutoff, ARCHIVE_START);
-
-  elements.stats.textContent = `Showing ${visibleItems.length} of ${state.items.length} entries`;
-  elements.olderContainer.hidden = !showOlder;
-
-  const updateList = () => {
-    if (visibleItems.length === 0) {
-      elements.list.innerHTML = showOlder
-        ? `<p class="empty">No entries in the past ${state.visibleWindows * WINDOW_DAYS} days. Click "Older" below to load earlier entries.</p>`
-        : '<p class="empty">No release notes match your search.</p>';
-      return;
+  const subcats = new Map();
+  elements.list.querySelectorAll(`.card[data-category="${state.activeCategory}"]`).forEach(card => {
+    const slug = card.dataset.subcategory;
+    if (slug) {
+      const labelEl = card.querySelector('.meta-subcategory');
+      subcats.set(slug, labelEl ? labelEl.textContent : slug);
     }
+  });
 
-    elements.list.innerHTML = visibleItems
-      .map(
-        (item, index) => {
-          const subcat = getSubcategory(item);
-          const subcatSlug = subcat ? categorySlug(subcat) : '';
-          const subcatHtml = subcat
-            ? `<button class="meta-tag meta-subcategory meta-subcategory--${subcatSlug}" data-subcategory="${subcatSlug}">${subcat}</button>`
-            : '';
-          const animDelay = Math.min(index * CARD_ANIMATION_DELAY_INCREMENT, CARD_ANIMATION_MAX_DELAY);
-          return `
-          <article class="card" data-index="${index}" data-category="${categorySlug(item.category)}" style="animation-delay:${animDelay}s">
-            <div class="meta">
-              <button class="meta-tag meta-category" data-category="${categorySlug(item.category)}">${item.category}</button>
-              ${subcatHtml}
-              <span>${item.source}</span>
-              <span>${formatDate(item.publishedAt)}</span>
-            </div>
-            <h3><a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a></h3>
-            <p title="Click to read full summary">${item.summary || 'No summary available.'}</p>
-            <div class="card-footer">
-              <button class="btn-ai" data-index="${index}" title="Generate an AI summary using Azure AI Foundry">✨ Summarize with AI</button>
-              <button class="btn-collapse" aria-label="Show less">↑ Show less</button>
-            </div>
-            <div class="ai-summary" id="ai-summary-${index}" aria-live="polite" hidden></div>
-          </article>
-        `;
-        }
-      )
-      .join('');
+  if (subcats.size === 0) {
+    subEl.hidden = true;
+    return;
+  }
 
-    elements.list.querySelectorAll('.meta-category').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        state.activeCategory = btn.dataset.category;
-        state.activeSubcategory = '';
-        state.visibleWindows = 1;
-        elements.topicBtns.forEach((b) => b.classList.toggle('active', b.dataset.category === state.activeCategory));
-        render();
-      });
+  subEl.hidden = false;
+  subEl.innerHTML = [...subcats.entries()]
+    .map(([slug, label]) => {
+      const isActive = state.activeSubcategory === slug;
+      return `<button class="subcategory-btn${isActive ? ' active' : ''}" data-subcategory="${slug}">${label}</button>`;
+    })
+    .join('');
+
+  subEl.querySelectorAll('.subcategory-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.activeSubcategory = btn.dataset.subcategory === state.activeSubcategory ? '' : btn.dataset.subcategory;
+      applyFilter();
+    });
+  });
+};
+
+// ── Category counts ────────────────────────────────────────────────────────
+
+const updateCategoryCounts = () => {
+  const query = elements.search.value.trim().toLowerCase();
+  const counts = new Map();
+  let total = 0;
+
+  // Count by category matching search only (not category/subcategory filter)
+  elements.list.querySelectorAll('.card').forEach(card => {
+    if (query && !card.dataset.search.includes(query)) return;
+    const cat = card.dataset.category;
+    counts.set(cat, (counts.get(cat) || 0) + 1);
+    total++;
+  });
+
+  elements.topicBtns.forEach(btn => {
+    const cat = btn.dataset.category;
+    const count = cat ? (counts.get(cat) || 0) : total;
+    const baseLabel = btn.dataset.baseLabel || btn.textContent.replace(/\s*\(\d+\)\s*$/, '').trim();
+    if (!btn.dataset.baseLabel) btn.dataset.baseLabel = baseLabel;
+    btn.textContent = `${baseLabel} (${count})`;
+  });
+};
+
+// ── Stats ──────────────────────────────────────────────────────────────────
+
+const updateStats = () => {
+  const visibleCount = elements.list.querySelectorAll('.card:not(.filtered-out)').length;
+  elements.stats.textContent = `Showing ${visibleCount} of ${state.items.length} entries`;
+};
+
+// ── FLIP animation ─────────────────────────────────────────────────────────
+
+const recordRects = (cards) => {
+  const map = new Map();
+  cards.forEach(card => map.set(card, card.getBoundingClientRect()));
+  return map;
+};
+
+const applyFLIP = (beforeRects, cards) => {
+  cards.forEach(card => {
+    const before = beforeRects.get(card);
+    if (!before) return;
+    const after = card.getBoundingClientRect();
+    const dx = before.left - after.left;
+    const dy = before.top - after.top;
+    if (Math.abs(dx) < 0.5 && Math.abs(dy) < 0.5) return;
+
+    card.style.transition = 'none';
+    card.style.transform = `translate(${dx}px, ${dy}px)`;
+
+    requestAnimationFrame(() => {
+      card.style.transition = `transform ${FLIP_DURATION_MS}ms cubic-bezier(0.25, 0.46, 0.45, 0.94)`;
+      card.style.transform = '';
+      setTimeout(() => {
+        card.style.transition = '';
+        card.style.transform = '';
+      }, FLIP_DURATION_MS + 50);
+    });
+  });
+};
+
+// ── Section visibility ─────────────────────────────────────────────────────
+
+const updateSectionVisibility = () => {
+  elements.list.querySelectorAll('.time-group').forEach(group => {
+    group.hidden = !group.querySelector('.card:not(.filtered-out)');
+  });
+};
+
+// ── Card filter predicate ──────────────────────────────────────────────────
+
+const cardMatchesState = (card) => {
+  const query = elements.search.value.trim().toLowerCase();
+  if (query && !card.dataset.search.includes(query)) return false;
+  if (state.activeCategory && card.dataset.category !== state.activeCategory) return false;
+  if (state.activeSubcategory && card.dataset.subcategory !== state.activeSubcategory) return false;
+  return true;
+};
+
+// ── Filter application with FLIP ───────────────────────────────────────────
+
+let filterTimer = null;
+
+const applyFilter = () => {
+  // Cancel any pending animation and reset in-progress styles
+  if (filterTimer !== null) {
+    clearTimeout(filterTimer);
+    filterTimer = null;
+    elements.list.querySelectorAll('.card').forEach(card => {
+      card.style.transition = '';
+      card.style.opacity = '';
+      card.style.transform = '';
+    });
+  }
+
+  const allCards = Array.from(elements.list.querySelectorAll('.card'));
+  const willRemain = [];
+  const willDisappear = [];
+  const willAppear = [];
+
+  allCards.forEach(card => {
+    const wasVisible = !card.classList.contains('filtered-out');
+    const willBeVisible = cardMatchesState(card);
+    if (wasVisible && willBeVisible) willRemain.push(card);
+    else if (wasVisible && !willBeVisible) willDisappear.push(card);
+    else if (!wasVisible && willBeVisible) willAppear.push(card);
+  });
+
+  renderSubcategoryFilters();
+
+  // Record first positions of all cards that will remain visible
+  const firstRects = recordRects(willRemain);
+
+  const doUpdate = () => {
+    // Hide departed cards
+    willDisappear.forEach(card => {
+      card.classList.add('filtered-out');
+      card.style.transition = '';
+      card.style.opacity = '';
+      card.style.transform = '';
     });
 
-    elements.list.querySelectorAll('.meta-subcategory').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const card = btn.closest('.card');
-        state.activeCategory = card.dataset.category;
-        state.activeSubcategory = btn.dataset.subcategory === state.activeSubcategory ? '' : btn.dataset.subcategory;
-        state.visibleWindows = 1;
-        elements.topicBtns.forEach((b) => b.classList.toggle('active', b.dataset.category === state.activeCategory));
-        render();
-      });
+    // Show appearing cards (invisible initially)
+    willAppear.forEach(card => {
+      card.classList.remove('filtered-out');
+      card.style.opacity = '0';
+      card.style.transform = 'scale(0.85)';
     });
 
-    // Expand/collapse summary on click
-    elements.list.querySelectorAll('.card > p').forEach((p) => {
-      p.addEventListener('click', () => {
-        const card = p.closest('.card');
-        const isExpanded = card.classList.toggle('expanded');
-        if (isExpanded) {
-          // Collapse any other expanded cards
-          elements.list.querySelectorAll('.card.expanded').forEach((other) => {
-            if (other !== card) other.classList.remove('expanded');
-          });
-        }
+    updateSectionVisibility();
+
+    // FLIP remaining cards to their new positions
+    requestAnimationFrame(() => {
+      applyFLIP(firstRects, willRemain);
+
+      // Fade in newly appearing cards
+      willAppear.forEach((card, i) => {
+        setTimeout(() => {
+          card.style.transition = 'opacity 0.25s ease, transform 0.25s ease';
+          card.style.opacity = '';
+          card.style.transform = '';
+          setTimeout(() => { card.style.transition = ''; }, 300);
+        }, Math.min(i * 25, 120));
       });
-    });
 
-    elements.list.querySelectorAll('.btn-collapse').forEach((btn) => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        btn.closest('.card').classList.remove('expanded');
-      });
-    });
-
-    elements.list.querySelectorAll('.btn-ai').forEach((btn) => {
-      btn.addEventListener('click', async () => {
-        const index = Number(btn.dataset.index);
-        const item = visibleItems[index];
-        const summaryEl = document.getElementById(`ai-summary-${index}`);
-
-        btn.disabled = true;
-        btn.setAttribute('aria-busy', 'true');
-        btn.textContent = '⏳ Summarizing…';
-        summaryEl.hidden = false;
-        summaryEl.innerHTML = '<span class="ai-summary-label">AI Summary</span>Generating summary…';
-
-        try {
-          const result = await summariseWithAi(item.title, item.summary || item.title);
-          summaryEl.innerHTML = `<span class="ai-summary-label">✨ AI Summary</span>${result}`;
-          btn.textContent = '✨ Regenerate';
-        } catch (err) {
-          summaryEl.innerHTML = `<span class="ai-error">⚠ ${err.message}</span>`;
-          btn.textContent = '✨ Summarize with AI';
-        } finally {
-          btn.disabled = false;
-          btn.removeAttribute('aria-busy');
-        }
-      });
+      updateCategoryCounts();
+      updateStats();
     });
   };
 
-  // Animate filter transition: fade out → update → fade in
-  if (elements.list.children.length > 0) {
-    elements.list.classList.add('fading');
-    clearTimeout(render._timer);
-    render._timer = setTimeout(() => {
-      updateList();
-      // Use rAF to ensure DOM is painted before removing fade class
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => elements.list.classList.remove('fading'));
-      });
-    }, FADE_TRANSITION_DURATION_MS);
+  if (willDisappear.length > 0) {
+    // Animate departing cards out first
+    willDisappear.forEach(card => {
+      card.style.transition = `opacity ${FADE_OUT_MS}ms ease, transform ${FADE_OUT_MS}ms ease`;
+      card.style.opacity = '0';
+      card.style.transform = 'scale(0.85)';
+    });
+    filterTimer = setTimeout(() => {
+      filterTimer = null;
+      doUpdate();
+    }, FADE_OUT_MS);
   } else {
-    updateList();
+    doUpdate();
   }
 };
+
+// ── Full render (on load / "Older" click) ──────────────────────────────────
+
+const render = () => {
+  // Cancel any in-progress filter animation
+  if (filterTimer !== null) {
+    clearTimeout(filterTimer);
+    filterTimer = null;
+  }
+
+  const windowCutoff = new Date(Date.now() - state.visibleWindows * WINDOW_DAYS * 24 * 60 * 60 * 1000);
+  const windowedItems = filterByDateWindow(state.items, windowCutoff);
+  const showOlder = hasOlderItems(state.items, windowCutoff, ARCHIVE_START);
+
+  elements.olderContainer.hidden = !showOlder;
+
+  renderAllCards(windowedItems);
+
+  // Re-apply active filters without animation
+  if (state.activeCategory || state.activeSubcategory || elements.search.value.trim()) {
+    elements.list.querySelectorAll('.card').forEach(card => {
+      if (!cardMatchesState(card)) card.classList.add('filtered-out');
+    });
+    updateSectionVisibility();
+  }
+
+  updateCategoryCounts();
+  updateStats();
+};
+
+// ── Suggestions ────────────────────────────────────────────────────────────
 
 const renderSuggestions = () => {
   elements.suggestions.innerHTML = state.suggestions.map((value) => `<option value="${value}"></option>`).join('');
 };
+
+// ── Data loading ───────────────────────────────────────────────────────────
 
 const loadJson = async (url) => {
   const response = await fetch(url);
@@ -352,32 +444,27 @@ const init = async () => {
   render();
 };
 
+// ── Event listeners ────────────────────────────────────────────────────────
+
 elements.topicBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     state.activeCategory = btn.dataset.category;
     state.activeSubcategory = '';
-    state.visibleWindows = 1;
     elements.topicBtns.forEach((b) => b.classList.remove('active'));
     btn.classList.add('active');
-    render();
+    applyFilter();
   });
 });
 
+let searchTimer = null;
 elements.search.addEventListener('input', () => {
-  state.visibleWindows = 1;
-  render();
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(applyFilter, 120);
 });
 
 elements.olderBtn.addEventListener('click', () => {
   state.visibleWindows += 1;
   render();
-});
-
-// Collapse expanded cards on Escape key
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') {
-    elements.list.querySelectorAll('.card.expanded').forEach((card) => card.classList.remove('expanded'));
-  }
 });
 
 init().catch((error) => {

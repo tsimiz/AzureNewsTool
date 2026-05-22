@@ -19,7 +19,6 @@
             <datalist id="suggestions"></datalist>
           </div>
           <div class="header-actions">
-            <button class="btn-icon" id="aiSettingsBtn" title="Configure Azure AI Foundry" aria-label="Configure Azure AI Foundry">⚙️</button>
             <button class="btn-icon" id="darkModeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
           </div>
         </div>
@@ -34,24 +33,6 @@
       </nav>
       <nav id="subcategoryFilters" class="subcategory-filters" hidden aria-label="Filter by subcategory"></nav>
     </header>
-
-    <!-- AI Settings Modal -->
-    <div class="modal-backdrop" id="aiModal" role="dialog" aria-modal="true" aria-labelledby="aiModalTitle">
-      <div class="modal">
-        <h2 id="aiModalTitle">Azure AI Foundry Settings</h2>
-        <p>Configure your Azure AI Foundry endpoint to enable on-demand AI summaries for news articles.</p>
-        <label for="aiEndpoint">Endpoint URL</label>
-        <input type="text" id="aiEndpoint" placeholder="https://&lt;resource&gt;.openai.azure.com" />
-        <label for="aiDeployment">Deployment name</label>
-        <input type="text" id="aiDeployment" placeholder="gpt-4o" />
-        <label for="aiKey">API key</label>
-        <input type="password" id="aiKey" placeholder="Your Azure AI Foundry API key" />
-        <div class="modal-actions">
-          <button class="btn-secondary" id="aiModalCancel">Cancel</button>
-          <button class="btn-primary" id="aiModalSave">Save</button>
-        </div>
-      </div>
-    </div>
 
     <main>
       <section id="debugPanel" hidden aria-label="Debug: source status"></section>
