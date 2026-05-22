@@ -223,17 +223,17 @@ main { padding: 1rem 1.5rem; }
 .card[data-category="security"] { border-top: 3px solid #d83b01; }
 .card[data-category="developer"] { border-top: 3px solid #00b294; }
 
-.card[data-category="azure"] .meta span:first-child { background: #e3f0ff; color: #004d8a; }
-.card[data-category="microsoft-365"] .meta span:first-child { background: #dff6dd; color: #0a5c0a; }
-.card[data-category="power-platform"] .meta span:first-child { background: #f0eaff; color: #5c3d8f; }
-.card[data-category="security"] .meta span:first-child { background: #fde8df; color: #9e2b00; }
-.card[data-category="developer"] .meta span:first-child { background: #d9f6f0; color: #006b57; }
+.card[data-category="azure"] .meta .meta-category { background: #e3f0ff; color: #004d8a; }
+.card[data-category="microsoft-365"] .meta .meta-category { background: #dff6dd; color: #0a5c0a; }
+.card[data-category="power-platform"] .meta .meta-category { background: #f0eaff; color: #5c3d8f; }
+.card[data-category="security"] .meta .meta-category { background: #fde8df; color: #9e2b00; }
+.card[data-category="developer"] .meta .meta-category { background: #d9f6f0; color: #006b57; }
 
-.dark .card[data-category="azure"] .meta span:first-child { background: #0d2b4a; color: #81c3f7; }
-.dark .card[data-category="microsoft-365"] .meta span:first-child { background: #0c2a0c; color: #5dba5d; }
-.dark .card[data-category="power-platform"] .meta span:first-child { background: #241840; color: #c0a0e8; }
-.dark .card[data-category="security"] .meta span:first-child { background: #3a1508; color: #f5a07a; }
-.dark .card[data-category="developer"] .meta span:first-child { background: #003d33; color: #52d6bd; }
+.dark .card[data-category="azure"] .meta .meta-category { background: #0d2b4a; color: #81c3f7; }
+.dark .card[data-category="microsoft-365"] .meta .meta-category { background: #0c2a0c; color: #5dba5d; }
+.dark .card[data-category="power-platform"] .meta .meta-category { background: #241840; color: #c0a0e8; }
+.dark .card[data-category="security"] .meta .meta-category { background: #3a1508; color: #f5a07a; }
+.dark .card[data-category="developer"] .meta .meta-category { background: #003d33; color: #52d6bd; }
 
 .meta {
   display: flex;
@@ -248,6 +248,67 @@ main { padding: 1rem 1.5rem; }
   border-radius: 999px;
   padding: 0.15rem 0.5rem;
   transition: background 0.25s;
+}
+
+.meta-tag {
+  background: var(--bg-meta);
+  border: none;
+  border-radius: 999px;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-family: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.meta-tag:hover {
+  background: var(--azure-100);
+  color: var(--azure-700);
+}
+
+/* Subcategory badge colours on cards */
+.meta-subcategory--generally-available { background: #dff6dd; color: #0a5c0a; }
+.meta-subcategory--public-preview { background: #e3f0ff; color: #004d8a; }
+.meta-subcategory--retirement { background: #fde8df; color: #9e2b00; }
+
+.dark .meta-subcategory--generally-available { background: #0c2a0c; color: #5dba5d; }
+.dark .meta-subcategory--public-preview { background: #0d2b4a; color: #81c3f7; }
+.dark .meta-subcategory--retirement { background: #3a1508; color: #f5a07a; }
+
+/* Subcategory filter pills row in header */
+.subcategory-filters {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  padding: 0.4rem 0;
+  margin-top: 0.3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.subcategory-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: rgba(255, 255, 255, 0.85);
+  border-radius: 999px;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.15s;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.subcategory-btn:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.subcategory-btn.active {
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--azure-700);
+  font-weight: 600;
+  border-color: transparent;
 }
 
 .empty {
@@ -521,6 +582,17 @@ main { padding: 1rem 1.5rem; }
   }
 
   .topic-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .subcategory-filters {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 0.3rem;
+    scrollbar-width: none;
+  }
+
+  .subcategory-filters::-webkit-scrollbar {
     display: none;
   }
 
