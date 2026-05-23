@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-23T00:34:28.609Z",
-  "itemCount": 255,
+  "generatedAt": "2026-05-23T06:53:56.319Z",
+  "itemCount": 256,
   "sources": [
     {
       "name": "Azure Updates",
@@ -40,6 +40,14 @@
       "title": "Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
       "summary": "Microsoft has been recognized as a Leader in The Forrester Wave™: Workforce Identity Security Platforms, Q2 2026, receiving the highest scores in both the current offering and strategy categories.",
+      "publishedAt": "2026-05-22T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager",
+      "link": "https://azure.microsoft.com/en-us/blog/powering-multi-cluster-workloads-with-seamless-cross-cluster-networking-for-azure-kubernetes-fleet-manager/",
+      "summary": "With Cilium-based cross-cluster networking, we are delivering a managed, high-performance network that can span your entire fleet.",
       "publishedAt": "2026-05-22T17:00:00.000Z"
     },
     {
