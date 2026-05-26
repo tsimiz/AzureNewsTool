@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T12:57:19.490Z",
-  "itemCount": 256,
+  "generatedAt": "2026-05-26T18:47:36.718Z",
+  "itemCount": 258,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Virtual Network Manager integration with Virtual WAN",
+      "link": "https://azure.microsoft.com/updates?id=564478",
+      "summary": "Azure Virtual Network Manager integration with Virtual WAN is now in public preview, enabling you to use an Azure Virtual WAN hub as the hub in Azure Virtual Network Manager hub-and-spoke connectivity configurations, bringing together Azure Virtual Networ",
+      "publishedAt": "2026-05-26T18:00:01.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Virtual network flow logs connector with Microsoft Sentinel",
+      "link": "https://azure.microsoft.com/updates?id=564689",
+      "summary": "Azure virtual network flow logs connector with Microsoft Sentinel is now generally available, enabling you to seamlessly export and analyze network traffic data within your security operations workflows. With this integration, you can bring rich, network-",
+      "publishedAt": "2026-05-26T16:45:10.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
