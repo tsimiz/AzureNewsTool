@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T18:47:36.718Z",
-  "itemCount": 258,
+  "generatedAt": "2026-05-27T00:35:56.041Z",
+  "itemCount": 259,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
+      "summary": "Microsoft exposes a cryptojacking campaign using SEO poisoning and ScreenConnect to target high-performance PCs, with malicious sites also surfaced through AI chatbots.",
+      "publishedAt": "2026-05-26T21:35:34.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
