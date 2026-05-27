@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-27T13:06:31.327Z",
-  "itemCount": 259,
+  "generatedAt": "2026-05-27T18:45:27.523Z",
+  "itemCount": 270,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,54 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How AI coding agents actually use your technology",
+      "link": "https://devblogs.microsoft.com/blog/how-ai-coding-agents-actually-use-your-technology",
+      "summary": "You ship an SDK, a CLI, an API, and developers use it. Now AI coding agents use it too, except they use it differently than humans do. Most of the time you have no idea what's actually happening between \"developer types a prompt\" and \"agent generates code with your technology.\" Is the agent reading your docs? Is it calling your MCP server? Is",
+      "publishedAt": "2026-05-27T18:30:38.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing the Azure DocumentDB Blog",
+      "link": "https://devblogs.microsoft.com/documentdb/introducing-azure-documentdb",
+      "summary": "A dedicated home for MongoDB developers, MongoDB migrations, and modern document database development using Open Source on Azure",
+      "publishedAt": "2026-05-27T18:30:20.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Multiparty private offers in Microsoft Marketplace expand to 30 countries in Europe",
+      "link": "https://azure.microsoft.com/updates?id=563016",
+      "summary": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with partners that bring established customer relationships,",
+      "publishedAt": "2026-05-27T17:45:45.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.122",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.122",
+      "summary": "Learn what's new in Visual Studio Code 1.122 (Insiders) Read the full article",
+      "publishedAt": "2026-05-27T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.122",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-122",
+      "summary": "Learn what's new in Visual Studio Code 1.122 (Insiders) Read the full article",
+      "publishedAt": "2026-05-27T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Deployment Operations, Requests and Queue",
+      "link": "https://devblogs.microsoft.com/insidemsix/deployment-operations-requests-and-queue",
+      "summary": "The PackageManager API submits requests to the deployment engine for processing. Each request represents an instruction for the deployment system to carry out a defined set of actions, collectively referred to as a deployment operation",
+      "publishedAt": "2026-05-27T16:00:09.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
@@ -51,12 +99,52 @@
       "publishedAt": "2026-05-26T18:00:01.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Doing More with GitHub Copilot as a .NET Developer",
+      "link": "https://devblogs.microsoft.com/dotnet/doing-more-with-github-copilot",
+      "summary": "For most .NET developers, the best way to get started with GitHub Copilot is not by learning every feature first. It is by using the right Copilot experience for the work already in front of you. Inline completions are part of that story, of course. They help with the everyday C# work that is repetitive but still necessary: filling i",
+      "publishedAt": "2026-05-26T17:05:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Give Your .NET MAUI Android Apps a Material 3 Makeover",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-maui-material-3",
+      "summary": "Starting with .NET MAUI 10, you can opt your Android app into Material 3 (a.k.a. Material You) styling with a single MSBuild property. Material 3 is already live in a large set of controls today, more are on the way in upcoming service releases, and the plan is for it to become the default for Android in a future version. In this pos",
+      "publishedAt": "2026-05-26T17:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Virtual network flow logs connector with Microsoft Sentinel",
       "link": "https://azure.microsoft.com/updates?id=564689",
       "summary": "Azure virtual network flow logs connector with Microsoft Sentinel is now generally available, enabling you to seamlessly export and analyze network traffic data within your security operations workflows. With this integration, you can bring rich, network-",
       "publishedAt": "2026-05-26T16:45:10.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio May Update – Plan, Review, Refine",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-may-update-plan-review-refine",
+      "summary": "There's a particular rhythm to good development work: you think, you try, you check, you adjust. This month's Visual Studio update leans into that rhythm. Whether you're sketching an approach with the Plan agent before t",
+      "publishedAt": "2026-05-26T15:00:39.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "If C# and JavaScript lets me await a Windows Runtime asynchronous operation more than once, why not C++/WinRT?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260526-00/?p=112354",
+      "summary": "The Windows Runtime expresses asynchronous execution in the form of types like IAsync­Operation. Different languages choose to represent this concept in different ways. C# wraps it inside a System.Threading.Tasks.Task. JavaScript wraps it inside a Promise",
+      "publishedAt": "2026-05-26T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "A hypothetical redesign of System. Diagnostics. Process to avoid confusion over properties that are valid only when you are the one who called Start",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260525-00/?p=112351",
+      "summary": "Some time ago, I noted that the Process.Standard­Output property is an attractive nuisance because it is valid only on Process objects that you called Start o",
+      "publishedAt": "2026-05-25T14:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
