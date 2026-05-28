@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-28T13:11:04.484Z",
-  "itemCount": 271,
+  "generatedAt": "2026-05-28T18:51:12.661Z",
+  "itemCount": 272,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
+      "summary": "Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target.",
+      "publishedAt": "2026-05-28T15:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
