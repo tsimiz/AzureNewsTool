@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-28T00:33:29.244Z",
-  "itemCount": 270,
+  "generatedAt": "2026-05-28T07:18:11.243Z",
+  "itemCount": 271,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Application Gateway for Containers – Service Mesh integration with Istio",
+      "link": "https://azure.microsoft.com/updates?id=564714",
+      "summary": "Application Gateway for Containers service mesh integration with Istio is now generally available. This capability simplifies secure north-south traffic into workloads running in an Istio service mesh by automating mutual TLS (mTLS) connectivity between A",
+      "publishedAt": "2026-05-28T05:30:31.000Z"
+    },
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
