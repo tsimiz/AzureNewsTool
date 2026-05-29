@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-29T00:38:42.254Z",
-  "itemCount": 272,
+  "generatedAt": "2026-05-29T07:18:25.280Z",
+  "itemCount": 273,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Typosquatted npm packages used to steal cloud and CI/CD secrets",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/",
+      "summary": "The Mini Shai-Hulud campaign used malicious npm packages to target cloud and CI/CD credentials across developer environments. This report details the attack chain, detection opportunities, and mitigation guidance to help organizations identify and disrupt related activity.",
+      "publishedAt": "2026-05-29T03:04:52.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
