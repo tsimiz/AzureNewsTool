@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-30T00:35:44.728Z",
-  "itemCount": 283,
+  "generatedAt": "2026-05-30T06:59:30.635Z",
+  "itemCount": 285,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,22 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.123",
       "summary": "Learn what's new in Visual Studio Code 1.123 (Insiders) Read the full article",
       "publishedAt": "2026-06-03T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Malicious npm packages abuse dependency confusion to profile developer environments",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/",
+      "summary": "A dependency confusion campaign leveraged 33 malicious npm packages to collect reconnaissance data from developer and build environments. This report details the attack chain, observed tradecraft, and detection opportunities to help organizations identify and disrupt related activity.",
+      "publishedAt": "2026-05-30T00:06:20.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Build Power Pages Sites with AI through Agentic Coding tools, now Generally Available",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/build-power-pages-sites-with-ai-through-agentic-coding-tools-now-generally-available/",
+      "summary": "We are excited to announce the General Availability (GA) of the Power Pages plugin for&#160;GitHub Copilot CLI&#160;and&#160;Claude Code. Just few months back when we introduced the&#160;preview, you could describe a site in natural language and the plugin generated the scaffolding, set up Dataverse entities, wired up the Web API, and deployed the website.",
+      "publishedAt": "2026-05-29T18:33:02.000Z"
     },
     {
       "source": "Microsoft Security Blog",
