@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-31T00:37:02.889Z",
-  "itemCount": 285,
+  "generatedAt": "2026-05-31T07:17:31.299Z",
+  "itemCount": 286,
   "sources": [
     {
       "name": "Azure Updates",
@@ -73,6 +73,14 @@
       "link": "https://azure.microsoft.com/updates?id=564644",
       "summary": "Azure Site Recovery (ASR) now supports replication of virtual machines using Performance Plus enabled managed disks. With this update, virtual machines using Premium SSD, Standard SSD or Standard HDD managed disks with Performance Plus capability for high",
       "publishedAt": "2026-05-29T15:15:43.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Claude Opus 4.8 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-4-8-is-now-available-in-microsoft-foundry/4523367",
+      "summary": "Claude Opus 4.8 is now available in Microsoft Foundry, giving developers and enterprises access to Anthropic’s most capable Opus model for coding, agentic tasks, and professional work.",
+      "publishedAt": "2026-05-29T14:46:32.000Z"
     },
     {
       "source": "Microsoft Security Blog",
