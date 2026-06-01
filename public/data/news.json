@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-01T13:59:37.623Z",
-  "itemCount": 286,
+  "generatedAt": "2026-06-01T19:37:53.369Z",
+  "itemCount": 287,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.123",
       "summary": "Learn what's new in Visual Studio Code 1.123 (Insiders) Read the full article",
       "publishedAt": "2026-06-03T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Functions Support for Node.js 24",
+      "link": "https://azure.microsoft.com/updates?id=562647",
+      "summary": "Azure Functions support for Node.js 24 is now generally available. You can now develop apps using Node.js 24 locally and deploy them to supported Azure Functions plans on Linux and Windows, including the Flex Consumption plan. Please note that Remot",
+      "publishedAt": "2026-06-01T13:45:09.000Z"
     },
     {
       "source": "Microsoft Security Blog",
