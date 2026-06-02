@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-02T13:13:38.352Z",
-  "itemCount": 292,
+  "generatedAt": "2026-06-02T19:12:45.544Z",
+  "itemCount": 295,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,30 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.123",
       "summary": "Learn what's new in Visual Studio Code 1.123 (Insiders) Read the full article",
       "publishedAt": "2026-06-03T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Microsoft Build 2026: Securing code, agents, and models across the development lifecycle",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
+      "summary": "Discover how Microsoft enables fast, secure AI development with MDASH and new security capabilities.",
+      "publishedAt": "2026-06-02T17:15:18.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Snapshot backup for SQL Server in Azure VMs",
+      "link": "https://azure.microsoft.com/updates?id=564668",
+      "summary": "Azure Backup now supports snapshot-based backup for SQL Server running on Azure Virtual Machines. This new capability uses Azure disk snapshots combined with native SQL transaction log backups to deliver near-instant, low-impact full backups for large SQL",
+      "publishedAt": "2026-06-02T15:15:36.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Azure VMware Solution AV36 node End of Support on September 30, 2027",
+      "link": "https://azure.microsoft.com/updates?id=564735",
+      "summary": "Reminder: Microsoft’s support lifecycle is evolving in alignment with VMware’s roadmap. Broadcom will end support for the current AV36 VCF version on September 30, 2027, and the AV36 SKU is not compatible with VMware Cloud Foundation (VCF) 9, the next-gen",
+      "publishedAt": "2026-06-02T13:00:06.000Z"
     },
     {
       "source": "Azure Updates",
