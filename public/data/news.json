@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-03T13:34:02.442Z",
-  "itemCount": 431,
+  "generatedAt": "2026-06-03T19:18:10.203Z",
+  "itemCount": 435,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,38 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In development] Announcing: Confidential Live Migration for Intel TDX confidential VMs in Azure",
+      "link": "https://azure.microsoft.com/updates?id=565000",
+      "summary": "Microsoft is announcing Confidential Live Migration in Azure, a new capability designed to improve operational flexibility and availability for Intel® TDX Confidential VMs during platform servicing. Confidential Live Migration helps move a Confidential VM",
+      "publishedAt": "2026-06-03T18:15:04.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Infrastructure Resiliency Manager",
+      "link": "https://azure.microsoft.com/updates?id=564759",
+      "summary": "Azure Infrastructure Resiliency Manager is now in public preview, offering a unified, goal-driven experience to design, assess, and improve application resiliency across Azure. It brings together capabilities across Availability Zones, Azure Advisor, Chao",
+      "publishedAt": "2026-06-03T17:15:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Database for PostgreSQL - Flexible Server: DuckDB extension",
+      "link": "https://azure.microsoft.com/updates?id=563766",
+      "summary": "You can now install the DuckDB extension in Azure Database for PostgreSQL flexible server. Learn more.",
+      "publishedAt": "2026-06-03T17:00:49.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Advanced full-text search in Azure DocumentDB",
+      "link": "https://azure.microsoft.com/updates?id=563077",
+      "summary": "Now you can unify your search operations in a single database. Azure DocumentDB has added fuzzy search, proximity search, more language support, and BM25 ranking to its full-text capabilities, bringing vector and advanced text search operations together.",
+      "publishedAt": "2026-06-03T17:00:49.000Z"
+    },
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
