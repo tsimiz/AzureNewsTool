@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-03T19:18:10.203Z",
-  "itemCount": 435,
+  "generatedAt": "2026-06-04T00:46:35.972Z",
+  "itemCount": 452,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,126 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: MAI-Voice-2 in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=563217",
+      "summary": "Microsoft Foundry now offers MAI-Voice-2 in public preview, a first-party voice model from the Microsoft AI team. MAI-Voice-2 generates natural speech across more than 10 languages and supports voice cloning from a short reference sample, plus voice promp",
+      "publishedAt": "2026-06-03T23:00:57.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] General Availability: Backup your ledger files for audit with Azure confidential ledger’s new tool",
+      "link": "https://azure.microsoft.com/updates?id=560810",
+      "summary": "Ever wondered how to allow auditing personas (i.e. security analyst in your organization or security assessment contractor) the ability to view your ledger files and establish trust in the cryptographic proofs themselves? With the new localized, web ledg",
+      "publishedAt": "2026-06-03T22:15:24.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Text Analytics for Health NextGen Playground in Azure AI Language",
+      "link": "https://azure.microsoft.com/updates?id=563671",
+      "summary": "Azure AI Language brings the next-generation Text Analytics for Health (TA4H) playground to general availability in the Microsoft Foundry portal. Clinical informatics teams and ISVs can paste discharge summaries, doctor's notes, or research abstracts and",
+      "publishedAt": "2026-06-03T21:15:57.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: User feedback logging in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=563431",
+      "summary": "This feature introduces end user feedback logging semantics that enables developers to capture structured feedback signals from real users interacting with AI agents—such as thumbs up/down, ratings, or custom annotations—and automatically associates that",
+      "publishedAt": "2026-06-03T21:15:57.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Self-serve custom photo avatar creation in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=563491",
+      "summary": "Microsoft Foundry brings self-serve custom photo avatar creation to GA in the Foundry NextGen fine-tuning portal. Enterprise customers building voice agents with avatars or producing content with avatar and speech often need a branded avatar instead of a",
+      "publishedAt": "2026-06-03T20:45:02.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Red Hat OpenShift in Belgium Central",
+      "link": "https://azure.microsoft.com/updates?id=564849",
+      "summary": "Azure Red Hat OpenShift (ARO) is now generally available in Azure Belgium Central, expanding regional availability for OpenShift deployments across Europe. With the launch of Microsoft’s first Azure region in Belgium, customers can now run fully managed O",
+      "publishedAt": "2026-06-03T19:15:46.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Agent-to-agent (A2A) support for Prompt agents and Hosted agents in Foundry",
+      "link": "https://azure.microsoft.com/updates?id=563716",
+      "summary": "Microsoft Foundry Agent Service adds agent-to-agent (A2A) communication in public preview for Prompt agents and Hosted agents that use the responses protocol. Agents can call other agents by name through a managed endpoint, with identity, content safety,",
+      "publishedAt": "2026-06-03T19:15:46.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Public Preview: Conversational PII NextGen Playground in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=564246",
+      "summary": "In public preview, Microsoft Foundry now offers a Conversational PII (ConvPII) NextGen Playground with transcript input and an API Configuration Panel, enabling developers to validate PII detection across multi-speaker dialogue before integrating the API.",
+      "publishedAt": "2026-06-03T19:00:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Public Preview: TextPII NextGen Playground updates in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=564241",
+      "summary": "In public preview, Microsoft Foundry now offers an updated TextPII NextGen Playground with a refreshed API Configuration Panel, including preview features introduced at Ignite 2025. This update lets developers test predefined PII categories, redaction mod",
+      "publishedAt": "2026-06-03T19:00:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Observability developer experience in Azure Developer CLI (azd)",
+      "link": "https://azure.microsoft.com/updates?id=563736",
+      "summary": "Use the Azure Developer CLI (azd) CLI evaluation experience to add a measured quality loop to an agent created with Microsoft Foundry. It empowers users on the hosted-agent lifecycle in azd, where you create, provision, deploy, initialize evaluation asset",
+      "publishedAt": "2026-06-03T19:00:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Domain filter for specialized model discovery in Foundry model catalog",
+      "link": "https://azure.microsoft.com/updates?id=563731",
+      "summary": "Microsoft Foundry model catalog adds a domain filter in public preview, helping developers narrow the catalog of over 1,900 models to the ones trained for a specific industry or use case. Filters cover domains such as robotics, biomedical sciences, materi",
+      "publishedAt": "2026-06-03T19:00:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Microsoft Foundry for Visual Studio Code (June Build 2026 refresh)",
+      "link": "https://azure.microsoft.com/updates?id=563721",
+      "summary": "The Microsoft Foundry extension for Visual Studio Code reaches general availability with a Build 2026 refresh that brings the full model catalog, model playground, and Hosted agent deployment into the editor. Developers can sign in with their Azure accoun",
+      "publishedAt": "2026-06-03T19:00:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Evaluations with Intelligent Trace Sampling",
+      "link": "https://azure.microsoft.com/updates?id=563696",
+      "summary": "Microsoft Foundry observability introduces intelligent trace filtering and sampling for evaluations in public preview. Instead of running evaluations against all production traces, Foundry now select a representative subset of traces using a multi-stage M",
+      "publishedAt": "2026-06-03T19:00:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Custom Voice portal experience in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=563691",
+      "summary": "Azure AI Speech moves the Custom Voice authoring experience into the Microsoft Foundry portal in general availability. Approved Custom Voice customers can now upload voice talent recordings and consent statements, run data quality checks, train neural voi",
+      "publishedAt": "2026-06-03T19:00:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Rubric evaluator in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=563656",
+      "summary": "Microsoft Foundry introduces rubric evaluators for measuring agent quality, now in public preview for single-turn and multi-turn agent flows. Rubric evaluators enable developers to define context-specific evaluation criteria using agent prompts, productio",
+      "publishedAt": "2026-06-03T19:00:25.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -1169,6 +1289,22 @@
       "link": "https://azure.microsoft.com/en-us/blog/new-azure-cobalt-200-vms-deliver-50-performance-improvement-fully-optimized-for-modern-agentic-ai-workloads/",
       "summary": "We are announcing the early access preview for Azure Cobalt 200 Arm-based Virtual Machines (VMs), designed for Linux-based agentic AI workloads.",
       "publishedAt": "2026-06-02T16:30:09.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval",
+      "link": "https://devblogs.microsoft.com/foundry/build-smarter-agents-faster-with-foundry-iq/",
+      "summary": "Build smarter agents with Microsoft Foundry IQ, unifying enterprise and external data into a secure, scalable knowledge layer for faster, higher-quality answers.",
+      "publishedAt": "2026-06-02T16:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "A Developer’s Guide to Managing Models, Cost and Quality in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/en-us/blog/a-developers-guide-to-managing-models-cost-and-quality-in-microsoft-foundry/",
+      "summary": "Microsoft Foundry helps teams move beyond model access to operate AI at scale—selecting, evaluating, optimizing, and governing models across the full lifecycle.",
+      "publishedAt": "2026-06-02T16:00:00.000Z"
     },
     {
       "source": "Azure Updates",
