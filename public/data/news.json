@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-04T13:01:35.493Z",
-  "itemCount": 453,
+  "generatedAt": "2026-06-04T18:45:11.891Z",
+  "itemCount": 454,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Monitor Service Level Indicators (SLI)",
+      "link": "https://azure.microsoft.com/updates?id=565159",
+      "summary": "Azure Monitor now includes Service Level Indicators (SLIs) and Service Level Objectives (SLOs), giving teams a clearer way to measure how customers actually experience their applications. Instead of relying only on infrastructure signals like CPU or isola",
+      "publishedAt": "2026-06-04T16:30:52.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
