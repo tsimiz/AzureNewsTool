@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-04T18:45:11.891Z",
-  "itemCount": 454,
+  "generatedAt": "2026-06-05T00:39:07.034Z",
+  "itemCount": 467,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,110 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Voice sync for avatar support in Voice Live API in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=564176",
+      "summary": "In public preview, Microsoft Foundry now supports avatar voice sync with custom voices in the Voice Live API, allowing developers to pair branded or persona-specific text-to-speech voices with real-time avatar experiences. This update helps teams building",
+      "publishedAt": "2026-06-04T22:15:50.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Files assessments are now available worldwide using Azure Migrate",
+      "link": "https://azure.microsoft.com/updates?id=564563",
+      "summary": "We’re pleased to announce that Azure Migrate now generally supports discovery and assessment of SMB and NFS file shares hosted on Windows and Linux servers. This gives customers a complete, data-driven view of their file share environment and a clear path",
+      "publishedAt": "2026-06-04T21:45:11.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: AI pipelines in Azure HorizonDB",
+      "link": "https://azure.microsoft.com/updates?id=565182",
+      "summary": "AI pipelines for Azure HorizonDB is now available in public preview. AI pipelines let you describe an AI data ingestion workflow, chunking, embedding, extraction, generation, and ranking, declaratively in SQL, and run it as a fault-tolerant pipeline insid",
+      "publishedAt": "2026-06-04T19:45:40.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Ingest OTLP signals into Azure Monitor with the OpenTelemetry Collector",
+      "link": "https://azure.microsoft.com/updates?id=565090",
+      "summary": "Azure Monitor's support for native ingestion of OpenTelemetry Protocol (OTLP) signals is now generally available. This enables you to send telemetry data directly from OpenTelemetry-instrumented applications and platforms to Azure Monitor. You can configu",
+      "publishedAt": "2026-06-04T19:45:40.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Tool search in Microsoft Foundry toolboxes",
+      "link": "https://azure.microsoft.com/updates?id=563506",
+      "summary": "Microsoft Foundry adds tool search to Foundry toolboxes in public preview, giving developers and admins a fast way to find the right tool inside large, multi-team catalogs. As your toolbox grows, sending every tool definition on every turn gets expensive.",
+      "publishedAt": "2026-06-04T19:30:58.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: APIM Support for Foundry Models in Azure AI Search",
+      "link": "https://azure.microsoft.com/updates?id=563451",
+      "summary": "Microsoft Foundry brings Azure API Management support to all Foundry model integrations in Azure AI Search, now in public preview. Enterprise platform engineers and AI solution teams running large-scale RAG pipelines can place Foundry and Azure OpenAI mod",
+      "publishedAt": "2026-06-04T19:30:58.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure SQL as a knowledge source in Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=563446",
+      "summary": "Microsoft Foundry adds Azure SQL Database as a first-class Knowledge Source in Azure AI Search, available in public preview. Enterprise developers and solution architects building Copilot, RAG, and agentic experiences can now expose authoritative tables a",
+      "publishedAt": "2026-06-04T19:30:58.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Microsoft Discovery",
+      "link": "https://azure.microsoft.com/updates?id=562733",
+      "summary": "Microsoft Discovery is now generally available, providing research and development organizations an enterprise platform for building and governing agentic AI workflows across scientific and engineering disciplines. Also available in preview is the Microso",
+      "publishedAt": "2026-06-04T19:30:58.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Private Connectivity for Azure AI Search and Foundry Knowledge Bases",
+      "link": "https://azure.microsoft.com/updates?id=563516",
+      "summary": "Azure AI Search and Foundry Knowledge Bases now support private, end-to-end network connectivity between search resources and Foundry services. Customers can route ingestion, enrichment, retrieval, and agent traffic over Shared Private Link or Network Sec",
+      "publishedAt": "2026-06-04T19:15:11.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Fabric IQ Ontology Knowledge Source in Microsoft Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=563416",
+      "summary": "Microsoft Foundry IQ now treats a Microsoft Fabric Ontology as a federated knowledge source in public preview, giving agents a way to query the semantic layer customers already curate in Fabric. Foundry IQ translates natural language questions into ontolo",
+      "publishedAt": "2026-06-04T19:15:11.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Microsoft Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=563222",
+      "summary": "Microsoft Foundry IQ reaches general availability, giving developers a managed knowledge layer that grounds agents in enterprise data without rebuilding retrieval pipelines for each project. Teams connect SharePoint, OneLake, Azure Blob, and other sources",
+      "publishedAt": "2026-06-04T19:15:11.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/04/updating-taxonomy-failure-modes-agentic-ai-systems-year-red-teaming-taught-us/",
+      "summary": "A surge in real-world attacks against agentic AI systems is reshaping how we think about risk. Based on 12 months of red teaming, this update introduces seven new failure modes, from supply chain compromise to goal hijacking, and the practical mitigations teams need now.",
+      "publishedAt": "2026-06-04T19:14:42.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Content Understanding chunking and image verbalization in Azure AI Search",
+      "link": "https://azure.microsoft.com/updates?id=563661",
+      "summary": "Azure AI Search now supports Content Understanding chunking and image verbalization in public preview, expanding the built-in skill that parses rich documents during indexing. Indexers can split documents into semantically meaningful chunks and generate t",
+      "publishedAt": "2026-06-04T19:00:34.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
