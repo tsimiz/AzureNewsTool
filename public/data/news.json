@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-05T07:27:52.941Z",
-  "itemCount": 467,
+  "generatedAt": "2026-06-05T12:58:46.722Z",
+  "itemCount": 469,
   "sources": [
     {
       "name": "Azure Updates",
@@ -145,6 +145,22 @@
       "link": "https://azure.microsoft.com/updates?id=565159",
       "summary": "Azure Monitor now includes Service Level Indicators (SLIs) and Service Level Objectives (SLOs), giving teams a clearer way to measure how customers actually experience their applications. Instead of relying only on infrastructure signals like CPU or isola",
       "publishedAt": "2026-06-04T16:30:52.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Microsoft Dataverse Plugin: Unleashing Coding Agents on the Enterprise &#8211; Microsoft Build 2026",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/06/04/microsoft-dataverse-plugin-unleashing-coding-agents-on-the-enterprise-microsoft-build-2026/",
+      "summary": "Companion post to our Build 2026 session:&#160;Microsoft Dataverse plugin: unleashing coding agents on the enterprise Coding agents are powerful, but without domain tooling they hallucinate and produce broken solutions. The Dataverse plugin for coding agentssolves this by giving AI agents guardrailed access to tables, columns, relationships, views, security, and solutions.",
+      "publishedAt": "2026-06-04T16:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Advanced connector policies are generally available",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/06/04/advanced-connector-policies-are-generally-available/",
+      "summary": "Every admin we meet wants the same two things: let their teams build and keep the business safe while they do it.",
+      "publishedAt": "2026-06-04T15:00:00.000Z"
     },
     {
       "source": "Azure Updates",
