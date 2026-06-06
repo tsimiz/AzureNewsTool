@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-05T18:38:42.017Z",
-  "itemCount": 469,
+  "generatedAt": "2026-06-06T00:37:02.486Z",
+  "itemCount": 472,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,30 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Ingestion Volume Change dashboard in Metrics Usage Insights",
+      "link": "https://azure.microsoft.com/updates?id=565286",
+      "summary": "Metrics Usage Insights now includes an Ingestion Volume Change dashboard to help you compare ingestion volume over time. Quickly detect spikes or drops in time series counts and event ingestion rates, enabling faster investigation of cost changes and more",
+      "publishedAt": "2026-06-05T20:45:48.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In development] Private Preview: Guest RDMA on Azure Boost",
+      "link": "https://azure.microsoft.com/updates?id=564981",
+      "summary": "Guest RDMA is now in preview on Azure, starting in the UK South region, bringing high-throughput, ultra-low latency networking directly into guest VMs within the same region. By using Azure Boost to enable RDMA in the guest OS, applications can bypass the",
+      "publishedAt": "2026-06-05T20:30:12.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Securing CI/CD in an agentic world: Claude Code Github action case",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/",
+      "summary": "Microsoft Threat Intelligence identified a prompt injection pathway in Claude Code GitHub Action that allowed access to workflow secrets under specific conditions. This research examines the attack chain, responsible disclosure process, Anthropic's mitigation, and guidance for securing AI-powered CI/CD workflows.",
+      "publishedAt": "2026-06-05T16:46:47.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
