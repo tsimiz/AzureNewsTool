@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-08T13:26:05.138Z",
-  "itemCount": 472,
+  "generatedAt": "2026-06-08T18:48:36.470Z",
+  "itemCount": 477,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,46 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Microsoft Foundry agent security capabilities in Microsoft Defender for Cloud are transitioning to a Microsoft Agent 365 license",
+      "link": "https://azure.microsoft.com/updates?id=565171",
+      "summary": "Starting July 1, 2026, Microsoft Foundry agent security capabilities previously available through Microsoft Defender for Cloud will transition to a Microsoft Agent 365 license. Agent protection in Defender will be powered by Agent 365 observability logs a",
+      "publishedAt": "2026-06-08T17:15:43.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Site Recovery support for Linux Azure VMs with NVMe disk controllers.",
+      "link": "https://azure.microsoft.com/updates?id=565103",
+      "summary": "Azure Site Recovery now supports replication and disaster recovery for Linux Azure Virtual Machines running on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa v6-series and Ebsv5/Ebdsv5 in the Azure-to-Azure scenario. This support is limited t",
+      "publishedAt": "2026-06-08T17:15:43.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Maintenance control for Azure Database for PostgreSQL - reschedule, apply on demand, view and download",
+      "link": "https://azure.microsoft.com/updates?id=563756",
+      "summary": "Enhanced maintenance control capabilities are now generally available for Azure Database for PostgreSQL Flexible Server. These new capabilities give you greater visibility and flexibility in managing platform maintenance events, helping reduce disruption",
+      "publishedAt": "2026-06-08T17:15:43.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Managed Redis now supports Entra ID based RBAC for data management",
+      "link": "https://azure.microsoft.com/updates?id=564873",
+      "summary": "With role-based access control (RBAC) for Azure Managed Redis data access, you can precisely control who can read, write, or administer your Redis data using Microsoft Entra ID—without relying on shared keys. Built on top of Redis Access Control Lists (AC",
+      "publishedAt": "2026-06-08T16:15:40.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "AI brands as bait: How threat actors are using the AI hype in social engineering",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/",
+      "summary": "As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure.",
+      "publishedAt": "2026-06-08T16:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
