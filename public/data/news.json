@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-09T12:58:04.989Z",
-  "itemCount": 480,
+  "generatedAt": "2026-06-09T18:42:42.876Z",
+  "itemCount": 491,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,78 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.124",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.124",
+      "summary": "Learn what's new in Visual Studio Code 1.124 (Insiders) Read the full article",
+      "publishedAt": "2026-06-10T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": ".NET and .NET Framework June 2026 servicing releases updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-june-2026-servicing-updates",
+      "summary": "Welcome to our combined .NET servicing updates for June 2026. Let's get into the latest release of .NET & .NET Framework, here is a quick overview of what's new in our servicing releases: Security improvements .NET and has been refreshed with the latest update as of June 9, 2026. This update contains security and non-security fi",
+      "publishedAt": "2026-06-09T18:08:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Reconstructing AI activity in investigations",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/",
+      "summary": "Learn how to investigate AI activity in Microsoft 365 Copilot and Azure AI services using a structured, telemetry-driven approach. This playbook helps security teams reconstruct events, assess data exposure, and detect potential threats faster.",
+      "publishedAt": "2026-06-09T17:35:06.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Distributed multi-agent systems with Aspire and Microsoft Agent Framework",
+      "link": "https://devblogs.microsoft.com/aspire/building-distributed-multi-agent-systems-with-aspire-and-microsoft-agent-framework",
+      "summary": "Agentic applications stop being simple very quickly. A useful assistant rarely stays as one model call. It needs tools, live data, specialized agents, orchestration, memory, voice or chat entry points, deployment infrastructure, health checks, and observability. That is the story behind the",
+      "publishedAt": "2026-06-09T17:05:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "ICYMI: Inside the Microsoft Agent Framework: How we designed a layered SDK",
+      "link": "https://devblogs.microsoft.com/agent-framework/icymi-inside-the-microsoft-agent-framework-how-we-designed-a-layered-sdk",
+      "summary": "In case you missed it, the Command Line blog was launched last week and has a great article (by yours truly) about our SDK design philosophy with Microsoft Agent Framework. Check it out: Inside the",
+      "publishedAt": "2026-06-09T16:50:39.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Staging Part 2 - Disk Space Optimization",
+      "link": "https://devblogs.microsoft.com/insidemsix/staging-disk-space-optimization",
+      "summary": "\"Disk space optimizations\" is one of the key features of MSIX: Disk space optimizations. With MSIX there is no duplication of files across apps and Windows manages the shared files across apps. The apps are still independent",
+      "publishedAt": "2026-06-09T16:00:03.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Copilot Code Reviews for Azure Repos",
+      "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos",
+      "summary": "Over the last several years, we have encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI powered and agentic development experiences that GitHub is delivering. At the same time, we recognize that migrating repositories to GitHub can vary significantly in complexity depending",
+      "publishedAt": "2026-06-09T15:12:40.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "🚀React Native Windows v0.83 is here!!",
+      "link": "https://devblogs.microsoft.com/react-native/%f0%9f%9a%80react-native-windows-v0-83-is-here",
+      "summary": "We’re excited to release React Native Windows 0.83.0, aligned with React Native 0.83.4. React Native Windows v0.83 advances the Fabric Architecture with broader Fabric parity, richer input and automation surfaces, stronger accessibility for hosted XAML islands, and new tooling to measure and protect component performance.",
+      "publishedAt": "2026-06-09T06:24:31.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Microsoft Build 2026 recap: vision, launches, and top sessions",
+      "link": "https://devblogs.microsoft.com/blog/build-recap",
+      "summary": "Microsoft Build 2026 is a wrap, and there was a LOT. Whether you were there in person, streaming live, or catching up now, this recap covers the biggest announcements, top sessions, and everything you need to keep building. 🎯 Vision lead-off: the system around AI is the differentiator Jay Parikh's post,",
+      "publishedAt": "2026-06-08T22:15:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -75,12 +147,28 @@
       "publishedAt": "2026-06-08T17:15:43.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": ".NET at Microsoft Build 2026: Must watch sessions",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-at-microsoft-build-2026",
+      "summary": "That's a wrap on Microsoft Build 2026! From union types in C# to agentic web apps and AI on the edge with .NET MAUI, this year's event showed how .NET 11 is built for the AI era. Whether you joined live or are catching up on demand, here are the .NET sessions worth your time. [alert type=\"tip\" heading=\"Tip\"]Want to binge the whole lineup? W",
+      "publishedAt": "2026-06-08T17:15:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure Managed Redis now supports Entra ID based RBAC for data management",
       "link": "https://azure.microsoft.com/updates?id=564873",
       "summary": "With role-based access control (RBAC) for Azure Managed Redis data access, you can precisely control who can read, write, or administer your Redis data using Microsoft Entra ID—without relying on shared keys. Built on top of Redis Access Control Lists (AC",
       "publishedAt": "2026-06-08T16:15:40.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Enterprise Live Migrations: Moving from Azure DevOps Repo to GitHub with minimal disruption",
+      "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations",
+      "summary": "Over the last several years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI-powered and agentic development experiences. For many enterprise teams, however, migrating at scale comes with real constraints. Traditional approaches can require extended downtime - som",
+      "publishedAt": "2026-06-08T16:13:26.000Z"
     },
     {
       "source": "Microsoft Security Blog",
