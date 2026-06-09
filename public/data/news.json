@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-08T18:48:36.470Z",
-  "itemCount": 477,
+  "generatedAt": "2026-06-09T00:34:44.850Z",
+  "itemCount": 480,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure NC RTX PRO 6000 Blackwell Server Edition v6 Series Virtual Machines",
+      "link": "https://azure.microsoft.com/updates?id=565271",
+      "summary": "Azure NCv6-series virtual machines (VMs) are now generally available in the Azure Southeast Asia and West US 2 regions. NCv6 VMs are powered by NVIDIA RTX PRO 6000 Blackwell Server Edition graphics processing units (GPUs) with each GPU featuring 96 GB of",
+      "publishedAt": "2026-06-08T18:15:14.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Premium SSD v2 disks now support non-zonal Azure Virtual Machines",
+      "link": "https://azure.microsoft.com/updates?id=565359",
+      "summary": "Azure Premium SSD v2 disks now support non-zonal, single-instance Azure virtual machines in select Azure regions with Availability Zones (AZs). Customers can now deploy Premium SSD v2 with non-zonal virtual machines without selecting an Availability Zone.",
+      "publishedAt": "2026-06-08T18:00:23.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -2904,6 +2920,14 @@
       "title": "[Launched] Announcing: Minimum billable object size for cooler storage tiers",
       "link": "https://azure.microsoft.com/updates?id=559756",
       "summary": "For storage accounts with Azure Blob or Data Lake Storage (ADLS) we are introducing a minimum billable object size for the cool, cold and archive access tiers of 128KiB. Objects on those tiers that are smaller than 128 KiB will be billed as 128 KiB object",
+      "publishedAt": "2026-04-14T21:15:15.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Update: Minimum billable object size for cooler storage tiers",
+      "link": "https://azure.microsoft.com/updates?id=559756",
+      "summary": "We are pausing the introduction of a minimum billable object size for the cool, cold, and archive access tiers. As a result, billing behavior will not change on July 1, 2026, for either new or existing storage accounts. We will provide an update on our r",
       "publishedAt": "2026-04-14T21:15:15.000Z"
     },
     {
