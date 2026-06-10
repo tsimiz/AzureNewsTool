@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-10T07:27:19.635Z",
-  "itemCount": 493,
+  "generatedAt": "2026-06-10T13:07:10.883Z",
+  "itemCount": 495,
   "sources": [
     {
       "name": "Azure Updates",
@@ -107,6 +107,14 @@
       "publishedAt": "2026-06-09T15:12:40.000Z"
     },
     {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Announcing Low-latency sync for Dataverse to Fabric in GA",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/06/09/low-latency-sync/",
+      "summary": "Low-latency sync for Link to Fabric brings significantly faster data replication from Dynamics 365 customer engagement apps and finance and operations apps to Microsoft Fabric",
+      "publishedAt": "2026-06-09T14:00:00.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "🚀React Native Windows v0.83 is here!!",
@@ -193,6 +201,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/",
       "summary": "As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure.",
       "publishedAt": "2026-06-08T16:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Dataverse MCP Server: Understanding the New Tool Shape",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/06/08/dataverse-mcp-server-understanding-the-new-tool-shape/",
+      "summary": "The Dataverse MCP server continues to evolve. The latest Dataverse MCP updates help agents achieve more with business data through a clearer and more capable tool surface. With these changes, agents can more easily inspect metadata, query records, search across structured and unstructured data, and work with Dataverse data through well-defined tool boundaries.",
+      "publishedAt": "2026-06-08T15:51:30.000Z"
     },
     {
       "source": "Azure Updates",
