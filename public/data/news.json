@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-10T13:07:10.883Z",
-  "itemCount": 495,
+  "generatedAt": "2026-06-10T18:51:34.006Z",
+  "itemCount": 498,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,36 @@
   ],
   "items": [
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Azure Synapse Link for Azure Cosmos DB NoSQL",
+      "link": "https://azure.microsoft.com/updates?id=558560",
+      "summary": "As of March 31, 2026, new Azure Cosmos DB NoSQL accounts can no longer enable Azure Synapse Link. Existing customers will remain fully supported until March 31, 2029, when Azure Synapse Link will reach end of life.We encourage all customers to begin migra",
+      "publishedAt": "2026-06-10T17:00:06.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Visual Studio Code 1.124",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.124",
       "summary": "Learn what's new in Visual Studio Code 1.124 (Insiders) Read the full article",
       "publishedAt": "2026-06-10T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Azure VPN Client for Linux (Preview) will be retired on August 31, 2026",
+      "link": "https://azure.microsoft.com/updates?id=565393",
+      "summary": "The Azure VPN Client for Linux (Preview) has remained in public preview and does not have a path to general availability (GA). As part of our ongoing efforts to align Azure networking services with current security and reliability standards, this preview",
+      "publishedAt": "2026-06-10T16:15:16.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Turn specs into evals for any agent with ASSERT",
+      "link": "https://commandline.microsoft.com/assert-written-intent-executable-evals/",
+      "summary": "Adaptive Spec-driven Scoring for Evaluation and Regression Testing (ASSERT) is an open-source framework for converting natural language behavior requirements into executable evaluations of AI models and agents.",
+      "publishedAt": "2026-06-10T16:00:00.000Z"
     },
     {
       "source": "Azure Updates",
