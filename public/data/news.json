@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-09T18:42:42.876Z",
-  "itemCount": 491,
+  "generatedAt": "2026-06-10T00:40:35.080Z",
+  "itemCount": 493,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,22 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.124",
       "summary": "Learn what's new in Visual Studio Code 1.124 (Insiders) Read the full article",
       "publishedAt": "2026-06-10T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Agent mode for GitHub Copilot in SQL Server Management Studio (SSMS)",
+      "link": "https://azure.microsoft.com/updates?id=562637",
+      "summary": "You can now use Agent mode for GitHub Copilot in SSMS to work with your database: investigating performance problems, tuning queries, reviewing maintenance and configuration, identifying security concerns, troubleshooting errors, and assisting with operat",
+      "publishedAt": "2026-06-09T23:45:10.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: PostgreSQL Hub for Azure Developers",
+      "link": "https://azure.microsoft.com/updates?id=562084",
+      "summary": "PostgreSQL Hub for Azure Developers brings together key AI and application development resources for PostgreSQL on Azure. It includes curated sample apps and solution accelerators, tutorials, and structured learning pathways to help you build everything f",
+      "publishedAt": "2026-06-09T18:45:07.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
