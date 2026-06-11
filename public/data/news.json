@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-10T18:51:34.006Z",
-  "itemCount": 498,
+  "generatedAt": "2026-06-11T00:41:06.608Z",
+  "itemCount": 499,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Microsoft Entra server principals on Azure SQL Database",
+      "link": "https://azure.microsoft.com/updates?id=565154",
+      "summary": "Microsoft Entra server principals (logins) for Azure SQL Database is now generally available. You can now use CREATE LOGIN ... FROM EXTERNAL PROVIDER in the virtual master database, bringing parity with SQL logins for your Microsoft Entra identities.With",
+      "publishedAt": "2026-06-10T20:45:26.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",

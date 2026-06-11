@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T18:51:34.006Z",
+  "generatedAt": "2026-06-11T00:41:06.608Z",
   "values": [
     "access",
     "Access",
@@ -196,7 +196,6 @@
     "Language",
     "Laosv5",
     "Lasv5",
-    "latest",
     "Launched",
     "launches",
     "layered",
@@ -280,6 +279,7 @@
     "Premium",
     "preview",
     "Preview",
+    "principals",
     "Private",
     "Prompt",
     "Public",
@@ -311,7 +311,6 @@
     "Sampling",
     "Scale",
     "schema",
-    "SDKs",
     "search",
     "Search",
     "Secure",
@@ -364,7 +363,6 @@
     "taught",
     "taxonomy",
     "teaming",
-    "text",
     "Text",
     "TextPII",
     "threat",
