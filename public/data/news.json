@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-11T13:15:16.395Z",
-  "itemCount": 500,
+  "generatedAt": "2026-06-11T18:58:24.353Z",
+  "itemCount": 501,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Azure Load Balancer Inbound NAT rule version 1 for Azure VMSS (aka Inbound NAT Pools)",
+      "link": "https://azure.microsoft.com/updates?id=565482",
+      "summary": "Update to our previous communication: We previously announced the retirement of all Inbound NAT rules version 1 resources, which included both single-VM NAT rules and NAT pools for Virtual Machine Scale Sets. We have narrowed the scope of this retirement",
+      "publishedAt": "2026-06-11T16:15:07.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
