@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-11T18:58:24.353Z",
-  "itemCount": 501,
+  "generatedAt": "2026-06-12T00:42:50.586Z",
+  "itemCount": 506,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,38 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Av2-series, F-series, Fs-series, Fsv2-series, G-series, Gs-series, and Lsv2-series Virtual Machines for Azure Batch pools",
+      "link": "https://azure.microsoft.com/updates?id=564774",
+      "summary": "Azure Compute will retire the following Virtual Machine series on November 15, 2028, impacting Azure Batch pools that rely on them:Av2-seriesF-series, Fs-series, Fsv2-seriesG-series, Gs-seriesLsv2-seriesAfter this date:New Batch pools using these VM serie",
+      "publishedAt": "2026-06-11T19:00:41.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: D-series, Ds-series, Dv2-series, Dsv2-series, and Ls-series Virtual Machines for Azure Batch pools",
+      "link": "https://azure.microsoft.com/updates?id=564772",
+      "summary": "Azure Compute will retire the following Virtual Machine series on May 1, 2028, impacting Azure Batch pools that rely on them:D-series, Ds-seriesDv2-series, Dsv2-seriesLs-seriesAfter this date:New Batch pools using these VM series cannot be createdExisting",
+      "publishedAt": "2026-06-11T19:00:41.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: GPv1 and Legacy Blob storage account creation",
+      "link": "https://azure.microsoft.com/updates?id=564441",
+      "summary": "As part of our ongoing efforts to streamline the Azure Storage portfolio and deliver enhanced performance, scalability, and cost efficiency, we are announcing the retirement of all General purpose v1 (GPv1) storage accounts. This includes legacy blob stor",
+      "publishedAt": "2026-06-11T19:00:41.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: SQL MCP Server",
+      "link": "https://azure.microsoft.com/updates?id=564734",
+      "summary": "SQL MCP Server is now generally available, giving customers a secure, high-performance way to build agentic solutions with controlled access to production data. Built for SQL and compatible with PostgreSQL and Azure Cosmos DB, SQL MCP Server is a dynamic,",
+      "publishedAt": "2026-06-11T18:45:02.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -127,6 +159,14 @@
       "category": "Azure",
       "title": "Claude Fable 5 available today in Microsoft Foundry: Powering the next era of autonomous agents",
       "link": "https://azure.microsoft.com/en-us/blog/claude-fable-5-is-now-available-in-microsoft-foundry-powering-the-next-era-of-autonomous-agents/",
+      "summary": "Claude Fable 5, Anthropic’s latest Frontier model, available today in Microsoft Foundry, powering agents in GitHub Copilot and Foundry Agent Service.",
+      "publishedAt": "2026-06-09T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Claude Fable 5 available today in Microsoft Foundry: Powering the next era of autonomous agents",
+      "link": "https://azure.microsoft.com/en-us/blog/claude-fable-5-available-today-in-microsoft-foundry-powering-the-next-era-of-autonomous-agents/",
       "summary": "Claude Fable 5, Anthropic’s latest Frontier model, available today in Microsoft Foundry, powering agents in GitHub Copilot and Foundry Agent Service.",
       "publishedAt": "2026-06-09T17:00:00.000Z"
     },
