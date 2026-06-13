@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-13T00:41:54.216Z",
-  "itemCount": 507,
+  "generatedAt": "2026-06-13T07:17:18.966Z",
+  "itemCount": 508,
   "sources": [
     {
       "name": "Azure Updates",
@@ -137,6 +137,14 @@
       "link": "https://azure.microsoft.com/updates?id=562084",
       "summary": "PostgreSQL Hub for Azure Developers brings together key AI and application development resources for PostgreSQL on Azure. It includes curated sample apps and solution accelerators, tutorials, and structured learning pathways to help you build everything f",
       "publishedAt": "2026-06-09T18:45:07.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": ".NET 11 Preview 5 is now available!",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-5",
+      "summary": "Today, we are excited to announce the fifth preview release of .NET 11! This release includes improvements across the .NET Runtime, SDK, libraries, ASP.NET Core, .NET MAUI, C#, Entity Framework Core, and more. Check out the linked release notes below and get started today. [cta-button align=\"center\" text=\"Download .NET 11 Preview 5\" url=\"ht",
+      "publishedAt": "2026-06-09T18:30:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
