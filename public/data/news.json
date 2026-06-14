@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T00:40:41.921Z",
-  "itemCount": 508,
+  "generatedAt": "2026-06-14T07:34:42.763Z",
+  "itemCount": 509,
   "sources": [
     {
       "name": "Azure Updates",
@@ -57,6 +57,14 @@
       "link": "https://azure.microsoft.com/updates?id=564441",
       "summary": "As part of our ongoing efforts to streamline the Azure Storage portfolio and deliver enhanced performance, scalability, and cost efficiency, we are announcing the retirement of all General purpose v1 (GPv1) storage accounts. This includes legacy blob stor",
       "publishedAt": "2026-06-11T19:00:41.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "3 things leaders need to know from Microsoft Build 2026",
+      "link": "https://azure.microsoft.com/en-us/blog/3-things-leaders-need-to-know-from-microsoft-build-2026/",
+      "summary": "At Microsoft Build 2026, AI moved from experimentation to execution—shifting from isolated tools to connected systems grounded in business data. Organizations that win will embed AI across workflows, scale it effectively, and translate it into measurable outcomes like faster growth, lower costs, and better customer experiences.",
+      "publishedAt": "2026-06-11T19:00:00.000Z"
     },
     {
       "source": "Azure Updates",
