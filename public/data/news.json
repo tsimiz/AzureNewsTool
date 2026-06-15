@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T00:42:34.528Z",
-  "itemCount": 509,
+  "generatedAt": "2026-06-15T07:55:41.847Z",
+  "itemCount": 510,
   "sources": [
     {
       "name": "Azure Updates",
@@ -81,6 +81,14 @@
       "link": "https://azure.microsoft.com/updates?id=565482",
       "summary": "Update to our previous communication: We previously announced the retirement of all Inbound NAT rules version 1 resources, which included both single-VM NAT rules and NAT pools for Virtual Machine Scale Sets. We have narrowed the scope of this retirement",
       "publishedAt": "2026-06-11T16:15:07.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "What’s new in Power Platform: June 2026 feature update",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/06/11/whats-new-in-power-platform-june-2026-feature-update/",
+      "summary": "Agentic apps Power Apps MCP server introduces closed-loop learning for enterprise agents Enterprise AI has made building agents faster than ever. But teaching those agents how your organization works still means feeding knowledge in as documents and custom instructions or standing up a data science team to run the training, evaluation, and optimization cycles yourself.",
+      "publishedAt": "2026-06-11T15:31:27.000Z"
     },
     {
       "source": "Azure Updates",
