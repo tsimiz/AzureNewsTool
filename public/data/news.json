@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T14:05:14.732Z",
-  "itemCount": 510,
+  "generatedAt": "2026-06-15T19:18:51.405Z",
+  "itemCount": 511,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Microsoft Defender email security benchmarking: Key insights from one year of data",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/15/microsoft-defender-email-security-benchmarking-key-insights-from-one-year-of-data/",
+      "summary": "See how Microsoft Defender performed in one year of real-world email security benchmarking against SEG and ICES vendors.",
+      "publishedAt": "2026-06-15T16:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
