@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-16T13:42:57.750Z",
-  "itemCount": 511,
+  "generatedAt": "2026-06-16T19:12:21.141Z",
+  "itemCount": 513,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Log Analytics Summary Rules experience",
+      "link": "https://azure.microsoft.com/updates?id=562027",
+      "summary": "A new Azure portal experience for Summary Rules in Log Analytics is now available. Summary Rules enable aggregation of high-volume log data at a defined cadence and store it in summarized tables for improved query performance, reporting, or enhanced data",
+      "publishedAt": "2026-06-16T17:15:28.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Copilot Cowork is now generally available",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+      "summary": "Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we have shipped.",
+      "publishedAt": "2026-06-16T15:00:00.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
