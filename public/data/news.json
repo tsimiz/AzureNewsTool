@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-16T19:12:21.141Z",
-  "itemCount": 513,
+  "generatedAt": "2026-06-17T00:42:08.244Z",
+  "itemCount": 514,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: New project templates and template gallery for Azure Functions in VS Code",
+      "link": "https://azure.microsoft.com/updates?id=562497",
+      "summary": "The Azure Functions extension for VS Code now provides a redesigned Create New Project experience in public preview, featuring a rich, visual template gallery that replaces the multi-step Quick Pick wizard with a searchable, filterable view of project tem",
+      "publishedAt": "2026-06-16T19:00:15.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
