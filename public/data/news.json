@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-18T07:38:52.133Z",
-  "itemCount": 534,
+  "generatedAt": "2026-06-18T13:07:44.709Z",
+  "itemCount": 536,
   "sources": [
     {
       "name": "Azure Updates",
@@ -141,6 +141,14 @@
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
+      "title": "Windows stack limit checking retrospective, follow-up",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260617-00/?p=112436",
+      "summary": "Aaron Giles worked on porting Windows to both ARM32 and AArch64, and he noted a missing detail in my",
+      "publishedAt": "2026-06-17T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
       "title": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention",
       "link": "https://devblogs.microsoft.com/cosmosdb/azure-backup-for-azure-cosmos-db-public-preview-adds-immutable-backups-and-long-term-retention",
       "summary": "",
@@ -152,6 +160,14 @@
       "title": "Improving token efficiency in GitHub Copilot",
       "link": "https://devblogs.microsoft.com/vscode-blog/improving-token-efficiency-in-github-copilot",
       "summary": "Learn how we're improving token efficiency in GitHub Copilot to reduce costs and latency for users. Read the full article",
+      "publishedAt": "2026-06-17T00:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Improving token efficiency for GitHub Copilot in VS Code",
+      "link": "https://devblogs.microsoft.com/vscode-blog/improving-token-efficiency-for-github-copilot-in-vs-code",
+      "summary": "Learn how we're improving token efficiency for GitHub Copilot to reduce costs and latency for VS Code users. Read the full article",
       "publishedAt": "2026-06-17T00:00:00.000Z"
     },
     {
