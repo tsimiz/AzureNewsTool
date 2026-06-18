@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-18T00:43:14.343Z",
-  "itemCount": 532,
+  "generatedAt": "2026-06-18T07:38:52.133Z",
+  "itemCount": 534,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/",
+      "summary": "A poisoned npm package infected 140+ projects with a hidden payload. This report highlights how to detect, hunt, and defend against supply chain attacks using Microsoft Defender and actionable threat intelligence.",
+      "publishedAt": "2026-06-18T03:43:04.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
@@ -185,6 +193,14 @@
       "link": "https://devblogs.microsoft.com/insidemsix/third-rule-of-msix",
       "summary": "MSIX has several core principles underlying its design and implementation. Engineers half-jokingly call these The Rules of MSIX. The Third Rule of MSIX is arguably the most important and certainly the most foundational: Package identity is unique across space and time",
       "publishedAt": "2026-06-16T16:00:03.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Modernize your data with Azure Storage: Plan and migrate with confidence",
+      "link": "https://azure.microsoft.com/en-us/blog/modernize-your-data-with-azure-storage-plan-and-migrate-with-confidence/",
+      "summary": "Enterprise storage migrations are rarely just about copying data. They are about protecting business continuity, maintaining performance, managing cost, and giving teams confidence when terabytes or petabytes of data sit at the heart of critical applications.",
+      "publishedAt": "2026-06-16T16:00:00.000Z"
     },
     {
       "source": "Microsoft 365 Blog",
