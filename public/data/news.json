@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-18T18:46:57.238Z",
-  "itemCount": 536,
+  "generatedAt": "2026-06-19T00:47:10.569Z",
+  "itemCount": 547,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,100 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.126",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.126",
+      "summary": "Learn what's new in Visual Studio Code 1.126 (Insiders) Read the full article",
+      "publishedAt": "2026-06-24T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Outcome-driven learning systems: Enterprise RL with OpenEnv and Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/outcome-driven-learning-systems-enterprise-rl-with-openenv-and-foundry",
+      "summary": "We shipped a lot at Build 2026: hosted agents, Toolboxes, Foundry IQ, Memory, Managed Compute, fine‑tuning, Frontier Tuning, and a new evaluation and optimization stack. Read",
+      "publishedAt": "2026-06-18T20:37:18.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Meet the Agent Academy Hackathon Winners",
+      "link": "https://devblogs.microsoft.com/powerplatform/agent-academy-hackathon-winners",
+      "summary": "From May 12 to June 2, 2026, builders from around the world put their Agent Academy learning to the test by designing, building, and shipping real, working AI agents with Copilot Studio. After two weeks of judging, we’re thrilled to announce the Agent Academy Hackathon winners. 🏆 The Winners Recruit Track Th",
+      "publishedAt": "2026-06-18T19:52:38.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "New Forrester study shows customers who unified with Microsoft Security benefited from 124% ROI",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/new-forrester-study-shows-customers-who-unified-with-microsoft-security-benefited-from-124-roi/",
+      "summary": "New Forrester Total Economic Impact™ study shows Microsoft Security consolidation delivers ROI, lowers risk, and prepares organizations to secure AI.",
+      "publishedAt": "2026-06-18T19:36:08.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "DirectX Dump Files Preview Now Available!",
+      "link": "https://devblogs.microsoft.com/directx/dx-dump-files-preview",
+      "summary": "At this year’s GDC, we shared our vision for bringing console‑level GPU developer tools to Windows. As part of that announcement, we introduced DirectX Dump Files as a major step forward in GPU crash debugging on Windows. Today, we’re excited to make our DirectX Dump Files public preview available to developers! If you missed our G",
+      "publishedAt": "2026-06-18T17:05:40.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "PIX 2606.18-preview: DirectX Dump Files and more",
+      "link": "https://devblogs.microsoft.com/pix/pix-2606-18-preview",
+      "summary": "Today we released PIX 2606.18-preview, available here. This PIX release coincides with the preview availability of DirectX Dump Files (.dxdmp). The PIX UI can open DirectX Dump Files directly for analysis, and the PIX API can be used to analyze them programmatically. Please visit",
+      "publishedAt": "2026-06-18T17:00:23.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing TypeScript 7.0 RC",
+      "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc",
+      "summary": "Today we are excited to announce the Release Candidate of TypeScript 7.0! If you haven't been following TypeScript 7.0's development, this release is significant in that it is built on a completely new foundation. Over the past year, we have been porting the existing TypeScript codebase from TypeScript (as a bootstrapped codebase that comp",
+      "publishedAt": "2026-06-18T14:31:17.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Stop overloading your skills",
+      "link": "https://devblogs.microsoft.com/blog/stop-overloading-your-skills",
+      "summary": "You built a skill for your technology. API references, authentication flows, SDK patterns, error handling, version info, all packed into one skill. The agent calls it, gets all that context, and generates code. The kicker? You've just wasted a lot of tokens. It already knows Models have ingested your documentation, your St",
+      "publishedAt": "2026-06-18T14:25:27.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why doesn&#039;t Get&shy;Last&shy;Input&shy;Info() return info for the user I&#039;m impersonating?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260618-00/?p=112444",
+      "summary": "A customer had a Windows NT service process, and from that service process, they wanted to obtain the last input time for all signed-in users. Their strategy was to use WTS­Query­User­Token() to get the token for each user, use that token to impersonate the user, and then call Get­Last­Input­Info() to get the",
+      "publishedAt": "2026-06-18T14:00:00.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/",
       "summary": "A poisoned npm package infected 140+ projects with a hidden payload. This report highlights how to detect, hunt, and defend against supply chain attacks using Microsoft Defender and actionable threat intelligence.",
       "publishedAt": "2026-06-18T03:43:04.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Use your own language model key in VS Code",
+      "link": "https://devblogs.microsoft.com/vscode-blog/use-your-own-language-model-key-in-vs-code",
+      "summary": "Learn how to use bring your own key (BYOK) in VS Code to add models from providers like Azure, Anthropic, Gemini, OpenAI, Huggingface, OpenRouter, or use a local model with Ollama, Foundry Local, and more. Read the full article",
+      "publishedAt": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Use your own language model key in VS Code",
+      "link": "https://devblogs.microsoft.com/external-blogs/use-your-own-language-model-key-in-vs-code",
+      "summary": "Learn how to use bring your own key (BYOK) in VS Code to add models from providers like Azure, Anthropic, Gemini, OpenAI, Huggingface, OpenRouter, or use a local model with Ollama, Foundry Local, and more. Read the full article",
+      "publishedAt": "2026-06-18T00:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
