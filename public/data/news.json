@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T13:51:45.032Z",
-  "itemCount": 549,
+  "generatedAt": "2026-06-22T19:04:53.176Z",
+  "itemCount": 550,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.126",
       "summary": "Learn what's new in Visual Studio Code 1.126 (Insiders) Read the full article",
       "publishedAt": "2026-06-24T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "One intrusion, two cyberattackers: Uncovering parallel threat activity",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/",
+      "summary": "Ransomware case reveals two parallel threat actors, blending tactics and evasion—showing why isolated signals can often miss modern, overlapping cyberattacks.",
+      "publishedAt": "2026-06-22T16:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
