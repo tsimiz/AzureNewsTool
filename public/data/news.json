@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T12:55:14.162Z",
-  "itemCount": 551,
+  "generatedAt": "2026-06-23T18:40:38.300Z",
+  "itemCount": 560,
   "sources": [
     {
       "name": "Azure Updates",
@@ -43,6 +43,30 @@
       "publishedAt": "2026-06-24T17:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Add vs Stage and Register",
+      "link": "https://devblogs.microsoft.com/insidemsix/add-vs-stage-and-register",
+      "summary": "As previously mentioned to 'install' a package, as people think of the term, Windows actually performs two separate operations: staging and registration. To oversimplify: Staging puts t",
+      "publishedAt": "2026-06-23T16:00:17.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Going beyond text in Microsoft 365 Copilot - Introducing SharePoint Copilot Apps",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/going-beyond-text-in-microsoft-365-copilot-introducing-sharepoint-copilot-apps",
+      "summary": "Microsoft 365 Copilot is brilliant at working with language. But work isn't only words, sometimes you don't want to describe what you need in a back-and-forth chat - you want to see it, touch it, and act on it right w",
+      "publishedAt": "2026-06-23T12:25:46.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure SDK Release (May 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-may-2026",
+      "summary": "Thank you for your interest in the new Azure SDKs! We release new features, improvements, and bug fixes every month. Subscribe to our Azure SDK Blog RSS Feed to get notified when a new release is available. You can find links to packages, code, and docs on our",
+      "publishedAt": "2026-06-22T23:37:37.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Guarding AI memory",
@@ -51,12 +75,60 @@
       "publishedAt": "2026-06-22T19:07:28.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Meet your agent harness and claw",
+      "link": "https://devblogs.microsoft.com/agent-framework/meet-your-agent-harness-and-claw",
+      "summary": "Part 1 of Build your own claw and agent harness with Microsoft Agent Framework. In the",
+      "publishedAt": "2026-06-22T17:35:24.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build your own claw and agent harness with Microsoft Agent Framework",
+      "link": "https://devblogs.microsoft.com/agent-framework/build-your-own-claw-and-agent-harness-with-microsoft-agent-framework",
+      "summary": "What does it take to build your own \"claw\" - a capable, CLI-style agent that can plan, use tools, remember things, and safely act on your behalf? Coding agents and assistants like these can feel like magic, but underneath they are an agent harness: a loop around a language model wired up with tools, planning, memory, approvals, and ob",
+      "publishedAt": "2026-06-22T17:33:56.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "One intrusion, two cyberattackers: Uncovering parallel threat activity",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/",
       "summary": "Ransomware case reveals two parallel threat actors, blending tactics and evasion—showing why isolated signals can often miss modern, overlapping cyberattacks.",
       "publishedAt": "2026-06-22T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Models don&#039;t have preferences, they have context",
+      "link": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context",
+      "summary": "You open a fresh chat, type \"What framework should I use for a web app?\", and the model says \"React.\" You screenshot it, share it, and write \"Claude prefers React.\" It gets engagement. People nod along. A few reply with their own results. And now we have a consensus: Claude prefers React. Except it doesn't. The model doesn't prefer anything",
+      "publishedAt": "2026-06-22T14:53:23.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "In memory of the man who put red and green squiggles under words",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451",
+      "summary": "I recently learned of the passing of someone whose work nearly everybody knows, but nobody knows his name. Tony Krueger is remembered in Wikipedia as the person who ported the game Chip's Challenge to Windows for the Windows Entertainment Pack.¹ But that's probably not t",
+      "publishedAt": "2026-06-22T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
+      "link": "https://devblogs.microsoft.com/cosmosdb/deep-agents-to-plan-act-verify-against-operational-data",
+      "summary": "Deep Agents is an agent harness built on LangGraph, for agents that need to work through a task over many steps instead of a single LLM call. The agent runs tools, looks at the results, and uses that to",
+      "publishedAt": "2026-06-22T13:21:18.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Retirement of Azure DevOps issuer in Workload identity federation service connections",
+      "link": "https://devblogs.microsoft.com/devops/retirement-of-azure-devops-issuer-in-workload-identity-federation-service-connections",
+      "summary": "We are announcing the deprecation of the Azure DevOps issuer in workload identity federation (WIF) service connections, with planned retirement on July 1, 2027. The Azure DevOps issuer uses the https://vstoken.dev.azure.com prefix in federated credentials. This change is part of Microsoft's bro",
+      "publishedAt": "2026-06-22T09:35:34.000Z"
     },
     {
       "source": "Microsoft Security Blog",
