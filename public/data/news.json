@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T19:04:53.176Z",
-  "itemCount": 550,
+  "generatedAt": "2026-06-23T00:37:55.676Z",
+  "itemCount": 551,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.126",
       "summary": "Learn what's new in Visual Studio Code 1.126 (Insiders) Read the full article",
       "publishedAt": "2026-06-24T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Guarding AI memory",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/",
+      "summary": "What happens when threat actors target what AI remembers? Microsoft breaks down the risks and the defenses.",
+      "publishedAt": "2026-06-22T19:07:28.000Z"
     },
     {
       "source": "Microsoft Security Blog",
