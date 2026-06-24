@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T18:40:38.300Z",
-  "itemCount": 560,
+  "generatedAt": "2026-06-24T00:32:39.480Z",
+  "itemCount": 562,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.126",
       "summary": "Learn what's new in Visual Studio Code 1.126 (Insiders) Read the full article",
       "publishedAt": "2026-06-24T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Generally Available: Azure NetApp Files migration assistant",
+      "link": "https://azure.microsoft.com/updates?id=565480",
+      "summary": "Azure NetApp Files migration assistant (with SnapMirror) provides efficient and cost-effective data migration leveraging ONTAP's built-in replication engine for seamless transition from on-premises or CVO/other cloud providers to Azure NetApp Files (ANF).",
+      "publishedAt": "2026-06-23T20:15:55.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -158,6 +166,14 @@
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "New Forrester study shows customers who unified with Microsoft Security benefited from 124% ROI",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/new-forrester-study-shows-customers-who-unified-with-microsoft-security-benefited-from-124-roi/",
+      "summary": "New Forrester Total Economic Impact™ study shows Microsoft Security consolidation delivers ROI, lowers risk, and prepares organizations to secure AI.",
+      "publishedAt": "2026-06-18T19:36:08.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "New Forrester Total Economic Impact™ study projects a 124% ROI from unifying with Microsoft Security",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/new-forrester-study-shows-customers-who-unified-with-microsoft-security-benefited-from-124-roi/",
       "summary": "New Forrester Total Economic Impact™ study shows Microsoft Security consolidation delivers ROI, lowers risk, and prepares organizations to secure AI.",
       "publishedAt": "2026-06-18T19:36:08.000Z"
