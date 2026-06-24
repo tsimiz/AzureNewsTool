@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-24T00:32:39.480Z",
-  "itemCount": 562,
+  "generatedAt": "2026-06-24T07:09:46.236Z",
+  "itemCount": 563,
   "sources": [
     {
       "name": "Azure Updates",
@@ -57,6 +57,14 @@
       "link": "https://devblogs.microsoft.com/insidemsix/add-vs-stage-and-register",
       "summary": "As previously mentioned to 'install' a package, as people think of the term, Windows actually performs two separate operations: staging and registration. To oversimplify: Staging puts t",
       "publishedAt": "2026-06-23T16:00:17.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "From insight to action: The next phase of agentic cloud operations",
+      "link": "https://azure.microsoft.com/en-us/blog/from-insight-to-action-the-next-phase-of-agentic-cloud-operations/",
+      "summary": "What if your cloud environment could help you move from insight to action in real time, with systems already working through the next set of decisions?",
+      "publishedAt": "2026-06-23T15:45:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
