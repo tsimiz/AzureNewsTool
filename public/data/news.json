@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-25T12:46:28.583Z",
-  "itemCount": 566,
+  "generatedAt": "2026-06-25T18:43:24.154Z",
+  "itemCount": 577,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,62 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.127",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.127",
+      "summary": "Learn what's new in Visual Studio Code 1.127 (Insiders) Read the full article",
+      "publishedAt": "2026-07-01T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Migrate from Azure Blueprints by January 31, 2027",
+      "link": "https://azure.microsoft.com/updates?id=564806",
+      "summary": "In September 2023, we announced Azure Blueprints would retire on July 11, 2026. We're extending that timeline to January 31, 2027, with phased retirement beginning July 31, 2026.What's changing?July 31, 2026, you won't be able to create new blueprint defi",
+      "publishedAt": "2026-06-25T16:00:03.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Microsoft a Leader in The Forrester Wave™ for Endpoint Management Platforms",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/microsoft-a-leader-in-the-forrester-wave-for-endpoint-management-platforms/",
+      "summary": "Microsoft named a Leader in the Forrester Wave™: Endpoint Management Platforms, Q2 2026, with the highest scores in the current offering and strategy categories.",
+      "publishedAt": "2026-06-25T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Raymond&#039;s hot take on Hainanese chicken",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260625-01/?p=112469",
+      "summary": "\"If we give it no flavor, we can say that it's really subtle.\"",
+      "publishedAt": "2026-06-25T14:00:01.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The case of the DLL that was not present in memory despite not being formally unloaded, part 1",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260625-00/?p=112467",
+      "summary": "The team responsible for shell32.dll received a bug saying that they were responsible for a large number of crashes in a particular third party program. Opening the crash dumps showed the clear signs of a stack overflow: # Child-SP RetAddr Call Site",
+      "publishedAt": "2026-06-25T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Which Azure Cosmos DB Role Does My App Need?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/which-azure-cosmos-db-role-does-my-app-need",
+      "summary": "In the previous post in the series, we covered the security decisions you make on day one. In this part, we will talk about how to give your app access to Cosmos DB data, using roles and a managed identity instead of keys",
+      "publishedAt": "2026-06-25T13:00:50.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure Functions MCP Extension: What&#039;s New at Build 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/functions-mcp-updates-build-2026",
+      "summary": "The Azure Functions MCP extension provides simple abstractions to help you build and host MCP servers without having to learn the protocol details yourself. You can use the triggers and bindings model to expose any function as an MCP tool, resource, or prompt. Since its initial preview, the extension has grown from supporting a single trigger",
+      "publishedAt": "2026-06-24T20:20:35.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Application Gateway for Containers – Inference gateway",
@@ -55,8 +111,32 @@
       "category": "Developer",
       "title": "Visual Studio Code 1.126",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.126",
-      "summary": "Learn what's new in Visual Studio Code 1.126 (Insiders) Read the full article",
+      "summary": "Learn what is new in Visual Studio Code 1.126 Read the full article",
       "publishedAt": "2026-06-24T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.126",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-126",
+      "summary": "Learn what is new in Visual Studio Code 1.126 Read the full article",
+      "publishedAt": "2026-06-24T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "When the model has never seen your code",
+      "link": "https://devblogs.microsoft.com/blog/when-the-model-has-never-seen-your-code",
+      "summary": "This is the fifth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can't control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate toward better outcomes. Everyt",
+      "publishedAt": "2026-06-24T14:04:52.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Cancellation of Windows Runtime activities is asynchronous",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260624-00/?p=112465",
+      "summary": "In the Windows Runtime, there are four interface patterns for representing asynchronous activity. No return type With return type T Without progress IAsyncAction",
+      "publishedAt": "2026-06-24T14:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -65,6 +145,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
       "summary": "On June 24, 2026, Microsoft’s Digital Crimes Unit (DCU) facilitated the takedown, suspension, and blocking of domains that formed the backbone of the StealC and Amadey infrastructure. This blog is a technical breakdown of StealC and Amadey.",
       "publishedAt": "2026-06-24T12:30:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Streamline C++ Code Intelligence Setup in Copilot CLI",
+      "link": "https://devblogs.microsoft.com/cppblog/streamline-c-code-intelligence-setup-in-copilot-cli",
+      "summary": "C++ developers can now bring IDE-style semantic intelligence into Copilot CLI with less setup. The C++ language server plugin supports richer code navigation, diagnostics, symbol understanding, and code changes by using the same build context your compiler does. That build cont",
+      "publishedAt": "2026-06-23T21:04:54.000Z"
     },
     {
       "source": "Azure Updates",
