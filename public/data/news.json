@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-24T18:34:53.524Z",
-  "itemCount": 564,
+  "generatedAt": "2026-06-25T00:37:58.127Z",
+  "itemCount": 566,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Application Gateway for Containers – Inference gateway",
+      "link": "https://azure.microsoft.com/updates?id=566516",
+      "summary": "Application Gateway for Containers is extending its ingress gateway feature set with new AI gateway capabilities. The new inference gateway capability brings the Kubernetes Gateway API Inference Extension to Application Gateway for Containers, enabling lo",
+      "publishedAt": "2026-06-24T19:00:43.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "CNAPP evolution: How Microsoft aligns with leading cloud risk management platforms",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/cnapp-evolution-how-microsoft-aligns-with-leading-cloud-risk-management-platforms/",
+      "summary": "Learn how CNAPP platforms are helping organizations prioritize exploitable risks, reduce exposure, and operationalize security across the application lifecycle.",
+      "publishedAt": "2026-06-24T18:00:00.000Z"
+    },
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
