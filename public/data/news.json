@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-25T18:43:24.154Z",
-  "itemCount": 577,
+  "generatedAt": "2026-06-26T00:38:57.242Z",
+  "itemCount": 578,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.127",
       "summary": "Learn what's new in Visual Studio Code 1.127 (Insiders) Read the full article",
       "publishedAt": "2026-07-01T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/",
+      "summary": "Microsoft Threat Intelligence identified an active multi-stage intrusion campaign targeting hospitality organizations in Europe and Asia. The campaign uses photo-themed ZIP archives and fake image shortcut files to deliver a persistent Node.js implant and evade detection.",
+      "publishedAt": "2026-06-25T22:30:29.000Z"
     },
     {
       "source": "Azure Updates",
