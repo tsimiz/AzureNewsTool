@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-27T12:25:52.923Z",
-  "itemCount": 578,
+  "generatedAt": "2026-06-27T18:24:02.234Z",
+  "itemCount": 579,
   "sources": [
     {
       "name": "Azure Updates",
@@ -89,6 +89,14 @@
       "link": "https://devblogs.microsoft.com/cosmosdb/which-azure-cosmos-db-role-does-my-app-need",
       "summary": "In the previous post in the series, we covered the security decisions you make on day one. In this part, we will talk about how to give your app access to Cosmos DB data, using roles and a managed identity instead of keys",
       "publishedAt": "2026-06-25T13:00:50.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Copilot in Excel: Built for the era of Frontier Finance",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+      "summary": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice.",
+      "publishedAt": "2026-06-25T13:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
