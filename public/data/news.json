@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-27T18:24:02.234Z",
-  "itemCount": 579,
+  "generatedAt": "2026-06-28T00:36:50.900Z",
+  "itemCount": 580,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.127",
       "summary": "Learn what's new in Visual Studio Code 1.127 (Insiders) Read the full article",
       "publishedAt": "2026-07-01T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "The performance dividend: Optimizing PostgreSQL on Azure directly in Visual Studio Code",
+      "link": "https://azure.microsoft.com/en-us/blog/the-performance-dividend-optimizing-postgresql-on-azure-directly-in-visual-studio-code/",
+      "summary": "Poor database performance is never just a database problem. In enterprise teams, it shows up as missed SLAs, delayed releases, frustrated development teams, and rising operational risk. The performance problem compounds further in business impact, often resulting in frustrated customers, retention and conversion risk, and lost revenue.",
+      "publishedAt": "2026-06-26T17:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
