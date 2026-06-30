@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T12:39:16.517Z",
-  "itemCount": 581,
+  "generatedAt": "2026-06-30T18:35:04.428Z",
+  "itemCount": 593,
   "sources": [
     {
       "name": "Azure Updates",
@@ -43,12 +43,108 @@
       "publishedAt": "2026-07-01T17:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.127 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.127-(insiders)",
+      "summary": "Learn what's new in Visual Studio Code 1.127 (Insiders) Read the full article",
+      "publishedAt": "2026-07-01T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MSIX Per-User vs All Users: Install, Provision, and Uninstall Packages",
+      "link": "https://devblogs.microsoft.com/insidemsix/msix-per-user-vs-all-users",
+      "summary": "MSIX supports making a package available to all users; the formal term is provisioning. Provisioning a package family makes it available to all users, whereas registration makes a package available to a single user. Per-User vs All Users Traditional installers often provide a \"per-machine\" installation mode to make softwar",
+      "publishedAt": "2026-06-30T16:00:31.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "​​What’s new in Microsoft Security: June 2026",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/whats-new-in-microsoft-security-june-2026/",
+      "summary": "This month’s updates help security and IT teams strengthen identity and multicloud foundations, protect data wherever it lives, and secure the developer workflows powering AI innovation.",
+      "publishedAt": "2026-06-30T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Securing AI agents: When AI tools move from reading to acting",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/",
+      "summary": "MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and prevent it.",
+      "publishedAt": "2026-06-30T15:57:11.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Mailbox requirement set 1.16 now available for Outlook add-ins",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/mailbox-requirement-set-1-16-now-available-for-outlook-add-ins",
+      "summary": "Mailbox requirement set 1.16 is now generally available for Outlook add-ins. This release reflects our continued investment in closing the gap between COM/VSTO and web add-ins, with a focus on message and information security. Mail",
+      "publishedAt": "2026-06-30T15:00:02.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "A compatibility note on the abuse of Windows window class extra bytes",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260630-00/?p=112488",
+      "summary": "During my discussion of the evolution of system-windows window and class extra bytes, I noted that even though IDs are typically small integers, people liked to stash pointers there, so we",
+      "publishedAt": "2026-06-30T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "🚀React Native Windows v0.84 is here!!",
+      "link": "https://devblogs.microsoft.com/react-native/react-native-windows-v0-84-is-here",
+      "summary": "We're excited to release React Native Windows 0.84.0, aligned with React Native 0.84.1. React Native Windows v0.84 delivers input-handling improvements such as standard click events and imperative focus, theme-aware defaults and robust hit-testing semantics.",
+      "publishedAt": "2026-06-30T09:16:21.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": ".NET 8 and .NET 9 will reach End of Support on November 10, 2026",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-8-9-end-of-support",
+      "summary": ".NET 8 and .NET 9 will reach end of support on November 10, 2026. After that date, Microsoft will no longer provide servicing updates, security fixes, or technical support for these versions. We recommend upgrading to",
+      "publishedAt": "2026-06-29T21:33:20.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "SkiaSharp 4.0 is here: announcing the first stable release",
+      "link": "https://devblogs.microsoft.com/dotnet/skiasharp-4-0-stable",
+      "summary": "SkiaSharp has been the backbone of cross-platform 2D graphics in .NET for over a decade. It powers pixel-perfect text, geometry, and image rendering across mobile, desktop, web, and server using the open-source Skia engine, and it sits under .NET MAUI, WebAssembly, WinUI 3, and frameworks like",
+      "publishedAt": "2026-06-29T21:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Packaging and Package Identity for .NET apps with WinApp CLI on Windows",
+      "link": "https://devblogs.microsoft.com/dotnet/packaging-dotnet-apps-winapp",
+      "summary": "Package identity has often been a pain point for developers looking to build apps that integrate with Windows APIs. Many modern Windows features, like push notifications or the AI APIs, are gated behind package identity. For Windows apps that are unpackaged by default (like .NET console or WPF applications), this meant wrestling with packag",
+      "publishedAt": "2026-06-29T17:00:00.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Chromium extension uses AI‑related branding to redirect browser search",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/",
       "summary": "A malicious Chromium-based extension that spoofs the AI-powered answer engine Perplexity AI redirects browser search traffic using MV3 APIs and intermediary infrastructure.",
       "publishedAt": "2026-06-29T16:27:46.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "WSL container is now available for public preview",
+      "link": "https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview",
+      "summary": "At Microsoft Build 2026, we introduced WSL containers, bringing Linux container development directly into Windows through the Windows Subsystem for Linux (WSL). Containers have become a foundational part of modern development - from cloud-native applications and AI workloads to testing and deployment pipelines and WSL containers simplify th",
+      "publishedAt": "2026-06-29T15:29:48.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Automating your Visual Studio extension builds with GitHub Actions",
+      "link": "https://devblogs.microsoft.com/visualstudio/automating-your-visual-studio-extension-builds-with-github-actions",
+      "summary": "If you’re building and maintaining Visual Studio extensions, you’ve probably ended up with some sort of build and publishing workflow - whether it’s manual, scripted, or stitched together over time. This post is for extension authors who want a simple, repeatable way to build, version, and publish their VSIX files using GitHub Actions",
+      "publishedAt": "2026-06-29T14:00:25.000Z"
     },
     {
       "source": "Azure Blog",
