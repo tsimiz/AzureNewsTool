@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T00:38:53.124Z",
-  "itemCount": 599,
+  "generatedAt": "2026-07-01T07:28:13.400Z",
+  "itemCount": 602,
   "sources": [
     {
       "name": "Azure Updates",
@@ -171,6 +171,14 @@
       "publishedAt": "2026-06-29T17:00:00.000Z"
     },
     {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Claude in Microsoft Foundry is now generally available",
+      "link": "https://azure.microsoft.com/en-us/blog/claude-in-microsoft-foundry-is-now-generally-available/",
+      "summary": "Claude in Microsoft Foundry is now generally available, hosted on Azure, and running on NVIDIA GB300 Blackwell Ultra, giving teams a faster path from agent experimentation to production.",
+      "publishedAt": "2026-06-29T17:00:00.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Chromium extension uses AI‑related branding to redirect browser search",
@@ -185,6 +193,22 @@
       "link": "https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview",
       "summary": "At Microsoft Build 2026, we introduced WSL containers, bringing Linux container development directly into Windows through the Windows Subsystem for Linux (WSL). Containers have become a foundational part of modern development - from cloud-native applications and AI workloads to testing and deployment pipelines and WSL containers simplify th",
       "publishedAt": "2026-06-29T15:29:48.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "The 2026 Agent Confidence Index: Where 300 builders see real momentum",
+      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/06/29/the-2026-agent-confidence-index-where-300-builders-see-real-momentum/",
+      "summary": "At Microsoft, building trustworthy AI agents is as critical as building powerful ones. New research from the 2026 Agent Confidence Index shows where teams trust agents today—and why human judgment remains the defining skill in the age of AI.",
+      "publishedAt": "2026-06-29T15:15:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Accelerate modern Linux workloads with Azure Files",
+      "link": "https://azure.microsoft.com/en-us/blog/accelerate-modern-linux-workloads-with-azure-files/",
+      "summary": "Azure Files combines familiar file access with built-in performance, data protection, security, and Azure service integration.",
+      "publishedAt": "2026-06-29T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
