@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T18:35:04.428Z",
-  "itemCount": 593,
+  "generatedAt": "2026-07-01T00:38:53.124Z",
+  "itemCount": 599,
   "sources": [
     {
       "name": "Azure Updates",
@@ -49,6 +49,54 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.127-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.127 (Insiders) Read the full article",
       "publishedAt": "2026-07-01T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "SharePoint Framework (SPFx) roadmap update – July 2026",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/sharepoint-framework-spfx-roadmap-update-july-2026",
+      "summary": "June brings one of the most significant updates to SharePoint Framework in recent years with the introduction of SharePoint Copilot Apps. Where May was about reaching general availability of SPFx 1.23 and setting our foundation, June is about pointing that foundation at w",
+      "publishedAt": "2026-06-30T20:56:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Client-side data integrity protections in Azure Blob Storage",
+      "link": "https://azure.microsoft.com/updates?id=566895",
+      "summary": "Azure Blob Storage has long supported data integrity validation, starting with MD5 as part of the original HTTP standards and adding CRC64-NVME support in 2019. Today, CRC64-NVME is now integrated into the latest Azure Blob SDKs for .NET, C++, and JavaScr",
+      "publishedAt": "2026-06-30T20:45:26.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Compose your API surface with Data API builder custom paths",
+      "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-custom-rest-paths",
+      "summary": "In May, Data API builder (DAB) 2.0 was released to preview, and in June it went generally available. With this new release, DAB introduced a new feature for REST endpoints: the ability to customize endpoints with compound paths. This feature allows developers to compose a sophisticated API surface dedicated to their business structure, not the",
+      "publishedAt": "2026-06-30T19:38:31.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Toolboxes in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=563481",
+      "summary": "Microsoft Foundry brings Toolboxes to GA, providing a unified endpoint to invoke the most-used tools in prompt agents and callable outside of prompt agents. Today every agent team hand-assembles its own tool list to solve the same tasks, with no shared ar",
+      "publishedAt": "2026-06-30T19:00:51.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Accelerating the quantum-safe timeline",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/",
+      "summary": "We’re accelerating quantum-safe readiness—and sharing what organizations can do now to transition earlier and with confidence.",
+      "publishedAt": "2026-06-30T19:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MCP Beyond the Chat Window: Build Diagnostics in CI",
+      "link": "https://devblogs.microsoft.com/dotnet/mcp-build-diagnostics-workflows",
+      "summary": "In a previous post we introduced the Microsoft Binlog MCP Server and showed how an AI assistant can investigate MSBuild binary logs through natural language. Picture the payoff in CI: a pull request build fails, and instead of a human downloading",
+      "publishedAt": "2026-06-30T17:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
