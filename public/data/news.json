@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T07:28:13.400Z",
-  "itemCount": 602,
+  "generatedAt": "2026-07-01T12:55:37.737Z",
+  "itemCount": 603,
   "sources": [
     {
       "name": "Azure Updates",
@@ -112,6 +112,14 @@
       "title": "​​What’s new in Microsoft Security: June 2026",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/whats-new-in-microsoft-security-june-2026/",
       "summary": "This month’s updates help security and IT teams strengthen identity and multicloud foundations, protect data wherever it lives, and secure the developer workflows powering AI innovation.",
+      "publishedAt": "2026-06-30T16:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Azure IaaS: How to design, build, and optimize cloud infrastructure for long-term cost optimization efficiency",
+      "link": "https://azure.microsoft.com/en-us/blog/azure-iaas-how-to-design-build-and-optimize-cloud-infrastructure-for-long-term-cost-optimization-efficiency/",
+      "summary": "As organizations modernize infrastructure, migrate mission-critical workloads, build cloud-native applications, and scale AI—cost efficiency remains a foundational principle of cloud architectures.",
       "publishedAt": "2026-06-30T16:00:00.000Z"
     },
     {
