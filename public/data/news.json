@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T12:55:37.737Z",
-  "itemCount": 603,
+  "generatedAt": "2026-07-01T18:38:23.835Z",
+  "itemCount": 609,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,30 @@
   ],
   "items": [
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: New Powershell module: Az.PostgreSQLFlexibleServer",
+      "link": "https://azure.microsoft.com/updates?id=566209",
+      "summary": "We’re excited to introduce the newly renamed Az.PostgreSQLFlexibleServer PowerShell module, delivering a more streamlined experience for you to manage Azure Database for PostgreSQL with PowerShell. Building on the capabilities of the previous Az.PostgreSq",
+      "publishedAt": "2026-07-01T17:19:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Public Preview: Document PII playground sample in Microsoft Foundry NextGen",
+      "link": "https://azure.microsoft.com/updates?id=563331",
+      "summary": "Document-based PII detection in Azure AI Language now ships an initial playground experience in the Microsoft Foundry NextGen portal. The playground loads a prepared sample document, runs it through the document-based PII feature, and shows the redacted o",
+      "publishedAt": "2026-07-01T17:04:40.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Document PII NextGen Playground in Azure AI Language",
+      "link": "https://azure.microsoft.com/updates?id=564382",
+      "summary": "Azure AI Language now offers a refreshed Document PII playground in general availability, giving customers a faster way to evaluate personally identifiable information detection on documents. The playground ships with curated sample inputs and outputs, so",
+      "publishedAt": "2026-07-01T17:01:07.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Visual Studio Code 1.127",
@@ -49,6 +73,30 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.127-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.127 (Insiders) Read the full article",
       "publishedAt": "2026-07-01T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Instant Access via application consistent restore points",
+      "link": "https://azure.microsoft.com/updates?id=565758",
+      "summary": "Azure introduces Instant Access for VM Restore Points, enabling you to restore disks immediately after a restore point is created—without waiting for background data replication.Key benefits:Faster recovery (lower RTO): Restore disks instantly—no wait for",
+      "publishedAt": "2026-07-01T16:59:39.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Public Preview: Azure Storage Mover now supports migration from Google Cloud Storage (GCS)",
+      "link": "https://azure.microsoft.com/updates?id=566948",
+      "summary": "Azure Storage Mover now supports cloud-to-cloud migration of data from Google Cloud Storage (GCS) to Azure Blob Storage, helping organizations simplify multi-cloud consolidation onto Azure.Using the S3-compatible interface, customers can migrate data from",
+      "publishedAt": "2026-07-01T16:56:50.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Microsoft named a leader in the Frost Radar for cloud and application runtime security",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/01/microsoft-named-a-leader-in-the-frost-radar-for-cloud-and-application-runtime-security/",
+      "summary": "Frost &#038; Sullivan names Microsoft a leader as cloud and application security converge into unified, runtime risk reduction.",
+      "publishedAt": "2026-07-01T16:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
