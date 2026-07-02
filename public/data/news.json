@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-02T12:38:15.733Z",
-  "itemCount": 609,
+  "generatedAt": "2026-07-02T18:30:46.325Z",
+  "itemCount": 610,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Improving security posture across the Microsoft partner ecosystem",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/",
+      "summary": "Read how Microsoft strengthens partner ecosystem security with CSP vetting, least privilege access, monitoring, and risk management best practices.",
+      "publishedAt": "2026-07-02T16:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
