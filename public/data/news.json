@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-03T00:31:14.034Z",
-  "itemCount": 611,
+  "generatedAt": "2026-07-03T07:04:16.987Z",
+  "itemCount": 613,
   "sources": [
     {
       "name": "Azure Updates",
@@ -115,6 +115,14 @@
       "publishedAt": "2026-07-01T16:00:00.000Z"
     },
     {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Proving application resilience on Azure with Chaos Studio",
+      "link": "https://azure.microsoft.com/en-us/blog/proving-application-resilience-on-azure-with-chaos-studio/",
+      "summary": "Azure Chaos Studio helps organizations validate application resilience by simulating outages, failovers, network disruptions, and infrastructure failures before they impact production.",
+      "publishedAt": "2026-07-01T16:00:00.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "SharePoint Framework (SPFx) roadmap update – July 2026",
@@ -182,6 +190,14 @@
       "source": "Azure Blog",
       "category": "Azure",
       "title": "Azure IaaS: How to design, build, and optimize cloud infrastructure for long-term cost optimization efficiency",
+      "link": "https://azure.microsoft.com/en-us/blog/azure-iaas-how-to-design-build-and-optimize-cloud-infrastructure-for-long-term-cost-optimization-efficiency/",
+      "summary": "As organizations modernize infrastructure, migrate mission-critical workloads, build cloud-native applications, and scale AI—cost efficiency remains a foundational principle of cloud architectures.",
+      "publishedAt": "2026-06-30T16:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Azure IaaS: How to design, build, and optimize cloud infrastructure for long-term cost efficiency",
       "link": "https://azure.microsoft.com/en-us/blog/azure-iaas-how-to-design-build-and-optimize-cloud-infrastructure-for-long-term-cost-optimization-efficiency/",
       "summary": "As organizations modernize infrastructure, migrate mission-critical workloads, build cloud-native applications, and scale AI—cost efficiency remains a foundational principle of cloud architectures.",
       "publishedAt": "2026-06-30T16:00:00.000Z"
