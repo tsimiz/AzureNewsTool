@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-04T06:59:15.962Z",
-  "itemCount": 613,
+  "generatedAt": "2026-07-04T12:24:07.662Z",
+  "itemCount": 614,
   "sources": [
     {
       "name": "Azure Updates",
@@ -48,6 +48,14 @@
       "title": "Improving security posture across the Microsoft partner ecosystem",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/",
       "summary": "Read how Microsoft strengthens partner ecosystem security with CSP vetting, least privilege access, monitoring, and risk management best practices.",
+      "publishedAt": "2026-07-02T16:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Meet Brain: The AI system behind Azure reliability",
+      "link": "https://azure.microsoft.com/en-us/blog/meet-brain-the-ai-system-behind-azure-reliability/",
+      "summary": "Learn how Microsoft is building a digital twin of Azure Service Health and why it changes how hyperscale operates.",
       "publishedAt": "2026-07-02T16:00:00.000Z"
     },
     {
