@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-07T12:47:22.541Z",
-  "itemCount": 617,
+  "generatedAt": "2026-07-07T18:39:54.666Z",
+  "itemCount": 623,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,54 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
+      "link": "https://azure.microsoft.com/updates?id=567218",
+      "summary": "Azure Web Application Firewall (WAF) helps protect your web applications from common threats and attacks. In some cases, WAF may block requests that are safe and expected for your application. Existing exclusions help reduce false positives by omitting sp",
+      "publishedAt": "2026-07-07T17:42:50.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Chaos Studio Workspaces and Scenarios",
+      "link": "https://azure.microsoft.com/updates?id=567184",
+      "summary": "Azure Chaos Studio now supports Workspaces and Scenarios, a faster, application-centric way to validate how your workloads hold up during real outages.Point a Workspace at your application's scope—a subscription, resource group, or service group—and Chaos",
+      "publishedAt": "2026-07-07T17:40:32.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Export historical data from Log Analytics workspace with Export jobs",
+      "link": "https://azure.microsoft.com/updates?id=566591",
+      "summary": "The Log Analytics Export job enables you to export historical data from a Log Analytics workspace to an Azure Storage account based on a specified query and time range. This allows you to extract only the data you need and move it to external systems for",
+      "publishedAt": "2026-07-07T17:37:55.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Network Security Perimeter support for Azure Event Hubs",
+      "link": "https://azure.microsoft.com/updates?id=567203",
+      "summary": "Azure Event Hubs now supports Network Security Perimeter (NSP), enabling organizations to define a logical network isolation boundary for PaaS resources and control public network access through perimeter-based access rules.With Network Security Perimeter",
+      "publishedAt": "2026-07-07T17:35:19.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Confidential Computing support for Azure Event Hubs Dedicated",
+      "link": "https://azure.microsoft.com/updates?id=567212",
+      "summary": "Azure Event Hubs Dedicated now supports Confidential Computing, enabling organizations to protect streaming data while it is being processed in memory. By leveraging hardware-based trusted execution environments (TEEs), customers can help safeguard sensit",
+      "publishedAt": "2026-07-07T17:33:53.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Red Hat OpenShift in Chile Central",
+      "link": "https://azure.microsoft.com/updates?id=566732",
+      "summary": "Azure Red Hat OpenShift (ARO) is now generally available in Azure Chile Central, expanding regional availability for OpenShift deployments across South America. With the launch of Microsoft’s first Azure region in Chile, customers can now run fully manage",
+      "publishedAt": "2026-07-07T17:31:55.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
