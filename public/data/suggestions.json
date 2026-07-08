@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T18:39:54.666Z",
+  "generatedAt": "2026-07-08T00:27:03.354Z",
   "values": [
     "abuse",
     "Academy",
@@ -126,6 +126,7 @@
     "data",
     "Data",
     "Databricks",
+    "Dataverse",
     "Dedicated",
     "Deep",
     "Defender",
@@ -170,7 +171,6 @@
     "extensions",
     "extra",
     "F-series",
-    "feature",
     "federation",
     "fight",
     "Files",
@@ -207,6 +207,7 @@
     "harness",
     "have",
     "here",
+    "Here",
     "historical",
     "hospitality",
     "host",
@@ -351,7 +352,6 @@
     "postinstall",
     "posture",
     "Posture",
-    "Power",
     "Power Platform",
     "Powershell",
     "preferences",
@@ -501,6 +501,7 @@
     "worm-like",
     "year",
     "your",
+    "Your",
     "yourself"
   ]
 }

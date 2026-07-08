@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-07T18:39:54.666Z",
-  "itemCount": 623,
+  "generatedAt": "2026-07-08T00:27:03.354Z",
+  "itemCount": 624,
   "sources": [
     {
       "name": "Azure Updates",
@@ -97,6 +97,14 @@
       "link": "https://azure.microsoft.com/updates?id=567085",
       "summary": "Microsoft Entra ID-based access for Azure Blob Storage SFTP is now generally available in all regions. You can now use Entra ID identities including guest users via Entra External Identities to securely connect to Azure Blob Storage over SFTP, without pro",
       "publishedAt": "2026-07-06T15:54:08.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Dataverse Is Your Agent Data Platform: Here’s What’s New in July 2026",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/07/06/dataverse-july2026/",
+      "summary": "Latest Dataverse improvements: expanding the plugin across more coding agent marketplaces, connecting agents to more tools through MCP, certifying partner MCPs for trusted adoption, and bringing internal MCPs under enterprise governance.",
+      "publishedAt": "2026-07-06T15:35:22.000Z"
     },
     {
       "source": "Azure Updates",
