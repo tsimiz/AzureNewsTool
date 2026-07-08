@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-08T12:32:42.003Z",
-  "itemCount": 624,
+  "generatedAt": "2026-07-08T18:29:09.895Z",
+  "itemCount": 635,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,70 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
+      "summary": "At Microsoft we encompass these security requirements, along with threat knowledge, and operational frameworks in our Secure Future Initiative (SFI), to guide what a well-defended cloud service looks like. But defining the requirements is only the start. Meeting the requirements means continuously evaluating our live services against them, at AI speed.",
+      "publishedAt": "2026-07-08T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.128",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.128",
+      "summary": "Learn what's new in Visual Studio Code 1.128 Read the full article",
+      "publishedAt": "2026-07-08T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.129 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.129-(insiders)",
+      "summary": "Learn what's new in Visual Studio Code 1.129 (Insiders) Read the full article",
+      "publishedAt": "2026-07-08T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing TypeScript 7.0",
+      "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0",
+      "summary": "Today we are proud to announce the availability of TypeScript 7, a 10x faster native port of TypeScript! Since its early days, TypeScript has promised to deliver on JavaScript that scales. By bringing strong type-checking and rich tooling to the world of JavaScript, TypeScript made it possible to build non-trivial high-quality apps",
+      "publishedAt": "2026-07-08T15:58:29.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Building on Vercel&#039;s eve + Azure Cosmos DB: An Agent That Remembers",
+      "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-agent-memory",
+      "summary": "Most \"AI agent\" demos forget everything the moment the process exits. That's fine for a toy project, but useless for anything real. An agent that helps you write, triage, or support needs two things a language model alone can't give it: durable state and the ability to recall the right context by meaning. This post shows how to build exactly t",
+      "publishedAt": "2026-07-08T14:56:27.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The other kind of control flow guard check: The combined validate and call",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260708-00/?p=112510",
+      "summary": "Some time ago, I discussed how to extract the function pointer from the control flow guard check. I gave the code for LdrpValidateUserCallTarget, but there's another ve",
+      "publishedAt": "2026-07-08T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The hidden variables in your agent eval",
+      "link": "https://devblogs.microsoft.com/blog/the-hidden-variables-in-your-agent-eval",
+      "summary": "This is the seventh article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can't control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate toward better outcomes. You",
+      "publishedAt": "2026-07-08T12:11:17.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Agent Framework’s Orchestration Patterns Reach 1.0",
+      "link": "https://devblogs.microsoft.com/agent-framework/agent-frameworks-orchestration-patterns-reach-1-0",
+      "summary": "Python's agent-framework-orchestrations package is now 1.0.0. That puts Microsoft Agent Framework's orchestration layer at 1.0 across Python and .NET. Sequential, concurrent, group chat, handoff, and magentic orchestration are now stable in both SDKs. You can pick the coordination pattern that fits your problem instead of choos",
+      "publishedAt": "2026-07-08T10:00:52.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -81,6 +145,30 @@
       "link": "https://azure.microsoft.com/updates?id=566732",
       "summary": "Azure Red Hat OpenShift (ARO) is now generally available in Azure Chile Central, expanding regional availability for OpenShift deployments across South America. With the launch of Microsoft’s first Azure region in Chile, customers can now run fully manage",
       "publishedAt": "2026-07-07T17:31:55.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Applications Are Not Packages",
+      "link": "https://devblogs.microsoft.com/insidemsix/applications-are-not-packages",
+      "summary": "Applications are not packages. Let me repeat. Applications are not packages. This is a common misconception due to the (too) often blurring of concepts and terminology. Packages and applications are different and distinct things, so it's important to understand what those words mean (to MSIX). Packages and A",
+      "publishedAt": "2026-07-07T16:00:09.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How did Windows 95 decide that a setup program ran?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260707-00/?p=112508",
+      "summary": "A little while ago, I mentioned that Windows 95 had some defenses against installers that overwrite a file with an older version. These defenses kicked in whenever it dete",
+      "publishedAt": "2026-07-07T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Don&#039;t rewrite your CLI for agents",
+      "link": "https://devblogs.microsoft.com/blog/dont-rewrite-your-cli-for-agents",
+      "summary": "There's advice making the rounds: replace your CLI args with a single --json payload so agents can use your tool more effectively. The thinking being, that agents already think in structured formats, and nested data maps cleanly to JSON. Flat args on the other hand, force awkward conventions like repeating --service-name",
+      "publishedAt": "2026-07-07T13:52:06.000Z"
     },
     {
       "source": "Microsoft Security Blog",
