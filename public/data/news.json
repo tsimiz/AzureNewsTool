@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-10T07:09:25.278Z",
-  "itemCount": 640,
+  "generatedAt": "2026-07-10T12:44:23.571Z",
+  "itemCount": 641,
   "sources": [
     {
       "name": "Azure Updates",
@@ -193,6 +193,14 @@
       "link": "https://azure.microsoft.com/en-us/blog/external-key-management-for-azure-managed-hsm-is-now-in-public-preview/",
       "summary": "Azure Key Vault Managed Hardware Security Module (HSM) provides strong sovereignty over your encryption keys. Keys are generated and stored in a single-tenant, FIPS 140-3 Level 3 HSM that only you control: Microsoft has no access to your key material, and you govern who can use each key.",
       "publishedAt": "2026-07-07T16:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Native Dataverse Authorization (Public Preview) for Stronger Security in Power Pages",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/native-dataverse-authorization-public-preview-for-stronger-security-in-power-pages/",
+      "summary": "We’re excited to introduce the public preview of Native Dataverse Authorization (Enhanced Authorization) in Power Pages. This release brings a significant advancement in how external user access is secured and managed. Authorization is now enforced directly within Dataverse, providing stronger security, improved visibility, and more precise control while keeping the maker experience unchanged.",
+      "publishedAt": "2026-07-07T15:06:13.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
