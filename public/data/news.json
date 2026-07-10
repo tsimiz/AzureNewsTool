@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-09T18:35:44.394Z",
-  "itemCount": 636,
+  "generatedAt": "2026-07-10T00:32:26.502Z",
+  "itemCount": 640,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,22 @@
   ],
   "items": [
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Manage Azure Chaos Studio from the Azure CLI",
+      "link": "https://azure.microsoft.com/updates?id=567225",
+      "summary": "You can now create and run Azure Chaos Studio resilience Scenarios directly from the Azure CLI with the new az chaos extension — no more hand-assembling REST calls and JSON files. Get started in one step: az chaos setup stands up a workspace, wires up per",
+      "publishedAt": "2026-07-09T22:57:33.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Open AI GPT-5.6 on Azure Databricks",
+      "link": "https://azure.microsoft.com/updates?id=567431",
+      "summary": "Open AI GPT-5.6 is now available on Azure Databricks. You can use GPT 5.6 (purchased on Microsoft Foundry) via Model Serving Endpoint in Azure Databricks. Through integrations across Foundry and Azure Databricks, you can securely build, deploy, and manage",
+      "publishedAt": "2026-07-09T20:21:12.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
@@ -65,6 +81,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.129-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.129 (Insiders) Read the full article",
       "publishedAt": "2026-07-08T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Built to bounce back: How Azure resiliency evolved",
+      "link": "https://azure.microsoft.com/en-us/blog/built-to-bounce-back-how-azure-resiliency-evolved/",
+      "summary": "Cloud resiliency is about ensuring systems can adapt, recover, and keep functioning within real-world constraints.",
+      "publishedAt": "2026-07-08T16:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -161,6 +185,14 @@
       "link": "https://devblogs.microsoft.com/insidemsix/applications-are-not-packages",
       "summary": "Applications are not packages. Let me repeat. Applications are not packages. This is a common misconception due to the (too) often blurring of concepts and terminology. Packages and applications are different and distinct things, so it's important to understand what those words mean (to MSIX). Packages and A",
       "publishedAt": "2026-07-07T16:00:09.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "External key management for Azure Managed HSM is now in public preview",
+      "link": "https://azure.microsoft.com/en-us/blog/external-key-management-for-azure-managed-hsm-is-now-in-public-preview/",
+      "summary": "Azure Key Vault Managed Hardware Security Module (HSM) provides strong sovereignty over your encryption keys. Keys are generated and stored in a single-tenant, FIPS 140-3 Level 3 HSM that only you control: Microsoft has no access to your key material, and you govern who can use each key.",
+      "publishedAt": "2026-07-07T16:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
