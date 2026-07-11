@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-10T18:29:36.315Z",
-  "itemCount": 642,
+  "generatedAt": "2026-07-11T00:25:59.385Z",
+  "itemCount": 643,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Support for Python-2.7; 3.8 and PowerShell- 7.1; 7.2 will be retired on September 30, 2026",
+      "link": "https://azure.microsoft.com/updates?id=567556",
+      "summary": "Starting October 1, 2026, the specified runtime versions Python 2.7, Python 3.8, and PowerShell 7.1 & 7.2. will no longer be supported by Automation. Runbooks using these versions may continue to run but will not receive security updates, bug fixes, or o",
+      "publishedAt": "2026-07-10T21:33:34.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
