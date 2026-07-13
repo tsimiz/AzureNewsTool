@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-13T12:48:06.729Z",
-  "itemCount": 644,
+  "generatedAt": "2026-07-13T18:32:53.219Z",
+  "itemCount": 646,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Databricks SQL Serverless in UK West",
+      "link": "https://azure.microsoft.com/updates?id=567444",
+      "summary": "Starting July 13th, 2026, customers can use Azure Databricks SQL Serverless in the UK West region to simplify analytics workloads while benefiting from instant compute, automated scaling, and reduced infrastructure management. Eligible UK West workspaces",
+      "publishedAt": "2026-07-13T17:04:04.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
+      "summary": "Microsoft Entra ID makes passkeys the default sign-in experience and introduces a new model for SMS and voice authentication. Read about how to prepare.",
+      "publishedAt": "2026-07-13T17:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
