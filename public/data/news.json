@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-14T00:24:13.447Z",
-  "itemCount": 646,
+  "generatedAt": "2026-07-14T06:43:11.105Z",
+  "itemCount": 647,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
+      "summary": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest access targeting SaaS-based applications.",
+      "publishedAt": "2026-07-13T22:02:41.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
