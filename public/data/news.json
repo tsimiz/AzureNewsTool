@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-14T18:22:30.724Z",
-  "itemCount": 647,
+  "generatedAt": "2026-07-15T00:22:04.126Z",
+  "itemCount": 658,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,92 @@
   ],
   "items": [
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Front Door edge actions",
+      "link": "https://azure.microsoft.com/updates?id=567402",
+      "summary": "Announcing the public preview of Azure Front Door edge actions (serverless compute at the edge).With edge actions, customers can execute lightweight JavaScript functions during Azure Front Door request processing to make real-time decisions closer to user",
+      "publishedAt": "2026-07-14T20:03:32.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "CoreCLR Progress and the Mono Timeline for .NET MAUI",
+      "link": "https://devblogs.microsoft.com/dotnet/coreclr-progress-and-mono-timeline-dotnet-maui",
+      "summary": "A few months ago I shared that .NET MAUI moves to CoreCLR in .NET 11, making CoreCLR the default runtime for your Android, iOS, and Mac Catalyst apps. That was Preview 4 and we have been heads down since then. Preview 6 marks the next milestone wh",
+      "publishedAt": "2026-07-14T18:30:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": ".NET 11 Preview 6 is now available!",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-6",
+      "summary": "Today, we are excited to announce the sixth preview release of .NET 11! This release includes improvements across the .NET Runtime, SDK, libraries, ASP.NET Core, .NET MAUI, C#, Entity Framework Core, F#, and container images. Check out the linked release notes below and get started today. [cta-button align=\"center\" text=\"Download .NET 11 Pr",
+      "publishedAt": "2026-07-14T17:45:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio",
+      "link": "https://devblogs.microsoft.com/visualstudio/built-in-agent-skills-in-visual-studio",
+      "summary": "Visual Studio now includes built-in Agent Skills, created by experts from the .NET and Azure teams, to help you better customize your agentic workflow and complete development tasks more efficiently, starting with the 18.8 Release. Agent Skills are reusable capabilities that enable your agent to perform structured tasks more r",
+      "publishedAt": "2026-07-14T17:30:57.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Package Status",
+      "link": "https://devblogs.microsoft.com/insidemsix/package-status",
+      "summary": "Every package has a set of status flags describing its current health and availability. These can be queried via the Package.Status property. A package may report more than one status value at a time if multiple conditions apply. Packa",
+      "publishedAt": "2026-07-14T16:00:29.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Building Agents for Teams: Turning conversations into outcomes",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/building-agents-for-teams-turning-conversations-into-outcomes",
+      "summary": "The Microsoft Teams platform mission is to build the best collaborative platform in the world. We want to make it easy for developers to build agents that participate seamlessly in chats, channels, and meetings, helping teams turn ideas into action in real time. By bringing agents directly into the places where collaboration happens, we can he",
+      "publishedAt": "2026-07-14T15:56:40.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Microspeak: Double-click and drill down",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260714-00/?p=112532",
+      "summary": "Recall that Microspeak is not merely for jargon exclusive to Microsoft, but it's jargon that you need to know to survive at Microsoft. For most of my career at Microsoft, the term used by people who want to sound important to say that they want to delve more deeply into a topic was to drill down. Here are some citations, suit",
+      "publishedAt": "2026-07-14T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How a Large Enterprise Migrated 47 TB and 7,000+ Collections to Azure DocumentDB in Under 48 Hours",
+      "link": "https://devblogs.microsoft.com/documentdb/migration-47tb-under-48-hours",
+      "summary": "Large database migrations are where good planning either pays off or falls apart. In a MongoDB-compatible estate with thousands of collections, the hard part is not only moving data. It is deciding what to move, what to defer, how to sequence the w",
+      "publishedAt": "2026-07-14T04:06:50.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure",
+      "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-dev-test-benefit-freedom-to-build-test-and-experiment-in-azure",
+      "summary": "",
+      "publishedAt": "2026-07-13T22:21:36.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
       "summary": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest access targeting SaaS-based applications.",
       "publishedAt": "2026-07-13T22:02:41.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Pure Virtual C++ 2026 [Meet the Speakers, Part 2]: The AI-Native C++ Developer Workflow",
+      "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2026-meet-the-speakers-part-2-the-ai-native-c-developer-workflow",
+      "summary": "Pure Virtual C++ 2026 streams",
+      "publishedAt": "2026-07-13T20:36:53.000Z"
     },
     {
       "source": "Azure Updates",
@@ -57,6 +137,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
       "summary": "Microsoft Entra ID makes passkeys the default sign-in experience and introduces a new model for SMS and voice authentication. Read about how to prepare.",
       "publishedAt": "2026-07-13T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why don&#039;t we just make the entire stack out of guard pages?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260713-00/?p=112528",
+      "summary": "In my earlier overview of how compilers on different architectures perform stack probes,",
+      "publishedAt": "2026-07-13T14:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -103,7 +191,7 @@
       "category": "Security",
       "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
-      "summary": "GigaWiper is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats.",
+      "summary": "GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats.",
       "publishedAt": "2026-07-09T15:00:00.000Z"
     },
     {
