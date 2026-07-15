@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-15T12:28:09.803Z",
-  "itemCount": 659,
+  "generatedAt": "2026-07-15T18:23:50.997Z",
+  "itemCount": 662,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,30 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Turning threat intelligence into decisive action with Defender Experts",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/",
+      "summary": "Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools.",
+      "publishedAt": "2026-07-15T16:00:35.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Advanced platform metrics in Azure Monitor",
+      "link": "https://azure.microsoft.com/updates?id=567726",
+      "summary": "Starting July 15, 2026, advanced platform metrics are available in Public Preview. This update provides enhanced visibility into platform performance, resource health, and operational trends across supported Azure services. With advanced platform metrics,",
+      "publishedAt": "2026-07-15T15:30:11.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: DevUI Agent Inspector for Microsoft Agent Framework",
+      "link": "https://azure.microsoft.com/updates?id=563551",
+      "summary": "Microsoft Agent Framework adds DevUI Agent Inspector in public preview, a local debugging surface that shows agent runs as a navigable tree of model calls, tool invocations, and intermediate state. Developers can pause, replay, and edit prompts mid-run, s",
+      "publishedAt": "2026-07-15T15:15:25.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
