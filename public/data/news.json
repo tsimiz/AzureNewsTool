@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-15T18:23:50.997Z",
-  "itemCount": 662,
+  "generatedAt": "2026-07-16T00:25:35.691Z",
+  "itemCount": 672,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,86 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: GitHub Copilot and Claude Code connectors in Microsoft Agent Framework",
+      "link": "https://azure.microsoft.com/updates?id=563701",
+      "summary": "Microsoft Agent Framework now ships generally available connectors for GitHub Copilot and Claude Code, so developers can build .NET and Python agents that delegate coding tasks to either system without writing custom adapter code. The connectors plug into",
+      "publishedAt": "2026-07-15T18:58:30.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Multi-agent orchestration patterns including Magentic in Microsoft Agent Framework",
+      "link": "https://azure.microsoft.com/updates?id=563571",
+      "summary": "Microsoft Agent Framework reaches general availability for multi-agent orchestration patterns, including the dynamic Magentic pattern that delivered 38 percent on GAIA and competitive results on AssistantBench and WebArena in published benchmarks. The GA",
+      "publishedAt": "2026-07-15T18:57:24.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Agent Harness in Microsoft Agent Framework",
+      "link": "https://azure.microsoft.com/updates?id=563546",
+      "summary": "Microsoft Agent Framework reaches general availability for Agent Harness, the production runtime for agents built with the framework. Customers running pilots on the preview harness can now move the same agent code into production with backwards compatibi",
+      "publishedAt": "2026-07-15T18:55:40.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Multi-agent orchestration SDK with the Microsoft Foundry Agent Framework in C# and Python",
+      "link": "https://azure.microsoft.com/updates?id=564312",
+      "summary": "Microsoft Foundry is now introducing Agent Framework, a unified multi-agent orchestration SDK for C# and Python. This release consolidates patterns previously spread across AutoGen and Semantic Kernel, giving developers a consistent set of abstractions fo",
+      "publishedAt": "2026-07-15T18:53:28.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Tracing for Microsoft Agent Framework (Python and .NET)",
+      "link": "https://azure.microsoft.com/updates?id=564071",
+      "summary": "In public preview, Microsoft Foundry now offers tracing for the Microsoft Agent Framework in both Python and .NET, helping developers observe how agents reason, call tools, and interact with models during execution. This release is part of the broader hos",
+      "publishedAt": "2026-07-15T18:51:45.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: CodeAct pattern and Hyperlight containers in Microsoft Agent Framework",
+      "link": "https://azure.microsoft.com/updates?id=563566",
+      "summary": "Microsoft Agent Framework adds the CodeAct pattern in public preview, which lets agents collapse a multi-step plan into a single executable code block rather than chaining one tool call at a time. In representative workloads, CodeAct cut end-to-end latenc",
+      "publishedAt": "2026-07-15T18:50:14.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Episodic procedural memory in Microsoft Agent Framework",
+      "link": "https://azure.microsoft.com/updates?id=563561",
+      "summary": "Microsoft Agent Framework adds episodic procedural memory in public preview, a built-in store that lets agents remember successful task patterns and replay them on similar future requests. The framework records action sequences, tool selections, and inter",
+      "publishedAt": "2026-07-15T18:48:54.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Agent Channel for Microsoft Agent Framework multi-agent communication",
+      "link": "https://azure.microsoft.com/updates?id=563556",
+      "summary": "Microsoft Agent Framework introduces Agent Channel in public preview, a built-in primitive that lets agents send structured messages to each other without bespoke routing code. Channels carry typed messages, support request and response or fire-and-forget",
+      "publishedAt": "2026-07-15T18:47:41.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure SQL updates for mid-July 2026",
+      "link": "https://azure.microsoft.com/updates?id=567426",
+      "summary": "In mid-July 2026, the following updates and enhancements were made to Azure SQL: Shortcut Configuration lets you customize keyboard shortcuts for Quick Queries, the Results Grid, and the Query Editor directly within Visual Studio Code—wit",
+      "publishedAt": "2026-07-15T17:50:44.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Expanding Azure Arc SQL Migration with SQL Server on Azure Virtual Machines",
+      "link": "https://azure.microsoft.com/updates?id=567362",
+      "summary": "The Azure Arc migration solution now supports SQL Server on Azure Virtual Machines as a migration target. Arc-enabled SQL Server instances can now be migrated to both Azure SQL Managed Instance and SQL Server on Azure infrastructure using the same unified",
+      "publishedAt": "2026-07-15T17:35:31.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
