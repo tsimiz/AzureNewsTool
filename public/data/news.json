@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-16T00:25:35.691Z",
-  "itemCount": 672,
+  "generatedAt": "2026-07-16T06:48:19.297Z",
+  "itemCount": 673,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
+      "summary": "Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses.",
+      "publishedAt": "2026-07-16T01:36:21.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
