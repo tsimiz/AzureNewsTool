@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-16T12:31:23.497Z",
-  "itemCount": 673,
+  "generatedAt": "2026-07-16T18:23:42.186Z",
+  "itemCount": 674,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Least privilege for AI agents: Identity, access, and tool binding",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
+      "summary": "As AI agents become more autonomous, strong identity, access, and auditing controls are critical to keeping them secure.",
+      "publishedAt": "2026-07-16T16:00:00.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
