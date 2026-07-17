@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T06:46:31.945Z",
-  "itemCount": 690,
+  "generatedAt": "2026-07-17T12:25:12.335Z",
+  "itemCount": 691,
   "sources": [
     {
       "name": "Azure Updates",
@@ -249,6 +249,14 @@
       "link": "https://azure.microsoft.com/updates?id=563551",
       "summary": "Microsoft Agent Framework adds DevUI Agent Inspector in public preview, a local debugging surface that shows agent runs as a navigable tree of model calls, tool invocations, and intermediate state. Developers can pause, replay, and edit prompts mid-run, s",
       "publishedAt": "2026-07-15T15:15:25.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Azure Databricks delivers proven business value",
+      "link": "https://azure.microsoft.com/en-us/blog/azure-databricks-delivers-proven-business-value/",
+      "summary": "Microsoft Azure Databricks delivers the first-party advantage of Databricks on Microsoft—and for customers, that advantage shows up as real, measurable value. It is the same Databricks platform your teams already know, co-engineered with Microsoft and delivered as a native Azure service, so it fits naturally into the Microsoft tools, identity, and governance your organization already runs.",
+      "publishedAt": "2026-07-15T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
