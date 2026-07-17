@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-16T18:23:42.186Z",
-  "itemCount": 674,
+  "generatedAt": "2026-07-17T00:26:53.292Z",
+  "itemCount": 690,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,38 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.130 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.130-(insiders)",
+      "summary": "Learn what's new in Visual Studio Code 1.130 (Insiders) Read the full article",
+      "publishedAt": "2026-07-22T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
+      "summary": "From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication tokens, and sensitive documents from enterprise environments.",
+      "publishedAt": "2026-07-16T23:12:02.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "T-SQL Hygiene: What&#039;s the Big Deal with SET NOCOUNT ON?",
+      "link": "https://devblogs.microsoft.com/azure-sql/tsql-nocount",
+      "summary": "Perhaps you have seen SET NOCOUNT ON; at the beginning of a stored procedure and wondered why it is there. By default, SQL Server uses SET NOCOUNT OFF;, which sends messages such as “(10 rows affected)",
+      "publishedAt": "2026-07-16T17:47:28.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing .NET Modernization for Beginners",
+      "link": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-modernization-for-beginners",
+      "summary": "We've built a new course to help you navigate the journey when you're the owner of an application built on a legacy .NET framework and it needs to be modernized. The whole concept of modernization is overwhelming! Security updates aren't being issued any longer! Dependencies are out of date because they're not being updated! You're not alone.",
+      "publishedAt": "2026-07-16T17:07:06.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Least privilege for AI agents: Identity, access, and tool binding",
@@ -43,12 +75,44 @@
       "publishedAt": "2026-07-16T16:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How to build long-running MCP tools on Azure Functions",
+      "link": "https://devblogs.microsoft.com/azure-sdk/long-running-mcp-tools-azure-functions",
+      "summary": "Recently, a customer building servers with the Azure Functions Model Context Protocol (MCP) extension reached out and asked: How do I handle tools that take longer than the client is willing to wait? This becomes especially relevant when tool calls move beyond simple request/response into multi-step workflows and long-running operatio",
+      "publishedAt": "2026-07-16T15:00:10.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Administrator? Join our Private Marketplace Preview!",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-administrator-join-our-private-marketplace-preview",
+      "summary": "Organizations are increasingly looking for greater",
+      "publishedAt": "2026-07-16T14:00:58.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Speculating on how the buggy control panel extension truncated a value that it had right in front of it",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260716-00/?p=112539",
+      "summary": "Last time, we found that a crash in a control panel extension was caused by pointer truncation. The code had a perfectly good 64-bit pointer in its hand, but somehow lo",
+      "publishedAt": "2026-07-16T14:00:00.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
       "summary": "Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses.",
       "publishedAt": "2026-07-16T01:36:21.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MSVC Build Tools Preview updates - July 2026",
+      "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-july-2026",
+      "summary": "The MSVC Build Tools Preview is updated regularly with the latest features and fixes from the MSVC development team. This post covers updates from the past month, currently targeting the v14.52 release. This encompasses changes across the compiler frontend, backend, linker, standard library, and related tools. Although you can acquire the M",
+      "publishedAt": "2026-07-15T21:17:05.000Z"
     },
     {
       "source": "Azure Updates",
@@ -123,12 +187,44 @@
       "publishedAt": "2026-07-15T17:50:44.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MSSQL Extension for VS Code: Shortcuts Configuration, Enhanced Results Grid Experience, and More",
+      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-july2026",
+      "summary": "The MSSQL extension for VS Code v1.44 continues to improve the SQL development experience with features that help you work faster and customize your workflow. In this release, we're introducing the Public Preview of Shortcuts Configuration and an",
+      "publishedAt": "2026-07-15T17:42:31.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Expanding Azure Arc SQL Migration with SQL Server on Azure Virtual Machines",
       "link": "https://azure.microsoft.com/updates?id=567362",
       "summary": "The Azure Arc migration solution now supports SQL Server on Azure Virtual Machines as a migration target. Arc-enabled SQL Server instances can now be migrated to both Azure SQL Managed Instance and SQL Server on Azure infrastructure using the same unified",
       "publishedAt": "2026-07-15T17:35:31.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Agent Skills for Python Is Now Released",
+      "link": "https://devblogs.microsoft.com/agent-framework/agent-skills-for-python-is-now-released",
+      "summary": "Your Python agents can now pick up reusable bundles of domain expertise (instructions, reference material, and scripts that load only when a task calls for them) through a stable, production-ready API. Agent Skills for Python in Microsoft Agent Framework is stable and shipping: the core skills API has no experimental gate, so you can",
+      "publishedAt": "2026-07-15T17:15:19.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.129",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.129",
+      "summary": "Learn what is new in Visual Studio Code 1.129. Read the full article",
+      "publishedAt": "2026-07-15T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.129",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-129-insiders",
+      "summary": "Learn what is new in Visual Studio Code 1.129. Read the full article",
+      "publishedAt": "2026-07-15T17:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -153,6 +249,38 @@
       "link": "https://azure.microsoft.com/updates?id=563551",
       "summary": "Microsoft Agent Framework adds DevUI Agent Inspector in public preview, a local debugging surface that shows agent runs as a navigable tree of model calls, tool invocations, and intermediate state. Developers can pause, replay, and edit prompts mid-run, s",
       "publishedAt": "2026-07-15T15:15:25.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Pick, manage, and get the most from your models",
+      "link": "https://devblogs.microsoft.com/visualstudio/pick-manage-and-get-the-most-from-your-models",
+      "summary": "You open the model picker, scroll past a dozen options, and pause. How are these models different? Which one should you actually use? And once you're a few hundred messages deep, how much capacity is even left before things start dropping off? We've all been there. These are the kinds of questions Visual Studio now makes a little easier to",
+      "publishedAt": "2026-07-15T14:28:43.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The case of the invalid function pointer when shutting down the display control panel",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260715-00/?p=112535",
+      "summary": "The number one crash in the display control panel looks like this: rax=ffffffff924bbde0 rbx=0000000000000001 rcx=0000000000030440 rdx=0000000000000002 rsi=0000000000030440 rdi=0000000080006011 rip=00007ffac835cd1e rsp=000000155e48e3f8 rbp=000000155e48e749 r8=0000000000000000 r9=0000000000000000 r10=007fffffffe41b69 r11=00007",
+      "publishedAt": "2026-07-15T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Building AX evals that actually work",
+      "link": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work",
+      "summary": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can't control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate toward better outcomes.",
+      "publishedAt": "2026-07-15T12:53:13.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Rethinking C++ Performance: Faster Code Navigation and GitHub Copilot Tools with Whole Codebase Indexing",
+      "link": "https://devblogs.microsoft.com/cppblog/rethinking-c-performance-faster-code-navigation-and-github-copilot-tools-with-whole-codebase-indexing",
+      "summary": "In large C++ codebases, your code understanding and navigation depend on quickly determining how symbols, declarations, definitions, and references are connected across your project. In Visual Studio Insiders 18.9, the new whole codebase indexing (WCI) enhances the existing browse database via a deeper, more comprehensive indexing approach.",
+      "publishedAt": "2026-07-14T22:28:13.000Z"
     },
     {
       "source": "Azure Updates",
