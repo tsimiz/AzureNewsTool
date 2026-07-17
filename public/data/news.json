@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T12:25:12.335Z",
-  "itemCount": 691,
+  "generatedAt": "2026-07-17T18:21:27.064Z",
+  "itemCount": 694,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,30 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.130-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.130 (Insiders) Read the full article",
       "publishedAt": "2026-07-22T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/",
+      "summary": "Join Microsoft Security at Black Hat USA 2026 for supply chain research, hands-on security experiences, expert conversations, and our reception.",
+      "publishedAt": "2026-07-17T16:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Microsoft Defender security assessments for Azure Database for PostgreSQL Flexible Server",
+      "link": "https://azure.microsoft.com/updates?id=567527",
+      "summary": "Microsoft Defender Cloud Security Posture Management (CSPM) assessments for Azure Database for PostgreSQL Flexible Server are now generally available. You can use assessments to continuously evaluate the security posture of your Azure PostgreSQL flexible",
+      "publishedAt": "2026-07-17T14:55:28.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Encryption in Transit for Azure Files NFS Shares in Azure Kubernetes Service (AKS)",
+      "link": "https://azure.microsoft.com/updates?id=567787",
+      "summary": "Azure Kubernetes Service (AKS) now generally supports Encryption in Transit (EiT) for Azure Files NFS v4.1 volumes through the Azure File CSI driver. With EiT enabled, data transferred between AKS workloads and Azure Files NFS shares is encrypted using TL",
+      "publishedAt": "2026-07-17T14:54:09.000Z"
     },
     {
       "source": "Microsoft Security Blog",
