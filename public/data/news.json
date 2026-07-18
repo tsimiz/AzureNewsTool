@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T18:21:27.064Z",
-  "itemCount": 694,
+  "generatedAt": "2026-07-18T00:24:25.091Z",
+  "itemCount": 696,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,22 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.130-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.130 (Insiders) Read the full article",
       "publishedAt": "2026-07-22T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Functions support for Python 3.14",
+      "link": "https://azure.microsoft.com/updates?id=567646",
+      "summary": "You can now develop functions using Python 3.14 locally and deploy them to Azure Functions plans on Linux. Upgrade your apps to Python 3.14 to take advantage of enhanced security, a longer support window, and continued compatibility with the Azure Functio",
+      "publishedAt": "2026-07-17T17:47:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Public Preview: Azure Functions Support for PowerShell 7.6",
+      "link": "https://azure.microsoft.com/updates?id=567651",
+      "summary": "Azure Functions support for PowerShell 7.6 is now available in preview. You can now develop apps using PowerShell 7.6 locally and deploy them to Azure Functions plans. Learn more: What's new in PowerShell 7.6 Azure Functions PowerShell versions and their",
+      "publishedAt": "2026-07-17T17:44:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
