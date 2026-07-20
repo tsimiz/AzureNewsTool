@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T12:41:57.051Z",
-  "itemCount": 696,
+  "generatedAt": "2026-07-20T18:37:26.527Z",
+  "itemCount": 699,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,30 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.130-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.130 (Insiders) Read the full article",
       "publishedAt": "2026-07-22T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Protect sensitive generative AI telemetry in Application Insights and Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=567594",
+      "summary": "Azure Monitor Application Insights now stores generative AI content in a dedicated GenAIContent table (AppGenAIContent in Log Analytics), making it possible to apply newly available access controls to sensitive AI telemetry. Because Application Insights p",
+      "publishedAt": "2026-07-20T15:09:43.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: IPv6 support for Azure VPN Gateway",
+      "link": "https://azure.microsoft.com/updates?id=567847",
+      "summary": "IPv6 support for Azure VPN Gateway enables customers to run IPv6 inner traffic through VPN tunnels in a dual‑stack configuration. IPv6 is supported on all production SKU gateways that use standard public IPs.IPv6 inner traffic can be configured for both n",
+      "publishedAt": "2026-07-20T14:59:26.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Announcing Link to Fabric UX refresh",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/07/20/link-to-fabric-ux-refresh/",
+      "summary": "We are refreshing how you connect Microsoft Dataverse to your analytics stack.",
+      "publishedAt": "2026-07-20T14:00:00.000Z"
     },
     {
       "source": "Azure Updates",
