@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T00:25:24.213Z",
-  "itemCount": 699,
+  "generatedAt": "2026-07-22T06:50:53.929Z",
+  "itemCount": 700,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.130-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.130 (Insiders) Read the full article",
       "publishedAt": "2026-07-22T17:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Dataverse Plugin for Coding Agents Now Available in Cursor Marketplace",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/07/21/dataverse-plugin-for-coding-agents-now-available-in-cursor-marketplace/",
+      "summary": "Today, we are excited to share that the Dataverse plugin is now available in the Cursor Marketplace, giving Cursor users a direct path to build with Microsoft Dataverse from inside their preferred AI coding experience.",
+      "publishedAt": "2026-07-21T15:00:00.000Z"
     },
     {
       "source": "Azure Updates",
