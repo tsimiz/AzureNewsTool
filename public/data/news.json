@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-23T12:31:23.880Z",
-  "itemCount": 702,
+  "generatedAt": "2026-07-23T18:26:08.280Z",
+  "itemCount": 704,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure DDoS Protection custom policy",
+      "link": "https://azure.microsoft.com/updates?id=568063",
+      "summary": "Azure DDoS Protection custom policy is now in public preview. This capability provides per-resource control over DDoS mitigation thresholds for protected Standard Load Balancer frontend IP configurations. Customers can configure fixed inbound detection th",
+      "publishedAt": "2026-07-23T16:47:24.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Email threat landscape: Q2 2026 trends and insights",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
+      "summary": "In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social engineering and employed increasingly automated and multi-stage attack chains.",
+      "publishedAt": "2026-07-23T15:00:00.000Z"
+    },
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
