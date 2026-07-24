@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-23T18:26:08.280Z",
-  "itemCount": 704,
+  "generatedAt": "2026-07-24T00:24:51.873Z",
+  "itemCount": 730,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,36 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The Microsoft 365 Copilot Agent’s Playbook: A Practical Livestream Series for Building Better Agents",
+      "link": "https://devblogs.microsoft.com/blog/the-microsoft-365-copilot-agents-playbook-a-practical-livestream-series-for-building-better-agents",
+      "summary": "Building on Microsoft 365 Copilot? Here's your playbook. Declarative agents are quickly becoming one of the most excit",
+      "publishedAt": "2026-07-23T19:03:53.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Move Agent Orchestration/Workflows out of Code with Agent Framework Declarative Workflows 1.0",
+      "link": "https://devblogs.microsoft.com/agent-framework/move-agent-orchestration-workflows-out-of-code-with-agent-framework-declarative-workflows-1-0",
+      "summary": "Most multi-agent apps wire every flow in application code: the sequence of steps, branching, and handoffs between agents all live inside the program, making the orchestration harder to review, version, and change. Declarative workflows make that orchestration ex",
+      "publishedAt": "2026-07-23T18:13:24.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure DDoS Protection custom policy",
       "link": "https://azure.microsoft.com/updates?id=568063",
       "summary": "Azure DDoS Protection custom policy is now in public preview. This capability provides per-resource control over DDoS mitigation thresholds for protected Standard Load Balancer frontend IP configurations. Customers can configure fixed inbound detection th",
       "publishedAt": "2026-07-23T16:47:24.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build locally, ship to Azure: meet Azure SQL Developer",
+      "link": "https://devblogs.microsoft.com/azure-sql/azure-sql-developer-prpr",
+      "summary": "Big news: Azure SQL Developer is here, in private preview. It's the Azure SQL Databa",
+      "publishedAt": "2026-07-23T15:00:27.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -53,9 +77,65 @@
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
+      "title": "Smarter Spring Development in Eclipse with GitHub Copilot",
+      "link": "https://devblogs.microsoft.com/java/smarter-spring-development-in-eclipse-with-github-copilot",
+      "summary": "How the Spring Tools MCP Server and GitHub Copilot together make Spring Development more efficient.",
+      "publishedAt": "2026-07-23T11:13:52.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Announcing the Power Pages Security Agent (Preview): Your AI Partner for Site Security",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/announcing-the-power-pages-security-agent-preview-your-ai-partner-for-site-security/",
+      "summary": "Securing a Power Pages site often requires configuring authentication, authorization, permissions, and application security settings across multiple experiences. Whether you&#8217;re troubleshooting a sign-in issue, reviewing access permissions, or hardening your site&#8217;s security posture, finding the right configuration can be time-consuming and requires deep platform knowledge.",
+      "publishedAt": "2026-07-23T07:11:02.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Windows App Development CLI v0.5.0 - expanded UI automation, JS/TS bindings, and more",
+      "link": "https://devblogs.microsoft.com/ifdef-windows/windows-app-development-cli-v0-5-0-expanded-ui-automation-js-ts-bindings-and-more",
+      "summary": "WinApp C",
+      "publishedAt": "2026-07-22T17:29:10.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
       "title": "Visual Studio Code 1.130 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.130-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.130 (Insiders) Read the full article",
+      "publishedAt": "2026-07-22T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.130",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.130",
+      "summary": "Learn what is new in Visual Studio Code 1.130 Read the full article",
+      "publishedAt": "2026-07-22T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.131 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.131-(insiders)",
+      "summary": "Learn what's new in Visual Studio Code 1.131 (Insiders) Read the full article",
+      "publishedAt": "2026-07-22T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.130",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-130-insiders",
+      "summary": "Learn what is new in Visual Studio Code 1.130 Read the full article",
+      "publishedAt": "2026-07-22T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.131 (Insiders)",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-131-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.131 (Insiders) Read the full article",
       "publishedAt": "2026-07-22T17:00:00.000Z"
     },
     {
@@ -67,6 +147,14 @@
       "publishedAt": "2026-07-22T16:57:10.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Pure Virtual C++ 2026 Is a Wrap",
+      "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-c-2026-is-a-wrap",
+      "summary": "That's a wrap on Pure Virtual C++ 2026!",
+      "publishedAt": "2026-07-22T16:00:35.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
@@ -75,12 +163,116 @@
       "publishedAt": "2026-07-22T16:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Building Agents that Act on Your Behalf with Toolboxes in Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry",
+      "summary": "How Toolboxes in Foundry simplify user delegation At some point, many agents move from answering questions to taking action. And when it does, the question becomes: whose identity is it acting with",
+      "publishedAt": "2026-07-22T15:00:29.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 3",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260722-00/?p=112552",
+      "summary": "Last time, we made a small but significant optimization to making an agile version of a Windows Runtime delegate. But there's another case we missed. That case is an objec",
+      "publishedAt": "2026-07-22T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The Microsoft Agent Framework Harness is now released",
+      "link": "https://devblogs.microsoft.com/agent-framework/the-microsoft-agent-framework-harness-is-now-released",
+      "summary": "Your agents can now be built on a stable, batteries-included harness - the loop, planning, memory, context management, approvals, and telemetry that turn a model into an agent that actually does things - in both Python and .NET. What is an agent harn",
+      "publishedAt": "2026-07-22T08:54:03.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing the ETW MCP: AI-assisted ETL trace analysis, headless and in your terminal",
+      "link": "https://devblogs.microsoft.com/performance-diagnostics/etw-mcp-intro",
+      "summary": "If you’ve ever opened an ETL trace with hundreds of data tables and wondered “where do I even start?” This post is for you. We’re releasing an early preview of the ETW MCP, a Model Context Protocol server that lets GitHub Copilot, or any MCP-aware AI assistant, read, query, and reason over Event Tracing for Windows (ETW) traces the sam",
+      "publishedAt": "2026-07-21T20:29:30.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "July Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server-3",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps",
+      "publishedAt": "2026-07-21T19:23:57.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Display Name is for Humans",
+      "link": "https://devblogs.microsoft.com/insidemsix/msix-displayname-vs-package-identity",
+      "summary": "Package identity exists for one primary purpose: To provide software with a stable and unambiguous way to identify a package. This is a considerable improvement over the historical tendency to assign",
+      "publishedAt": "2026-07-21T16:00:03.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Pure Virtual C++ 2026 Is Now Live!",
+      "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2026-is-now-live",
+      "summary": "Pure Virtual C++ 2026, our free, one-da",
+      "publishedAt": "2026-07-21T15:54:35.000Z"
+    },
+    {
       "source": "Power Platform Blog",
       "category": "Power Platform",
       "title": "Dataverse Plugin for Coding Agents Now Available in Cursor Marketplace",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/07/21/dataverse-plugin-for-coding-agents-now-available-in-cursor-marketplace/",
       "summary": "Today, we are excited to share that the Dataverse plugin is now available in the Cursor Marketplace, giving Cursor users a direct path to build with Microsoft Dataverse from inside their preferred AI coding experience.",
       "publishedAt": "2026-07-21T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 2",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260721-00/?p=112550",
+      "summary": "Last time, we had a straightforward function that makes an agile version of a Windows Runtime delegate. But there's more to it. In many cases, the delegate is already agil",
+      "publishedAt": "2026-07-21T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How to test agent experience changes without shipping them",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them",
+      "summary": "You've built an eval. You've established a baseline and found the gaps. Now you have hypotheses about how to fix them: maybe a documentation rewrite, or a different CLI output format. The natural next step is to ship the change and measure again. Don't do that just yet.",
+      "publishedAt": "2026-07-21T07:15:12.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "C++ Dependencies Without the Headache: vcpkg + Copilot CLI",
+      "link": "https://devblogs.microsoft.com/cppblog/c-dependencies-without-the-headache-vcpkg-copilot-cli",
+      "summary": "C++ dependency setup and maintenance still slows down many teams. In my Pure Virtual C++ 2026 session, I show a terminal-first workflow that ends with a working CLI app that formats and prints programming quotes, built with CMake and Microsoft C++ (MSVC) Build Tools. All of this is powered by GitHub Copilot CLI, which does the work of generati",
+      "publishedAt": "2026-07-20T21:05:25.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing a New Visual Manifest Editor in the WinApp VS Code Extension",
+      "link": "https://devblogs.microsoft.com/ifdef-windows/announcing-a-new-visual-manifest-editor-in-the-winapp-vs-code-extension",
+      "summary": "The WinApp",
+      "publishedAt": "2026-07-20T18:13:08.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "T-SQL Hygiene: Introducing the Covering Index",
+      "link": "https://devblogs.microsoft.com/azure-sql/tsql-covering-index",
+      "summary": "Often in applications, we write database queries. And often, the same query is executed again and again. To make queries against large tables faster, we can add an index. This is a general improvement for anyone accessing the table. However, there is a specially designed index called a covering index that can make queries against large tables",
+      "publishedAt": "2026-07-20T17:00:49.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Pure Virtual C++ 2026 Is Tomorrow and On-Demand Sessions Are Now Available",
+      "link": "https://devblogs.microsoft.com/cppblog/pure-virtual-cpp-2026-is-tomorrow-and-on-demand-sessions-are-now-available",
+      "summary": "Pure Virtual",
+      "publishedAt": "2026-07-20T16:05:54.000Z"
     },
     {
       "source": "Azure Updates",
@@ -99,11 +291,27 @@
       "publishedAt": "2026-07-20T14:59:26.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "AI agents, meet the Azure Cosmos DB vNext emulator",
+      "link": "https://devblogs.microsoft.com/cosmosdb/use-ai-agents-with-cosmosdb-vnext-emulator",
+      "summary": "If you use the Azure Cosmos DB vNext emulator, you probably know the local development loop: start the emulator, connect to it, create some resources, load test data, run queries, and inspect the results. Each step is straightforward, but together they add setup work before you can test the application you are actually building. How agent",
+      "publishedAt": "2026-07-20T14:05:15.000Z"
+    },
+    {
       "source": "Power Platform Blog",
       "category": "Power Platform",
       "title": "Announcing Link to Fabric UX refresh",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/07/20/link-to-fabric-ux-refresh/",
       "summary": "We are refreshing how you connect Microsoft Dataverse to your analytics stack.",
+      "publishedAt": "2026-07-20T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 1",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260720-00/?p=112545",
+      "summary": "Suppose you have some C++/WinRT code that receives a delegate from an outside source, and you might invoke that delegate from a potentially different COM context. However, the original delegate may not be",
       "publishedAt": "2026-07-20T14:00:00.000Z"
     },
     {
