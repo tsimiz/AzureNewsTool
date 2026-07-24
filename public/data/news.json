@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-24T12:29:47.866Z",
-  "itemCount": 730,
+  "generatedAt": "2026-07-24T18:29:33.710Z",
+  "itemCount": 731,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/blog/the-microsoft-365-copilot-agents-playbook-a-practical-livestream-series-for-building-better-agents",
       "summary": "Building on Microsoft 365 Copilot? Here's your playbook. Declarative agents are quickly becoming one of the most excit",
       "publishedAt": "2026-07-23T19:03:53.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "AT&#038;T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
+      "link": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/",
+      "summary": "AT&#38;T processed approximately one trillion tokens while developing OTel2.0 using Microsoft Foundry Managed Compute, open AI models, and AMD and NVIDIA GPU infrastructure. Discover how flexible model choice and scalable infrastructure are enabling production-scale telecom AI.",
+      "publishedAt": "2026-07-23T18:30:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
