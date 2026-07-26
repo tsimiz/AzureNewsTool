@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-26T12:22:45.841Z",
-  "itemCount": 731,
+  "generatedAt": "2026-07-26T18:19:47.104Z",
+  "itemCount": 732,
   "sources": [
     {
       "name": "Azure Updates",
@@ -767,6 +767,14 @@
       "category": "Azure",
       "title": "Frontier models and production agents: Advancing Microsoft Foundry for the agentic era",
       "link": "https://azure.microsoft.com/en-us/blog/frontier-models-and-production-agents-advancing-microsoft-foundry-for-the-agentic-era/",
+      "summary": "Introducing OpenAI's latest frontier model series, the Asia Pacific Data Zone, and product agent capabilities, all generally available in Microsoft Foundry.",
+      "publishedAt": "2026-07-09T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "GPT-5.6 now available in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/en-us/blog/gpt-5-6-now-available-in-microsoft-foundry/",
       "summary": "Introducing OpenAI's latest frontier model series, the Asia Pacific Data Zone, and product agent capabilities, all generally available in Microsoft Foundry.",
       "publishedAt": "2026-07-09T17:00:00.000Z"
     },
