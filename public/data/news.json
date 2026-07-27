@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T13:01:40.769Z",
-  "itemCount": 732,
+  "generatedAt": "2026-07-27T18:31:16.514Z",
+  "itemCount": 736,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,38 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: HTTP header insertion in Azure Firewall",
+      "link": "https://azure.microsoft.com/updates?id=568115",
+      "summary": "Azure Firewall now supports HTTP header insertion, enabling organizations to add or overwrite HTTP/HTTPS request headers directly from Azure Firewall application rules. This capability helps customers enforce security controls, support tenant restriction",
+      "publishedAt": "2026-07-27T16:54:36.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: AI Gateway in Azure API Management",
+      "link": "https://azure.microsoft.com/updates?id=568184",
+      "summary": "The AI Gateway tier for Azure API Management is now available in public preview. Building on the AI gateway capabilities already available across API Management tiers, the new AI Gateway tier provides a dedicated experience optimized for AI workloads.As o",
+      "publishedAt": "2026-07-27T16:44:29.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Rethinking security for the age of AI",
+      "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+      "summary": "Why security needs a new Cyber Stack&#160;—&#160;Introducing Project Perception The physics of cybersecurity are changing.&#160;Autonomous systems can now reason, adapt and operate continuously. At the same time, the cost of offense is falling, while the volume, velocity and complexity of what must be secured continues to grow.",
+      "publishedAt": "2026-07-27T16:40:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Enhancing AI security through global AI red teaming",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
+      "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems.",
+      "publishedAt": "2026-07-27T16:25:00.000Z"
+    },
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
