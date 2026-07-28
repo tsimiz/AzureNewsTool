@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-28T12:35:10.414Z",
-  "itemCount": 737,
+  "generatedAt": "2026-07-28T18:28:26.904Z",
+  "itemCount": 742,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,46 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Application Routing with Gateway API",
+      "link": "https://azure.microsoft.com/updates?id=567944",
+      "summary": "Managing ingress routing while adopting newer Kubernetes standards can require balancing modernization efforts with existing deployments. Application Routing with Gateway API is now generally available on AKS, bringing the Kubernetes Gateway API to ingres",
+      "publishedAt": "2026-07-28T16:54:22.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Resource placement in Azure Kubernetes Fleet Manager",
+      "link": "https://azure.microsoft.com/updates?id=567931",
+      "summary": "Managing Kubernetes resources across multiple clusters can require significant manual effort to apply updates and maintain consistency. Resource placement in Azure Kubernetes Fleet Manager is now generally available and enables platform and application te",
+      "publishedAt": "2026-07-28T16:52:51.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Maximum allowed failures for update runs in Azure Kubernetes Fleet Manager",
+      "link": "https://azure.microsoft.com/updates?id=567939",
+      "summary": "In fail-fast update rollouts, a small number of member cluster update failures can halt progress across a broader update deployment. Maximum Allowed Failures for update runs in Azure Kubernetes Fleet Manager, now available in preview, introduces an option",
+      "publishedAt": "2026-07-28T16:51:04.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Prepared Image Specification",
+      "link": "https://azure.microsoft.com/updates?id=567949",
+      "summary": "Organizations running large-scale, AI, GPU, Windows, and other performance-sensitive workloads on AKS often experience longer node startup times because new nodes must repeatedly download container images and perform initialization tasks before workloads",
+      "publishedAt": "2026-07-28T16:45:37.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Microsoft Azure now available from new cloud region in India (India South Central)",
+      "link": "https://azure.microsoft.com/updates?id=568013",
+      "summary": "Microsoft announces the opening of its fourth datacenter region in India, India South Central, with campuses in Hyderabad, Telangana. The region will provide customers with local, secure, state-of-the-art cloud infrastructure designed with AI readiness as",
+      "publishedAt": "2026-07-28T15:40:55.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
