@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T18:31:16.514Z",
-  "itemCount": 736,
+  "generatedAt": "2026-07-28T00:26:18.435Z",
+  "itemCount": 737,
   "sources": [
     {
       "name": "Azure Updates",
@@ -37,6 +37,14 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "[Launched] Generally Available: Claude Opus 5 on Azure Databricks",
+      "link": "https://azure.microsoft.com/updates?id=568316",
+      "summary": "Azure Databricks now supports Anthropic Claude Opus 5 through AI Model Serving. Claude Opus 5 is Anthropic's latest model for advanced reasoning, coding, agentic workflows, and professional knowledge work. Claude Opus 5 is designed for complex tasks requi",
+      "publishedAt": "2026-07-27T19:41:46.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[Launched] Generally Available: HTTP header insertion in Azure Firewall",
       "link": "https://azure.microsoft.com/updates?id=568115",
       "summary": "Azure Firewall now supports HTTP header insertion, enabling organizations to add or overwrite HTTP/HTTPS request headers directly from Azure Firewall application rules. This capability helps customers enforce security controls, support tenant restriction",
@@ -55,7 +63,7 @@
       "category": "Security",
       "title": "Rethinking security for the age of AI",
       "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
-      "summary": "Why security needs a new Cyber Stack&#160;—&#160;Introducing Project Perception The physics of cybersecurity are changing.&#160;Autonomous systems can now reason, adapt and operate continuously. At the same time, the cost of offense is falling, while the volume, velocity and complexity of what must be secured continues to grow.",
+      "summary": "The physics of cybersecurity are changing. Introducing security's new cyber stack: Project Perception.",
       "publishedAt": "2026-07-27T16:40:00.000Z"
     },
     {
