@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-29T12:39:50.180Z",
-  "itemCount": 758,
+  "generatedAt": "2026-07-29T18:19:53.836Z",
+  "itemCount": 766,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,62 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure SDK Release (July 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-july-2026",
+      "summary": "Thank you for your interest in the new Azure SDKs! We release new features, improvements, and bug fixes every month. Subscribe to our Azure SDK Blog RSS Feed to get notified when a new release is available. You can find links to packages, code, and docs on our",
+      "publishedAt": "2026-07-29T17:18:25.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.131",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.131",
+      "summary": "Learn what's new in Visual Studio Code 1.131 Read the full article",
+      "publishedAt": "2026-07-29T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.132 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.132-(insiders)",
+      "summary": "Learn what's new in Visual Studio Code 1.132 (Insiders) Read the full article",
+      "publishedAt": "2026-07-29T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "​​Better security starts with better questions",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/29/better-security-starts-with-better-questions/",
+      "summary": "Learn how better questions, trusted AI, and human judgment help security leaders make confident decisions and build resilient systems.",
+      "publishedAt": "2026-07-29T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Tell your model when to think harder",
+      "link": "https://devblogs.microsoft.com/visualstudio/tell-your-model-when-to-think-harder",
+      "summary": "Not every question deserves the same amount of thought. Renaming a variable isn't the same as debugging a memory leak, and they don't need the same level of thinking. So why should your model treat them the same way every time? Starting in Visual Studio 18.9 Insiders 2, it doesn't have to. Supported models now come with a thinking effor",
+      "publishedAt": "2026-07-29T15:02:36.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 8",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260729-00/?p=112570",
+      "summary": "Last time, we fixed the problem of an exception thrown from the custom deleter's constructor resulting in a reference leak. But wait, there's another source of exceptions.",
+      "publishedAt": "2026-07-29T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing v2.0 of the official MCP C# SDK",
+      "link": "https://devblogs.microsoft.com/dotnet/announcing-v20-of-the-official-mcp-csharp-sdk",
+      "summary": "The Model Context Protocol (MCP) C# SDK has reached v2.0, implementing the 2026-07-28 revision of the MCP specification. It's the largest revision of the protocol since it launched.",
+      "publishedAt": "2026-07-28T22:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -113,6 +169,14 @@
       "link": "https://devblogs.microsoft.com/devops/find-any-commit-in-seconds-commit-search-comes-to-azure-devops",
       "summary": "Great code has a long memory. The fix you shipped last quarter, the refactor that touched a dozen files, the one-line change that explained why something works the way it does — it's all there in your commit history. The hard part has always been finding it. Today, we're excited to announce that Commit Search is entering general a",
       "publishedAt": "2026-07-28T15:24:55.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 7",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260728-00/?p=112568",
+      "summary": "Last time, we fixed the problem of creating a unique_ptr whose deleter's constructor was might throw an exception. But we're not out of the woods yet. Let's t",
+      "publishedAt": "2026-07-28T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
