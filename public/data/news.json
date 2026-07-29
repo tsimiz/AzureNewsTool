@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-28T18:28:26.904Z",
-  "itemCount": 742,
+  "generatedAt": "2026-07-29T00:24:07.002Z",
+  "itemCount": 757,
   "sources": [
     {
       "name": "Azure Updates",
@@ -37,6 +37,22 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Enclave",
+      "link": "https://azure.microsoft.com/updates?id=568377",
+      "summary": "Announcing the public preview of Azure Enclave for Microsoft Azure, Azure Government, Azure Government Secret, and Azure Government Top Secret. Azure Enclave helps streamline the deployment and management of isolated cloud environments for sensitive workl",
+      "publishedAt": "2026-07-28T18:51:02.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: NAT64 on StandardV2 NAT Gateway",
+      "link": "https://azure.microsoft.com/updates?id=568409",
+      "summary": "StandardV2 NAT Gateway now supports NAT64, enabling IPv6 workloads to communicate with IPv4-only internet destinations by translating synthesized outbound IPv6 traffic into IPv4 traffic. NAT64 relies on a DNS64-capable resolver to synthesize IPv6 addresse",
+      "publishedAt": "2026-07-28T18:50:11.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[Launched] Generally Available: Application Routing with Gateway API",
       "link": "https://azure.microsoft.com/updates?id=567944",
       "summary": "Managing ingress routing while adopting newer Kubernetes standards can require balancing modernization efforts with existing deployments. Application Routing with Gateway API is now generally available on AKS, bringing the Kubernetes Gateway API to ingres",
@@ -67,6 +83,22 @@
       "publishedAt": "2026-07-28T16:45:37.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Package Integrity and Enforcement",
+      "link": "https://devblogs.microsoft.com/insidemsix/msix-chain-of-trust",
+      "summary": "A recent conversation started (as many interesting conversations do) with a simple question: \"Why is MSIX secure?\" MSIX includes multiple layers of protection designed to defend against both accidental damage and malicious tampering. But as with all good security solutions, it's not the individual elements so much as their i",
+      "publishedAt": "2026-07-28T16:00:51.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio July Update — Meet the New Agent, Powered by the GitHub Copilot SDK",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-july-update-meet-the-new-agent-powered-by-copilot-sdk",
+      "summary": "The best AI assistance is the kind you can steer, understand, and rely on. The July update is built around all three. There's a new Agent (Preview) in Copilot Chat, built on the same GitHub Copilot SDK that powers the GitHub Copilot CLI, that gets more done with less back-and",
+      "publishedAt": "2026-07-28T16:00:14.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Microsoft Azure now available from new cloud region in India (India South Central)",
@@ -75,12 +107,52 @@
       "publishedAt": "2026-07-28T15:40:55.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Find any commit in seconds: Commit Search comes to Azure DevOps",
+      "link": "https://devblogs.microsoft.com/devops/find-any-commit-in-seconds-commit-search-comes-to-azure-devops",
+      "summary": "Great code has a long memory. The fix you shipped last quarter, the refactor that touched a dozen files, the one-line change that explained why something works the way it does — it's all there in your commit history. The hard part has always been finding it. Today, we're excited to announce that Commit Search is entering general a",
+      "publishedAt": "2026-07-28T15:24:55.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Refactor your database with SQL projects in VS Code",
+      "link": "https://devblogs.microsoft.com/azure-sql/refactor-your-database-with-sql-projects-in-vs-code",
+      "summary": "SQL database projects are a fundamental tool for keeping your database in source control, tracking changes and collaborating on quickly evolving database needs. Not to be forgotten, their superpower is being able to dynamically generate deployment scripts that match the dec",
+      "publishedAt": "2026-07-28T13:08:29.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Discover Agent Skills from MCP servers in .NET",
+      "link": "https://devblogs.microsoft.com/agent-framework/discover-agent-skills-from-mcp-servers-in-net",
+      "summary": "Your agents can now discover and load Agent Skills directly from a Model Context Protocol (MCP) server. Instead of shipping every skill inside your application or copying skill folders into each deployment, you point an agent at an MCP server and it pulls the skills it needs on demand. A central team can p",
+      "publishedAt": "2026-07-28T09:01:13.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Query Performance Tuning in Azure DocumentDB: A Practical Guide",
+      "link": "https://devblogs.microsoft.com/documentdb/query-performance-tuning-guide",
+      "summary": "Writing a query that works is easy. Writing a query that scales is a different story.",
+      "publishedAt": "2026-07-27T20:12:56.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Claude Opus 5 on Azure Databricks",
       "link": "https://azure.microsoft.com/updates?id=568316",
       "summary": "Azure Databricks now supports Anthropic Claude Opus 5 through AI Model Serving. Claude Opus 5 is Anthropic's latest model for advanced reasoning, coding, agentic workflows, and professional knowledge work. Claude Opus 5 is designed for complex tasks requi",
       "publishedAt": "2026-07-27T19:41:46.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Analyze MSBuild Binary Logs with Copilot in VS Code",
+      "link": "https://devblogs.microsoft.com/dotnet/msbuild-binlog-analyzer-vscode",
+      "summary": "You know the moment. CI goes red, or a build that took 8 seconds yesterday now takes 40, and you're staring at a wall of MSBuild output trying to find the one line that matters. The answer is almost always sitting in the bi",
+      "publishedAt": "2026-07-27T17:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -113,6 +185,46 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
       "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems.",
       "publishedAt": "2026-07-27T16:25:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "A new way to bring native Windows APIs to JavaScript - introducing dynamic API projections for Node.js",
+      "link": "https://devblogs.microsoft.com/ifdef-windows/a-new-way-to-bring-native-windows-apis-to-javascript-introducing-dynamic-api-projections-for-node-js",
+      "summary": "E",
+      "publishedAt": "2026-07-27T14:19:41.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 6",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260727-00/?p=112566",
+      "summary": "It looked like we were done when we fixed the problem of releasing a non-marshalable delegate on the correct thread. But we missed something. Again.",
+      "publishedAt": "2026-07-27T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Java OpenJDK July 2026 Patch & Security Update",
+      "link": "https://devblogs.microsoft.com/java/java-openjdk-july-2026-patch-security-update",
+      "summary": "Hello Java customers! We are happy to announce the latest July 2026 patch & security update release for the Microsoft Build of OpenJDK. Check our",
+      "publishedAt": "2026-07-25T00:54:43.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 5",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260724-00/?p=112562",
+      "summary": "So far, we have handled the case of a non-marshalable delegate by wrapping it in a delegate that fails with CO_E_NOT_SUPPORTED if used in a manne",
+      "publishedAt": "2026-07-24T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/native-agent-memory-for-microsoft-agent-framework-powered-by-azure-cosmos-db",
+      "summary": "Recently we introduced the Agent Memory Toolkit",
+      "publishedAt": "2026-07-24T11:00:40.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -161,6 +273,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
       "summary": "In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social engineering and employed increasingly automated and multi-stage attack chains.",
       "publishedAt": "2026-07-23T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 4",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260723-00/?p=112560",
+      "summary": "Last time, we wrote a wrapper delegate that checked whether the context it was being invoked from matched the context it was captured from. if (d.try_as<::INoMars",
+      "publishedAt": "2026-07-23T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
