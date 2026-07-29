@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-29T06:53:05.534Z",
-  "itemCount": 757,
+  "generatedAt": "2026-07-29T12:39:50.180Z",
+  "itemCount": 758,
   "sources": [
     {
       "name": "Azure Updates",
@@ -185,6 +185,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
       "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps identify emerging AI risks, improve security testing, and strengthen the resilience of frontier AI systems.",
       "publishedAt": "2026-07-27T16:25:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "What customers value most in Microsoft Databases—from reliability to AI readiness",
+      "link": "https://azure.microsoft.com/en-us/blog/what-customers-value-most-in-microsoft-databases-from-reliability-to-ai-readiness/",
+      "summary": "Every day, customers trust Microsoft Databases to power their most critical applications, business processes, and AI-powered experiences.",
+      "publishedAt": "2026-07-27T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
