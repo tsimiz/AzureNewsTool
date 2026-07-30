@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-29T18:19:53.836Z",
-  "itemCount": 766,
+  "generatedAt": "2026-07-30T00:25:36.824Z",
+  "itemCount": 768,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Monitor Logs mirroring into Microsoft Fabric",
+      "link": "https://azure.microsoft.com/updates?id=568322",
+      "summary": "This capability shares telemetry from Azure Monitor Log Analytics workspaces into Microsoft Fabric, making observability data available in OneLake as Delta Parquet, the open format, without duplication and with near real-time availability. All Azure Monit",
+      "publishedAt": "2026-07-29T18:52:32.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Sphere OS version 26.09 is now available for evaluation",
+      "link": "https://azure.microsoft.com/updates?id=568466",
+      "summary": "Azure Sphere OS version 26.09 RC1 is now available for evaluation in the Retail Eval feed. Whilst this release encompasses no customer-facing changes, it represents a major bump in Azure Sphere's underlying Linux kernel version as part of our long-term su",
+      "publishedAt": "2026-07-29T18:50:00.000Z"
+    },
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
