@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-30T12:32:57.274Z",
-  "itemCount": 768,
+  "generatedAt": "2026-07-30T18:29:08.967Z",
+  "itemCount": 771,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Support for SMB Opportunistic Locking (Oplocks) configuration",
+      "link": "https://azure.microsoft.com/updates?id=568396",
+      "summary": "Azure NetApp Files now supports configuration of SMB opportunistic locking (oplocks) for SMB and dual-protocol volumes. Opportunistic locks (Oplocks) improve SMB client caching and are enabled by default. You can configure oplocks on new volumes or update",
+      "publishedAt": "2026-07-30T16:38:15.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "​​​​What’s new in Microsoft Security: July 2026",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/30/whats-new-in-microsoft-security-july-2026/",
+      "summary": "This month’s updates help security and IT teams secure their AI environments, use AI to defend, and strengthen the foundations that AI-powered operations depend on.",
+      "publishedAt": "2026-07-30T16:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -121,6 +137,14 @@
       "link": "https://azure.microsoft.com/updates?id=568409",
       "summary": "StandardV2 NAT Gateway now supports NAT64, enabling IPv6 workloads to communicate with IPv4-only internet destinations by translating synthesized outbound IPv6 traffic into IPv4 traffic. NAT64 relies on a DNS64-capable resolver to synthesize IPv6 addresse",
       "publishedAt": "2026-07-28T18:50:11.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Dataverse Plugin for Coding Agents: OpenAI and Codex Marketplace Expansion",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/07/28/dataverse-plugin-for-coding-agents-openai-and-codex-marketplace-expansion/",
+      "summary": "We’re excited to announce expansion of the Dataverse plugin across additional coding agent marketplaces, meeting developers where they already work. The plugin is now available for OpenAI and Codex.",
+      "publishedAt": "2026-07-28T16:57:55.000Z"
     },
     {
       "source": "Azure Updates",
