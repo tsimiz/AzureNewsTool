@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T12:37:09.786Z",
-  "itemCount": 780,
+  "generatedAt": "2026-07-31T18:36:51.539Z",
+  "itemCount": 781,
   "sources": [
     {
       "name": "Azure Updates",
@@ -161,6 +161,14 @@
       "link": "https://devblogs.microsoft.com/visualstudio/tell-your-model-when-to-think-harder",
       "summary": "Not every question deserves the same amount of thought. Renaming a variable isn't the same as debugging a memory leak, and they don't need the same level of thinking. So why should your model treat them the same way every time? Starting in Visual Studio 18.9 Insiders 2, it doesn't have to. Supported models now come with a thinking effor",
       "publishedAt": "2026-07-29T15:02:36.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Prompt Columns in GA: Turning Business Apps Data into Persisted AI Insights",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/07/29/prompt-columns-july2026/",
+      "summary": "Prompt Columns allows organizations to embed AI directly into business tables, without writing a single line of code. With Prompt Columns, you define natural language prompts once, and AI automatically generates insights, classifications, summaries, and recommendations that are persisted directly in your data.",
+      "publishedAt": "2026-07-29T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
