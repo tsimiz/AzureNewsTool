@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-30T18:29:08.967Z",
-  "itemCount": 771,
+  "generatedAt": "2026-07-31T00:28:35.515Z",
+  "itemCount": 780,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,46 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Database for PostgreSQL flexible server in India South Central",
+      "link": "https://azure.microsoft.com/updates?id=568334",
+      "summary": "Now you can deploy Azure Database for PostgreSQL flexible server in the India South Central Azure region. Learn more.",
+      "publishedAt": "2026-07-30T19:14:44.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Automation supports PowerShell 7.6 runbooks and Runtime environment",
+      "link": "https://azure.microsoft.com/updates?id=568102",
+      "summary": "Azure Automation is pleased to announce: General Availability of in-support PowerShell 7.6 runbooksRuntime Environment GA, enabling customers to seamlessly upgrade their outdated scripts to supported runtime versions. Support for Azure CLI commands in P",
+      "publishedAt": "2026-07-30T19:10:35.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Reservation exchanges for Azure services supported by savings plans will no longer be available starting February 1, 2027",
+      "link": "https://azure.microsoft.com/updates?id=568514",
+      "summary": "Starting February 1, 2027, Azure reservations exchanges will no longer be available for services covered by savings plans. At the time of this announcement, this includes reservations for the following services: Compute services: Azure Virtual Machine",
+      "publishedAt": "2026-07-30T19:03:21.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Symmetric keys on Azure Key Vault Premium",
+      "link": "https://azure.microsoft.com/updates?id=566746",
+      "summary": "We’re announcing symmetric keys on Azure Key Vault Premium are now available in public preview. This preview enables customers and partners to evaluate symmetric encryption capabilities using the oct-HSM key type and the Advanced Encryption Standard (AES)",
+      "publishedAt": "2026-07-30T18:57:18.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Building agent teams with Agent Framework, GitHub Copilot CLI and Squad",
+      "link": "https://devblogs.microsoft.com/agent-framework/building-agent-teams-with-agent-framework-github-copilot-cli-and-squad",
+      "summary": "Microsoft Agent Framework supports creating agents that use the GitHub Copilot SDK as their backend. GitHub Copilot agents provide access to powerful coding-oriented AI capabilities, including shell command execution, file operations, URL fetching, Model Context Prot",
+      "publishedAt": "2026-07-30T17:18:53.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -91,6 +131,22 @@
       "publishedAt": "2026-07-29T17:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.131",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-131-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.131 Read the full article",
+      "publishedAt": "2026-07-29T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.132 (Insiders)",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-132-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.132 (Insiders) Read the full article",
+      "publishedAt": "2026-07-29T17:00:00.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "​​Better security starts with better questions",
@@ -113,6 +169,22 @@
       "link": "https://devblogs.microsoft.com/oldnewthing/20260729-00/?p=112570",
       "summary": "Last time, we fixed the problem of an exception thrown from the custom deleter's constructor resulting in a reference leak. But wait, there's another source of exceptions.",
       "publishedAt": "2026-07-29T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MAI-Code-1-Flash: early results from real developer workflows",
+      "link": "https://devblogs.microsoft.com/vscode-blog/mai-code-1-flash:-early-results-from-real-developer-workflows",
+      "summary": "MAI-Code-1-Flash is a lightweight coding model purpose built for the fast, iterative work developers do every day in GitHub. In this post, we share what the data is telling us about how it performs in real developer workflows. Read the full article",
+      "publishedAt": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MAI-Code-1-Flash: early results from real developer workflows",
+      "link": "https://devblogs.microsoft.com/external-blogs/mai-code-1-flash-early-results-from-real-developer-workflows",
+      "summary": "MAI-Code-1-Flash is a lightweight coding model purpose built for the fast, iterative work developers do every day in GitHub. In this post, we share what the data is telling us about how it performs in real developer workflows. Read the full article",
+      "publishedAt": "2026-07-29T00:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
