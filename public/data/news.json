@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T18:36:51.539Z",
-  "itemCount": 781,
+  "generatedAt": "2026-08-01T00:27:28.021Z",
+  "itemCount": 786,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,38 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Single-click purchase for public SaaS offers",
+      "link": "https://azure.microsoft.com/updates?id=568591",
+      "summary": "Eligible SaaS products on Microsoft Marketplace now support a simplified purchase experience in Azure portal. Customers can review plan, billing, resource group, contact details, and terms information on a single page for completing the purchase. This exp",
+      "publishedAt": "2026-07-31T22:32:52.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/",
+      "summary": "Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch.",
+      "publishedAt": "2026-07-31T21:01:37.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Route-Maps for Azure Route Server",
+      "link": "https://azure.microsoft.com/updates?id=568631",
+      "summary": "Route maps for Azure Route Server are now available in public preview, providing fine-grained control over inbound and outbound routing across hybrid connections. Customers can manage routes advertised to and from Azure Route Server BGP peerings with Netw",
+      "publishedAt": "2026-07-31T20:48:35.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure SQL updates for late-July",
+      "link": "https://azure.microsoft.com/updates?id=568139",
+      "summary": "In late-July 2026, the following update and enhancement was made to Azure SQL: Regex-based dynamic data masking (DDM) extends the built-in DDM feature with pattern‑based masking to hide sensitive data like emails, phone numbers, and identifiers—centrally",
+      "publishedAt": "2026-07-31T18:16:23.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -89,6 +121,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/30/whats-new-in-microsoft-security-july-2026/",
       "summary": "This month’s updates help security and IT teams secure their AI environments, use AI to defend, and strengthen the foundations that AI-powered operations depend on.",
       "publishedAt": "2026-07-30T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "The next measure of AI momentum is work transformed",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+      "summary": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter.",
+      "publishedAt": "2026-07-30T13:00:00.000Z"
     },
     {
       "source": "Azure Updates",
