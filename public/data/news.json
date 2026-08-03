@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-03T13:01:25.682Z",
-  "itemCount": 786,
+  "generatedAt": "2026-08-03T18:34:05.754Z",
+  "itemCount": 787,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Immutability to the most recent seven days of backups on Azure SQL Database and Azure SQL Managed Instance",
+      "link": "https://azure.microsoft.com/updates?id=568339",
+      "summary": "To enhance backup protection, Azure SQL Database and Azure SQL Managed Instance now automatically apply immutability to the most recent seven days of backups. This capability is enabled by default for all databases, regardless of the configured point-in-t",
+      "publishedAt": "2026-08-03T17:00:56.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
