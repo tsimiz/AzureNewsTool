@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-03T18:34:05.754Z",
-  "itemCount": 787,
+  "generatedAt": "2026-08-04T00:27:57.056Z",
+  "itemCount": 788,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Trusted Launch as Default",
+      "link": "https://azure.microsoft.com/updates?id=568600",
+      "summary": "Trusted Launch as Default (TLaD) is now generally available for new Azure Gen2 virtual machines and virtual machine scale sets. TLaD automatically enables Secure Boot and vTPM for supported deployments, helping customers establish a stronger security base",
+      "publishedAt": "2026-08-03T19:56:26.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
