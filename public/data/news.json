@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-04T12:36:29.947Z",
-  "itemCount": 788,
+  "generatedAt": "2026-08-04T18:31:21.187Z",
+  "itemCount": 800,
   "sources": [
     {
       "name": "Azure Updates",
@@ -37,10 +37,50 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "[In preview] Public Preview: Azure DNS enables DNS-based load balancing through Traffic Manager integration",
+      "link": "https://azure.microsoft.com/updates?id=565214",
+      "summary": "Azure DNS now offers a seamless way to integrate with Azure Traffic Manager for DNS-based traffic routing. Customers can now directly associate Azure DNS record set with Traffic Manager profiles without creating CNAME record for trafficmanager.net domain.",
+      "publishedAt": "2026-08-04T17:04:55.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Virtual Network routing appliance",
+      "link": "https://azure.microsoft.com/updates?id=568605",
+      "summary": "Azure Virtual Network routing appliance is now generally available. It delivers private connectivity across virtual networks, using specialized hardware for low latency, high throughput, and better performance than virtual machines. Key benefits and funct",
+      "publishedAt": "2026-08-04T17:03:38.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build Azure Skills Faster with Cloud Academy, a Visual Studio Subscriber Benefit",
+      "link": "https://devblogs.microsoft.com/visualstudio/build-azure-skills-faster-with-cloud-academy-a-visual-studio-subscriber-benefit",
+      "summary": "",
+      "publishedAt": "2026-08-04T14:00:38.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Building an operations assistant on Azure that waits for approval before it acts",
+      "link": "https://devblogs.microsoft.com/all-things-azure/building-an-operations-assistant-on-azure-that-waits-for-approval-before-it-acts",
+      "summary": "Grounding an assistant in runbooks is the easy half. The interesting engineering is in the boundary between what a model proposes and what an authenticated person actually authorizes. An operations assistant stops being a demo the moment it can act. Answering \"which runbook covers this alert\" is a search problem. Opening an incident from th",
+      "publishedAt": "2026-08-03T21:15:38.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[Launched] Generally Available: Trusted Launch as Default",
       "link": "https://azure.microsoft.com/updates?id=568600",
       "summary": "Trusted Launch as Default (TLaD) is now generally available for new Azure Gen2 virtual machines and virtual machine scale sets. TLaD automatically enables Secure Boot and vTPM for supported deployments, helping customers establish a stronger security base",
       "publishedAt": "2026-08-03T19:56:26.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime",
+      "link": "https://devblogs.microsoft.com/dotnet/strengthening-nuget-supply-chain-security-reducing-api-key-lifetime",
+      "summary": "Many developers publish packages to NuGet.org via API keys. In recent years, API keys and Personal Access Tokens (PATs) have been frequently used as an attack vector to gain access to systems. There are multiple problems with API keys and PATs; the two biggest ones are that they are loose strings that are easy to lose, and they have traditi",
+      "publishedAt": "2026-08-03T18:10:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -49,6 +89,14 @@
       "link": "https://azure.microsoft.com/updates?id=568339",
       "summary": "To enhance backup protection, Azure SQL Database and Azure SQL Managed Instance now automatically apply immutability to the most recent seven days of backups. This capability is enabled by default for all databases, regardless of the configured point-in-t",
       "publishedAt": "2026-08-03T17:00:56.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 1",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260803-00/?p=112582",
+      "summary": "Last time, we considered what it means when the context callback fails, which prevents us from releasing the object in its original context. We noted that the problem is that whe",
+      "publishedAt": "2026-08-03T14:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -81,6 +129,46 @@
       "link": "https://azure.microsoft.com/updates?id=568139",
       "summary": "In late-July 2026, the following update and enhancement was made to Azure SQL: Regex-based dynamic data masking (DDM) extends the built-in DDM feature with pattern‑based masking to hide sensitive data like emails, phone numbers, and identifiers—centrally",
       "publishedAt": "2026-07-31T18:16:23.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "From generated code to trusted code with a unit-test agent",
+      "link": "https://devblogs.microsoft.com/dotnet/polyglot-unit-testing-agent",
+      "summary": "A common request to a coding agent is only one line: Generate unit tests. That request leaves important questions open. Which code needs tests? Which test framework does the project use? Where should the tests go? How does the build find them? What should the tests check? The agent can learn from the repository,",
+      "publishedAt": "2026-07-31T15:00:15.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 10",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260731-00/?p=112578",
+      "summary": "In part 5 of this unnecessarily long series on agile delegates, com",
+      "publishedAt": "2026-07-31T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "A deep dive into Power Pages Enhanced Authorization",
+      "link": "https://devblogs.microsoft.com/powerplatform/power-pages-enhanced-authorization",
+      "summary": "Dataverse Native Authorization Model for Power Pages How mapped identities, security roles, and record filters move external-user authorization closer to the data. We’re introducing a major update to the Power Pages security model: authorization for external users is now enforced natively in Dataverse. Customers",
+      "publishedAt": "2026-07-31T05:41:52.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing WPA MCP: Early Preview of AI-assisted trace analysis in Windows Performance Analyzer",
+      "link": "https://devblogs.microsoft.com/performance-diagnostics/introducing-wpa-mcp-early-preview-of-ai-assisted-trace-analysis-in-windows-performance-analyzer",
+      "summary": "Windows Performance Analyzer (WPA) is one of the most powerful tools available for understanding system performance on Windows. It helps engineers investigate Event Tracing for Windows (ETW) traces across CPU, memory, disk, networking, scheduling, input, and many other areas of the operating system. That power also comes with complexity. A",
+      "publishedAt": "2026-07-30T23:43:38.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure Developer CLI (azd) July 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-july-2026",
+      "summary": "This is the July round-up for the Azure Developer CLI (azd). Five releases shipped since the last post: 1.27.0, 1.27.1,",
+      "publishedAt": "2026-07-30T20:20:10.000Z"
     },
     {
       "source": "Azure Updates",
@@ -137,6 +225,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/30/whats-new-in-microsoft-security-july-2026/",
       "summary": "This month’s updates help security and IT teams secure their AI environments, use AI to defend, and strengthen the foundations that AI-powered operations depend on.",
       "publishedAt": "2026-07-30T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Making an agile version of a Windows Runtime delegate in C++/WinRT, part 9",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260730-00/?p=112573",
+      "summary": "Over half of the time we spent trying to make an agile version of a Windows Runtime delegate in C++/WinRT was dealing with the case of a delegate that declares non-marshalability.",
+      "publishedAt": "2026-07-30T14:00:00.000Z"
     },
     {
       "source": "Microsoft 365 Blog",
