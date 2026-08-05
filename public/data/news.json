@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T12:34:53.193Z",
-  "itemCount": 806,
+  "generatedAt": "2026-08-05T18:31:40.469Z",
+  "itemCount": 809,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,30 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
+      "summary": "Learn why KuppingerCole named Microsoft a Leader in its Leadership Compass: Cloud Native Application Protection Platforms report.",
+      "publishedAt": "2026-08-05T16:30:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
+      "summary": "A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities.",
+      "publishedAt": "2026-08-05T15:48:39.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Explicit proxy in Azure Firewall",
+      "link": "https://azure.microsoft.com/updates?id=568825",
+      "summary": "Azure Firewall explicit proxy is now generally available. Explicit proxy enables customers to configure applications and browsers to send HTTP and HTTPS traffic directly to Azure Firewall using proxy settings, providing an alternative to route-based traff",
+      "publishedAt": "2026-08-05T14:54:08.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
