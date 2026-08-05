@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T00:27:28.498Z",
-  "itemCount": 804,
+  "generatedAt": "2026-08-05T06:52:14.641Z",
+  "itemCount": 806,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Nested confidential (cc_v5) VMs will be retired on September 1, 2026",
+      "link": "https://azure.microsoft.com/updates?id=568661",
+      "summary": "On September 1, 2026, the cc_v5 confidential VM series will be retired and will no longer be available for use or purchase. Any affected VM that has not been resized before that date will deallocated. The impacted VM sizes that will be retired are: DCas_c",
+      "publishedAt": "2026-08-05T00:22:49.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+      "summary": "A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation.",
+      "publishedAt": "2026-08-04T23:46:41.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
