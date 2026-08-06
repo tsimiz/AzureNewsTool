@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T18:31:40.469Z",
-  "itemCount": 809,
+  "generatedAt": "2026-08-06T00:23:45.240Z",
+  "itemCount": 811,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: SharePoint Connector for Azure Databricks",
+      "link": "https://azure.microsoft.com/updates?id=568905",
+      "summary": "The SharePoint connector for Azure Databricks is now generally available. Organizations can use Lakeflow Connect to ingest files from SharePoint into Azure Databricks, helping unify enterprise content with data and AI workflows on Azure. The connector sup",
+      "publishedAt": "2026-08-05T22:34:02.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Unity AI Gateway on Azure Databricks",
+      "link": "https://azure.microsoft.com/updates?id=568910",
+      "summary": "Unity AI Gateway is now generally available on Azure Databricks. Unity AI Gateway provides centralized governance for AI models, agents, tools, and MCP services, helping organizations monitor usage, manage costs, apply guardrails, and enforce access contr",
+      "publishedAt": "2026-08-05T22:32:45.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
