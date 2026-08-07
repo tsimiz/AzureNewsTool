@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-06T12:36:42.443Z",
-  "itemCount": 811,
+  "generatedAt": "2026-08-07T01:10:34.770Z",
+  "itemCount": 813,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Azure Databricks Genie One and Genie Agents Free Usage Extended Through January 31, 2027",
+      "link": "https://azure.microsoft.com/updates?id=568964",
+      "summary": "Free usage of Genie One and Genie Agents in Azure Databricks is now extended through January 31, 2027, from the previous end date of July 31, 2026. Budget controls do not apply to these products during the promotional period. The promotion covers usage by",
+      "publishedAt": "2026-08-06T19:41:52.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Migrate from AWS FSx for Windows File Server to Azure Files with Azure Storage Mover",
+      "link": "https://azure.microsoft.com/updates?id=567979",
+      "summary": "Azure Storage Mover now supports agentless, cloud-to-cloud migration from AWS FSx for Windows File Server (SMB) to Azure Files (SMB), in preview. You can move your Windows file shares off FSx and into Azure Files without deploying or managing a migration",
+      "publishedAt": "2026-08-06T16:40:19.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
