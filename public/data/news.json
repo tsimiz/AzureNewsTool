@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-07T12:15:12.979Z",
-  "itemCount": 813,
+  "generatedAt": "2026-08-07T18:15:28.608Z",
+  "itemCount": 830,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,30 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.133 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.133-(insiders)",
+      "summary": "Learn what's new in Visual Studio Code 1.133 (Insiders) Read the full article",
+      "publishedAt": "2026-08-11T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure ExpressRoute resiliency guard",
+      "link": "https://azure.microsoft.com/updates?id=568666",
+      "summary": "Azure ExpressRoute resiliency guard is now available in public preview for ExpressRoute virtual network gateways. The new resiliency model property lets you specify whether a gateway is intended for a single-homed or multi-homed configuration, helping ali",
+      "publishedAt": "2026-08-07T15:52:31.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 5",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260807-00/?p=112597",
+      "summary": "Last time, I confessed that I lied when i said that we can't use std::unique_ptr to manage the registration cookie. T",
+      "publishedAt": "2026-08-07T14:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Announcing: Azure Databricks Genie One and Genie Agents Free Usage Extended Through January 31, 2027",
@@ -43,12 +67,60 @@
       "publishedAt": "2026-08-06T19:41:52.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Test reporting in Microsoft.Testing.Platform: from red build to root cause",
+      "link": "https://devblogs.microsoft.com/dotnet/microsoft-testing-platform-reporting",
+      "summary": "When a test fails in CI, \"the build is red\" is only the starting point. The useful questions are whether this change caused the failure, whether the test has failed before, and where to find the evidence. If answering them means searching a job log, downloading an artifact, and finding the teammate who remembers how that test behaved last m",
+      "publishedAt": "2026-08-06T17:05:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Migrate from AWS FSx for Windows File Server to Azure Files with Azure Storage Mover",
       "link": "https://azure.microsoft.com/updates?id=567979",
       "summary": "Azure Storage Mover now supports agentless, cloud-to-cloud migration from AWS FSx for Windows File Server (SMB) to Azure Files (SMB), in preview. You can move your Windows file shares off FSx and into Azure Files without deploying or managing a migration",
       "publishedAt": "2026-08-06T16:40:19.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing the preview of the Work IQ Developer Tools",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/announcing-the-preview-of-the-work-iq-developer-tools",
+      "summary": "Software is shifting from apps built for people to agents that can reason over context and act on someone's behalf. Microsoft 365 Copilot put that shift in front of hundreds of millions of users, and Work IQ gave agents a production-ready intelligence layer to build on. What's been missing is the path in between: getting from an idea to a prod",
+      "publishedAt": "2026-08-06T16:17:13.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
+      "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
+      "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation.",
+      "publishedAt": "2026-08-06T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Pull request annotations on work item cards",
+      "link": "https://devblogs.microsoft.com/devops/pull-request-annotations-on-work-item-cards",
+      "summary": "It's now easier to track development progress without leaving your Kanban board. Azure Boards now displays pull request annotations directly on work item cards, making it easy to see at a glance when work is actively moving through code review.",
+      "publishedAt": "2026-08-06T14:00:21.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 4",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260806-00/?p=112595",
+      "summary": "Last time, we successfully our plan to use the global interface table to hold created a fake agile wrapper that is technically agile, even though it",
+      "publishedAt": "2026-08-06T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "You can now use the Azure DevOps Service Connection instead of a PAT or Build Session token",
+      "link": "https://devblogs.microsoft.com/devops/you-can-now-use-the-azure-devops-service-connection-instead-of-a-pat-or-build-session-token",
+      "summary": "We're excited to announce the Azure DevOps service connection, a new way to access Azure DevOps from your pipelines using a Microsoft Entra workload identity (a service principal or managed identity) instead of a Personal Access Token (PAT) or session token. This post walks through what it is, how to set it up, and the many",
+      "publishedAt": "2026-08-06T08:57:40.000Z"
     },
     {
       "source": "Azure Updates",
@@ -65,6 +137,22 @@
       "link": "https://azure.microsoft.com/updates?id=568910",
       "summary": "Unity AI Gateway is now generally available on Azure Databricks. Unity AI Gateway provides centralized governance for AI models, agents, tools, and MCP services, helping organizations monitor usage, manage costs, apply guardrails, and enforce access contr",
       "publishedAt": "2026-08-05T22:32:45.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.132",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.132",
+      "summary": "Learn what's new in Visual Studio Code 1.132 Read the full article",
+      "publishedAt": "2026-08-05T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.132",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-132-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.132 Read the full article",
+      "publishedAt": "2026-08-05T17:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -91,6 +179,22 @@
       "publishedAt": "2026-08-05T14:54:08.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 3",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260805-00/?p=112591",
+      "summary": "Last time, we tried to execute on our plan to use the global interface table to hold hold a reference to an object in another apartment that automati",
+      "publishedAt": "2026-08-05T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure DevOps Remote MCP Server is generally available",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-remote-mcp-server-ga",
+      "summary": "Today, we're excited to announce the general availability of the Azure DevOps MCP Server 🎉 The Azure DevOps MCP Server gives AI assistants secure, contextual access to your Azure DevOps projects so they can help you plan, build, and ship software more effectively. With the",
+      "publishedAt": "2026-08-05T12:58:52.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Retirement: Nested confidential (cc_v5) VMs will be retired on September 1, 2026",
@@ -105,6 +209,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
       "summary": "A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation.",
       "publishedAt": "2026-08-04T23:46:41.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Beyond Chat: live Speech-to-Text with Foundry Local and C#",
+      "link": "https://devblogs.microsoft.com/dotnet/foundry-local-live-speech-to-text-csharp",
+      "summary": "A year ago, I wrote a .NET Blog post about running GPT-OSS locally with Ollama and C#. That sample used IChatClient from Microsoft.Extensions.AI to build one of the most familiar Local AI scenarios: a chat application. Chat is a great place",
+      "publishedAt": "2026-08-04T21:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -129,6 +241,14 @@
       "link": "https://azure.microsoft.com/updates?id=568842",
       "summary": "Azure Private Link over IPv6 enables you to privately access Azure PaaS services, such as Azure Storage and Azure SQL Database, over IPv6-based connectivity. You can now use IPv6 private endpoints to connect from IPv6 clients in an Azure virtual network o",
       "publishedAt": "2026-08-04T18:29:36.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build Production-Ready Agents with the GitHub Copilot Harness and Agent Framework",
+      "link": "https://devblogs.microsoft.com/agent-framework/build-production-ready-agents-with-the-github-copilot-harness-and-agent-framework",
+      "summary": "Developers increasingly want to build agents that can reason about code, modify files, execute commands, interact with developer tools, and work across entire repositories. While GitHub Copilot already provides a powerful coding harness for these scenarios, developers often need additional capabili",
+      "publishedAt": "2026-08-04T18:25:35.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -157,10 +277,26 @@
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
+      "title": "Remove Is Not Uninstall",
+      "link": "https://devblogs.microsoft.com/insidemsix/remove-is-not-uninstall",
+      "summary": "Just as https://devblogs.microsoft.com/insidemsix/there-is-no-install-its-stage-and-register/ explained that Install is not truly an installation operation in MSIX, Remove is similarly not an uninstall operation. This can be surprising - sometimes even alarming - to developers coming from traditional installer tech",
+      "publishedAt": "2026-08-04T16:00:13.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
       "title": "Build Azure Skills Faster with Cloud Academy, a Visual Studio Subscriber Benefit",
       "link": "https://devblogs.microsoft.com/visualstudio/build-azure-skills-faster-with-cloud-academy-a-visual-studio-subscriber-benefit",
       "summary": "",
       "publishedAt": "2026-08-04T14:00:38.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 2",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260804-00/?p=112586",
+      "summary": "Last time, we hatched a plan for holding a reference to an object in another apartment that automatically expires when the apartment runs down. L",
+      "publishedAt": "2026-08-04T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
