@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-07T18:15:28.608Z",
-  "itemCount": 830,
+  "generatedAt": "2026-08-08T00:13:01.134Z",
+  "itemCount": 833,
   "sources": [
     {
       "name": "Azure Updates",
@@ -67,6 +67,14 @@
       "publishedAt": "2026-08-06T19:41:52.000Z"
     },
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Azure Databricks Genie One and Genie Agents Free Usage extended through January 31, 2027",
+      "link": "https://azure.microsoft.com/updates?id=568964",
+      "summary": "Free usage of Genie One and Genie Agents in Azure Databricks is now extended through January 31, 2027, from the previous end date of July 31, 2026. Budget controls do not apply to these products during the promotional period. The promotion covers usage by",
+      "publishedAt": "2026-08-06T19:41:52.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Test reporting in Microsoft.Testing.Platform: from red build to root cause",
@@ -99,6 +107,14 @@
       "publishedAt": "2026-08-06T15:00:00.000Z"
     },
     {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "What’s new in Power Platform: July/August 2026 feature update",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/06/whats-new-in-power-platform-july-august-2026-feature-update/",
+      "summary": "Building modern apps Generally available: the data grid modern control — a fluent UI grid with search, sorting, selection, and rich column types The data grid modern control is now generally available for canvas apps. Built on fluent UI, data grid gives makers a high-performance, data-dense view of tabular data with a built-in search experience.",
+      "publishedAt": "2026-08-06T15:00:00.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Pull request annotations on work item cards",
@@ -112,6 +128,14 @@
       "title": "Creating a fake agile wrapper that is technically agile but is not useful outside its home apartment, part 4",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260806-00/?p=112595",
       "summary": "Last time, we successfully our plan to use the global interface table to hold created a fake agile wrapper that is technically agile, even though it",
+      "publishedAt": "2026-08-06T14:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Secured and Governed your AI Agents: Microsoft Entra Agent ID for Dataverse",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/06/microsoft-entra-agent-id-for-dataverse/",
+      "summary": "Microsoft Entra Agent ID and Dataverse agent users offer a new identity foundation. Together, they help organizations give each agent a dedicated identity for accessing Dataverse, assign appropriate security roles, and maintain visibility into the agent’s activity.",
       "publishedAt": "2026-08-06T14:00:00.000Z"
     },
     {
