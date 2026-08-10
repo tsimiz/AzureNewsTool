@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T12:14:56.223Z",
-  "itemCount": 833,
+  "generatedAt": "2026-08-10T18:16:11.742Z",
+  "itemCount": 835,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,22 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.133-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.133 (Insiders) Read the full article",
       "publishedAt": "2026-08-11T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/",
+      "summary": "Microsoft is named a Leader in the 2026 IDC MarketScape for MDR services. Discover how Microsoft Defender Experts MDR combines AI, threat intelligence, and human expertise.",
+      "publishedAt": "2026-08-10T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
+      "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims.",
+      "publishedAt": "2026-08-10T15:00:00.000Z"
     },
     {
       "source": "Azure Updates",
