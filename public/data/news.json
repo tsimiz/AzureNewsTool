@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-11T12:15:31.836Z",
-  "itemCount": 836,
+  "generatedAt": "2026-08-11T18:16:55.526Z",
+  "itemCount": 841,
   "sources": [
     {
       "name": "Azure Updates",
@@ -43,6 +43,30 @@
       "publishedAt": "2026-08-11T17:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Remove and Package Lifetime",
+      "link": "https://devblogs.microsoft.com/insidemsix/msix-package-lifetime",
+      "summary": "MSIX uses a Garbage Collection (GC) design for staged package lifetime and destaging. Throughout this article: Remove refers to the Deployment operation requested by the caller. Deregister refers to removing a use",
+      "publishedAt": "2026-08-11T16:00:26.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build Locally, Ship to Cloud for $0: Azure SQL for Modern App Developers",
+      "link": "https://devblogs.microsoft.com/azure-sql/build-locally-ship-to-cloud-for-0-azure-sql-for-modern-app-developers",
+      "summary": "As app developers, our primary focus is building great user experiences, designing APIs, and shipping features quickly. What we don't want is database friction—wasting hours configuring local DB instances, writing verbose migration scripts by hand, or worrying about unexpected cloud bills while prototyping. Today, we are making d",
+      "publishedAt": "2026-08-10T21:35:53.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Intelligent Terminal 0.2 is here with local model support",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-is-here-with-local-model-support",
+      "summary": "We're back, and this is our first minor version bump: 0.1 to 0.2! It's our biggest release yet. This update adds support for local models, lets you run a different agent in each tab with /agent, brings OpenCode into the built-in agent lineup, runs your agent inside WSL",
+      "publishedAt": "2026-08-10T19:00:01.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Announcing: Microsoft Fabric Item Recovery will be enabled by default for tenants without an explicit setting",
@@ -65,6 +89,22 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
       "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims.",
       "publishedAt": "2026-08-10T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How can I perform a Copy&shy;File in unbuffered mode?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260810-00/?p=112600",
+      "summary": "A customer was copying a file with Copy­File, but they wanted the file handles to be opened as FILE_FLAG_NO_BUFFERING. We saw some time ago that",
+      "publishedAt": "2026-08-10T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "I Enabled RBAC and Everything Broke. What Did I Do Wrong?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/i-enabled-rbac-and-everything-broke-what-did-i-do-wrong",
+      "summary": "We covered the roles your Azure Cosmos DB app needs in our previous post. Now let’s look at what happens after you’ve assigned those roles, switched identities, disabled keys and suddenly staring at a 403. As we",
+      "publishedAt": "2026-08-10T07:01:03.000Z"
     },
     {
       "source": "Azure Updates",
@@ -327,7 +367,7 @@
       "category": "Developer",
       "title": "Remove Is Not Uninstall",
       "link": "https://devblogs.microsoft.com/insidemsix/remove-is-not-uninstall",
-      "summary": "Just as https://devblogs.microsoft.com/insidemsix/there-is-no-install-its-stage-and-register/ explained that Install is not truly an installation operation in MSIX, Remove is similarly not an uninstall operation. This can be surprising - sometimes even alarming - to developers coming from traditional installer tech",
+      "summary": "Just as There is no Install – it’s ‘Stage’ and ‘Register’ explained that Install is not truly an installation operation in MSIX, Remove is similarly not an uninstall operation. This can be surprising - so",
       "publishedAt": "2026-08-04T16:00:13.000Z"
     },
     {
@@ -351,7 +391,7 @@
       "category": "Developer",
       "title": "Building an operations assistant on Azure that waits for approval before it acts",
       "link": "https://devblogs.microsoft.com/all-things-azure/building-an-operations-assistant-on-azure-that-waits-for-approval-before-it-acts",
-      "summary": "Grounding an assistant in runbooks is the easy half. The interesting engineering is in the boundary between what a model proposes and what an authenticated person actually authorizes. An operations assistant stops being a demo the moment it can act. Answering \"which runbook covers this alert\" is a search problem. Opening an incident from th",
+      "summary": "Grounding an assistant in runbooks is straightforward. The harder part begins when the model proposes an action that requires authorization. An operations assistant needs stronger controls as soon as it can act. Answering \"which runbook covers this alert\" is a search problem. Opening an incident from that same conv",
       "publishedAt": "2026-08-03T21:15:38.000Z"
     },
     {
