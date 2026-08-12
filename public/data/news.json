@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-11T18:16:55.526Z",
-  "itemCount": 841,
+  "generatedAt": "2026-08-12T00:17:47.114Z",
+  "itemCount": 842,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: 2.2X IDPS performance optimization in Azure Firewall",
+      "link": "https://azure.microsoft.com/updates?id=569256",
+      "summary": "Azure Firewall Premium now delivers up to 22 Gbps throughput with TLS inspection and IDPS in Deny mode, a 120% increase from 10 Gbps, and up to 600 Mbps per TCP connection with IDPS enabled in either Alert or Deny mode (doubled from 300 Mbps). Learn more.",
+      "publishedAt": "2026-08-11T17:26:51.000Z"
+    },
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
