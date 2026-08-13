@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-13T12:16:08.255Z",
-  "itemCount": 848,
+  "generatedAt": "2026-08-13T18:17:18.835Z",
+  "itemCount": 868,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,84 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.134 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.134-(insiders)",
+      "summary": "Learn what's new in Visual Studio Code 1.134 (Insiders) Read the full article",
+      "publishedAt": "2026-08-18T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Control plane metrics collection for AKS with Managed Prometheus",
+      "link": "https://azure.microsoft.com/updates?id=568830",
+      "summary": "Control plane metrics collection for Azure Kubernetes Service (AKS), powered by Azure Monitor Managed Service for Prometheus, is now generally available.This capability gives AKS customers native observability into key managed control plane components, in",
+      "publishedAt": "2026-08-13T16:19:56.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Live Resize for Shared Premium SSD v2 and Ultra Data Disks",
+      "link": "https://azure.microsoft.com/updates?id=569281",
+      "summary": "We’re excited to announce the GA of Live Resize for shared Premium SSD v2 (Pv2) and Ultra data disks. This feature allows you to dynamically expand the storage capacity of your disks without any disruption to your applications. To optimize costs, you can",
+      "publishedAt": "2026-08-13T16:17:41.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Pre-upgrade validation checks for Azure Database for PostgreSQL Flexible Server",
+      "link": "https://azure.microsoft.com/updates?id=568419",
+      "summary": "Pre-upgrade validation checks are now generally available for Azure Database for PostgreSQL flexible server, helping you proactively validate major version upgrade (MVU) readiness before initiating the actual upgrade process. With the general availability",
+      "publishedAt": "2026-08-13T16:13:22.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MSVC Build Tools Preview updates - August 2026",
+      "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-august-2026",
+      "summary": "The MSVC Build Tools Preview is updated regularly with the latest features and fixes from the MSVC development team. This post covers updates from the past month, currently targeting the v14.52 release. This encompasses changes across the compiler frontend, backend, linker, standard library, and related tools. Although you can acquire the M",
+      "publishedAt": "2026-08-13T15:01:10.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Building Agents for Teams: Managing the noise of collaboration",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/building-agents-for-teams-managing-the-noise-of-collaboration",
+      "summary": "Most of us are familiar with one-to-one agent chats: private, direct interactions where rules are relatively simple. With only you and the agent, each moment has clear intent. You can ask follow-up questions, pause, or restart without worrying about how each exchange affects anyone else. Collaboration in groups works differently. Every mess",
+      "publishedAt": "2026-08-13T11:43:59.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
       "link": "https://azure.microsoft.com/updates?id=568457",
       "summary": "On September 14, 2026 we will retire the containerized data connector agent for the Microsoft Sentinel solution for SAP applications. After this date the agent will be permanently disabled and will stop sending SAP logs to Microsoft Sentinel.The SAP agent",
       "publishedAt": "2026-08-12T19:41:20.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "From Sync APIs to support for the GPT-5 model series and agentic workflows: What&#039;s new in Azure Content Understanding - August 2026",
+      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-updates-august-2026",
+      "summary": "Enterprise content is no longer just something people read. AI apps and agents are only as useful as the information they can understand, yet much of the world’s enterprise knowledge is locked in documents, forms, tables, images, audio, and video. The latest Azure Content Understanding updates help developers turn that content into structure",
+      "publishedAt": "2026-08-12T18:43:01.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure Content Understanding GPT-5 Series Guide: Model Selection, Grounding Improvements, and Confidence Enhancements",
+      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-gpt-5-series-guide-model-selection-grounding-improvements-and-confidence-enhancements",
+      "summary": "Enterprise content is no longer just something people consume. As organizations increasingly rely on AI to extract and act on information from documents, images, audio, and video, Azure Content Understanding is expanding support for the GPT-5 series and improving grounding and confidence to deliver greater flexibility, efficiency, and quality.",
+      "publishedAt": "2026-08-12T18:42:25.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Instructions Hygiene - What Frontier Models Still Need You to Say",
+      "link": "https://devblogs.microsoft.com/dotnet/instructions-hygiene-what-frontier-models-still-need-you-to-say",
+      "summary": "Instructions files have a habit of growing in only one direction. A model makes a mistake, so somebody adds a rule. A tool changes, so somebody adds a workaround. A new model arrives, but the old guidance stays. Before long, the repository has an instructions file that reads like a combination of onboarding guide, style manual, troub",
+      "publishedAt": "2026-08-12T17:05:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -59,6 +131,14 @@
       "publishedAt": "2026-08-12T17:01:19.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.133",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.133",
+      "summary": "Learn what's new in Visual Studio Code 1.133 Read the full article",
+      "publishedAt": "2026-08-12T17:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Markdown for Agents in Azure App Service",
@@ -67,12 +147,60 @@
       "publishedAt": "2026-08-12T16:38:31.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The comments that go into code versus those that go into the pull request description",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260812-00/?p=112607",
+      "summary": "When you submit a pull request, there are two places you can use to help explain what you are doing and why you are doing it. One is the pull request description, and another is the code you are modifying. And it's important to understand the difference between them. The pull request is where you justify why your change should be ac",
+      "publishedAt": "2026-08-12T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What&#039;s New in vcpkg (Jul 2026)",
+      "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-jul-2026",
+      "summary": "This blog post summarizes changes to the vcpkg package manager as part of the 2026.07.29 registry release and the 2026-07-13,",
+      "publishedAt": "2026-08-11T22:43:41.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure Developer CLI extension framework is GA: build dev workflows for apps using Azure",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-extension-framework-ga",
+      "summary": "What parts of building and shipping on Azure still take too many steps? Maybe you want a command that starts a project with your organization’s approved architecture and infrastructure. Maybe you need to connect deployments to an internal service catalog, run security checks before provisioning, or guide developers through a process that",
+      "publishedAt": "2026-08-11T21:57:59.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "August Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-4",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps",
+      "publishedAt": "2026-08-11T20:44:54.000Z"
+    },
+    {
       "source": "Power Platform Blog",
       "category": "Power Platform",
       "title": "Extend Liquid with Server Logic in Power Pages",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/extend-liquid-with-server-logic-in-power-pages/",
       "summary": "Since introducing Server Logic in Power Pages, our focus has remained consistent: help you bring business logic closer to the experiences you build, while keeping it secure, reusable, and easy to manage at scale. In the past, developers working with Liquid in Power Pages were limited to a predefined set of platform-provided objects.",
       "publishedAt": "2026-08-11T18:59:27.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": ".NET 11 Preview 7 is now available!",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-preview-7",
+      "summary": "Today, we are excited to announce the seventh preview release of .NET 11! This release includes improvements across libraries, the .NET Runtime, SDK, C#, ASP.NET Core, .NET MAUI, Entity Framework Core, F#, and Windows Forms. Check out the linked release notes below and get started today. [cta-button align=\"center\" text=\"Download .NET",
+      "publishedAt": "2026-08-11T18:30:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": ".NET and .NET Framework August 2026 servicing releases updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-august-2026-servicing-updates",
+      "summary": "Welcome to our combined .NET servicing updates for August 2026. Let's get into the latest release of .NET and .NET Framework. Here's a quick overview of what's new in our servicing releases: Security improvements .NET has been refreshed with the latest update as of August 11, 2026. This update contains security and non-security fixe",
+      "publishedAt": "2026-08-11T18:28:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -85,8 +213,24 @@
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
+      "title": "Today I will... manage Git Submodules without leaving the IDE",
+      "link": "https://devblogs.microsoft.com/visualstudio/managing-git-submodules-without-leaving-the-ide",
+      "summary": "If you've worked with Git submodules for any length of time, you probably have a love-hate relationship with them. They're genuinely useful for pulling a shared library, an SDK, or common build scripts into your project. But actually working with them usually means tabbing over to a terminal and trying to remember whether it's git sub",
+      "publishedAt": "2026-08-11T17:05:31.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
       "title": "Visual Studio Code 1.133 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.133-(insiders)",
+      "summary": "Learn what's new in Visual Studio Code 1.133 (Insiders) Read the full article",
+      "publishedAt": "2026-08-11T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.133 (Insiders)",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-133-insiders",
       "summary": "Learn what's new in Visual Studio Code 1.133 (Insiders) Read the full article",
       "publishedAt": "2026-08-11T17:00:00.000Z"
     },
@@ -104,6 +248,14 @@
       "title": "Your Company Is Racing to Deploy AI. Is Your Data Ready?",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/11/your-company-is-racing-to-deploy-ai-is-your-data-ready/",
       "summary": "AI increases the volume, value, and use of business data. Dataverse gives administrators practical controls for capacity, retention, security, auditing, and recovery. AI changes how business data is used Consider a manufacturer using AI in procurement, finance, and supply chain operations.",
+      "publishedAt": "2026-08-11T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The little-known winstart.bat batch file",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260811-00/?p=112605",
+      "summary": "Reader Otul Osan wants to know what the use case for C:\\WINDOWS\\WINSTART.BAT was, compared to C:\\AUTOEXEC.BAT and when exactly during system startup it launches. In Windows 95, yo",
       "publishedAt": "2026-08-11T14:00:00.000Z"
     },
     {
@@ -150,6 +302,14 @@
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "How can I perform a Copy&shy;File in unbuffered mode?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260810-00/?p=112600",
+      "summary": "A customer was copying a file with Copy­File, but they wanted the file handles to be opened as FILE_FLAG_NO_BUFFERING. We saw some time ago that",
+      "publishedAt": "2026-08-10T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How can I perform a CopyFile in unbuffered mode?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260810-00/?p=112600",
       "summary": "A customer was copying a file with Copy­File, but they wanted the file handles to be opened as FILE_FLAG_NO_BUFFERING. We saw some time ago that",
       "publishedAt": "2026-08-10T14:00:00.000Z"
