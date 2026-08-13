@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T18:17:18.394Z",
-  "itemCount": 845,
+  "generatedAt": "2026-08-13T00:18:19.172Z",
+  "itemCount": 848,
   "sources": [
     {
       "name": "Azure Updates",
@@ -37,6 +37,14 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
+      "link": "https://azure.microsoft.com/updates?id=568457",
+      "summary": "On September 14, 2026 we will retire the containerized data connector agent for the Microsoft Sentinel solution for SAP applications. After this date the agent will be permanently disabled and will stop sending SAP logs to Microsoft Sentinel.The SAP agent",
+      "publishedAt": "2026-08-12T19:41:20.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[Launched] Generally Available: Batch rule updates for Azure Front Door",
       "link": "https://azure.microsoft.com/updates?id=569246",
       "summary": "Batch rule updates are now generally available for Azure Front Door Standard and Premium. This capability enables customers to add, update, delete, or reorder multiple rules in a rule set as a coordinated operation, ensuring that all changes are applied t",
@@ -57,6 +65,14 @@
       "link": "https://azure.microsoft.com/updates?id=568979",
       "summary": "Today, we are announcing the public preview of Markdown for Agents in Azure App Service. This feature gives AI agents and other tools a cleaner way to consume content from an App Service app. When a client requests Markdown, App Service can automatically",
       "publishedAt": "2026-08-12T16:38:31.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Extend Liquid with Server Logic in Power Pages",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/extend-liquid-with-server-logic-in-power-pages/",
+      "summary": "Since introducing Server Logic in Power Pages, our focus has remained consistent: help you bring business logic closer to the experiences you build, while keeping it secure, reusable, and easy to manage at scale. In the past, developers working with Liquid in Power Pages were limited to a predefined set of platform-provided objects.",
+      "publishedAt": "2026-08-11T18:59:27.000Z"
     },
     {
       "source": "Azure Updates",
@@ -81,6 +97,14 @@
       "link": "https://devblogs.microsoft.com/insidemsix/msix-package-lifetime",
       "summary": "MSIX uses a Garbage Collection (GC) design for staged package lifetime and destaging. Throughout this article: Remove refers to the Deployment operation requested by the caller. Deregister refers to removing a use",
       "publishedAt": "2026-08-11T16:00:26.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Your Company Is Racing to Deploy AI. Is Your Data Ready?",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/11/your-company-is-racing-to-deploy-ai-is-your-data-ready/",
+      "summary": "AI increases the volume, value, and use of business data. Dataverse gives administrators practical controls for capacity, retention, security, auditing, and recovery. AI changes how business data is used Consider a manufacturer using AI in procurement, finance, and supply chain operations.",
+      "publishedAt": "2026-08-11T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
