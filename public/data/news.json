@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T00:19:06.649Z",
-  "itemCount": 868,
+  "generatedAt": "2026-08-14T06:27:47.604Z",
+  "itemCount": 872,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,30 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.134-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.134 (Insiders) Read the full article",
       "publishedAt": "2026-08-18T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Routing and Failover for Microsoft.Extensions.AI",
+      "link": "https://devblogs.microsoft.com/dotnet/routing-and-failover-for-microsoft-extensions-ai",
+      "summary": "As AI adoption scales, cost, uptime, and latency become first-class constraints on application architecture. Routing between models or providers is a lever on all three at once. These new Microsoft.Extensions.AI primitives handle it directly: route by message content, fail over when a provider goes down, or build your ow",
+      "publishedAt": "2026-08-13T19:30:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Your best friend: BlockOnPossibleDataLoss=True",
+      "link": "https://devblogs.microsoft.com/azure-sql/blockonpossibledataloss",
+      "summary": "Let's start with an admission: developers all hate BlockOnPossibleDataLoss. It is the bane of a smooth development workflow, as significant schema changes can block deployment because of BlockOnPossibleDataLoss. Having said that, there's more to life than the developer's local loop. In fact, it's arguable that the loc",
+      "publishedAt": "2026-08-13T19:25:40.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Clearer Build Optimization Results with GitHub Copilot",
+      "link": "https://devblogs.microsoft.com/cppblog/clearer-build-optimization-results-with-github-copilot",
+      "summary": "We know that slow builds are a consistent theme in feedback from C++ developers. Your feedback helped us to shape GitHub Copilot build performance for Windows, an agent that can trace your build, find bottlenecks, apply optimizations, and measure the result. When using the agent, the clearest outcome is a straightforward wi",
+      "publishedAt": "2026-08-13T18:18:50.000Z"
     },
     {
       "source": "Azure Updates",
@@ -135,6 +159,14 @@
       "category": "Developer",
       "title": "Visual Studio Code 1.133",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.133",
+      "summary": "Learn what's new in Visual Studio Code 1.133 Read the full article",
+      "publishedAt": "2026-08-12T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.133",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-133-insiders",
       "summary": "Learn what's new in Visual Studio Code 1.133 Read the full article",
       "publishedAt": "2026-08-12T17:00:00.000Z"
     },
