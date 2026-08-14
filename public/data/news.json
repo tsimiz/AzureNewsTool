@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T12:15:31.563Z",
-  "itemCount": 872,
+  "generatedAt": "2026-08-14T18:17:06.540Z",
+  "itemCount": 873,
   "sources": [
     {
       "name": "Azure Updates",
@@ -177,6 +177,14 @@
       "link": "https://azure.microsoft.com/updates?id=568979",
       "summary": "Today, we are announcing the public preview of Markdown for Agents in Azure App Service. This feature gives AI agents and other tools a cleaner way to consume content from an App Service app. When a client requests Markdown, App Service can automatically",
       "publishedAt": "2026-08-12T16:38:31.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "The Economics of Agent Optimization: From pilots to measurable returns",
+      "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-from-pilots-to-measurable-returns/",
+      "summary": "Learn how AI cost management helps organizations move from AI pilots to measurable ROI through greater visibility, governance, and optimization.",
+      "publishedAt": "2026-08-12T16:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
