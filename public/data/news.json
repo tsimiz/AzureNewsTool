@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-15T18:03:19.374Z",
-  "itemCount": 874,
+  "generatedAt": "2026-08-16T00:08:20.078Z",
+  "itemCount": 875,
   "sources": [
     {
       "name": "Azure Updates",
@@ -105,6 +105,14 @@
       "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-august-2026",
       "summary": "The MSVC Build Tools Preview is updated regularly with the latest features and fixes from the MSVC development team. This post covers updates from the past month, currently targeting the v14.52 release. This encompasses changes across the compiler frontend, backend, linker, standard library, and related tools. Although you can acquire the M",
       "publishedAt": "2026-08-13T15:01:10.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Register now for PPCC 2026: Come for the learning, stay for the community",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/13/register-now-for-ppcc-2026-come-for-the-learning-stay-for-the-community/",
+      "summary": "Whether you’re exploring AI in your business, building with low code, developing professional solutions, or leading enterprise-wide transformation, PPCC is your best opportunity to return to work on Monday ready to make an impact.",
+      "publishedAt": "2026-08-13T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
