@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T12:06:03.831Z",
+  "generatedAt": "2026-08-17T18:07:21.577Z",
   "values": [
     "Academy",
     "acts",
@@ -154,7 +154,6 @@
     "File",
     "Files",
     "Firewall",
-    "Fleet",
     "flexible",
     "Flexible",
     "Foundry",
@@ -220,6 +219,7 @@
     "Lifetime",
     "link",
     "Link",
+    "Linux",
     "Liquid",
     "little-known",
     "live",
@@ -301,7 +301,6 @@
     "Perimeter",
     "Persisted",
     "pilots",
-    "placement",
     "plane",
     "plans",
     "Platform",
@@ -350,7 +349,6 @@
     "Reservation",
     "resiliency",
     "Resize",
-    "Resource",
     "results",
     "Results",
     "retired",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T12:06:03.831Z",
-  "itemCount": 875,
+  "generatedAt": "2026-08-17T18:07:21.577Z",
+  "itemCount": 876,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.134-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.134 (Insiders) Read the full article",
       "publishedAt": "2026-08-18T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Linux on WSL",
+      "link": "https://azure.microsoft.com/updates?id=569376",
+      "summary": "Azure Linux on WSL is now available in Public Preview (Beta). Extending Azure Linux to the developer workstation means that teams can now:Validate behavior using production-aligned configurationsReproduce issues more reliablyReduce time spent debugging c",
+      "publishedAt": "2026-08-17T17:08:40.000Z"
     },
     {
       "source": "Azure Updates",
