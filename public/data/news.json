@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T12:06:55.898Z",
-  "itemCount": 878,
+  "generatedAt": "2026-08-18T18:06:26.603Z",
+  "itemCount": 880,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Managed Instance on Azure App Service",
+      "link": "https://azure.microsoft.com/updates?id=568952",
+      "summary": "Managed Instance on Azure App Service is now generally available. Managed Instance helps organizations migrate web applications to Azure App Service with minimal configuration and no code changes. Applications running on-premises or in virtual machines ca",
+      "publishedAt": "2026-08-18T17:26:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Ipv6 support in Azure Firewall",
+      "link": "https://azure.microsoft.com/updates?id=569520",
+      "summary": "Azure Firewall now supports IPv6 in public preview, enabling customers to configure Azure Firewall and Firewall Policy in dual-stack mode for both IPv4 and IPv6 traffic. This preview allows native IPv6 network-rule filtering and DNS Proxy support, helping",
+      "publishedAt": "2026-08-18T17:25:30.000Z"
+    },
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
