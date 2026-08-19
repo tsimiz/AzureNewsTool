@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T18:06:26.603Z",
-  "itemCount": 880,
+  "generatedAt": "2026-08-19T00:08:19.490Z",
+  "itemCount": 892,
   "sources": [
     {
       "name": "Azure Updates",
@@ -37,6 +37,14 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "Retirement: Azure VMware Solution License-included service will be retired August 30, 2027",
+      "link": "https://azure.microsoft.com/updates?id=569535",
+      "summary": "In November last year Broadcom changed its VMware licensing policies across all hyperscaler platforms to require customers to “bring your own” portable license for VMware Cloud Foundation (VCF).What’s changing?On August 30, 2027, as a result of the latest",
+      "publishedAt": "2026-08-18T19:52:06.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[Launched] Generally Available: Managed Instance on Azure App Service",
       "link": "https://azure.microsoft.com/updates?id=568952",
       "summary": "Managed Instance on Azure App Service is now generally available. Managed Instance helps organizations migrate web applications to Azure App Service with minimal configuration and no code changes. Applications running on-premises or in virtual machines ca",
@@ -51,12 +59,44 @@
       "publishedAt": "2026-08-18T17:25:30.000Z"
     },
     {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Hunting MacSync Stealer infrastructure through behavioral pivots",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/",
+      "summary": "MacSync Stealer rapidly rotates domains to evade detection, but its behavior remains consistent. Learn how Microsoft uncovered 30+ related domains using durable hunting pivots.",
+      "publishedAt": "2026-08-18T17:08:28.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Visual Studio Code 1.134 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.134-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.134 (Insiders) Read the full article",
       "publishedAt": "2026-08-18T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.134 (Insiders)",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-134-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.134 (Insiders) Read the full article",
+      "publishedAt": "2026-08-18T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What&#039;s a PFN?",
+      "link": "https://devblogs.microsoft.com/insidemsix/what-is-a-pfn",
+      "summary": "What's a PFN? MSIX introduced Package identity in Windows 8. While the familiar package identity \"5-tuple\" was functional, it wasn't especially convenient to pass through APIs or embed in resources such as files, registry keys, URLs, or XML documents.",
+      "publishedAt": "2026-08-18T16:00:58.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Apple Silicon and Xcode 27 images available in pay-as-you-go (preview)",
+      "link": "https://devblogs.microsoft.com/devops/apple-silicon-and-xcode-27-images-availabile-in-pay-as-you-go-preview",
+      "summary": "Apple developers can now build and test their applications natively on Apple Silicon in Azure Pipelines. New arm64 macOS agents are available in public preview through the pay-as-you-go GitHub-hosted Agents pool. Starting with Apple Silicon, Azure Pipelines is bringing over some of the agent sizes already available",
+      "publishedAt": "2026-08-18T08:10:36.000Z"
     },
     {
       "source": "Azure Updates",
@@ -75,6 +115,14 @@
       "publishedAt": "2026-08-17T19:37:49.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "From single call to agents: five new Claude capabilities now available in Microsoft Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry",
+      "summary": "From single call to agents: five new Claude capabilities now available in Microsoft Foundry Structured outputs, Web search, Web fetch, MCP connector, and Tool search are now available for Claude models in Microsoft Foundry hosted on Azure, the building blocks that turn a model endpoint into a production agent platform.",
+      "publishedAt": "2026-08-17T19:20:07.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure Linux on WSL",
@@ -83,12 +131,52 @@
       "publishedAt": "2026-08-17T17:08:40.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How do functions like alloca allocate memory from the stack?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260817-40/?p=112617",
+      "summary": "A little while ago, I talked about how compilers ensure that large stack allocations do not skip over the guard page. Shawn Van Ness was curious",
+      "publishedAt": "2026-08-17T15:54:40.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Windows App Development CLI v0.6 - create new WinUI applications, sign packages with Azure, and more",
+      "link": "https://devblogs.microsoft.com/ifdef-windows/windows-app-development-cli-v0-6-create-new-winui-applications-sign-packages-with-azure-and-more",
+      "summary": "",
+      "publishedAt": "2026-08-14T18:43:25.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Announcing: Azure Databricks Runtime 10.4 LTS will reach end of life on November 1, 2026",
       "link": "https://azure.microsoft.com/updates?id=569353",
       "summary": "Azure Databricks Runtime 10.4 LTS, a Databricks-managed runtime available on Azure Databricks, reached end of support on March 18, 2025 and will reach end of life on November 1, 2026. After this date, Databricks Runtime 10.4 LTS will no longer be availabl",
       "publishedAt": "2026-08-14T17:43:51.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Forcing an ARM64X executable to run as a specific architecture",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260814-00/?p=112613",
+      "summary": "ARM64X is a fat binary Windows executable and DLL format for 64-bit ARM systems. For DLLs, the choice is clear, since only one of them will work: The version of the DLL that is loaded is the one that matches the host process. If the host process uses the Windows ARM64 ABI, then the ARM",
+      "publishedAt": "2026-08-14T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Go 1.26.6-1 and 1.25.13-1 Microsoft builds now available",
+      "link": "https://devblogs.microsoft.com/go/go-1-26-6-1-and-1-25-13-1-microsoft-builds-now-available",
+      "summary": "A new release of the Microsoft build of Go including security fixes is now available for download. For more information about this release and the changes included, see the table below: Microsoft Release Upstream Tag",
+      "publishedAt": "2026-08-14T11:08:37.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Git-APE SaaS Factory",
+      "link": "https://devblogs.microsoft.com/all-things-azure/git-ape-saas-factory",
+      "summary": "Agentic Platform Engineering for SaaS.",
+      "publishedAt": "2026-08-14T05:29:31.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -153,6 +241,14 @@
       "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/13/register-now-for-ppcc-2026-come-for-the-learning-stay-for-the-community/",
       "summary": "Whether you’re exploring AI in your business, building with low code, developing professional solutions, or leading enterprise-wide transformation, PPCC is your best opportunity to return to work on Monday ready to make an impact.",
       "publishedAt": "2026-08-13T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "A little helper class for managing LPPROC_ THREAD_ ATTRIBUTE_ LIST s",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260813-00/?p=112611",
+      "summary": "The LPPROC_THREAD_ATTRIBUTE_LIST is a bit annoying to manage. You have to allocate memory for it yourself, but you don't know how much; you have to ask Initialize­Proc­Thread­Attribute­List. And then when you're done, you have to call Delete­Proc­Thread­Attribute­List befor",
+      "publishedAt": "2026-08-13T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
