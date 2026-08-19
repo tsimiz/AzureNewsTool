@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T12:06:26.764Z",
-  "itemCount": 893,
+  "generatedAt": "2026-08-19T18:05:35.443Z",
+  "itemCount": 900,
   "sources": [
     {
       "name": "Azure Updates",
@@ -37,10 +37,58 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "[Launched] Generally Available: vCore Customization: Disable Multithreading and Configurable Constrained Cores",
+      "link": "https://azure.microsoft.com/updates?id=569051",
+      "summary": "Today, we are announcing the General Availability of VM vCore Customization for Azure Virtual Machines, introducing two new capabilities: Disable Simultaneous Multi-Threading/Hyper-Threading (SMT/HT) and Configurable Constrained Cores. These features prov",
+      "publishedAt": "2026-08-19T17:20:42.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: BYON (Bring Your Own NIC) in Azure Site Recovery",
+      "link": "https://azure.microsoft.com/updates?id=569515",
+      "summary": "Azure Site Recovery now lets you use and attach an existing, pre-provisioned Network Interface Card (NIC) in the target region for test-failover and failover in the Azure-to-Azure scenario. This helps preserve prepared networking configurations, reserve I",
+      "publishedAt": "2026-08-19T16:36:30.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Aspire 13.5: Fresh pixels and better workflows",
+      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-5",
+      "summary": "Aspire 13 thus far has been all about expanding Aspire's capabilities across languages, deployment targets, and coding agents. We've shipped a full-parity TypeScript AppHost, tons of CLI features, an optimized docs workflow, Kubernetes and Docker Compose deployment integrations, and plenty more. We figured that after a crazy half of a year,",
+      "publishedAt": "2026-08-18T22:10:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing AppxManifest IntelliSense Support in the WinApp VS Code Extension",
+      "link": "https://devblogs.microsoft.com/ifdef-windows/appxmanifest-intellisense-support-in-vs-code",
+      "summary": "",
+      "publishedAt": "2026-08-18T21:43:56.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure Cosmos DB in the Agentic Era: Data Tools for Developers and AI Agents",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-in-the-agentic-era-data-tools-for-developers-and-ai-agents",
+      "summary": "Anthropic's 2026 Agentic Coding Trends Report captures an important tension in how developers use AI. Engineers report using AI in roughly 60% of their work, yet say they can fully delegate only 0–20% of their tasks. AI is bec",
+      "publishedAt": "2026-08-18T20:55:36.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "Retirement: Azure VMware Solution License-included service will be retired August 30, 2027",
       "link": "https://azure.microsoft.com/updates?id=569535",
       "summary": "In November last year Broadcom changed its VMware licensing policies across all hyperscaler platforms to require customers to “bring your own” portable license for VMware Cloud Foundation (VCF).What’s changing?On August 30, 2027, as a result of the latest",
       "publishedAt": "2026-08-18T19:52:06.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The Two Hybrid Searches in Microsoft SQL",
+      "link": "https://devblogs.microsoft.com/azure-sql/two-hybrid-search",
+      "summary": "Hybrid search is usually described as combining keyword search with vector search. Microsoft SQL does that, for sure, but we do quite a bit more right out of the box. SQL dynamically evaluates queries and switches between kNN and ANN vector search based on cost and selectivity. These two types of hybrid search, work together, ensuring your sem",
+      "publishedAt": "2026-08-18T18:40:38.000Z"
     },
     {
       "source": "Azure Updates",
@@ -145,6 +193,14 @@
       "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
       "summary": "Cloud-native platforms are becoming the foundation for AI transformation. Discover how Microsoft's Azure application platform helps organizations modernize, innovate, and operate AI-powered applications at scale.",
       "publishedAt": "2026-08-17T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How do functions like alloca allocate memory from the stack?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260817-00/?p=112617",
+      "summary": "A little while ago, I talked about how compilers ensure that large stack allocations do not skip over the guard page. Shawn Van Ness was curious",
+      "publishedAt": "2026-08-17T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
