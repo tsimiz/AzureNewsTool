@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T00:08:19.490Z",
+  "generatedAt": "2026-08-19T06:07:53.664Z",
   "values": [
     "Academy",
     "acts",
@@ -74,6 +74,7 @@
     "ClickFix",
     "cloaked",
     "Cloud",
+    "Cloud-Native",
     "CNAPP",
     "code",
     "Code",
@@ -139,7 +140,6 @@
     "Enterprise",
     "Entra",
     "environment",
-    "evaluation",
     "Everything",
     "exchanges",
     "executable",
@@ -418,7 +418,6 @@
     "South",
     "specific",
     "Speech-to-Text",
-    "Sphere",
     "Squad",
     "stack",
     "starting",

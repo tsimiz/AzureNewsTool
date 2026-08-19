@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T00:08:19.490Z",
-  "itemCount": 892,
+  "generatedAt": "2026-08-19T06:07:53.664Z",
+  "itemCount": 893,
   "sources": [
     {
       "name": "Azure Updates",
@@ -137,6 +137,14 @@
       "link": "https://devblogs.microsoft.com/oldnewthing/20260817-40/?p=112617",
       "summary": "A little while ago, I talked about how compilers ensure that large stack allocations do not skip over the guard page. Shawn Van Ness was curious",
       "publishedAt": "2026-08-17T15:54:40.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud-Native Application Platforms",
+      "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-native-application-platforms/",
+      "summary": "Cloud-native platforms are becoming the foundation for AI transformation. Discover how Microsoft's Azure application platform helps organizations modernize, innovate, and operate AI-powered applications at scale.",
+      "publishedAt": "2026-08-17T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
