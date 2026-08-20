@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T18:05:35.443Z",
-  "itemCount": 900,
+  "generatedAt": "2026-08-20T00:09:17.344Z",
+  "itemCount": 905,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,46 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Databricks Lakebase in four additional regions",
+      "link": "https://azure.microsoft.com/updates?id=569684",
+      "summary": "Lakebase is now generally available in four additional Azure regions: North Central US, France Central, Germany West Central, and East Asia. This expansion provides customers with additional deployment options and broader regional availability for Lakebas",
+      "publishedAt": "2026-08-19T21:04:18.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure SQL updates for mid-August 2026",
+      "link": "https://azure.microsoft.com/updates?id=569145",
+      "summary": "In mid-August 2026, the following updates and enhancements were made to Azure SQL: You can customize keyboard shortcuts for Quick Queries, the Results Grid, and the Query Editor directly within Visual Studio Code—without leaving your editor. Shortcut Conf",
+      "publishedAt": "2026-08-19T21:01:47.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: SQL Formatter in MSSQL extension",
+      "link": "https://azure.microsoft.com/updates?id=569155",
+      "summary": "With SQL Formatter, you can format SQL scripts directly in your editor for cleaner, more consistent, and readable code. Now in public preview, it includes more customizable formatting options to match your preferred coding style and streamline development",
+      "publishedAt": "2026-08-19T21:00:19.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure SQL Database provisioning in MSSQL extension",
+      "link": "https://azure.microsoft.com/updates?id=569160",
+      "summary": "With Azure SQL Database provisioning, you can create and connect to a fully managed cloud database directly from your editor—at no cost. Now generally available, the feature also includes ready-to-use Azure Resource Manager (ARM), Bicep, and Terraform tem",
+      "publishedAt": "2026-08-19T20:59:19.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Microsoft named a Leader in the Frost Radar™: Cloud Workload Protection Platforms, 2026",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/19/microsoft-named-a-leader-in-the-frost-radar-cloud-workload-protection-platforms-2026/",
+      "summary": "Microsoft is named a visionary leader in the 2026 Frost Radar for Cloud Workload Protection Platforms, recognized for unified runtime security with Microsoft Defender for Cloud.",
+      "publishedAt": "2026-08-19T17:30:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -79,7 +119,7 @@
       "category": "Azure",
       "title": "Retirement: Azure VMware Solution License-included service will be retired August 30, 2027",
       "link": "https://azure.microsoft.com/updates?id=569535",
-      "summary": "In November last year Broadcom changed its VMware licensing policies across all hyperscaler platforms to require customers to “bring your own” portable license for VMware Cloud Foundation (VCF).What’s changing?On August 30, 2027, as a result of the latest",
+      "summary": "In November last year, Broadcom changed its VMware licensing policies across all hyperscaler platforms to require customers to “bring your own” portable license for VMware Cloud Foundation (VCF).What’s changing?On August 30, 2027, as a result of the lates",
       "publishedAt": "2026-08-18T19:52:06.000Z"
     },
     {
