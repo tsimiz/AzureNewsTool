@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-20T12:07:36.187Z",
-  "itemCount": 905,
+  "generatedAt": "2026-08-20T18:07:12.652Z",
+  "itemCount": 907,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Summarized advertised gateway prefixes for route advertisement",
+      "link": "https://azure.microsoft.com/updates?id=569743",
+      "summary": "Summarized advertised gateway prefixes for route advertisement is now generally available. You can specify aggregated (summarized) prefixes for an Azure gateway to advertise to your on-premises networks, rather than having every individual virtual network",
+      "publishedAt": "2026-08-20T17:02:23.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Azure Copilot introduces direct access to agents",
+      "link": "https://azure.microsoft.com/updates?id=569685",
+      "summary": "Starting in August 2026, customers can engage directly with Azure Copilot agents to move more quickly from questions to action.With this update:Choose the right agent for your goal. Customers can select the specific agent best suited to their needs and ge",
+      "publishedAt": "2026-08-20T16:08:02.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
