@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-20T18:07:12.652Z",
-  "itemCount": 907,
+  "generatedAt": "2026-08-21T00:09:22.650Z",
+  "itemCount": 916,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,14 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.135 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.135-(insiders)",
+      "summary": "Learn what's new in Visual Studio Code 1.135 (Insiders) Read the full article",
+      "publishedAt": "2026-08-25T17:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Summarized advertised gateway prefixes for route advertisement",
@@ -51,6 +59,22 @@
       "publishedAt": "2026-08-20T16:08:02.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Go 1.27.0-1 Microsoft build now available",
+      "link": "https://devblogs.microsoft.com/go/go-1-27-0-1-microsoft-build-now-available",
+      "summary": "A new release of the Microsoft build of Go is now available for download. For more information about this release and the changes included, see the table below: Microsoft Release Upstream Tag",
+      "publishedAt": "2026-08-20T09:04:31.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Go 1.26.7-1 and 1.25.14-1 Microsoft builds now available",
+      "link": "https://devblogs.microsoft.com/go/go-1-26-7-1-and-1-25-14-1-microsoft-builds-now-available",
+      "summary": "A new release of the Microsoft build of Go is now available for download. These minor releases include a fix to address a breakage affecting unencrypted HTTP/2 (h2c) connections caused by a security patch included in last week’s release. See",
+      "publishedAt": "2026-08-20T07:10:59.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Azure Databricks Lakebase in four additional regions",
@@ -65,6 +89,14 @@
       "link": "https://azure.microsoft.com/updates?id=569145",
       "summary": "In mid-August 2026, the following updates and enhancements were made to Azure SQL: You can customize keyboard shortcuts for Quick Queries, the Results Grid, and the Query Editor directly within Visual Studio Code—without leaving your editor. Shortcut Conf",
       "publishedAt": "2026-08-19T21:01:47.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Outgrowing SQL Server Express? Upgrade to Azure SQL Database Free Tier in 3 Steps",
+      "link": "https://devblogs.microsoft.com/azure-sql/upgrade-from-sql-server-express-to-azure-sql-database",
+      "summary": "If you’ve been building local prototypes, internal tools, web backends, or lightweight services on SQL Server Express, you know the routine: it’s free, familiar, and gets the job done – until you hit hardware limits or spend weekends manual backup scripts and handling OS patches. Learn how to upgrade from SQL Server Express to Azure SQL",
+      "publishedAt": "2026-08-19T21:01:30.000Z"
     },
     {
       "source": "Azure Updates",
@@ -99,12 +131,44 @@
       "publishedAt": "2026-08-19T17:20:42.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MSSQL Extension for VS Code: SQL Formatter, Azure SQL Database Provisioning, and More",
+      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-august2026",
+      "summary": "Writing and maintaining SQL is easier when you can eliminate repetitive steps and keep your scripts cleanly formatted. With the MSSQL extension for VS Code v1.45, we're introducing the Public Preview of the SQL Formatter alongside the General Avai",
+      "publishedAt": "2026-08-19T17:18:32.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.134",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.134",
+      "summary": "Learn what's new in Visual Studio Code 1.134 Read the full article",
+      "publishedAt": "2026-08-19T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.134",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-134-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.134 Read the full article",
+      "publishedAt": "2026-08-19T17:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: BYON (Bring Your Own NIC) in Azure Site Recovery",
       "link": "https://azure.microsoft.com/updates?id=569515",
       "summary": "Azure Site Recovery now lets you use and attach an existing, pre-provisioned Network Interface Card (NIC) in the target region for test-failover and failover in the Azure-to-Azure scenario. This helps preserve prepared networking configurations, reserve I",
       "publishedAt": "2026-08-19T16:36:30.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "On wrapping a callable in a lambda that just calls it with the same parameters",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260819-00/?p=112624",
+      "summary": "Suppose you have a function that accepts a lambda and wants to use it when calling another function. I've seen people wrap the lambda inside another lambda: template bool Widget::QueueToWorkerThread(Lambda&& lambda) { CreateWorkerThreadIfNeeded(); return m_dispatcherQueue.TryEnqueue(",
+      "publishedAt": "2026-08-19T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -193,6 +257,14 @@
       "link": "https://devblogs.microsoft.com/insidemsix/what-is-a-pfn",
       "summary": "What's a PFN? MSIX introduced Package identity in Windows 8. While the familiar package identity \"5-tuple\" was functional, it wasn't especially convenient to pass through APIs or embed in resources such as files, registry keys, URLs, or XML documents.",
       "publishedAt": "2026-08-18T16:00:58.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why did the Microsoft Entertainment Pack for Windows have a special sticker announcing that it also had Tetris?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621",
+      "summary": "The first Microsoft Entertainment Pack for Windows didn't have a number after its name because it was the first one, and nobody knew that there were going to be any sequels.¹ It may not have had a big number 1 on the box, but initial runs did have a bright red sticker that said, \"Now includes TETRIS for Windows!\" There was no menti",
+      "publishedAt": "2026-08-18T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -303,7 +375,7 @@
       "category": "Developer",
       "title": "Routing and Failover for Microsoft.Extensions.AI",
       "link": "https://devblogs.microsoft.com/dotnet/routing-and-failover-for-microsoft-extensions-ai",
-      "summary": "As AI adoption scales, cost, uptime, and latency become first-class constraints on application architecture. Routing between models or providers is a lever on all three at once. These new Microsoft.Extensions.AI primitives handle it directly: route by message content, fail over when a provider goes down, or build your ow",
+      "summary": "As AI adoption scales, cost, uptime, and latency become first-class constraints on application architecture. Routing between models or providers is a lever on all three at once. These new Microsoft.Extensions.AI primitives handle it directly: route by message content, fail over when a provider goes down, or build your own polic",
       "publishedAt": "2026-08-13T19:30:00.000Z"
     },
     {
