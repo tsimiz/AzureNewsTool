@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T12:07:02.336Z",
-  "itemCount": 916,
+  "generatedAt": "2026-08-24T18:07:26.147Z",
+  "itemCount": 917,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.135-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.135 (Insiders) Read the full article",
       "publishedAt": "2026-08-25T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Custom block response code and body for Application Gateway WAF",
+      "link": "https://azure.microsoft.com/updates?id=569504",
+      "summary": "Announcing the General Availability of custom block response code and body for WAF integrated with Application Gateway Azure WAF integrated with Application Gateway now supports customizable response status codes and bodies for blocked requests, enabling",
+      "publishedAt": "2026-08-24T17:25:03.000Z"
     },
     {
       "source": "Azure Updates",
