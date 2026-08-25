@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T12:07:51.870Z",
-  "itemCount": 920,
+  "generatedAt": "2026-08-25T18:07:34.790Z",
+  "itemCount": 921,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.135-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.135 (Insiders) Read the full article",
       "publishedAt": "2026-08-25T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "The patch window is collapsing: Why security needs a new control plane",
+      "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
+      "summary": "Organizations need protection that operates in the gap between discovery and remediation.",
+      "publishedAt": "2026-08-25T16:00:00.000Z"
     },
     {
       "source": "Azure Updates",
