@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T18:07:26.147Z",
-  "itemCount": 917,
+  "generatedAt": "2026-08-25T00:09:03.624Z",
+  "itemCount": 920,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,30 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.135-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.135 (Insiders) Read the full article",
       "publishedAt": "2026-08-25T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Extended Support for Azure Database for PostgreSQL Flexible Server",
+      "link": "https://azure.microsoft.com/updates?id=569526",
+      "summary": "Extended Support for Azure Database for PostgreSQL Flexible Server helps you maintain secure, supported workloads while transitioning to newer PostgreSQL versions. With access to critical security updates, critical bug fixes, and technical support for eli",
+      "publishedAt": "2026-08-24T19:15:05.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: eBPF host routing in Advanced Container Networking Services for AKS",
+      "link": "https://azure.microsoft.com/updates?id=569873",
+      "summary": "eBPF Host Routing in Advanced Container Networking Services for Azure Kubernetes Service (AKS) is now generally available. eBPF Host Routing improves Kubernetes networking performance by moving packet forwarding and routing decisions directly into the Lin",
+      "publishedAt": "2026-08-24T18:36:01.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Support for Node 22 LTS ends on April 30, 2027",
+      "link": "https://azure.microsoft.com/updates?id=567334",
+      "summary": "On April 30 2027, support for Node 22 LTS will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available, and we’ll no longer provide customer service for Node 22 LTS. Required action: To avoid po",
+      "publishedAt": "2026-08-24T17:30:43.000Z"
     },
     {
       "source": "Azure Updates",
