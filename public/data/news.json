@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T12:07:48.168Z",
-  "itemCount": 939,
+  "generatedAt": "2026-08-26T18:35:28.482Z",
+  "itemCount": 946,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,62 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Bastion shareable link expiration",
+      "link": "https://azure.microsoft.com/updates?id=570020",
+      "summary": "Azure Bastion shareable link expiration is now generally available. When creating a shareable link, administrators can specify the date and time when the link should expire. After the configured expiration time, the link can no longer be used to connect t",
+      "publishedAt": "2026-08-26T16:57:56.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: IPv6 dual-stack support for Azure Bastion",
+      "link": "https://azure.microsoft.com/updates?id=570025",
+      "summary": "Azure Bastion support for IPv4 and IPv6 dual-stack configurations is now available in public preview. Customers can configure a newly created Bastion deployment with both IPv4 and IPv6 public IP addresses. IPv6 is supported for connections between the use",
+      "publishedAt": "2026-08-26T16:56:29.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Connect to AKS clusters using Azure Bastion",
+      "link": "https://azure.microsoft.com/updates?id=570030",
+      "summary": "Azure Bastion integration with Azure Kubernetes Service is now generally available. Customers can establish a secure tunnel from their local machine through Azure Bastion to an AKS cluster API server. The integration enables customers to use standard Kube",
+      "publishedAt": "2026-08-26T16:55:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Introducing Live Reports for Azure SRE Agent",
+      "link": "https://azure.microsoft.com/updates?id=569690",
+      "summary": "We're excited to announce Live Reports, now in Public Preview for Azure SRE Agent. Live Reports help operations teams create dynamic operational views directly from SRE Agent conversations and keep them continuously up to date with the latest data from co",
+      "publishedAt": "2026-08-26T16:52:23.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure SRE Agent VNet Integration",
+      "link": "https://azure.microsoft.com/updates?id=569695",
+      "summary": "Azure SRE Agent VNet Integration is now generally available. VNet integration enables Azure SRE Agent to operate within your existing network controls, including Network Security Groups (NSGs), private DNS, and firewall policies, etc. With VNet support, t",
+      "publishedAt": "2026-08-26T16:51:31.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure SRE Agent 30-Day Trial",
+      "link": "https://azure.microsoft.com/updates?id=569760",
+      "summary": "New customers can now get started with Azure SRE Agent through a 30-day trial experience. During the trial, customers can create SRE Agents and connect them to your operational tools and data sources, and explore capabilities at their own pace without bas",
+      "publishedAt": "2026-08-26T16:50:22.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "When AI infrastructure becomes the target: Securing gateways and control points",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/",
+      "summary": "Microsoft Threat Intelligence examines attacks on exposed AI workloads, including LiteLLM gateway exploitation, credential harvesting, persistence, and cryptomining activity.",
+      "publishedAt": "2026-08-26T16:43:53.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
