@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T01:20:51.730Z",
-  "itemCount": 947,
+  "generatedAt": "2026-08-27T09:02:32.221Z",
+  "itemCount": 948,
   "sources": [
     {
       "name": "Azure Updates",
@@ -89,6 +89,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/",
       "summary": "Microsoft Threat Intelligence examines attacks on exposed AI workloads, including LiteLLM gateway exploitation, credential harvesting, persistence, and cryptomining activity.",
       "publishedAt": "2026-08-26T16:43:53.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "The Economics of Agent Optimization: Four ways to lower the cost",
+      "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/",
+      "summary": "Microsoft Foundry gives you four levers that act on every request, before a single line of agent logic changes.",
+      "publishedAt": "2026-08-26T16:00:00.000Z"
     },
     {
       "source": "Azure Updates",
