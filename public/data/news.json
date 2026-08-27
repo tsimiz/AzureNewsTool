@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T15:39:20.188Z",
-  "itemCount": 948,
+  "generatedAt": "2026-08-27T21:10:57.299Z",
+  "itemCount": 949,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "​​​​​​What’s new in Microsoft Security: August 2026",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
+      "summary": "This month’s updates provide new capabilities to help organizations gain insights into agent activity, expand security coverage across supported environments, and enhance security management across their environments.",
+      "publishedAt": "2026-08-27T16:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
