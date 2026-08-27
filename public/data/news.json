@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T18:35:28.482Z",
-  "itemCount": 946,
+  "generatedAt": "2026-08-27T01:20:51.730Z",
+  "itemCount": 947,
   "sources": [
     {
       "name": "Azure Updates",
@@ -168,6 +168,14 @@
       "title": "Try Azure SRE Agent with no always-on charges",
       "link": "https://devblogs.microsoft.com/blog/try-azure-sre-agent-with-no-always-on-charges",
       "summary": "We are happy to announce a 30-day trial experience for Azure SRE Agent. New customers can create and configure the SRE Agent at their own pace, with no charges for setup time or keeping agents ready. During the trial, you can connect your agents to telemetry, source code, incident management platforms, and other operational tools, and pay only",
+      "publishedAt": "2026-08-25T15:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "One always-on roadmap: Dynamics 365, Power Platform, and Dataverse join the AI at Work roadmap",
+      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/08/25/one-always-on-roadmap-dynamics-365-power-platform-and-dataverse-join-the-ai-at-work-roadmap/",
+      "summary": "Learn how the transition from release waves to the AI at Work roadmap creates a single destination to discover, track, and plan your innovations.",
       "publishedAt": "2026-08-25T15:00:00.000Z"
     },
     {
