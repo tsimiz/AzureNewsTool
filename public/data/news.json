@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T21:10:57.299Z",
-  "itemCount": 949,
+  "generatedAt": "2026-08-28T02:43:24.163Z",
+  "itemCount": 950,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
+      "link": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
+      "summary": "Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort.",
+      "publishedAt": "2026-08-27T17:00:00.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
