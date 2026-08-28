@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T16:03:31.726Z",
-  "itemCount": 950,
+  "generatedAt": "2026-08-28T21:22:56.831Z",
+  "itemCount": 952,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Workload identity support for Azure Files CSI driver (SMB) in Azure",
+      "link": "https://azure.microsoft.com/updates?id=570120",
+      "summary": "The Azure Files Container Storage Interface (CSI) driver in Azure Kubernetes Service (AKS) now supports workload identity for pod-level authentication to SMB file shares. Previously, managed identity support in AKS enabled workloads to mount Azure Files w",
+      "publishedAt": "2026-08-28T20:25:22.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure VM Image Builder in sovereign and air-gapped clouds",
+      "link": "https://azure.microsoft.com/updates?id=570105",
+      "summary": "Overview:Azure VM Image Builder is now generally available in Azure Government, China North 3, Azure Government Secret, and Azure Government Top Secret.You can now use the same managed image-building service across your sovereign and air-gapped environmen",
+      "publishedAt": "2026-08-28T15:45:32.000Z"
+    },
     {
       "source": "Azure Blog",
       "category": "Azure",
