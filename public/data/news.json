@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T00:14:55.246Z",
-  "itemCount": 952,
+  "generatedAt": "2026-08-29T06:09:05.511Z",
+  "itemCount": 953,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/",
+      "summary": "Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance.",
+      "publishedAt": "2026-08-29T03:43:27.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
