@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T06:11:06.024Z",
-  "itemCount": 955,
+  "generatedAt": "2026-09-01T12:09:36.938Z",
+  "itemCount": 956,
   "sources": [
     {
       "name": "Azure Updates",
@@ -3848,6 +3848,14 @@
       "title": "[Launched] Generally Available: Maintenance control for Azure Database for PostgreSQL - reschedule, apply on demand, view and download",
       "link": "https://azure.microsoft.com/updates?id=563756",
       "summary": "Enhanced maintenance control capabilities are now generally available for Azure Database for PostgreSQL Flexible Server. These new capabilities give you greater visibility and flexibility in managing platform maintenance events, helping reduce disruption",
+      "publishedAt": "2026-06-08T17:15:43.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Site Recovery support for Linux Azure VMs with NVMe disk controllers.",
+      "link": "https://azure.microsoft.com/updates?id=565103",
+      "summary": "Azure Site Recovery now supports replication and disaster recovery for Linux Azure Virtual Machines running on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa v6-series and Ebsv5/Ebdsv5 in the Azure-to-Azure scenario. This support is limited t",
       "publishedAt": "2026-06-08T17:15:43.000Z"
     },
     {
