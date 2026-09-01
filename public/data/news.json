@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T12:09:36.938Z",
-  "itemCount": 956,
+  "generatedAt": "2026-09-01T18:07:50.494Z",
+  "itemCount": 985,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,62 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.136 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.136-(insiders)",
+      "summary": "Learn what's new in Visual Studio Code 1.136 (Insiders) Read the full article",
+      "publishedAt": "2026-09-02T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Firewall auto-learn SNAT routes",
+      "link": "https://azure.microsoft.com/updates?id=570474",
+      "summary": "Azure Firewall’s auto-learn SNAT routes is now generally available, automatically learning registered and private destination prefixes periodically and applying them as No-SNAT ranges to preserve original source IPs and simplify SNAT management.Learn more",
+      "publishedAt": "2026-09-01T17:10:38.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Copilot Observability Agent supports Basic and Auxiliary table plans",
+      "link": "https://azure.microsoft.com/updates?id=570250",
+      "summary": "Azure Copilot Observability Agent, an AI-powered operational companion in Azure Monitor, is now covering Log Analytics data in Basic and Auxiliary table plans during interactive analysis and deep investigations. Teams can move high-volume telemetry - incl",
+      "publishedAt": "2026-09-01T16:31:14.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Monitor Auxiliary Logs Plan in Azure Government and China regions",
+      "link": "https://azure.microsoft.com/updates?id=569899",
+      "summary": "The Auxiliary table plan in Azure Monitor Logs is a cost-effective option for ingesting and retaining high-volume, verbose logs used for compliance and auditing. Auxiliary Logs is now generally available in the sovereign clouds: Azure Government (Fairfax)",
+      "publishedAt": "2026-09-01T16:29:24.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Monitor Auxiliary Logs Plan support for Azure tables and plan switching",
+      "link": "https://azure.microsoft.com/updates?id=569904",
+      "summary": "The Auxiliary table plan in Azure Monitor Logs gives you a cost-effective way to ingest and retain high-volume, verbose logs that you keep for compliance and auditing but rarely query. Two highly requested capabilities are now generally available.Auxiliar",
+      "publishedAt": "2026-09-01T16:25:33.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Servicing While In Use and ERROR_PACKAGES_IN_USE",
+      "link": "https://devblogs.microsoft.com/insidemsix/msix-servicing-while-in-use",
+      "summary": "How does MSIX service a package while it's in use? Simple: It doesn't. A core principle of MSIX servicing is: Do not service a package while it's in use. Deployment provides several ways to deal with that constraint. Options range from terminating applications to deferring servicing until the",
+      "publishedAt": "2026-09-01T16:00:54.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Today I will... review GitHub PRs",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-review-github-prs",
+      "summary": "Today I will show you how we can tackle one of the most common tasks when working in a development team or managing an open-source project, and that is working with Pull Requests. While we're going to be using the GitHub tooling within Visual Studio for this, the approach would be very similar with Azure DevOps. Getting our",
+      "publishedAt": "2026-09-01T16:00:27.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Per-disk resiliency for Azure VMs",
@@ -43,12 +99,60 @@
       "publishedAt": "2026-08-31T23:11:39.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Enterprise Live Migrations is now in public preview",
+      "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations-public-preview",
+      "summary": "Move Azure DevOps repositories to GitHub Enterprise Cloud with data residency while minimizing disruption Over the last several years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI-powered and agentic development experiences. We know that making",
+      "publishedAt": "2026-08-31T20:52:38.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Power Azure SRE Agent with the tools it needs",
+      "link": "https://devblogs.microsoft.com/azure-sdk/power-azure-sre-agent-with-connector-namespace",
+      "summary": "This blog post shows how to expand the capabilities of Azure SRE Agent by giving it access to MCP servers hosted on Azure Connector Namespace. Connector Namespace is a managed MCP hosting platform that removes the operational and management overhead of self-hosting MCP servers. It entered public preview at Microsoft Build in June, with general",
+      "publishedAt": "2026-08-31T18:37:17.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure Multicloud Interconnect",
       "link": "https://azure.microsoft.com/updates?id=570364",
       "summary": "Announcing the public preview of Azure Multicloud Interconnect, a managed service that provides private connectivity between Azure and supported cloud providers, with Amazon Web Services (AWS) available as the first supported provider in preview. As organ",
       "publishedAt": "2026-08-31T18:36:12.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Bacpac and Dacpac, the similarities and differences",
+      "link": "https://devblogs.microsoft.com/azure-sql/bacpac-and-dacpac-the-similarities-and-differences",
+      "summary": "When you need to move an entire database or move the objects in a database, bacpac and dacpac files often come up because of all of the tooling options to interact with them. Bacpac and dacpac files share some core similarities as well as some major differences in how they're used in SqlPackage and other SQL tools, but their flexibility can cr",
+      "publishedAt": "2026-08-31T15:13:57.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "AWE does not require PAE, though PAE makes it much more useful",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260831-00/?p=112660",
+      "summary": "The Address Windowing Extensions (AWE) is a feature of Windows that allows programs to allocate physical memory and map them on a page-by-page basis into a region of address space (the \"address window\"). PAE is the Physical Address Extension, which is a feature of the x86-32 CPU that allows a 32-bit processor to generate physical addresses",
+      "publishedAt": "2026-08-31T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Only believe what you can validate: a verification framework for agentic AI",
+      "link": "https://devblogs.microsoft.com/all-things-azure/only-believe-what-you-can-validate",
+      "summary": "How to read this article This article picks up where my",
+      "publishedAt": "2026-08-29T12:45:11.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Try the new SqlClient and Retry connections natively",
+      "link": "https://devblogs.microsoft.com/azure-sql/sqlclient-retry",
+      "summary": "The 2002 release of the original .NET Framework shipped ADO.NET and System.Data.SqlClient, the driver for SQL Server that gave .NET applications a standard connection approach. Over the years, updates, enhancements, and patches solidified these BCL classes as an integral dependency for millions of line-of-business applications tha",
+      "publishedAt": "2026-08-29T05:47:40.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -75,11 +179,43 @@
       "publishedAt": "2026-08-28T15:45:32.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "On forcing all derived classes to implement a specific non-virtual method, part 2",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260828-00/?p=112654",
+      "summary": "Last time, we observed that one way to force all derived classes to implement a specific non-virtual method is simply not to implement it in the base class and sit back and",
+      "publishedAt": "2026-08-28T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "SharePoint Framework (SPFx) roadmap update – August 2026",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/sharepoint-framework-spfx-roadmap-update-august-2026",
+      "summary": "We're back after the summer break, and August picks up right where June left off. We've shipped Beta 3 of SharePoint Framework 1.24, the Copilot Components public preview - the capability we announced in June as SharePoint Copilo",
+      "publishedAt": "2026-08-27T17:43:38.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure Developer CLI (azd) - August 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-august-2026",
+      "summary": "Welcome to the August 2026 edition of the Azure Developer CLI (azd) release blog. This post covers releases 1.30.0, 1.31.0,",
+      "publishedAt": "2026-08-27T17:39:02.000Z"
+    },
+    {
       "source": "Azure Blog",
       "category": "Azure",
       "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
       "link": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
       "summary": "Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort.",
+      "publishedAt": "2026-08-27T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How Uno Platform uses .NET, MCP, and AI to build high quality apps",
+      "link": "https://devblogs.microsoft.com/dotnet/how-uno-platform-uses-dotnet-mcp-ai-to-build-high-quality-apps",
+      "summary": "This is a guest post by Sam Basu. Sam is a technologist, author, speaker, Microsoft MVP and Developer Advocate for Uno Platform. If you've spent any time building software in the last couple of years, you've felt the shift. AI is no longer a novelty sitting on the sidelines – it's right there in the editor, the term",
       "publishedAt": "2026-08-27T17:00:00.000Z"
     },
     {
@@ -89,6 +225,54 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
       "summary": "This month’s updates provide new capabilities to help organizations gain insights into agent activity, expand security coverage across supported environments, and enhance security management across their environments.",
       "publishedAt": "2026-08-27T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Agent Harness: Making your claw production-ready",
+      "link": "https://devblogs.microsoft.com/agent-framework/agent-harness-making-your-claw-production-ready",
+      "summary": "Part 4 of Build your own claw and agent harness with Microsoft Agent Framework. Over the last three parts our personal finance assistant grew from a single tool into a genuinely capable agent: it plans,",
+      "publishedAt": "2026-08-27T14:57:24.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "VSLive! @ Microsoft HQ: Developer Takeaways and Must-Watch Sessions",
+      "link": "https://devblogs.microsoft.com/visualstudio/vslive-hq-content-sandiego-and-orlando-mentions",
+      "summary": "",
+      "publishedAt": "2026-08-27T14:00:09.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "On forcing all derived classes to implement a specific non-virtual method, part 1",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260827-00/?p=112651",
+      "summary": "You may have a base class that implements only partial functionality and relies on the derived class to do the rest. How do you make sure that the derived class does the rest? For concreteness, let's say that we are implementing IValueConverter, which has two methods: Convert() to convert fr",
+      "publishedAt": "2026-08-27T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure DevOps in the GitHub Copilot App",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-in-the-github-copilot-app",
+      "summary": "The Azure DevOps plugin is now available for the GitHub Copilot app, allowing you to view and manage Azure DevOps pull requests and work items directly in the Copilot app. What you can do The initial release supports: View your work items",
+      "publishedAt": "2026-08-27T11:24:17.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.135",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.135",
+      "summary": "Learn what's new in Visual Studio Code 1.135 Read the full article",
+      "publishedAt": "2026-08-26T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.135",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-135-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.135 Read the full article",
+      "publishedAt": "2026-08-26T17:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -139,6 +323,14 @@
       "publishedAt": "2026-08-26T16:50:22.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "I Need My CI/CD Pipeline to Access Cosmos DB Without Using a Secret",
+      "link": "https://devblogs.microsoft.com/cosmosdb/i-need-my-ci-cd-pipeline-to-access-cosmos-db-without-using-a-secret",
+      "summary": "In the last post we walked through",
+      "publishedAt": "2026-08-26T16:47:16.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "When AI infrastructure becomes the target: Securing gateways and control points",
@@ -147,12 +339,52 @@
       "publishedAt": "2026-08-26T16:43:53.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The Visual Studio Debugger Agentic Workflow Gets a Test-Driven Upgrade",
+      "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-debugger-agentic-workflow-gets-a-test-driven-upgrade",
+      "summary": "A few months ago, we introduced a new guided agentic workflow in the Visual Studio Debugger Agent designed to help you move from a bug report to a verified fix without spending your morning guessing where to begin.",
+      "publishedAt": "2026-08-26T16:00:47.000Z"
+    },
+    {
       "source": "Azure Blog",
       "category": "Azure",
       "title": "The Economics of Agent Optimization: Four ways to lower the cost",
       "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/",
       "summary": "Microsoft Foundry gives you four levers that act on every request, before a single line of agent logic changes.",
       "publishedAt": "2026-08-26T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Copilot Code Reviews for Azure Repos (public preview)",
+      "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-public-preview",
+      "summary": "Today, we’re announcing the public preview of GitHub Copilot Code Review for Azure Repos, making the feature available to all Azure DevOps customers using the service. There’s no longer a need to sign up for early access. Customers can now enable Copilot Code Review for their Azure Repos repositories and start using it. With the",
+      "publishedAt": "2026-08-26T15:17:16.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing agent and workflow channels",
+      "link": "https://devblogs.microsoft.com/agent-framework/introducing-agent-and-workflow-channels",
+      "summary": "An agent or workflow is only useful when people and other systems can reach it through the interfaces and channels they already use. That might be an OpenAI Responses client, Telegram, another agent using A2A, or an MCP client. As a builder of agents and workflow, you need control over which channels you expose it to",
+      "publishedAt": "2026-08-26T14:47:23.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "In the product end game, every change carries significant risk, episode 2",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260826-00/?p=112649",
+      "summary": "A colleague related this story of a bug that arose at the very end of the Word 97 release cycle. Testing had identified a ship-stopping bug in a somewhat common code path. The bad news is that the bug was sporadic. The good news is that the test team had come up with a script that could trigger the crash in the lab with fairly good",
+      "publishedAt": "2026-08-26T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "New Azure SQL Foundations video series with GitHub samples",
+      "link": "https://devblogs.microsoft.com/azure-sql/new-azure-sql-foundations-video-series-with-github-samples",
+      "summary": "Bob Ward and I recently released a series of videos, read more in the original blog post or go directly to the series on YouTube. The Azure SQL Datab",
+      "publishedAt": "2026-08-26T12:37:45.000Z"
     },
     {
       "source": "Azure Updates",
