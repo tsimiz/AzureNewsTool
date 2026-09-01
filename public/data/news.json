@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T18:07:34.136Z",
-  "itemCount": 953,
+  "generatedAt": "2026-09-01T00:19:51.219Z",
+  "itemCount": 955,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Per-disk resiliency for Azure VMs",
+      "link": "https://azure.microsoft.com/updates?id=569711",
+      "summary": "Azure automatically recovers a VM when it loses access to an attached managed disk for an extended period. The VM is shut down and powered back on after disk connectivity is restored, with no customer action required. This remains the default behavior.Now",
+      "publishedAt": "2026-08-31T23:11:39.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Multicloud Interconnect",
+      "link": "https://azure.microsoft.com/updates?id=570364",
+      "summary": "Announcing the public preview of Azure Multicloud Interconnect, a managed service that provides private connectivity between Azure and supported cloud providers, with Amazon Web Services (AWS) available as the first supported provider in preview. As organ",
+      "publishedAt": "2026-08-31T18:36:12.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
