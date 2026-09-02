@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T18:07:50.494Z",
-  "itemCount": 985,
+  "generatedAt": "2026-09-02T00:17:16.711Z",
+  "itemCount": 995,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,62 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.136-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.136 (Insiders) Read the full article",
       "publishedAt": "2026-09-02T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
+      "summary": "An active campaign is impersonating legitimate software vendors to deliver malware through look-alike download pages and regenerated installer archives. Microsoft Defender Experts shares observed attack techniques, Defender XDR detections, indicators of compromise, and practical mitigations to help organizations identify, block, and respond to this threat.",
+      "publishedAt": "2026-09-01T22:48:28.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Microsoft Defender for Cloud support for Azure Container Apps (Serverless Containers Posture)",
+      "link": "https://azure.microsoft.com/updates?id=570282",
+      "summary": "Customers can now bring Azure Container Apps environments into Microsoft Defender for Cloud’s Serverless Containers Posture experience, helping security teams extend posture management across more of their container estate from a single workflow. This mak",
+      "publishedAt": "2026-09-01T22:34:43.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Windows Server 2025 on AKS",
+      "link": "https://azure.microsoft.com/updates?id=570090",
+      "summary": "Organizations running Windows-based workloads on Azure Kubernetes Service (AKS) face increasing pressure to modernize as support timelines for older Windows Server versions approach retirement. To help customers prepare, AKS now offers GA support for Wind",
+      "publishedAt": "2026-09-01T22:31:50.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Artifact Streaming on AKS",
+      "link": "https://azure.microsoft.com/updates?id=570095",
+      "summary": "You can now accelerate your containerized workloads on Azure Kubernetes Service (AKS) using Azure Container Registry (ACR) with Artifact streaming. Artifact streaming will allow you to scale your workloads without having to fully wait for images to be pul",
+      "publishedAt": "2026-09-01T22:30:59.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Confidential VMs for Azure Linux",
+      "link": "https://azure.microsoft.com/updates?id=570100",
+      "summary": "Confidential Virtual Machines (CVM) offer strong security and confidentiality for tenants. CVM for Azure Linux in AKS is now generally available and enables node pools with CVM to target the migration of highly sensitive container workloads to AKS without",
+      "publishedAt": "2026-09-01T22:30:18.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Cybersecurity IR Workshop: The workshop you shouldn’t miss",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/cybersecurity-ir-workshop-you-shouldnt-miss/",
+      "summary": "Cyber resilience starts before a crisis. Gain practical insights from DART to strengthen readiness and response.",
+      "publishedAt": "2026-09-01T18:55:35.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Purchase order mapping available in Microsoft Marketplace",
+      "link": "https://azure.microsoft.com/updates?id=569700",
+      "summary": "Align Microsoft Marketplace purchases to your business's accounting needs. Purchase order mapping helps allocate your Microsoft invoice, including Marketplace purchases, making it easier to reconcile your organization's cloud and AI spend. Get supplementa",
+      "publishedAt": "2026-09-01T18:40:59.000Z"
     },
     {
       "source": "Azure Updates",
@@ -91,6 +147,14 @@
       "publishedAt": "2026-09-01T16:00:27.000Z"
     },
     {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Turbocharge your canvas development with the canvas authoring agent plugin &#8211; now generally available!",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/turbocharge-your-canvas-development-with-the-canvas-authoring-agent-plugin-now-generally-available/",
+      "summary": "Canvas apps agentic coauthoring is now generally available Today we&#8217;re excited to announce a major milestone for makers: canvas apps coauthoring with agents is now generally available.",
+      "publishedAt": "2026-09-01T15:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Per-disk resiliency for Azure VMs",
@@ -121,6 +185,22 @@
       "link": "https://azure.microsoft.com/updates?id=570364",
       "summary": "Announcing the public preview of Azure Multicloud Interconnect, a managed service that provides private connectivity between Azure and supported cloud providers, with Amazon Web Services (AWS) available as the first supported provider in preview. As organ",
       "publishedAt": "2026-08-31T18:36:12.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Introducing Azure Multicloud Interconnect for AWS",
+      "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-multicloud-interconnect-for-aws/",
+      "summary": "Azure Multicloud Interconnect helps simplify private connectivity between Microsoft Azure and AWS, enabling organizations to support multicloud and AI workloads with a more streamlined, cloud-native networking experience. Built on open interoperability standards, it helps reduce operational complexity while providing high-performance connectivity across cloud environments.",
+      "publishedAt": "2026-08-31T18:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Inside Microsoft&#8217;s marketing team: Scaling expertise with AI",
+      "link": "https://azure.microsoft.com/en-us/blog/inside-microsofts-marketing-team-scaling-expertise-with-ai/",
+      "summary": "AI is helping organizations meet high expectations as markets change quickly and technology advances at a rapid pace.",
+      "publishedAt": "2026-08-31T16:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
