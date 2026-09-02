@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-02T12:09:32.644Z",
-  "itemCount": 995,
+  "generatedAt": "2026-09-02T18:07:42.906Z",
+  "itemCount": 997,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,28 @@
   ],
   "items": [
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Front Door profile and route level WAF policies",
+      "link": "https://azure.microsoft.com/updates?id=569804",
+      "summary": "Azure Front Door’s Web Application Firewall (WAF) now supports profile and route level WAF policy associations in public preview. This gives you more flexibility to apply broad baseline protection across an Azure Front Door profile while using targeted po",
+      "publishedAt": "2026-09-02T17:00:51.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Visual Studio Code 1.136 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.136-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.136 (Insiders) Read the full article",
       "publishedAt": "2026-09-02T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Reader Endpoint for Azure Database for MySQL",
+      "link": "https://azure.microsoft.com/updates?id=569653",
+      "summary": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint enables automatic load balancing of read-only connection",
+      "publishedAt": "2026-09-02T16:59:15.000Z"
     },
     {
       "source": "Microsoft Security Blog",
