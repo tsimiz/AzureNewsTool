@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-02T18:07:42.906Z",
-  "itemCount": 997,
+  "generatedAt": "2026-09-03T00:17:15.546Z",
+  "itemCount": 999,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,14 @@
   ],
   "items": [
     {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Impersonating IT support: how threat actors turn a remote session into enterprise-wide access",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/",
+      "summary": "Microsoft Threat Intelligence observed a human-operated intrusion campaign that abuses Microsoft Teams external collaboration to impersonate IT support, gain remote access, and deploy a Node.js-based implant. Learn how attackers move from social engineering to lateral movement using legitimate tools, and how Microsoft Defender helps detect and disrupt the activity.",
+      "publishedAt": "2026-09-02T22:51:18.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure Front Door profile and route level WAF policies",
@@ -57,6 +65,14 @@
       "link": "https://azure.microsoft.com/updates?id=569653",
       "summary": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint enables automatic load balancing of read-only connection",
       "publishedAt": "2026-09-02T16:59:15.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
+      "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
+      "summary": "AI cost optimization goes beyond model selection. Discover how context engineering in Microsoft Foundry helps lower AI costs by improving knowledge retrieval, tool selection, memory, and agent performance at scale.",
+      "publishedAt": "2026-09-02T16:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
