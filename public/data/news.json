@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T12:09:47.497Z",
-  "itemCount": 999,
+  "generatedAt": "2026-09-03T18:07:33.688Z",
+  "itemCount": 1001,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Virtual Network Manager IPAM in additional Azure regions",
+      "link": "https://azure.microsoft.com/updates?id=570557",
+      "summary": "Azure Virtual Network Manager IP address management is now generally available in additional regions: US Gov Virginia, US Gov Texas and US Gov Arizona, and China North 3 and China East 3. In complex network environments, managing IP addresses effectively",
+      "publishedAt": "2026-09-03T17:17:08.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "ASCII smuggling crosses over from AI prompt injection to phishing evasion",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+      "summary": "Invisible Unicode characters popularized for hiding instructions from AI models are now being used to obfuscate words before email filters parse them.",
+      "publishedAt": "2026-09-03T16:00:00.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
@@ -4591,7 +4607,7 @@
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure SQL updates for early-June",
       "link": "https://azure.microsoft.com/updates?id=563142",
-      "summary": "In early June 2026, the following update and enhancement was made to Azure SQL: Now you can use AES 256 symmetric keys to configure transparent data encryption (TDE) with customer-managed keys in Azure SQL Database. Learn more.",
+      "summary": "In early June 2026, the following update and enhancement was made to Azure SQL: Now you can use post-quantum resilient AES 256 symmetric keys to configure transparent data encryption (TDE) with customer-managed keys in Azure SQL Database. Learn more.",
       "publishedAt": "2026-06-02T22:15:55.000Z"
     },
     {
