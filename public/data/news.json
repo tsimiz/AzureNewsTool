@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T06:10:18.760Z",
-  "itemCount": 1011,
+  "generatedAt": "2026-09-04T12:09:28.836Z",
+  "itemCount": 1012,
   "sources": [
     {
       "name": "Azure Updates",
@@ -73,6 +73,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
       "summary": "Invisible Unicode characters popularized for hiding instructions from AI models are now being used to obfuscate words before email filters parse them.",
       "publishedAt": "2026-09-03T16:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "PPCC 2026: Bringing AI and your business processes together",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+      "summary": "Every enterprise runs on business processes, but it’s the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together.",
+      "publishedAt": "2026-09-03T15:42:58.000Z"
     },
     {
       "source": "Microsoft Security Blog",
