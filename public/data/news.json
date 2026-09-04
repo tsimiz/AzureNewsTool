@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T18:07:33.688Z",
-  "itemCount": 1001,
+  "generatedAt": "2026-09-04T00:15:25.244Z",
+  "itemCount": 1011,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,30 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.137 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.137-(insiders)",
+      "summary": "Learn what is new in Visual Studio Code Insiders. Read the full article",
+      "publishedAt": "2026-09-09T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Advocating Uptime: Schema Changes in 6 Phases",
+      "link": "https://devblogs.microsoft.com/azure-sql/schema-change",
+      "summary": "Schema change is inevitable. We do not get everything right the first time, and even when we do, the world around the database keeps changing. Requirements mature, products evolve, and assumptions that made sense years ago eventually stop matching reality. Businesses change too. We acquire companies, merge",
+      "publishedAt": "2026-09-03T19:09:04.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Test what you ship: MSTest and Native AOT",
+      "link": "https://devblogs.microsoft.com/dotnet/mstest-source-generation",
+      "summary": "If you ship an application with Native AOT, a green managed test run leaves a gap. Native AOT compiles ahead of time, removes unused code, and requires alternatives to runti",
+      "publishedAt": "2026-09-03T18:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Azure Virtual Network Manager IPAM in additional Azure regions",
@@ -59,6 +83,14 @@
       "publishedAt": "2026-09-02T22:51:18.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Go 1.27.1-1 and 1.26.8-1 Microsoft builds now available",
+      "link": "https://devblogs.microsoft.com/go/go-1-27-1-1-and-1-26-8-1-microsoft-builds-now-available",
+      "summary": "A new release of the Microsoft build of Go is now available for download. For more information about this release and the changes included, see the table below: Microsoft Release Upstream Tag",
+      "publishedAt": "2026-09-02T18:09:53.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure Front Door profile and route level WAF policies",
@@ -72,6 +104,22 @@
       "title": "Visual Studio Code 1.136 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.136-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.136 (Insiders) Read the full article",
+      "publishedAt": "2026-09-02T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.136",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.136",
+      "summary": "Learn what is new in Visual Studio Code 1.136 Read the full article",
+      "publishedAt": "2026-09-02T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.136",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-136-insiders",
+      "summary": "Learn what is new in Visual Studio Code 1.136 Read the full article",
       "publishedAt": "2026-09-02T17:00:00.000Z"
     },
     {
@@ -89,6 +137,30 @@
       "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
       "summary": "AI cost optimization goes beyond model selection. Discover how context engineering in Microsoft Foundry helps lower AI costs by improving knowledge retrieval, tool selection, memory, and agent performance at scale.",
       "publishedAt": "2026-09-02T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Stop alt-tabbing into the wrong Visual Studio",
+      "link": "https://devblogs.microsoft.com/visualstudio/stop-alt-tabbing-into-the-wrong-visual-studio",
+      "summary": "A user asked for per-solution color themes. It already ships, and it goes further than they asked. You run several instances of Visual Studio side by side, one per solution, and they all look identical. Same taskbar icon, same alt-tab thumbnail, same chrome. So, you land in the wrong one, start typing, and realize thirty seconds la",
+      "publishedAt": "2026-09-02T14:00:12.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The perils of binding to value types in XAML",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260902-00/?p=112668",
+      "summary": "A colleague ran into trouble with their XAML program. They were using a FlipView control to bind to a collection, but when the user tried to navigate the FlipView using an assistive technology tool, there were cases where the navigation failed. Some time later, they came back with the solution to the myster",
+      "publishedAt": "2026-09-02T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Behind SPFx Dev Skills: testing what agents know and fixing what they miss",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/behind-spfx-dev-skills-testing-what-agents-know-and-fixing-what-they-miss",
+      "summary": "AI coding agents can build SharePoint Framework solutions. But should you trust them to choose the right toolchain and package versions by themselves, then apply every upgrade step correctly? We wanted evidence. Before publishing SPFx Dev Skills, the SharePoint Framework team an",
+      "publishedAt": "2026-09-02T10:14:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -201,6 +273,14 @@
       "link": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/turbocharge-your-canvas-development-with-the-canvas-authoring-agent-plugin-now-generally-available/",
       "summary": "Canvas apps agentic coauthoring is now generally available Today we&#8217;re excited to announce a major milestone for makers: canvas apps coauthoring with agents is now generally available.",
       "publishedAt": "2026-09-01T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Microspeak: Funded / unfunded",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260901-00/?p=112662",
+      "summary": "Recall that Microspeak is not merely for jargon exclusive to Microsoft, but it's jargon that you need to know to survive at Microsoft. In business, funding usually refers to having enough money to pay for ongoing operations. In Microsoft engineering groups, it doesn't mean that. In Microspeak, funding r",
+      "publishedAt": "2026-09-01T14:00:00.000Z"
     },
     {
       "source": "Azure Updates",
