@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T18:07:07.516Z",
-  "itemCount": 1012,
+  "generatedAt": "2026-09-05T00:16:06.638Z",
+  "itemCount": 1013,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.137-(insiders)",
       "summary": "Learn what is new in Visual Studio Code Insiders. Read the full article",
       "publishedAt": "2026-09-09T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "How to secure edge AI in customer-owned environments",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/",
+      "summary": "As AI moves into customer-owned environments, organizations need new ways to verify the systems, software, and AI assets they trust before releasing sensitive data, credentials, and models.",
+      "publishedAt": "2026-09-04T19:10:10.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -1887,7 +1895,7 @@
       "category": "Azure",
       "title": "[In preview] Public Preview: Symmetric keys on Azure Key Vault Premium",
       "link": "https://azure.microsoft.com/updates?id=566746",
-      "summary": "We’re announcing symmetric keys on Azure Key Vault Premium are now available in public preview. This preview enables customers and partners to evaluate symmetric encryption capabilities using the oct-HSM key type and the Advanced Encryption Standard (AES)",
+      "summary": "We’re announcing post-quantum resilient symmetric keys on Azure Key Vault Premium are now available in public preview. This preview enables customers and partners to evaluate symmetric encryption capabilities using the oct-HSM key type and the Advanced En",
       "publishedAt": "2026-07-30T18:57:18.000Z"
     },
     {
