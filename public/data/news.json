@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-05T00:16:06.638Z",
-  "itemCount": 1013,
+  "generatedAt": "2026-09-05T06:09:02.208Z",
+  "itemCount": 1016,
   "sources": [
     {
       "name": "Azure Updates",
@@ -59,6 +59,22 @@
       "publishedAt": "2026-09-03T19:09:04.000Z"
     },
     {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
+      "link": "https://azure.microsoft.com/en-us/blog/enterprise-ai-transformation-relies-on-the-end-to-end-platform-azure-was-built-for-this-moment/",
+      "summary": "The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production.",
+      "publishedAt": "2026-09-03T19:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/",
+      "summary": "GPT-6 Astra, OpenAI's newest frontier model, begins rolling out today through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers over the coming days.",
+      "publishedAt": "2026-09-03T18:15:00.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Test what you ship: MSTest and Native AOT",
@@ -83,12 +99,20 @@
       "publishedAt": "2026-09-03T16:00:00.000Z"
     },
     {
-      "source": "Power Platform Blog",
-      "category": "Power Platform",
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
       "title": "PPCC 2026: Bringing AI and your business processes together",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
-      "summary": "Every enterprise runs on business processes, but it’s the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together.",
-      "publishedAt": "2026-09-03T15:42:58.000Z"
+      "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together.",
+      "publishedAt": "2026-09-03T15:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "How Microsoft&#8217;s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop",
+      "link": "https://azure.microsoft.com/en-us/blog/how-microsofts-physical-security-engineering-team-scaled-hybrid-operations-with-azure-arc-and-azure-virtual-desktop/",
+      "summary": "Learn how Microsoft used Azure Arc and Azure Virtual Desktop to simplify hybrid security operations, improve visibility, and scale globally.",
+      "publishedAt": "2026-09-03T15:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
