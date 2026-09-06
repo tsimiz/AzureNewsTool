@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-06T12:07:51.733Z",
-  "itemCount": 1017,
+  "generatedAt": "2026-09-06T18:06:36.795Z",
+  "itemCount": 1018,
   "sources": [
     {
       "name": "Azure Updates",
@@ -78,6 +78,14 @@
       "source": "Azure Blog",
       "category": "Azure",
       "title": "GPT-6 Astra: Frontier intelligence for work, now available in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-available-in-microsoft-foundry/",
+      "summary": "GPT-6 Astra, OpenAI's newest frontier model, begins rolling out today through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers over the coming days.",
+      "publishedAt": "2026-09-03T18:15:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry",
       "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-available-in-microsoft-foundry/",
       "summary": "GPT-6 Astra, OpenAI's newest frontier model, begins rolling out today through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers over the coming days.",
       "publishedAt": "2026-09-03T18:15:00.000Z"
