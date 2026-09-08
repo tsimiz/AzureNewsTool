@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-08T12:09:31.334Z",
-  "itemCount": 1018,
+  "generatedAt": "2026-09-08T18:07:36.831Z",
+  "itemCount": 1019,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.137-(insiders)",
       "summary": "Learn what is new in Visual Studio Code Insiders. Read the full article",
       "publishedAt": "2026-09-09T17:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Enhanced Data Model Migration Utility Now Generally Available, with Dynamics 365 Portal Templates Support",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/enhanced-data-model-migration-utility-now-generally-available-with-dynamics-365-portal-templates-support/",
+      "summary": "We&#8217;re excited to announce that the Standard Data Model (SDM) to Enhanced Data Model (EDM) migration utility in Microsoft Power Platform CLI is now generally available (GA) and it now also supports four key Dynamics 365 portal templates: New sites using these templates could be provisioned on EDM since June this year.",
+      "publishedAt": "2026-09-07T08:06:44.000Z"
     },
     {
       "source": "Microsoft Security Blog",
