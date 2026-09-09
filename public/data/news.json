@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-08T18:07:36.831Z",
-  "itemCount": 1019,
+  "generatedAt": "2026-09-09T00:16:53.924Z",
+  "itemCount": 1034,
   "sources": [
     {
       "name": "Azure Updates",
@@ -43,6 +43,70 @@
       "publishedAt": "2026-09-09T17:00:00.000Z"
     },
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North",
+      "link": "https://azure.microsoft.com/updates?id=570919",
+      "summary": "Playwright Workspaces in Azure App Testing is now generally available in Switzerland North, Japan East, and Australia East.Playwright Workspaces provides fully managed cloud-hosted browsers for running end-to-end Playwright tests at scale, with parallel e",
+      "publishedAt": "2026-09-08T17:35:32.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Developer CLI (azd) Extension Framework",
+      "link": "https://azure.microsoft.com/updates?id=570881",
+      "summary": "The Azure Developer CLI (azd) Extension Framework is now generally available. The framework enables developers, teams, and partners to extend Azure Developer CLI with custom capabilities that support their preferred application development workflows.With",
+      "publishedAt": "2026-09-08T17:18:38.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Go 1.27.1-2 Microsoft build now available",
+      "link": "https://devblogs.microsoft.com/go/go-1-27-1-2-microsoft-build-now-available",
+      "summary": "A new release of the Microsoft build of Go is now available for download. This revision fixes a compatibility issue that may cause panics when using OpenSSL 3.3 with a provider that implements the ML-KEM or ML-DSA algorithms. This improves compatibility with Azure Linux 3.",
+      "publishedAt": "2026-09-08T16:35:02.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MSIX PackageVolume: How Package Storage Works",
+      "link": "https://devblogs.microsoft.com/insidemsix/msix-packagevolume",
+      "summary": "An MSIX package can be staged in several ways and locations: PackageVolume Development Mode System package StageInPlace Ex",
+      "publishedAt": "2026-09-08T16:00:27.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Today I will... find hidden latency across a distributed .NET application",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application",
+      "summary": "When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without revealing the actual bottleneck. This article sho",
+      "publishedAt": "2026-09-08T16:00:22.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "A sample use of the winstart.bat file in Windows 95",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260908-00/?p=112679",
+      "summary": "In my earlier discussion of the the litte-known winstart.bat batch file in Windows 3.1 and Windows 95, Danielix Klimax wondered",
+      "publishedAt": "2026-09-08T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The Agentic Road to Revenue",
+      "link": "https://devblogs.microsoft.com/all-things-azure/the-agentic-road-to-revenue",
+      "summary": "The Agentic Road to Revenue",
+      "publishedAt": "2026-09-08T04:45:34.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why don&#039;t we allow stacks to be sparse, instead of forcing them to be contiguous?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260907-00/?p=112677",
+      "summary": "When I discussed why we don't just make the entire stack out of guard pages, comme",
+      "publishedAt": "2026-09-07T14:00:00.000Z"
+    },
+    {
       "source": "Power Platform Blog",
       "category": "Power Platform",
       "title": "Enhanced Data Model Migration Utility Now Generally Available, with Dynamics 365 Portal Templates Support",
@@ -61,7 +125,47 @@
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
+      "title": "Azure SDK Release (August 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-august-2026",
+      "summary": "Thank you for your interest in the new Azure SDKs! We release new features, improvements, and bug fixes every month. Subscribe to our Azure SDK Blog RSS Feed to get notified when a new release is available. You can find links to packages, code, and docs on our",
+      "publishedAt": "2026-09-04T18:20:42.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What happens if you change a window class&#039;s GCL_ CBWNDEXTRA ?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260904-00/?p=112675",
+      "summary": "After my historical look back on the evolution of system-windows window and class extra bytes, I noted that",
+      "publishedAt": "2026-09-04T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Native memory for Microsoft Agent Framework with Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/agent-framework/native-memory-for-microsoft-agent-framework-with-azure-cosmos-db",
+      "summary": "Agents are more useful when they can remember what matters beyond the current conversation. Today, we're announcing a new preview integration that gives Microsoft Agent Framework agents durable, cross-session memory backed by Azure Cosmos DB. The new Python package, agent-framework-azure-cosmos-memory",
+      "publishedAt": "2026-09-04T13:00:07.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "SQL Decomposition in a Nutshell",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-decomposition",
+      "summary": "Application developers already know what happens when one method does everything: it becomes difficult to read, test, reason over, and safely change. We use patterns like decomposition, encapsulation, and explicit dependencies because they solve those problems. T-SQL does not give us classes, inheritance, interfaces, or polymorphis",
+      "publishedAt": "2026-09-03T20:06:28.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
       "title": "Advocating Uptime: Schema Changes in 6 Phases",
+      "link": "https://devblogs.microsoft.com/azure-sql/schema-change",
+      "summary": "Schema change is inevitable. We do not get everything right the first time, and even when we do, the world around the database keeps changing. Requirements mature, products evolve, and assumptions that made sense years ago eventually stop matching reality. Businesses change too. We acquire companies, merge",
+      "publishedAt": "2026-09-03T19:09:04.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Advocating for Uptime: The 6 Phases of Change",
       "link": "https://devblogs.microsoft.com/azure-sql/schema-change",
       "summary": "Schema change is inevitable. We do not get everything right the first time, and even when we do, the world around the database keeps changing. Requirements mature, products evolve, and assumptions that made sense years ago eventually stop matching reality. Businesses change too. We acquire companies, merge",
       "publishedAt": "2026-09-03T19:09:04.000Z"
@@ -139,6 +243,14 @@
       "publishedAt": "2026-09-03T15:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The case of the progress callback that never got called when progress happened",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260903-00/?p=112672",
+      "summary": "A colleague was trying to figure out why their progress handler wasn't being called. // C# async Task DownloadItemAsync(string id) { var op = item.DownloadAsync(id); op.Progress += (s, pct) UpdateProgress(pct); var result = await op; ClearProgress(); return result; } This is pr",
+      "publishedAt": "2026-09-03T14:00:00.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Impersonating IT support: how threat actors turn a remote session into enterprise-wide access",
@@ -190,6 +302,14 @@
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Reader Endpoint for Azure Database for MySQL",
+      "link": "https://azure.microsoft.com/updates?id=569653",
+      "summary": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint enables automatic load balancing of read-only connection",
+      "publishedAt": "2026-09-02T16:59:15.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In development] Private Preview: Reader Endpoint for Azure Database for MySQL",
       "link": "https://azure.microsoft.com/updates?id=569653",
       "summary": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint enables automatic load balancing of read-only connection",
       "publishedAt": "2026-09-02T16:59:15.000Z"
