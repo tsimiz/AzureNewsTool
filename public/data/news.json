@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T12:08:58.425Z",
-  "itemCount": 1041,
+  "generatedAt": "2026-09-10T18:07:26.332Z",
+  "itemCount": 1044,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,30 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: TLS/SSL certificate and end-to-end TLS encryption support for Azure Functions Flex Consumption",
+      "link": "https://azure.microsoft.com/updates?id=570940",
+      "summary": "Azure Functions Flex Consumption support for TLS/SSL certificates is now generally available through a new site-scoped certificate model. Each function app can hold up to 3 private (.pfx) and 3 public (.cer) certificates uploaded directly, imported from A",
+      "publishedAt": "2026-09-10T16:12:49.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Detect and disrupt AI-themed attacks with Microsoft Defender",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
+      "summary": "See how Microsoft Defender detects and disrupts AI-themed phishing, malware, and multi-stage attacks across the attack chain.",
+      "publishedAt": "2026-09-10T16:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Copilot Troubleshooting Agent",
+      "link": "https://azure.microsoft.com/updates?id=570980",
+      "summary": "Azure Copilot Troubleshooting Agent is now generally available. Troubleshooting Agent is a unified, built-in Azure Copilot capability that helps customers investigate and resolve operational issues faster. Available through both Azure Copilot and Support",
+      "publishedAt": "2026-09-10T15:25:52.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
