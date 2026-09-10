@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T00:15:33.606Z",
-  "itemCount": 1040,
+  "generatedAt": "2026-09-10T06:10:56.300Z",
+  "itemCount": 1041,
   "sources": [
     {
       "name": "Azure Updates",
@@ -46,6 +46,14 @@
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Threat Matrix: Mapping threats across cloud web applications",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
+      "summary": "Microsoft introduces the Cloud Web Applications Threat Matrix, a MITRE ATT&#038;CK-aligned framework that helps defenders understand, prioritize, and mitigate threats to cloud-hosted web apps and serverless platforms.",
+      "publishedAt": "2026-09-09T21:30:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Threat matrix: Mapping threats across cloud web applications",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
       "summary": "Microsoft introduces the Cloud Web Applications Threat Matrix, a MITRE ATT&#038;CK-aligned framework that helps defenders understand, prioritize, and mitigate threats to cloud-hosted web apps and serverless platforms.",
       "publishedAt": "2026-09-09T21:30:00.000Z"
@@ -883,8 +891,8 @@
       "publishedAt": "2026-08-25T16:00:18.000Z"
     },
     {
-      "source": "Microsoft Security Blog",
-      "category": "Security",
+      "source": "Azure Blog",
+      "category": "Azure",
       "title": "The patch window is collapsing: Why security needs a new control plane",
       "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
       "summary": "Organizations need protection that operates in the gap between discovery and remediation.",
