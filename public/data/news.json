@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T18:08:24.311Z",
-  "itemCount": 1034,
+  "generatedAt": "2026-09-10T00:15:33.606Z",
+  "itemCount": 1040,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,60 @@
   ],
   "items": [
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: User-bound user delegation SAS for Azure Storage",
+      "link": "https://azure.microsoft.com/updates?id=569241",
+      "summary": "Announcing the addition of enhanced secure authentication in Azure Storage that combines the flexibility of user-delegation shared access signature (SAS) with the user-bound access of Entra ID. User-bound user delegation SAS is now generally available for",
+      "publishedAt": "2026-09-09T22:30:41.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Threat Matrix: Mapping threats across cloud web applications",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
+      "summary": "Microsoft introduces the Cloud Web Applications Threat Matrix, a MITRE ATT&#038;CK-aligned framework that helps defenders understand, prioritize, and mitigate threats to cloud-hosted web apps and serverless platforms.",
+      "publishedAt": "2026-09-09T21:30:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Ephemeral OS Disk with full caching for VM/VMSS",
+      "link": "https://azure.microsoft.com/updates?id=570551",
+      "summary": "Azure Ephemeral OS Disk with full caching is now generally available for new virtual machines and Virtual Machine Scale Sets. The capability caches the complete OS image on a VM’s local storage, eliminating remote-storage reads after caching finishes. Thi",
+      "publishedAt": "2026-09-09T21:24:37.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Two zones or three? A design framework for zone-resilient Azure workloads",
+      "link": "https://azure.microsoft.com/en-us/blog/two-zones-or-three-a-design-framework-for-zone-resilient-azure-workloads/",
+      "summary": "Zone resiliency isn't a single number you apply to a whole workload. The useful question isn't “how many zones?” but “how many zones does each component need to survive the loss of one?” Decide zone patterns component by component, use service-managed zone redundancy wherever it fits, and reserve three-zone designs for the components that genuinely require a third failure domain.",
+      "publishedAt": "2026-09-09T18:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Passkey-themed social engineering leads to identity and cloud compromise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/",
+      "summary": "Passkey-themed social engineering is being used to compromise identities and enable broader cloud attacks. Learn how threat actors establish MFA persistence, abuse Microsoft Graph for reconnaissance, and access SharePoint, OneDrive, and email data, along with key detection and mitigation guidance.",
+      "publishedAt": "2026-09-09T17:41:18.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Visual Studio Code 1.137 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.137-(insiders)",
       "summary": "Learn what is new in Visual Studio Code Insiders. Read the full article",
       "publishedAt": "2026-09-09T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Beyond the benchmark: How an adaptive approach drives scientific discovery",
+      "link": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
+      "summary": "For research and development (R&#38;D) organizations, the promise of agentic AI is not a better one-time answer. It is a new way to explore complex scientific and engineering problems: pursuing multiple hypotheses, validating them against evidence, learning from what does not work, and adapting their approach as new information becomes available.",
+      "publishedAt": "2026-09-08T20:00:00.000Z"
     },
     {
       "source": "Azure Updates",
