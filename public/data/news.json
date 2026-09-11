@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T12:09:42.746Z",
-  "itemCount": 1048,
+  "generatedAt": "2026-09-11T18:06:46.893Z",
+  "itemCount": 1049,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Agentless migration of on-premises SMB file shares to Azure Files (SMB)",
+      "link": "https://azure.microsoft.com/updates?id=570910",
+      "summary": "Azure Storage Mover now supports agentless migration of on-premises SMB file shares to Azure Files (SMB), in public preview. You can move file data from Windows Server or NAS shares into Azure without deploying, registering, or maintaining a migration age",
+      "publishedAt": "2026-09-11T15:58:56.000Z"
+    },
     {
       "source": "Azure Blog",
       "category": "Azure",
