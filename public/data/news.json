@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T18:07:26.332Z",
-  "itemCount": 1044,
+  "generatedAt": "2026-09-11T00:17:07.734Z",
+  "itemCount": 1045,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Protecting organizations from AI-assisted executive impersonation and invoice fraud",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
+      "summary": "Microsoft examines an AI-assisted business email compromise campaign that used executive impersonation and fake invoices to target finance teams with ACH payment fraud.",
+      "publishedAt": "2026-09-10T17:23:05.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
