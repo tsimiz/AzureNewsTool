@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T18:06:46.893Z",
-  "itemCount": 1049,
+  "generatedAt": "2026-09-12T00:15:54.450Z",
+  "itemCount": 1050,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Azure Linux with OS Guard in Azure Kubernetes Service",
+      "link": "https://azure.microsoft.com/updates?id=571257",
+      "summary": "Support for Azure Linux with OS Guard in Azure Kubernetes Service will end on December 10, 2026. Azure Container Linux is the replacement for Azure Linux with OS Guard (preview). Starting on December 10, 2026:Users won’t be able to create new Azure Linux",
+      "publishedAt": "2026-09-11T18:08:28.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
