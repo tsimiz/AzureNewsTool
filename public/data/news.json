@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-13T06:13:33.860Z",
-  "itemCount": 1050,
+  "generatedAt": "2026-09-13T12:08:05.905Z",
+  "itemCount": 1052,
   "sources": [
     {
       "name": "Azure Updates",
@@ -99,12 +99,28 @@
       "publishedAt": "2026-09-10T16:00:00.000Z"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+      "summary": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI.",
+      "publishedAt": "2026-09-10T16:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Azure Copilot Troubleshooting Agent",
       "link": "https://azure.microsoft.com/updates?id=570980",
       "summary": "Azure Copilot Troubleshooting Agent is now generally available. Troubleshooting Agent is a unified, built-in Azure Copilot capability that helps customers investigate and resolve operational issues faster. Available through both Azure Copilot and Support",
       "publishedAt": "2026-09-10T15:25:52.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Build apps in Copilot Cowork and Copilot Studio",
+      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
+      "summary": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio.",
+      "publishedAt": "2026-09-10T15:00:00.000Z"
     },
     {
       "source": "Azure Updates",
