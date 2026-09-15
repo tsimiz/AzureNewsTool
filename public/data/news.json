@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T12:08:35.515Z",
-  "itemCount": 1054,
+  "generatedAt": "2026-09-15T18:06:48.536Z",
+  "itemCount": 1079,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,70 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.138 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.138-(insiders)",
+      "summary": "Learn what's new in Visual Studio Code 1.138 (Insiders) Read the full article",
+      "publishedAt": "2026-09-16T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "PackageType: Main, Framework, Resource, Optional, Bundle",
+      "link": "https://devblogs.microsoft.com/insidemsix/msix-package-types",
+      "summary": "Every MSIX package is one of four package types: Main Framework Resource Optional MSIX also supports Bundle packages. Bundles are somewhat different from those four package types: a Bundle is a container for one or more MSIX packages. Windows APIs nevertheless expose Bundle alongside t",
+      "publishedAt": "2026-09-15T16:00:38.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Today I will... improve test coverage",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-improve-test-coverage",
+      "summary": "Today I want to look at how we can improve on the test coverage that we have in the Interview Coach application. This application has some unit tests in it already, but I'm sure there is room for improvement. Defining our baseline Before we star",
+      "publishedAt": "2026-09-15T16:00:21.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build an interview coach app with the GitHub Copilot SDK",
+      "link": "https://devblogs.microsoft.com/blog/build-an-interview-coach-app-with-the-github-copilot-sdk",
+      "summary": "An interview coach has to do more than ask questions. It needs to read a resume, follow up on an incomplete answer, and save enough context to give useful feedback at the end. Some of that work is conversation. Some of it requires calling an application service. The GitHub Copilot SDK",
+      "publishedAt": "2026-09-15T16:00:11.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "From Redis pressure to a healthier service",
+      "link": "https://devblogs.microsoft.com/powerplatform/azure-managed-redis-migration",
+      "summary": "The engineering journey behind an Azure Managed Redis migration for Copilot Studio agent flows Microsoft Copilot Studio helps organizations build agents and automate business processes. Agent flows let those agents carry out repeatable work across conne",
+      "publishedAt": "2026-09-15T15:47:43.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Coding agents are picking Azure SQL Database",
+      "link": "https://devblogs.microsoft.com/azure-sql/coding-agents-are-picking-azure-sql-database",
+      "summary": "I went looking for Azure SQL Database in a recent coding agent benchmark, honestly unsure whether Microsoft SQL would show up. Armature ran a study where real coding agent CLIs (Claude Code, Codex, Cursor) were dropped into",
+      "publishedAt": "2026-09-15T12:55:05.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Performance Improvements in .NET 11",
+      "link": "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11",
+      "summary": "Before television shows like The Office and Parks and Recreation cemented the mockumentary in the minds of millions, there was Christopher Guest. He didn't invent the genre, but he's widely recognized as one of its most influential practitioners, and for my money, there's none better. I've watched Waiting for Guffman",
+      "publishedAt": "2026-09-15T12:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "C++ in the Age of AI: Visual Studio at CppCon 2026",
+      "link": "https://devblogs.microsoft.com/cppblog/c-in-the-age-of-ai-visual-studio-at-cppcon-2026",
+      "summary": "At CppCon 2026, we shared how Visual Studio is evolving to help you work more effectively with large C++ codebases, improve build and runtime performance, adopt the latest language features, and incorporate AI into your existing workflows. This post is a companion reading guide for our session,",
+      "publishedAt": "2026-09-14T19:34:43.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Announcing: New Windows App client-side endpoints for Azure Virtual Desktop",
@@ -49,6 +113,54 @@
       "link": "https://azure.microsoft.com/updates?id=571123",
       "summary": "Announcing public preview support for HTTP/3 over QUIC on Azure Application Gateway. HTTP/3 is the next evolution of HTTP and uses QUIC to improve connection setup time, reduce latency, and provide better resiliency for modern web applications and APIs. W",
       "publishedAt": "2026-09-14T17:55:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Share your .NET story with the community",
+      "link": "https://devblogs.microsoft.com/dotnet/share-your-dotnet-story",
+      "summary": "The best way to understand what .NET makes possible is to see what teams are building with it. At .NET Conf 2026, we want to share more stories from people and organizations using .NET to solve real problems. If your team has built a new application, modernized an existing system, or made s",
+      "publishedAt": "2026-09-14T17:05:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why didn&#039;t ReadDirectoryChangesW provide a way to correlate the two sides of a rename operation?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260914-00/?p=112696",
+      "summary": "Brian Dellisanti asked why Read­Directory­ChangesW didn't provide a way to correlate the two sides of a rename operation. I wasn't there, but I can guess. My guess is that the implementation alwa",
+      "publishedAt": "2026-09-14T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MulticloudDB SDK: Cross-cloud portability in the coding agent era",
+      "link": "https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era",
+      "summary": "Building cross-cloud solutions with best-of-breed cloud-native databases means learning multiple SDKs, translating queries, handling different errors, and testing across providers. The Multicloud DB SDK for Java lets you share that work across",
+      "publishedAt": "2026-09-14T13:25:23.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon",
+      "link": "https://devblogs.microsoft.com/ise/japanese-llm-evaluation-pipeline-hackathon",
+      "summary": "Introduction A: かしこまりました。ご注文番号をお教えいただければ、配送状況をお調べいたします。 B: ご不安ですよね。ご注文番号をお教えいただければ、すぐにお調べいたします。 Which sentence do you think is more appropriate as a response from call center AI?",
+      "publishedAt": "2026-09-14T07:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What’s New for C++ Developers in Visual Studio 2026 (18.7 – 18.10)",
+      "link": "https://devblogs.microsoft.com/cppblog/whats-new-for-c-developers-in-visual-studio-2026-18-7-18-10",
+      "summary": "Over the past few months, we have continued shipping monthly Visual Studio 2026 releases, delivering improvements across all stages of the development cycle. In this blog post, we'll recap everything that changed from version 18.7 through 18.10 (released this month) that is relevant for C++ developers. This includes new tools for maintaining a",
+      "publishedAt": "2026-09-14T06:38:16.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Microsoft at CppCon 2026",
+      "link": "https://devblogs.microsoft.com/cppblog/microsoft-at-cppcon-2026",
+      "summary": "Microsoft will be at CppCon 2026 in Aurora, Colorado, which is taking place from September 14 through 18. Join us for talks from Microsoft speakers and colleagues across the C++ community and visit the Microsoft booth Monday through Thursday to meet the team and discuss the tools, technologies, and challe",
+      "publishedAt": "2026-09-14T00:16:42.000Z"
     },
     {
       "source": "Azure Updates",
@@ -67,12 +179,44 @@
       "publishedAt": "2026-09-11T15:58:56.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How can I remove the Close button from my window caption?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260911-00/?p=112691",
+      "summary": "Occasionally, somebody wants to create a window without a Close button. The only way to get rid of the Close button is not to have a System menu at all: Remove the WS_SYS­MENU style from the window. But that also gets rid of the Minimize and Maximize buttons, so it's kind of drastic. If you want a System",
+      "publishedAt": "2026-09-11T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "September Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-3",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps",
+      "publishedAt": "2026-09-10T22:25:52.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MSVC C++23: constexpr cmath with LLVM Libc",
+      "link": "https://devblogs.microsoft.com/cppblog/msvc-c23-constexpr-cmath-with-llvm-libc",
+      "summary": "Proposal P0533R9 made numerous math functions in the standard library compile-time evaluable in C++23. Implementing the feature required a good bit of time and effort, but MSVC is preparing its experimental implementation for the 14.52 build tools (compiler vers",
+      "publishedAt": "2026-09-10T21:19:59.000Z"
+    },
+    {
       "source": "Azure Blog",
       "category": "Azure",
       "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
       "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
       "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale.",
       "publishedAt": "2026-09-10T21:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
+      "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607",
+      "summary": "Azure AI Speech continues to deliver regular improvements to LLM Speech throughout the year, helping developers build more accurate and capable voice experiences. We’re announcing LLM Speech 2607, our latest model update, which brings improvements in multilingual recognition and mixed-language audio inputs, along with an enh",
+      "publishedAt": "2026-09-10T18:08:42.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -88,6 +232,14 @@
       "title": "The Economics of Agent Optimization: How AI agent governance controls cost and proves ROI",
       "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-how-ai-agent-governance-controls-cost-and-proves-roi/",
       "summary": "This blog post is the fourth and final installment of The Economics of Agent Optimization, which shares the strategies, capabilities, and proof points that can help you optimize agent costs and run AI as a managed investment system on Microsoft Foundry.",
+      "publishedAt": "2026-09-10T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Use C# unions and closed hierarchies in ASP.NET Core",
+      "link": "https://devblogs.microsoft.com/dotnet/unions-and-closed-hierarchies-in-aspnetcore",
+      "summary": "Sometimes an API contract says that a value can have more than one JSON type. Kubernetes has a practical example: maxUnavailable can be an absolute number, such as 2, or a percentage, such as \"25%\". Imag",
       "publishedAt": "2026-09-10T17:00:00.000Z"
     },
     {
@@ -139,6 +291,22 @@
       "publishedAt": "2026-09-10T15:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why is the x86 undefined instruction called ud2 ? Why 2?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689",
+      "summary": "If you look at x86 compiler output (or if, like me, you're looking at a crash caused by some software that tried to detour an API), you may see an instruction ud2. What's up with that? The ud2 instruction is an architecturally undefined instruction, guaranteed to raise an \"invalid opcode\" exception. Some co",
+      "publishedAt": "2026-09-10T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What&#039;s new in Microsoft Foundry: July and August 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026",
+      "summary": "Microsoft Foundry's July and August 2026 updates make Hosted Agents, Voice Live integration, and Toolboxes generally available; expand Claude tools hosted on Azure; update Model Router's regions and model pool; add Foundry Local capabilities; and advance the Python, JavaScript, Java, and .NET SDKs. Author's note:",
+      "publishedAt": "2026-09-09T23:00:39.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: User-bound user delegation SAS for Azure Storage",
@@ -163,12 +331,28 @@
       "publishedAt": "2026-09-09T21:30:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MSVC Build Tools Preview updates – September 2026",
+      "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-september-2026",
+      "summary": "The MSVC Build Tools Preview is updated regularly with the latest features and fixes from the MSVC development team. This post covers updates from the past month, currently targeting the v14.52 release. This encompasses changes across the compiler frontend, backend, linker, standard library, and r",
+      "publishedAt": "2026-09-09T21:26:30.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Azure Ephemeral OS Disk with full caching for VM/VMSS",
       "link": "https://azure.microsoft.com/updates?id=570551",
       "summary": "Azure Ephemeral OS Disk with full caching is now generally available for new virtual machines and Virtual Machine Scale Sets. The capability caches the complete OS image on a VM’s local storage, eliminating remote-storage reads after caching finishes. Thi",
       "publishedAt": "2026-09-09T21:24:37.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Advancing trusted AI innovation with Agents and new Azure OpenAI models in Azure Government",
+      "link": "https://devblogs.microsoft.com/azuregov/advancing-ai-innovation-in-azure-government",
+      "summary": "Today, we are announcing expanded AI capabilities available across the Microsoft Azure for US Government portfolio. The Microsoft Foundry Agent Service is now available in Azure Government, giving organizations managed infrastructure on which to build, deploy, and operate AI systems that can reason over authorized information, use approved too",
+      "publishedAt": "2026-09-09T18:30:15.000Z"
     },
     {
       "source": "Azure Blog",
@@ -192,6 +376,22 @@
       "title": "Visual Studio Code 1.137 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.137-(insiders)",
       "summary": "Learn what is new in Visual Studio Code Insiders. Read the full article",
+      "publishedAt": "2026-09-09T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.137",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.137",
+      "summary": "Learn what's new in Visual Studio Code 1.137 Read the full article",
+      "publishedAt": "2026-09-09T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.137",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-137-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.137 Read the full article",
       "publishedAt": "2026-09-09T17:00:00.000Z"
     },
     {
