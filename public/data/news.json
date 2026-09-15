@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T18:07:04.994Z",
-  "itemCount": 1052,
+  "generatedAt": "2026-09-15T00:17:12.423Z",
+  "itemCount": 1054,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,22 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: New Windows App client-side endpoints for Azure Virtual Desktop",
+      "link": "https://azure.microsoft.com/updates?id=571360",
+      "summary": "Beginning in early October 2026, Windows App will begin using three new wildcard fully qualified domain names (FQDNs) for client-side service traffic to Azure Virtual Desktop. These domains are already included in the cloud-side connectivity requirements.",
+      "publishedAt": "2026-09-14T18:24:04.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: HTTP/3 over QUIC support in Azure Application Gateway",
+      "link": "https://azure.microsoft.com/updates?id=571123",
+      "summary": "Announcing public preview support for HTTP/3 over QUIC on Azure Application Gateway. HTTP/3 is the next evolution of HTTP and uses QUIC to improve connection setup time, reduce latency, and provide better resiliency for modern web applications and APIs. W",
+      "publishedAt": "2026-09-14T17:55:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
