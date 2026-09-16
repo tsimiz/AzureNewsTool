@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-16T12:09:31.793Z",
-  "itemCount": 1079,
+  "generatedAt": "2026-09-16T18:07:33.143Z",
+  "itemCount": 1092,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,44 @@
   ],
   "items": [
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement Update: SAP container images removed October 14, 2026",
+      "link": "https://azure.microsoft.com/updates?id=571342",
+      "summary": "The containerized SAP data connector retired on September 14, 2026 and is unsupported and unmaintained. Existing TLS-compliant agents may continue sending logs through the retired HTTP Data Collector API. Container images will be removed on October 14, 20",
+      "publishedAt": "2026-09-16T17:19:02.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure SQL updates for mid-September 2026",
+      "link": "https://azure.microsoft.com/updates?id=571056",
+      "summary": "In mid-September 2026, the following updates and enhancements were made to Azure SQL:Configure soft delete for the Azure SQL logical server. When the logical server is deleted, it goes into a soft deleted state and is self-restorable during the configured",
+      "publishedAt": "2026-09-16T17:15:10.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Visual Studio Code 1.138 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.138-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.138 (Insiders) Read the full article",
       "publishedAt": "2026-09-16T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Red Hat OpenShift with hosted control planes",
+      "link": "https://azure.microsoft.com/updates?id=571621",
+      "summary": "Azure Red Hat OpenShift with hosted control planes is now in public preview. It is a new deployment option for Azure Red Hat OpenShift that runs the OpenShift control plane as a fully managed service, separate from the worker nodes that run customer appli",
+      "publishedAt": "2026-09-16T14:13:08.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: PostgreSQL skills and MCP plugin for Azure Database for PostgreSQL",
+      "link": "https://azure.microsoft.com/updates?id=569664",
+      "summary": "The PostgreSQL skills and MCP plugin turns supported AI coding assistants into context-aware PostgreSQL experts that can both provide guidance and act on a connected database. The bundled plugin combines expert-curated skills for PostgreSQL and Azure Data",
+      "publishedAt": "2026-09-16T14:07:14.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -73,6 +105,14 @@
       "link": "https://devblogs.microsoft.com/powerplatform/azure-managed-redis-migration",
       "summary": "The engineering journey behind an Azure Managed Redis migration for Copilot Studio agent flows Microsoft Copilot Studio helps organizations build agents and automate business processes. Agent flows let those agents carry out repeatable work across conne",
       "publishedAt": "2026-09-15T15:47:43.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+      "summary": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely.",
+      "publishedAt": "2026-09-15T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -271,6 +311,14 @@
       "category": "Microsoft 365",
       "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+      "summary": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI.",
+      "publishedAt": "2026-09-10T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
       "summary": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI.",
       "publishedAt": "2026-09-10T16:00:00.000Z"
     },
@@ -600,6 +648,14 @@
       "title": "How Microsoft&#8217;s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop",
       "link": "https://azure.microsoft.com/en-us/blog/how-microsofts-physical-security-engineering-team-scaled-hybrid-operations-with-azure-arc-and-azure-virtual-desktop/",
       "summary": "Learn how Microsoft used Azure Arc and Azure Virtual Desktop to simplify hybrid security operations, improve visibility, and scale globally.",
+      "publishedAt": "2026-09-03T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "PPCC 2026: Bringing AI and your business processes together",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+      "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together.",
       "publishedAt": "2026-09-03T15:00:00.000Z"
     },
     {
@@ -2467,6 +2523,14 @@
       "publishedAt": "2026-07-30T13:00:00.000Z"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "The next measure of AI momentum is work transformed",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+      "summary": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter.",
+      "publishedAt": "2026-07-30T13:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure Monitor Logs mirroring into Microsoft Fabric",
@@ -4091,6 +4155,14 @@
       "publishedAt": "2026-06-25T13:00:00.000Z"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Copilot in Excel: Built for the era of Frontier Finance",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+      "summary": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice.",
+      "publishedAt": "2026-06-25T13:00:00.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Azure Functions MCP Extension: What&#039;s New at Build 2026",
@@ -4559,6 +4631,14 @@
       "category": "Microsoft 365",
       "title": "Copilot Cowork is now generally available",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+      "summary": "Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we have shipped.",
+      "publishedAt": "2026-06-16T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Copilot Cowork is now generally available",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
       "summary": "Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we have shipped.",
       "publishedAt": "2026-06-16T15:00:00.000Z"
     },
@@ -6259,6 +6339,14 @@
       "publishedAt": "2026-06-02T18:00:00.000Z"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Introducing Microsoft Scout: Your always-on personal agent",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
+      "summary": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work.",
+      "publishedAt": "2026-06-02T18:00:00.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Microsoft Build 2026: Securing code, agents, and models across the development lifecycle",
@@ -6271,6 +6359,14 @@
       "category": "Microsoft 365",
       "title": "Announcing the new Work IQ APIs",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
+      "summary": "Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations.",
+      "publishedAt": "2026-06-02T17:00:15.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Announcing the new Work IQ APIs",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/06/02/announcing-the-new-work-iq-apis/",
       "summary": "Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations.",
       "publishedAt": "2026-06-02T17:00:15.000Z"
     },
@@ -6407,6 +6503,14 @@
       "category": "Microsoft 365",
       "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
+      "summary": "On July 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work.",
+      "publishedAt": "2026-05-28T19:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
       "summary": "On July 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work.",
       "publishedAt": "2026-05-28T19:00:00.000Z"
     },
