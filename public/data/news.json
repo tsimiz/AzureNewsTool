@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T12:09:24.227Z",
-  "itemCount": 1092,
+  "generatedAt": "2026-09-17T18:07:37.029Z",
+  "itemCount": 1109,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,54 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.139 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.139-(insiders)",
+      "summary": "Learn what is new in Visual Studio Code 1.139 (Insiders) Read the full article",
+      "publishedAt": "2026-09-23T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing Microsoft Desired State Configuration v3.3.0",
+      "link": "https://devblogs.microsoft.com/powershell/announcing-dsc-v3-3-0",
+      "summary": "We're excited to announce the General Availability of Microsoft Desired State Configuration (DSC) v3.3.0. This release delivers three new built-in Windows resources, a new registry-backed adapter, expanded --what-if support, experimental export filtering, expression function updates, and Li",
+      "publishedAt": "2026-09-17T14:57:07.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Bringing Correctly Rounded Math to Production with LLVM-libc",
+      "link": "https://devblogs.microsoft.com/cppblog/bringing-correctly-rounded-math-to-production-with-llvm-libc",
+      "summary": "As we mentioned in the last cmath blog post, MSVC is using LLVM-libc for compile-time evaluation and runtime execution of math functions when /Zc:cmath is enabled. I invited LLVM-libc contributors Michael Jones and Tue Ly to w",
+      "publishedAt": "2026-09-16T22:09:50.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Auto SR Comes to Intel Core Ultra Series-3 Processors",
+      "link": "https://devblogs.microsoft.com/directx/autosr-on-intel",
+      "summary": "Today, we’re excited to announce we’re expanding the availability of Auto SR to Intel Core Ultra Series 3-based Copilot+ PCs. This builds off our previous expansion of Automatic Super Resolution (Auto SR) to support",
+      "publishedAt": "2026-09-16T21:07:56.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build Your Own AI Agent Harness in C#, the MafClaw Live Series",
+      "link": "https://devblogs.microsoft.com/dotnet/build-your-own-ai-agent-harness-in-csharp-the-maf-claw-live-series",
+      "summary": "A few weeks ago I wrote about going from dotnet run to a Foundry Hosted Agent in three lines of C#. The feedback was great. Developers liked the deployment story, the managed infrastructure, and especially the part",
+      "publishedAt": "2026-09-16T21:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "From Specialist Agents to Distributed Skills over MCP",
+      "link": "https://devblogs.microsoft.com/agent-framework/from-specialist-agents-to-distributed-skills-over-mcp",
+      "summary": "Keep your domain services distributed. Move the specialist's instructions, not another model, into the orchestrator. A multi-agent system often starts with a straightforward design: one agent understands the user's request, delegates to specialist agents, and combines their answers. That was the starting point for my ski resort",
+      "publishedAt": "2026-09-16T18:59:47.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Retirement Update: SAP container images removed October 14, 2026",
@@ -59,6 +107,30 @@
       "publishedAt": "2026-09-16T17:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.138",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.138",
+      "summary": "Learn what is new in Visual Studio Code 1.138 Read the full article",
+      "publishedAt": "2026-09-16T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.138 (Insiders)",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-138-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.138 (Insiders) Read the full article",
+      "publishedAt": "2026-09-16T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Investing in a more reliable Microsoft Graph PowerShell experience",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/investing-in-a-more-reliable-microsoft-graph-powershell-experience",
+      "summary": "We're focusing Microsoft Graph PowerShell on the platform where we can give you the most reliable, capable, and well-maintained experience: PowerShell 7",
+      "publishedAt": "2026-09-16T16:02:40.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure Red Hat OpenShift with hosted control planes",
@@ -73,6 +145,54 @@
       "link": "https://azure.microsoft.com/updates?id=569664",
       "summary": "The PostgreSQL skills and MCP plugin turns supported AI coding assistants into context-aware PostgreSQL experts that can both provide guidance and act on a connected database. The bundled plugin combines expert-curated skills for PostgreSQL and Azure Data",
       "publishedAt": "2026-09-16T14:07:14.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "AI Is Changing How We Code. It’s Also Changing How We Learn.",
+      "link": "https://devblogs.microsoft.com/visualstudio/ai-is-changing-how-we-code-its-also-changing-how-we-learn",
+      "summary": "",
+      "publishedAt": "2026-09-16T14:00:09.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Magic statics vs. std::call_once",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260916-00/?p=112703",
+      "summary": "Suppose you have some function like bool should_use_widgets() { bool supported = ⟦ complex code to check OS features ⟧; return supported && is_configuration_enabled(\"widgets\"); } Since OS Widget support is not something that changes during the lifetime of the program, you want to calculate it on",
+      "publishedAt": "2026-09-16T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Your AI coding agent evaluation is only as good as its sandbox",
+      "link": "https://devblogs.microsoft.com/blog/your-ai-coding-agent-evaluation-is-only-as-good-as-its-sandbox",
+      "summary": "A passing agent evaluation can prove the wrong thing. The answer might be correct while the measurement behind it is invalid. An AI coding agent can generate an answer from internal knowledge and related patterns. But it can also adapt information from the prompt or retrieve evidence from its environment. Each route demonstrates a different",
+      "publishedAt": "2026-09-16T09:09:51.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Important updates: GitHub Copilot support ending for JetBrains 2025.1.x",
+      "link": "https://devblogs.microsoft.com/java/github-copilot-support-ending-for-jetbrains-2025-1-x",
+      "summary": "To deliver new features faster and continue improving stability and performance, the GitHub Copilot plugin will end support for JetBrains IDEs version 2025.1.x (JetBrains platform build 251). Focusing on newer IDE versions helps us bring you new capabilities more quickly and maint",
+      "publishedAt": "2026-09-16T06:17:08.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Building the new GitHub Copilot Inline Suggestions Model: Part One",
+      "link": "https://devblogs.microsoft.com/vscode-blog/building-the-new-github-copilot-inline-suggestions-model:-part-one",
+      "summary": "Explore how GitHub Copilot unified completion, next edit, and long-distance suggestions into one model for a faster, more cohesive coding experience. Read the full article",
+      "publishedAt": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing Foundry Dev Pack: One Command to Start Building",
+      "link": "https://devblogs.microsoft.com/foundry/foundry-devpack-announcement",
+      "summary": "Setting up your Microsoft Foundry environment just got a lot simpler. We launched Foundry Dev Pack to consolidate initial installation steps into a single setup process. The Foundry Dev Pack is an all-in-one installer that prepares your machine for Foundry development by installing the tools that you’ll need across your terminal, IDE, or",
+      "publishedAt": "2026-09-15T19:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -117,6 +237,14 @@
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
+      "title": "Why do Microsoft job levels start in the high 50&#039;s instead of starting at a sane number like 1?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260915-00/?p=112700",
+      "summary": "Those unfamiliar with the Microsoft job level nomenclature are probably very confused that the entry-level full-time software engineering position is described as level 59, with increasing numbers as you get promoted. Why does it start at 59? Why not start with 1 like a sane person? The level numbers used to start with 1. In",
+      "publishedAt": "2026-09-15T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
       "title": "Coding agents are picking Azure SQL Database",
       "link": "https://devblogs.microsoft.com/azure-sql/coding-agents-are-picking-azure-sql-database",
       "summary": "I went looking for Azure SQL Database in a recent coding agent benchmark, honestly unsure whether Microsoft SQL would show up. Armature ran a study where real coding agent CLIs (Claude Code, Codex, Cursor) were dropped into",
@@ -137,6 +265,14 @@
       "link": "https://devblogs.microsoft.com/cppblog/c-in-the-age-of-ai-visual-studio-at-cppcon-2026",
       "summary": "At CppCon 2026, we shared how Visual Studio is evolving to help you work more effectively with large C++ codebases, improve build and runtime performance, adopt the latest language features, and incorporate AI into your existing workflows. This post is a companion reading guide for our session,",
       "publishedAt": "2026-09-14T19:34:43.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Intelligent Terminal 0.2.2572: Faster, Smoother, and More Reliable",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-25-performance-reliability",
+      "summary": "We're back with Intelligent Terminal v0.2.2572, and this one is all about making things faster, easier to use, more reliable, and more polished. This release lands over 60 fixes and improvements as well as API key support for local models, automatic approval for supported agents, and native slash commands y",
+      "publishedAt": "2026-09-14T19:00:09.000Z"
     },
     {
       "source": "Azure Updates",
