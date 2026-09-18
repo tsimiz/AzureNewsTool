@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T12:08:52.268Z",
-  "itemCount": 1114,
+  "generatedAt": "2026-09-18T18:06:59.850Z",
+  "itemCount": 1123,
   "sources": [
     {
       "name": "Azure Updates",
@@ -45,6 +45,62 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "[In preview] Public Preview: Mdsv4 and Msv4 Series Virtual Machines for SAP",
+      "link": "https://azure.microsoft.com/updates?id=571530",
+      "summary": "The Mdsv4 and Msv4 Series are memory-optimized virtual machine series built on 6th Generation Intel® Xeon® Scalable processors and enhanced with advanced security capabilities and the latest Azure Boost technologies. Designed for demanding memory-intensiv",
+      "publishedAt": "2026-09-18T17:29:29.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Enable and disable controls for Microsoft Foundry agents in Agent 365",
+      "link": "https://azure.microsoft.com/updates?id=571826",
+      "summary": "Microsoft Foundry now exposes enable and disable actions for Foundry agent objects within the Agent 365 governance surface in Microsoft Admin Center, generally available. Administrators can control whether a Foundry agent is available for use across their",
+      "publishedAt": "2026-09-18T17:24:02.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Network egress controls for hosted agents in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=571821",
+      "summary": "In public preview, Microsoft Foundry now lets customers govern the outbound connections a hosted agent can make. Customers author ordered rules matched on destination host, including FQDN with wildcards such as *.contoso.com, with actions to allow, deny,",
+      "publishedAt": "2026-09-18T17:23:21.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Publishing Microsoft Foundry agents to Microsoft 365 Copilot and Teams",
+      "link": "https://azure.microsoft.com/updates?id=571816",
+      "summary": "Publishing Microsoft Foundry agents to Microsoft 365 Copilot and Teams is now generally available. An agent only delivers value once it reaches the people who need it, and Foundry developers previously had no native path to make their agents operational a",
+      "publishedAt": "2026-09-18T17:21:06.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Logical replication slot sync status metric for Azure PostgreSQL Flexible Server",
+      "link": "https://azure.microsoft.com/updates?id=568414",
+      "summary": "You can now monitor the synchronization status of your logical replication slots in Azure Database for PostgreSQL – Flexible Server using the new logical_replication_slot_sync_status metric. This Azure Monitor metric shows whether each logical replication",
+      "publishedAt": "2026-09-18T16:44:11.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: New and improved troubleshooting guides for Azure Database for PostgreSQL",
+      "link": "https://azure.microsoft.com/updates?id=571042",
+      "summary": "Updated troubleshooting guidance is now available for Azure Database for PostgreSQL flexible server. You can use the expanded documentation to diagnose high CPU, memory, IOPS, temporary file usage, and autovacuum issues, helping you identify root causes a",
+      "publishedAt": "2026-09-18T15:51:06.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: PG18 support for Azure Database for PostgreSQL elastic clusters",
+      "link": "https://azure.microsoft.com/updates?id=571047",
+      "summary": "Azure Database for PostgreSQL elastic clusters now support PostgreSQL 18, bringing the latest PostgreSQL capabilities to distributed, cloud-scale workloads. You can build new applications or modernize existing ones with the performance, reliability, and d",
+      "publishedAt": "2026-09-18T15:49:46.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[In preview] Public Preview: Azure Payments HSM v2",
       "link": "https://azure.microsoft.com/updates?id=570509",
       "summary": "Azure Payments HSM v2 is a highly available, single-tenant Payment HSM service for payment processing, credential issuance, PIN processing, key management, and authentication data protection. Customers retain exclusive administrative control of an isolate",
@@ -73,6 +129,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/",
       "summary": "The latest email security benchmarking reports show strong Microsoft Defender performance across pre-delivery and post-delivery scenarios and reveal where threats and defenses continue to evolve.",
       "publishedAt": "2026-09-17T16:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "What’s new in Power Platform: September 2026 feature update",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/whats-new-in-power-platform-september-2026-feature-update/",
+      "summary": "Power Platform Build hands-on Power Platform and AI expertise with Power Series Developed by the Power CAT team, Power Series is now available with 20 hands-on labs that help customers, partners, and field teams build practical Power Platform and AI skills at their own pace.",
+      "publishedAt": "2026-09-17T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -169,6 +233,14 @@
       "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
       "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.",
       "publishedAt": "2026-09-16T16:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Microsoft-Managed SSL/TLS Certificates for Custom Domains Now Available in Power Pages",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/microsoft-managed-ssl-tls-certificates-for-custom-domains-now-available-in-power-pages/",
+      "summary": "We&#8217;re excited to announce that Microsoft-managed SSL/TLS certificates are now available for custom domains in Power Pages. When you connect a custom domain, you can now choose an SSL/TLS certificate that Microsoft provisions, configures, and renews for you.",
+      "publishedAt": "2026-09-16T14:43:20.000Z"
     },
     {
       "source": "Azure Updates",
