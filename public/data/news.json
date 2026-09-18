@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T18:07:37.029Z",
-  "itemCount": 1109,
+  "generatedAt": "2026-09-18T00:16:15.937Z",
+  "itemCount": 1113,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,38 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.139-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.139 (Insiders) Read the full article",
       "publishedAt": "2026-09-23T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Payments HSM v2",
+      "link": "https://azure.microsoft.com/updates?id=570509",
+      "summary": "Azure Payments HSM v2 is a highly available, single-tenant Payment HSM service for payment processing, credential issuance, PIN processing, key management, and authentication data protection. Customers retain exclusive administrative control of an isolate",
+      "publishedAt": "2026-09-17T18:36:44.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: High-scale mesh in Azure Virtual Network Manager",
+      "link": "https://azure.microsoft.com/updates?id=571572",
+      "summary": "High-scale mesh using connected group in Azure Virtual Network Manager is now in general availability. In available regions, customers may connect up to 3,000 virtual networks in a single mesh connectivity configuration by default and higher scale IP conn",
+      "publishedAt": "2026-09-17T17:40:33.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "From guidance to action: Security fundamentals that materially reduce risk",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/17/from-guidance-to-action-security-fundamentals-that-materially-reduce-risk/",
+      "summary": "AI has made fundamental changes to the operating environment for cybersecurity. Explore exposure management guidance on recommended controls and take action and stay ahead of cyberthreats.",
+      "publishedAt": "2026-09-17T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Improving email security outcomes with real-world Microsoft Defender insights",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/",
+      "summary": "The latest email security benchmarking reports show strong Microsoft Defender performance across pre-delivery and post-delivery scenarios and reveal where threats and defenses continue to evolve.",
+      "publishedAt": "2026-09-17T16:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
