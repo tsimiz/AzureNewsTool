@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T06:10:09.614Z",
-  "itemCount": 1113,
+  "generatedAt": "2026-09-18T12:08:52.268Z",
+  "itemCount": 1114,
   "sources": [
     {
       "name": "Azure Updates",
@@ -161,6 +161,14 @@
       "link": "https://devblogs.microsoft.com/microsoft365dev/investing-in-a-more-reliable-microsoft-graph-powershell-experience",
       "summary": "We're focusing Microsoft Graph PowerShell on the platform where we can give you the most reliable, capable, and well-maintained experience: PowerShell 7",
       "publishedAt": "2026-09-16T16:02:40.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
+      "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
+      "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more.",
+      "publishedAt": "2026-09-16T16:00:00.000Z"
     },
     {
       "source": "Azure Updates",
