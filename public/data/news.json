@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T18:06:59.850Z",
-  "itemCount": 1123,
+  "generatedAt": "2026-09-19T00:16:00.880Z",
+  "itemCount": 1124,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.139-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.139 (Insiders) Read the full article",
       "publishedAt": "2026-09-23T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Foundry Routines in Foundry Agent Service",
+      "link": "https://azure.microsoft.com/updates?id=563536",
+      "summary": "In public preview, Foundry Agent Service adds Foundry Routines, a native trigger primitive for running published agents automatically. Production agents often need to run on a schedule or when a business event occurs, and today that means assembling exter",
+      "publishedAt": "2026-09-18T19:10:53.000Z"
     },
     {
       "source": "Azure Updates",
