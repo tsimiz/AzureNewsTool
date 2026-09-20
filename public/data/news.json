@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T00:18:10.750Z",
-  "itemCount": 1124,
+  "generatedAt": "2026-09-20T06:09:38.965Z",
+  "itemCount": 1125,
   "sources": [
     {
       "name": "Azure Updates",
@@ -105,6 +105,14 @@
       "link": "https://azure.microsoft.com/updates?id=571047",
       "summary": "Azure Database for PostgreSQL elastic clusters now support PostgreSQL 18, bringing the latest PostgreSQL capabilities to distributed, cloud-scale workloads. You can build new applications or modernize existing ones with the performance, reliability, and d",
       "publishedAt": "2026-09-18T15:49:46.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Extend Server Logic with Power Automate Cloud Flows in Power Pages",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/extend-server-logic-with-power-automate-cloud-flows-in-power-pages/",
+      "summary": "Server Logic enables makers and developers to execute business logic securely on the server. However, connected business applications often need website experiences to participate in processes that extend beyond the site. We are introducing support for invoking Power Automate cloud flows from Server Logic in Power Pages.",
+      "publishedAt": "2026-09-18T14:44:18.000Z"
     },
     {
       "source": "Azure Updates",
