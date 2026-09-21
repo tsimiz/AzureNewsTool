@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T12:09:01.184Z",
-  "itemCount": 1125,
+  "generatedAt": "2026-09-21T18:07:24.183Z",
+  "itemCount": 1127,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,22 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.139-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.139 (Insiders) Read the full article",
       "publishedAt": "2026-09-23T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
+      "link": "https://azure.microsoft.com/updates?id=572214",
+      "summary": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or ma",
+      "publishedAt": "2026-09-21T16:58:19.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Functions support for PowerShell 7.6",
+      "link": "https://azure.microsoft.com/updates?id=572219",
+      "summary": "Azure Functions support for PowerShell 7.6 is now generally available. You can now develop apps using PowerShell 7.6 locally and deploy them to Azure Functions plans. Learn more: Updating your app to PowerShell 7.6 What's new in PowerShell 7.6? Azure",
+      "publishedAt": "2026-09-21T16:55:34.000Z"
     },
     {
       "source": "Azure Updates",
