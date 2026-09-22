@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T18:07:24.183Z",
-  "itemCount": 1127,
+  "generatedAt": "2026-09-22T00:16:24.355Z",
+  "itemCount": 1128,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.139-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.139 (Insiders) Read the full article",
       "publishedAt": "2026-09-23T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Sphere OS version 26.09 is now available",
+      "link": "https://azure.microsoft.com/updates?id=572579",
+      "summary": "Azure Sphere OS version 26.09 is now available in the Retail feed. This release includes updates to the Azure Sphere OS only, with no update to the SDK. If your devices are connected to the internet, they will receive the updated OS from the cloud.The 26.",
+      "publishedAt": "2026-09-21T18:44:49.000Z"
     },
     {
       "source": "Azure Updates",
