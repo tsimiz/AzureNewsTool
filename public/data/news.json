@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T12:08:58.047Z",
-  "itemCount": 1128,
+  "generatedAt": "2026-09-22T18:07:57.397Z",
+  "itemCount": 1142,
   "sources": [
     {
       "name": "Azure Updates",
@@ -43,6 +43,62 @@
       "publishedAt": "2026-09-23T17:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Today I will... debug a production crash",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-debug-a-production-crash",
+      "summary": "We've all experienced this, the desktop application is hanging, the window is greyed out, and we're just waiting for it to start to respond. Or we're on a website and are sure that it was going to load faster than this, but we're just waiting the loading icon spin around and around. These sorts of problems, when they happen in production, c",
+      "publishedAt": "2026-09-22T17:05:25.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Creating a memory dump in C#",
+      "link": "https://devblogs.microsoft.com/dotnet/creating-a-memory-dump-in-csharp",
+      "summary": "When applications crash in production, how much do we actually know about what happened? And more importantly, how easy is it to debug what happened so that we can fix the bug? Let's learn how easy it is to capture a memory dump so that we can debug it. Why Create a Memory Dump You know that moment when you're in a desktop a",
+      "publishedAt": "2026-09-22T17:05:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Footprint vs Payload files",
+      "link": "https://devblogs.microsoft.com/insidemsix/msix-footprint-vs-payload-files",
+      "summary": "Payload files Payload files are files stored in and delivered by the package. This includes your code, assets, and data, such as executables, DLLs, images, configuration files, and resources. For example: MyApp.exe MyLibrary.dll Assets\\Logo.png Config\\defaults.json",
+      "publishedAt": "2026-09-22T16:00:56.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Using Azure Blob Storage as a durable filesystem for LangChain Deep Agents",
+      "link": "https://devblogs.microsoft.com/azure-sdk/using-azure-blob-storage-as-a-durable-filesystem-for-langchain-deep-agents-2",
+      "summary": "",
+      "publishedAt": "2026-09-22T15:00:44.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
+      "summary": "EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and operations.",
+      "publishedAt": "2026-09-22T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Foundry hosted agent isolation with Microsoft Agent Framework",
+      "link": "https://devblogs.microsoft.com/agent-framework/foundry-hosted-agent-isolation-with-microsoft-agent-framework",
+      "summary": "Foundry hosted agent isolation exposes two independent controls. User isolation identifies whose data may be used. At the same time, Foundry hosted session isolation identifies where code and files continue to live. For each control, Foundry can resolve the value or the application can provide it. Therefore, the available",
+      "publishedAt": "2026-09-22T10:14:52.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "PostgreSQL to SQL Field Notes: Date & Time",
+      "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-date-time",
+      "summary": "Welcome to SQL First, welcome to SQL! You're going to like this. Upgrading from PostgreSQL is real work, and depending on your old PostgreSQL, that process ca",
+      "publishedAt": "2026-09-21T22:44:58.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Azure Sphere OS version 26.09 is now available",
@@ -65,6 +121,30 @@
       "link": "https://azure.microsoft.com/updates?id=572219",
       "summary": "Azure Functions support for PowerShell 7.6 is now generally available. You can now develop apps using PowerShell 7.6 locally and deploy them to Azure Functions plans. Learn more: Updating your app to PowerShell 7.6 What's new in PowerShell 7.6? Azure",
       "publishedAt": "2026-09-21T16:55:34.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What&#039;s the highest legal FILETIME ? Is it safe to use?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260921-00/?p=112711",
+      "summary": "A customer wanted to define a sentinel FILETIME that will be considered larger than another FILETIME. In other words, Compare­File­Time should always say that the sentinel value is later. What's a good value to use? Strictly according to the definition, the FILETIME consists of t",
+      "publishedAt": "2026-09-21T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Knowledge cutoff is a poor proxy for model capability",
+      "link": "https://devblogs.microsoft.com/blog/knowledge-cutoff-is-a-poor-proxy-for-model-capability",
+      "summary": "A model's knowledge cutoff marks the latest date its training data could cover. But its actual knowledge of a product might end years earlier or be absent entirely. I learned this while trying to answer what seemed like a straightforward question: how much does a model know about a product? If the model's knowledge ended around a particular",
+      "publishedAt": "2026-09-21T07:51:46.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
+      "link": "https://devblogs.microsoft.com/cosmosdb/spec-driven-development-comes-to-azure-cosmos-db-the-first-database-extension-for-github-spec-kit",
+      "summary": "AI coding agents can write much of an application's code, but developers still need to review the decisions behind it. For a Cosmos DB application, that includes choosing partition keys, modeling access patterns, and configuring the client. Those decisions affect cost, performance, and reliability long after the code compiles.",
+      "publishedAt": "2026-09-21T07:00:11.000Z"
     },
     {
       "source": "Azure Updates",
@@ -139,6 +219,22 @@
       "publishedAt": "2026-09-18T14:44:18.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Comparing exception behavior of magic statics, std:: call_ once , and std:: async",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260918-00/?p=112709",
+      "summary": "We've been comparing magic statics, std::call_once, and std::async",
+      "publishedAt": "2026-09-18T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Power Platform CLI ❤️ Power Platform API",
+      "link": "https://devblogs.microsoft.com/powerplatform/power-platform-cli-%e2%9d%a4%ef%b8%8f-power-platform-api",
+      "summary": "Historically, Power Platform administrators and developers have automated management tasks through a mix of tools. A capability might exist in the admin center, use a different name in PowerShell, have a custom shape in a connector, or not yet be available in the command line. Each tool could be valuable, but moving between them often meant",
+      "publishedAt": "2026-09-17T18:40:24.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure Payments HSM v2",
@@ -185,6 +281,14 @@
       "link": "https://devblogs.microsoft.com/powershell/announcing-dsc-v3-3-0",
       "summary": "We're excited to announce the General Availability of Microsoft Desired State Configuration (DSC) v3.3.0. This release delivers three new built-in Windows resources, a new registry-backed adapter, expanded --what-if support, experimental export filtering, expression function updates, and Li",
       "publishedAt": "2026-09-17T14:57:07.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "std::call_once vs. std::async",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260917-00/?p=112706",
+      "summary": "Last time, we compared magic statics with std::call_once and concluded that std::call_once lets you construct magic statics-like behavior for non-static variables. But there is also",
+      "publishedAt": "2026-09-17T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -256,6 +360,14 @@
       "title": "Visual Studio Code 1.138 (Insiders)",
       "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-138-insiders",
       "summary": "Learn what's new in Visual Studio Code 1.138 (Insiders) Read the full article",
+      "publishedAt": "2026-09-16T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.138",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-138-insiders",
+      "summary": "Learn what is new in Visual Studio Code 1.138 Read the full article",
       "publishedAt": "2026-09-16T17:00:00.000Z"
     },
     {
