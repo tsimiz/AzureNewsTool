@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T12:09:35.005Z",
-  "itemCount": 1146,
+  "generatedAt": "2026-09-23T18:08:16.317Z",
+  "itemCount": 1149,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,30 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.139-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.139 (Insiders) Read the full article",
       "publishedAt": "2026-09-23T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Support for PowerShell 7.4 ends on November 10, 2026",
+      "link": "https://azure.microsoft.com/updates?id=572770",
+      "summary": "Support for PowerShell 7.4 will end on November 10, 2026, please transition to PowerShell 7.6. Your Azure Function apps will continue to run, but security patches and updates will no longer be provided and customer support for PowerShell 7.4 will be disco",
+      "publishedAt": "2026-09-23T16:50:05.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Support for .NET 8 and .NET 9 ends on November 10, 2026—upgrade your apps to .NET 10",
+      "link": "https://azure.microsoft.com/updates?id=572838",
+      "summary": "Support for .NET 8 and .NET 9 will end on November 10, 2026. Please transition to .NET 10 by that date. Your Azure Function Apps will continue to operate, but security updates will no longer be provided, and support for .NET 8 and .NET 9 on Azure Function",
+      "publishedAt": "2026-09-23T16:46:49.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Reimagining the SOC for the agentic era in Microsoft Defender",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/",
+      "summary": "We are announcing ISOC in Microsoft Defender: a foundation built for agentic security that brings leading solutions for SIEM and threat protection together.",
+      "publishedAt": "2026-09-23T16:00:00.000Z"
     },
     {
       "source": "Azure Updates",
