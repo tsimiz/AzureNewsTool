@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T18:07:57.397Z",
-  "itemCount": 1142,
+  "generatedAt": "2026-09-23T00:15:39.721Z",
+  "itemCount": 1144,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,22 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.139-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.139 (Insiders) Read the full article",
       "publishedAt": "2026-09-23T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Support for Node.js 22 ends on April 30, 2027",
+      "link": "https://azure.microsoft.com/updates?id=572771",
+      "summary": "Support for Node.js 22 will end on April 30, 2027, please transition to Node.js 24 by that date. Your Azure Function apps will continue to run, but security patches and updates will no longer be provided and customer support for Node.js 22 will be discont",
+      "publishedAt": "2026-09-22T19:22:34.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Flex Nodes for AKS",
+      "link": "https://azure.microsoft.com/updates?id=571919",
+      "summary": "Flex Nodes for AKS is a deployment option for application and platform teams to use hybrid and edge infrastructure as connected worker nodes to an AKS control plane in Azure. Flex Nodes provide a consistent Kubernetes control plane while enabling teams to",
+      "publishedAt": "2026-09-22T18:51:48.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
