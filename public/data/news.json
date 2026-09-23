@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T06:10:27.600Z",
-  "itemCount": 1144,
+  "generatedAt": "2026-09-23T12:09:35.005Z",
+  "itemCount": 1146,
   "sources": [
     {
       "name": "Azure Updates",
@@ -59,6 +59,14 @@
       "publishedAt": "2026-09-22T18:51:48.000Z"
     },
     {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
+      "summary": "Explore GPT-6 Astra, Sol, and GPT-6 Luna in Microsoft Foundry, with scalable model options for production AI agents, complex workflows, and high-volume tasks.",
+      "publishedAt": "2026-09-22T18:30:00.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Today I will... debug a production crash",
@@ -73,6 +81,14 @@
       "link": "https://devblogs.microsoft.com/dotnet/creating-a-memory-dump-in-csharp",
       "summary": "When applications crash in production, how much do we actually know about what happened? And more importantly, how easy is it to debug what happened so that we can fix the bug? Let's learn how easy it is to capture a memory dump so that we can debug it. Why Create a Memory Dump You know that moment when you're in a desktop a",
       "publishedAt": "2026-09-22T17:05:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
+      "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051",
+      "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process.",
+      "publishedAt": "2026-09-22T17:00:25.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
