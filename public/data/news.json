@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T18:08:16.317Z",
-  "itemCount": 1149,
+  "generatedAt": "2026-09-24T00:15:43.268Z",
+  "itemCount": 1152,
   "sources": [
     {
       "name": "Azure Updates",
@@ -65,6 +65,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/",
       "summary": "We are announcing ISOC in Microsoft Defender: a foundation built for agentic security that brings leading solutions for SIEM and threat protection together.",
       "publishedAt": "2026-09-23T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Building the system for AI at work",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
+      "summary": "There's no shortage of sound and fury in AI right now.",
+      "publishedAt": "2026-09-23T15:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -6779,6 +6787,14 @@
       "publishedAt": "2026-06-02T19:00:47.000Z"
     },
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Container Apps Sandboxes",
+      "link": "https://azure.microsoft.com/updates?id=561262",
+      "summary": "Teams building agentic applications, multi-tenant platforms, development environments, and CI/CD systems have often had to stitch together custom infrastructure to run untrusted code safely, preserve state across sessions, and handle bursty demand without",
+      "publishedAt": "2026-06-02T19:00:47.000Z"
+    },
+    {
       "source": "Azure Blog",
       "category": "Azure",
       "title": "Announcing Microsoft Discovery general availability and Microsoft Discovery app preview",
@@ -7616,6 +7632,14 @@
       "title": "[In preview] Public Preview: Azure Container Apps Express",
       "link": "https://azure.microsoft.com/updates?id=559242",
       "summary": "Azure Container Apps Express is now available in public preview. It is the simplest and fastest way to launch and scale powerful applications on Azure, from zero to hyperscale, without infrastructure decisions. It represents the first Azure compute platfo",
+      "publishedAt": "2026-05-13T17:30:20.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Container Apps Express",
+      "link": "https://azure.microsoft.com/updates?id=559242",
+      "summary": "Azure Container Apps Express is now generally available. It is the simplest and fastest way to launch and scale powerful applications on Azure, from zero to hyperscale, without infrastructure decisions. It represents the first Azure compute platform purpo",
       "publishedAt": "2026-05-13T17:30:20.000Z"
     },
     {
