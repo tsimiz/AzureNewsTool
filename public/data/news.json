@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T12:09:24.192Z",
-  "itemCount": 1152,
+  "generatedAt": "2026-09-24T18:07:51.134Z",
+  "itemCount": 1153,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Instant Access for VM restore points",
+      "link": "https://azure.microsoft.com/updates?id=572573",
+      "summary": "Instant Access for application-consistent restore points on virtual machines (that have Premium v2 or Ultra disks as data disks) is now generally available. With Instant Access, you can begin restoring a disk from a restore point as soon as the snapshot i",
+      "publishedAt": "2026-09-24T16:04:16.000Z"
+    },
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
