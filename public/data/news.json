@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T12:09:29.941Z",
-  "itemCount": 1159,
+  "generatedAt": "2026-09-25T18:07:36.244Z",
+  "itemCount": 1160,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
+      "summary": "Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders.",
+      "publishedAt": "2026-09-25T15:35:08.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
