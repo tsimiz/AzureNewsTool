@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T18:07:51.134Z",
-  "itemCount": 1153,
+  "generatedAt": "2026-09-25T00:16:55.457Z",
+  "itemCount": 1157,
   "sources": [
     {
       "name": "Azure Updates",
@@ -37,10 +37,34 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "Retirement: Azure Communication Services (ACS) standalone services will be retired on September 30, 2028",
+      "link": "https://azure.microsoft.com/updates?id=557117",
+      "summary": "Microsoft will retire several standalone Azure Communication Services (ACS) offerings on September 30, 2028. After this date, the affected services will no longer be available. Details Beginning September 30, 2028, the following ACS services will be reti",
+      "publishedAt": "2026-09-24T17:51:23.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[Launched] Generally Available: Instant Access for VM restore points",
       "link": "https://azure.microsoft.com/updates?id=572573",
       "summary": "Instant Access for application-consistent restore points on virtual machines (that have Premium v2 or Ultra disks as data disks) is now generally available. With Instant Access, you can begin restoring a disk from a restore point as soon as the snapshot i",
       "publishedAt": "2026-09-24T16:04:16.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
+      "summary": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment.",
+      "publishedAt": "2026-09-24T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "​​​​​​​​What’s new in Microsoft Security: September 2026​​",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/",
+      "summary": "This month's updates help you discover and control local AI agents, extend Zero Trust to agent traffic, and strengthen SOC foundations.",
+      "publishedAt": "2026-09-24T16:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -81,6 +105,14 @@
       "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
       "summary": "There's no shortage of sound and fury in AI right now.",
       "publishedAt": "2026-09-23T15:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Modern List in Power Pages is now generally available",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/modern-list-in-power-pages-is-now-generally-available/",
+      "summary": "Today, we&#8217;re announcing the general availability of Modern List in Power Pages, a refreshed data presentation experience that helps makers showcase Dataverse data with modern Fluent UI components, seamless infinite scrolling, inline filtering, shimmer loading, flexible low-code customization and custom JavaScript support.",
+      "publishedAt": "2026-09-23T06:50:12.000Z"
     },
     {
       "source": "Azure Updates",
