@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T18:07:36.244Z",
-  "itemCount": 1160,
+  "generatedAt": "2026-09-26T00:16:12.014Z",
+  "itemCount": 1162,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,28 @@
   ],
   "items": [
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure HorizonDB supports PostgreSQL 18",
+      "link": "https://azure.microsoft.com/updates?id=573048",
+      "summary": "Azure HorizonDB is a fully managed, PostgreSQL-compatible, cloud-native database service designed for scalable, high-performance workloads.Azure HorizonDB, now in public preview, includes PostgreSQL 18 support.Learn more.",
+      "publishedAt": "2026-09-25T18:07:26.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
       "summary": "Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders.",
       "publishedAt": "2026-09-25T15:35:08.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Introducing the new Copilot with Home, Code and Autopilot",
+      "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "summary": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition.",
+      "publishedAt": "2026-09-25T12:07:25.000Z"
     },
     {
       "source": "Azure Updates",
