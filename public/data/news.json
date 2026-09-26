@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T00:16:12.014Z",
-  "itemCount": 1162,
+  "generatedAt": "2026-09-26T06:10:03.696Z",
+  "itemCount": 1181,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,44 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.140 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.140-(insiders)",
+      "summary": "Learn what's new in Visual Studio Code 1.140 (Insiders) Read the full article",
+      "publishedAt": "2026-09-30T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code CMake Tools 1.24",
+      "link": "https://devblogs.microsoft.com/cppblog/visual-studio-code-cmake-tools-1-24",
+      "summary": "CMake Tools 1.24 includes several reliability fixes and productivity improvements. You can run tests from the editor, save preset-backed cache edits as user overrides, and keep source-file lists up to date. See the CMake Tools release page and",
+      "publishedAt": "2026-09-25T22:38:54.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure HorizonDB supports PostgreSQL 18",
       "link": "https://azure.microsoft.com/updates?id=573048",
       "summary": "Azure HorizonDB is a fully managed, PostgreSQL-compatible, cloud-native database service designed for scalable, high-performance workloads.Azure HorizonDB, now in public preview, includes PostgreSQL 18 support.Learn more.",
       "publishedAt": "2026-09-25T18:07:26.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "WinAppCLI v0.7.0 - Windows Sandbox automation, Native AOT support, single-file applications, and more",
+      "link": "https://devblogs.microsoft.com/ifdef-windows/winappcli-v0-7-0-release-announcement",
+      "summary": "",
+      "publishedAt": "2026-09-25T17:44:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "AG-UI Protocol now has a first-class .NET SDK",
+      "link": "https://devblogs.microsoft.com/dotnet/ag-ui-dotnet-sdk",
+      "summary": "The .NET team is pleased to announce that we've contributed a .NET SDK for AG-UI in collaboration with CopilotKit. The AG-UI .NET SDK lives in the AG-UI reposi",
+      "publishedAt": "2026-09-25T17:05:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -51,12 +83,28 @@
       "publishedAt": "2026-09-25T15:35:08.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Debugging walkthrough: Access violation on nonsense instruction, episode 3",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260925-00/?p=112731",
+      "summary": "A customer reported that their employees were randomly getting \"memory write errors\". This was their way of interpreting the error message",
+      "publishedAt": "2026-09-25T14:00:00.000Z"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "category": "Microsoft 365",
       "title": "Introducing the new Copilot with Home, Code and Autopilot",
       "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
       "summary": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition.",
       "publishedAt": "2026-09-25T12:07:25.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Control where your hosted agent connects with network egress in Foundry Agent Service",
+      "link": "https://devblogs.microsoft.com/foundry/egress-controls-hosted-agent",
+      "summary": "Keep destination rules outside your agent code. Observe real calls, then test an explicit outbound boundary Preview. This walkthrough is for development and evaluation. Network egress controls are not GA, have no preview SLA, and are not intended for production use.",
+      "publishedAt": "2026-09-24T17:55:06.000Z"
     },
     {
       "source": "Azure Updates",
@@ -93,9 +141,73 @@
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
+      "title": "From Chatbots to Automated Agents: Routines in Microsoft Foundry Are Now Generally Available",
+      "link": "https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available",
+      "summary": "Agents are rapidly evolving beyond chat. The first generation of agents waited for a person to send a message. Today, organizations want agents that can monitor work, respond to business events, and continue tasks over time. An agent might triage a newly opened GitHub issue, respond when a message appears in a Microsoft Teams channel, prepare",
+      "publishedAt": "2026-09-24T15:00:57.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What’s new in Microsoft Agent Framework: Interactive experiences, memory, and resilient execution",
+      "link": "https://devblogs.microsoft.com/agent-framework/interactive-experiences-memory-and-resilient-execution",
+      "summary": "An agent that answers a question is a starting point. An agent that completes useful work needs more: an interface users can interact with, memory beyond the current conversation, an appropriate environment for executing code, and a way to recover when work is interrupted. Recent Microsoft Agent Framework updates address those needs across",
+      "publishedAt": "2026-09-24T15:00:14.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "No, really, you need to pass all unhandled messages to DefWindowProc, part 2",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260924-00/?p=112728",
+      "summary": "A customer reported a memory leak in Windows that occurred when they called Register­Drag­Drop followed by Revoke­Drag­Drop. They included a time travel trace of a sample program that demonstrated the problem. (Though for some reason, they didn't include the program itself; just the time travel trace.)",
+      "publishedAt": "2026-09-24T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Documentation Is the New Source Code",
+      "link": "https://devblogs.microsoft.com/ise/documentation-is-the-new-source-code",
+      "summary": "Why writing things down is the highest-leverage thing you can do when building with AI and HVE tools For most of my career, \"good documentation\" was a virtue — somewhere between writing tests and updating your status report. Nice to have. Often skipped. Quietly resented in code review. That calculation has flipped. When your d",
+      "publishedAt": "2026-09-24T07:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Microsoft is updating its author-signing certificate starting September 23, 2026",
+      "link": "https://devblogs.microsoft.com/dotnet/microsoft-author-signing-certificate-update-2026",
+      "summary": "Action required: If you validate that packages are author-signed by Microsoft using a NuGet client policy or the dotnet nuget verify command, follow the steps in this post as soon as possible to avoid potential disruptions during the transition. If you are unsure whether you are impacted, follow the steps below",
+      "publishedAt": "2026-09-23T20:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Join the Copilot Dev Camp Summit Fall Edition on September 30",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/join-the-copilot-dev-camp-summit-fall-edition-on-september-30",
+      "summary": "The very first Copilot Dev Camp Summit will take place on September 30, 2026, at 8:00 AM Pacific Time, launching a new quarterly event for the Copilot Extensibility community. This free, quarterly online event brings together developers, makers, product experts, and the bro",
+      "publishedAt": "2026-09-23T17:30:21.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
       "title": "Visual Studio Code 1.139 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.139-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.139 (Insiders) Read the full article",
+      "publishedAt": "2026-09-23T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.139",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.139",
+      "summary": "Learn what is new in Visual Studio Code 1.139 Read the full article",
+      "publishedAt": "2026-09-23T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.139",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-139-insiders",
+      "summary": "Learn what is new in Visual Studio Code 1.139 Read the full article",
       "publishedAt": "2026-09-23T17:00:00.000Z"
     },
     {
@@ -147,12 +259,44 @@
       "publishedAt": "2026-09-23T15:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "When working with Win32 FILETIME , don&#039;t forget that you have std::chrono now",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260923-00/?p=112726",
+      "summary": "Some time ago, I was looking at a pull request, and saw that the code was manually calculating the \"number of minutes since the last change\" by doing annoying math. static const DWORD c_TicksPerSecond = 10000000; static const DWORD c_SecondsPerMinute = 60; uint64_t FileTimeToULongLong(FILETIME time) { ULARGE_INTEGER valu",
+      "publishedAt": "2026-09-23T14:00:00.000Z"
+    },
+    {
       "source": "Power Platform Blog",
       "category": "Power Platform",
       "title": "Modern List in Power Pages is now generally available",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/modern-list-in-power-pages-is-now-generally-available/",
       "summary": "Today, we&#8217;re announcing the general availability of Modern List in Power Pages, a refreshed data presentation experience that helps makers showcase Dataverse data with modern Fluent UI components, seamless infinite scrolling, inline filtering, shimmer loading, flexible low-code customization and custom JavaScript support.",
       "publishedAt": "2026-09-23T06:50:12.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Building the new GitHub Copilot Inline Suggestions Model: Part Two",
+      "link": "https://devblogs.microsoft.com/vscode-blog/building-the-new-github-copilot-inline-suggestions-model:-part-two",
+      "summary": "See how GitHub Copilot added completions to its unified inline suggestions model, refined ghost text and editor behavior, and improved user satisfaction. Read the full article",
+      "publishedAt": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Building the new GitHub Copilot Inline Suggestions Model: Part Two",
+      "link": "https://devblogs.microsoft.com/external-blogs/building-the-new-github-copilot-inline-suggestions-model-part-two",
+      "summary": "See how GitHub Copilot added completions to its unified inline suggestions model, refined ghost text and editor behavior, and improved user satisfaction. Read the full article",
+      "publishedAt": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Faster C++ code intelligence for Copilot CLI with Whole Codebase Indexing",
+      "link": "https://devblogs.microsoft.com/cppblog/faster-c-code-intelligence-for-copilot-cli-with-whole-codebase-indexing",
+      "summary": "C++ repositories can contain millions of lines of code spread across deeply connected source files and headers. Without a reusable index, navigating to definitions, finding references, or searching for symbols may require portions of that information to be analyzed again as you move through the repository. C++ code intelligence in GitHub Co",
+      "publishedAt": "2026-09-22T22:27:22.000Z"
     },
     {
       "source": "Azure Updates",
@@ -225,6 +369,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
       "summary": "EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and operations.",
       "publishedAt": "2026-09-22T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "A brief history of Windows scroll bar shortcuts",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260922-00/?p=112719",
+      "summary": "For the first two decades of Windows, the scroll bar control had just a few basic operations. (For expository purposes, let's assume that the scroll bar is vertical.) There are five mouse targets: The arrows at the ends of the scroll bar scroll by a line. The regions between the thumb and the arrows scroll by a page. And the thumb itself le",
+      "publishedAt": "2026-09-22T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
