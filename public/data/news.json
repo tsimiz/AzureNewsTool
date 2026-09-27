@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T18:06:58.136Z",
-  "itemCount": 1181,
+  "generatedAt": "2026-09-27T00:19:13.575Z",
+  "itemCount": 1182,
   "sources": [
     {
       "name": "Azure Updates",
@@ -97,6 +97,14 @@
       "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
       "summary": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition.",
       "publishedAt": "2026-09-25T12:07:25.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Ship agents faster with expanded model choice, voice agents, and continuous optimization",
+      "link": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
+      "summary": "The best model for your business will keep changing. Adopting it should move your business forward, not send your team back to rebuild the architecture around it.",
+      "publishedAt": "2026-09-24T18:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
