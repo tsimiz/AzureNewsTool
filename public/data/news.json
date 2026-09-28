@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-28T12:10:44.332Z",
-  "itemCount": 1182,
+  "generatedAt": "2026-09-28T18:08:43.035Z",
+  "itemCount": 1183,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.140-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.140 (Insiders) Read the full article",
       "publishedAt": "2026-09-30T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
+      "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations.",
+      "publishedAt": "2026-09-28T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
