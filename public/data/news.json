@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T12:10:00.464Z",
-  "itemCount": 1219,
+  "generatedAt": "2026-09-30T18:08:11.589Z",
+  "itemCount": 1224,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,44 @@
   ],
   "items": [
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Ubuntu 26.04 support in AKS",
+      "link": "https://azure.microsoft.com/updates?id=573214",
+      "summary": "Teams running Ubuntu node pools on AKS need to stay current with Ubuntu LTS releases, but each OS transition can introduce package footprint, security, and compatibility concerns. Ubuntu 26.04 support introduces the Ubuntu2604 OS SKU using Ubuntu Minimal",
+      "publishedAt": "2026-09-30T17:11:11.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Azure canvases for GitHub Copilot",
+      "link": "https://azure.microsoft.com/updates?id=573385",
+      "summary": "Discover Azure canvases for GitHub Copilot, interactive shared workspaces that bring Azure tools, dashboards, and guided workflows directly alongside your Copilot conversations. Explore Azure resources, analyze costs, and build hosted skills while keeping",
+      "publishedAt": "2026-09-30T17:09:51.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Dv3, Dsv3, Ev3, and Esv3 Azure VMs",
+      "link": "https://azure.microsoft.com/updates?id=572346",
+      "summary": "As part of the Microsoft Azure VM lifecycle policy, Microsoft is announcing the retirement of the Dv3, Dsv3, Ev3, and Esv3 Azure VM series in public cloud Azure regions. These VMs will enter the End-of-Life lifecycle stage and retire on November 15, 2029.",
+      "publishedAt": "2026-09-30T17:07:30.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Visual Studio Code 1.140 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.140-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.140 (Insiders) Read the full article",
       "publishedAt": "2026-09-30T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+      "summary": "Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance.",
+      "publishedAt": "2026-09-30T14:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -337,6 +369,14 @@
       "link": "https://azure.microsoft.com/en-us/blog/enhancing-microsoft-azure-virtual-machine-lifecycle/",
       "summary": "Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance.",
       "publishedAt": "2026-09-28T15:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Simplify Site Governance with Self-Service Ownership Transfer in Power Pages",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/transfer-power-pages-site-ownership-with-self-service/",
+      "summary": "Every Power Pages site starts with an owner. Over time, however, organizations evolve &#8211; employees change roles, teams reorganize, projects move between departments, and responsibilities shift. While the people behind a site may change, the site itself often continues serving customers, partners, employees, citizens or other users for years.",
+      "publishedAt": "2026-09-27T19:08:30.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
