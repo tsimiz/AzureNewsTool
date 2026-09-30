@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T18:08:12.923Z",
-  "itemCount": 1200,
+  "generatedAt": "2026-09-30T00:18:21.891Z",
+  "itemCount": 1217,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,142 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.140-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.140 (Insiders) Read the full article",
       "publishedAt": "2026-09-30T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Azure Functions v1 hosting model on Azure Container Apps",
+      "link": "https://azure.microsoft.com/updates?id=570800",
+      "summary": "The Azure Functions v1 hosting model on Azure Container Apps will be retired on September 29, 2027. After this date, existing Functions v1 apps on Azure Container Apps will stop running and will no longer process requests or event-driven triggers. This re",
+      "publishedAt": "2026-09-29T19:41:09.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Storage optimized Lasv5 and Laosv5 Azure VM series",
+      "link": "https://azure.microsoft.com/updates?id=572630",
+      "summary": "The Laosv5 series and Lasv5 storage optimized VMs, based on the 5th Gen AMD EPYC™ processor (Turin), are now generally available.Lasv5 and Laosv5 VMs have sizes ranging from 2-160 vCPUs, with 8GiB of memory and 720GB of local NVMe disk capacity per vCPU.",
+      "publishedAt": "2026-09-29T19:27:09.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets",
+      "link": "https://azure.microsoft.com/updates?id=571075",
+      "summary": "Automatic Zone Placement for VM Scale Sets (Public Preview) enables Azure to automatically select the best availability zones for your scale set based on SKU availability, capacity, and placement requirements. Instead of manually maintaining zone lists fo",
+      "publishedAt": "2026-09-29T19:17:59.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Arc-enabled SQL Server in Germany West Central",
+      "link": "https://azure.microsoft.com/updates?id=570696",
+      "summary": "Azure Arc-enabled SQL Server is now available in Germany West Central, enabling you to connect SQL Server instances to Azure Arc and take advantage of Azure-based inventory, governance, security, assessment, and license management capabilities. Learn more",
+      "publishedAt": "2026-09-29T19:07:44.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Arc-enabled SQL Server Available in Italy North",
+      "link": "https://azure.microsoft.com/updates?id=570763",
+      "summary": "Azure Arc-enabled SQL Server is now available in Italy North, enabling you to connect SQL Server instances to Azure Arc and take advantage of Azure-based inventory, governance, security, assessment, and license management capabilities.Learn more.",
+      "publishedAt": "2026-09-29T19:06:50.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Database for PostgreSQL Ultra Disk",
+      "link": "https://azure.microsoft.com/updates?id=571909",
+      "summary": "Ultra Disk support is now available in public preview for Azure Database for PostgreSQL flexible server. You can use Azure’s highest-performance managed disk option for I/O-intensive and transaction-heavy PostgreSQL workloads that require consistently low",
+      "publishedAt": "2026-09-29T18:14:46.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: SQL Performance Monitoring for Azure SQL Database",
+      "link": "https://azure.microsoft.com/updates?id=571867",
+      "summary": "The public preview of Microsoft-managed performance monitoring for Azure SQL Database is now available. You can now monitor Azure SQL Database without building custom collection scripts or correlating telemetry across disconnected tools. Built-in data co",
+      "publishedAt": "2026-09-29T18:13:31.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Performance monitoring for Azure Arc–enabled SQL Server",
+      "link": "https://azure.microsoft.com/updates?id=571904",
+      "summary": "The preview of performance monitoring for SQL Server enabled by Azure Arc is expanding with more flexible ways to explore and visualize your performance data. You can query Microsoft-managed monitoring data directly through a telemetry endpoint. The built",
+      "publishedAt": "2026-09-29T18:11:15.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure SQL updates for late-September 2026",
+      "link": "https://azure.microsoft.com/updates?id=571643",
+      "summary": "The following updates and enhancements were made to Azure SQL: Scale larger workloads on Azure SQL Database Hyperscale Premium series with new 160-vCore and 192-vCore options, delivering up to 50% greater compute capacity than the previ",
+      "publishedAt": "2026-09-29T18:05:11.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Database for PostgreSQL Flexible Server supports cross-tenant customer-managed keys (CMK)",
+      "link": "https://azure.microsoft.com/updates?id=571783",
+      "summary": "Azure Database for PostgreSQL Flexible Server now supports cross-tenant customer-managed keys (CMK). You can encrypt your data using keys stored in an Azure Key Vault or Azure Managed HSM that resides in a different Microsoft Entra tenant than your Postgr",
+      "publishedAt": "2026-09-29T17:57:36.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public preview: Script-based deployment for SQL Server on Linux Azure VM",
+      "link": "https://azure.microsoft.com/updates?id=571810",
+      "summary": "A new deployment experience for SQL Server on Linux Azure Virtual Machines (VMs) replaces legacy marketplace images with automated script-based provisioning. This release provides greater flexibility, simplified management, and improved customization. You",
+      "publishedAt": "2026-09-29T17:52:59.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: SQL Server on Azure Local Disconnected (ALDO)",
+      "link": "https://azure.microsoft.com/updates?id=571836",
+      "summary": "Now you can use ALDO to extend SQL Server support to environments that can’t maintain continuous connectivity to Azure. ALDO is designed for operations in highly regulated, secure, remote, or air-gapped environments, where internet connectivity is restric",
+      "publishedAt": "2026-09-29T17:51:34.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: SQL Server support on Azure Local connected mode",
+      "link": "https://azure.microsoft.com/updates?id=571841",
+      "summary": "With SQL Server on Azure Local, you can run SQL Server workloads on Azure Local infrastructure while leveraging Azure services for centralized management, governance, monitoring, security, and licensing experiences. By connecting to Azure through Azure Ar",
+      "publishedAt": "2026-09-29T17:50:20.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure SQL updates for late-September 2026",
+      "link": "https://azure.microsoft.com/updates?id=571846",
+      "summary": "In late September 2026, the following updates and enhancements were made to Azure SQL: Database Hub in Microsoft Fabric is a unified experience for discovering, managing, monitoring, and optimizing databases across SQL Server, Azure SQL,",
+      "publishedAt": "2026-09-29T17:49:15.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Database DevOps in SSMS powered by SQL projects",
+      "link": "https://azure.microsoft.com/updates?id=571852",
+      "summary": "In SSMS, you can now use Microsoft.Build.Sql projects to help you implement, manage, and collaborate on database changes, by providing a local definition of the database objects. A SQL database project is a local representation of SQL objects that compris",
+      "publishedAt": "2026-09-29T17:42:47.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure SQL Database Hyperscale Serverless auto-pause and auto-resume",
+      "link": "https://azure.microsoft.com/updates?id=571857",
+      "summary": "Auto-pause and auto-resume are now available in public preview for Azure SQL Hyperscale databases using the Serverless compute tier. You can configure databases to automatically pause during periods of inactivity and automatically resume when activity ret",
+      "publishedAt": "2026-09-29T17:40:40.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: SQL Formatter",
+      "link": "https://azure.microsoft.com/updates?id=571872",
+      "summary": "You can now format SQL scripts directly in Visual Studio Code using SQL Formatter for more consistent, readable code. Customizable formatting options help you match your preferred coding style, so you can keep queries tidy without manual reformatting. N",
+      "publishedAt": "2026-09-29T17:39:36.000Z"
     },
     {
       "source": "Azure Updates",
