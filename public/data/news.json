@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T06:11:31.165Z",
-  "itemCount": 1229,
+  "generatedAt": "2026-10-01T12:10:54.216Z",
+  "itemCount": 1230,
   "sources": [
     {
       "name": "Azure Updates",
@@ -97,6 +97,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.140-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.140 (Insiders) Read the full article",
       "publishedAt": "2026-09-30T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware",
+      "link": "https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/",
+      "summary": "Microsoft is advancing Azure cloud infrastructure with more efficient systems and Circular Centers that extend the useful life of datacenter hardware.",
+      "publishedAt": "2026-09-30T15:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
