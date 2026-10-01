@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T18:08:11.589Z",
-  "itemCount": 1224,
+  "generatedAt": "2026-10-01T00:20:52.160Z",
+  "itemCount": 1229,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,38 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
+      "link": "https://azure.microsoft.com/updates?id=571894",
+      "summary": "The public preview of Microsoft-managed performance monitoring for SQL Server on Azure Virtual Machines is now available. You can now monitor SQL Server on Azure Virtual Machines without building custom collection scripts or correlating telemetry across d",
+      "publishedAt": "2026-09-30T21:13:13.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "​​Secure what&#8217;s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
+      "summary": "This year at Microsoft Ignite, we spotlight our AI-first, end-to-end security platform designed to protect identities, devices, data, applications, clouds, infrastructure, and the AI agents now working alongside your teams.",
+      "publishedAt": "2026-09-30T19:31:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: NVv3-series Azure Virtual Machines",
+      "link": "https://azure.microsoft.com/updates?id=573414",
+      "summary": "On September 30, 2026, Microsoft Azure retired the Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3, Standard_NV24ms_v3, Standard_NV32ms_v3, and Standard_NV48s_v3 virtual machines (VMs) in the NVv3-series VMs.Any remaining NVv3-series VMs will be",
+      "publishedAt": "2026-09-30T18:26:47.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: NVv4-series Azure Virtual Machines",
+      "link": "https://azure.microsoft.com/updates?id=573415",
+      "summary": "On September 30, 2026, Microsoft Azure retired the Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4, and Standard_NV32ahs_v4 virtual machines (VMs) in the NVv4-series",
+      "publishedAt": "2026-09-30T18:24:01.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -297,6 +329,14 @@
       "link": "https://azure.microsoft.com/updates?id=573041",
       "summary": "Azure NetApp Files now supports Microsoft Entra Kerberos authentication for SMB volumes. The capability enables users with hybrid or cloud-only identities to authenticate through Microsoft Entra ID using cloud-issued Kerberos tickets. This capability remo",
       "publishedAt": "2026-09-29T17:07:55.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "SQL Server on Azure Local is now generally available",
+      "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
+      "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.",
+      "publishedAt": "2026-09-29T16:40:06.000Z"
     },
     {
       "source": "Microsoft Security Blog",
