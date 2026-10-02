@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T00:18:10.304Z",
-  "itemCount": 1234,
+  "generatedAt": "2026-10-02T06:11:04.087Z",
+  "itemCount": 1235,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://azure.microsoft.com/updates?id=569592",
       "summary": "On October 31, 2029, DCsv3 and DCdsv3-series Azure Linux, Windows and Dedicated Host virtual machines will be retired. After that date, they will no longer be available for use or purchase. Before October 31, 2029, migrate your workloads to one of the fo",
       "publishedAt": "2026-10-01T17:02:55.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Your AI transformation starts with what you’ve already built",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/your-ai-transformation-starts-with-what-youve-already-built/",
+      "summary": "See how Power Apps, Power Platform, and Copilot Studio are helping teams transform ideas into AI-powered business solutions at PPCC 2026.",
+      "publishedAt": "2026-10-01T15:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
