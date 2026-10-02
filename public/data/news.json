@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T18:09:08.578Z",
-  "itemCount": 1233,
+  "generatedAt": "2026-10-02T00:18:10.304Z",
+  "itemCount": 1234,
   "sources": [
     {
       "name": "Azure Updates",
@@ -152,6 +152,14 @@
       "title": "Retirement: Azure Functions v1 hosting model on Azure Container Apps",
       "link": "https://azure.microsoft.com/updates?id=570800",
       "summary": "The Azure Functions v1 hosting model on Azure Container Apps will be retired on September 29, 2027. After this date, existing Functions v1 apps on Azure Container Apps will stop running and will no longer process requests or event-driven triggers. This re",
+      "publishedAt": "2026-09-29T19:41:09.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Functions on Azure Container Apps V1",
+      "link": "https://azure.microsoft.com/updates?id=570800",
+      "summary": "The Functions on Azure Container Apps (ACA) V1 will be retired on September 29, 2027. After this date, existing Functions on ACA V1 Apps will stop running and no longer process requests or event-driven triggers. Action required Review your Azure environme",
       "publishedAt": "2026-09-29T19:41:09.000Z"
     },
     {
