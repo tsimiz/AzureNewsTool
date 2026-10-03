@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T18:08:16.360Z",
-  "itemCount": 1235,
+  "generatedAt": "2026-10-03T00:16:38.823Z",
+  "itemCount": 1236,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
+      "link": "https://azure.microsoft.com/updates?id=571504",
+      "summary": "MVUs are now available for elastic clusters in Azure Database for PostgreSQL. You can upgrade an existing elastic cluster to a supported newer PostgreSQL version in place without provisioning a replacement cluster, migrating distributed data, or changing",
+      "publishedAt": "2026-10-02T17:35:21.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
