@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T12:09:33.572Z",
-  "itemCount": 1241,
+  "generatedAt": "2026-10-06T18:07:47.312Z",
+  "itemCount": 1244,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,30 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Always Encrypted with Intel SGX Enclaves",
+      "link": "https://azure.microsoft.com/updates?id=569236",
+      "summary": "Always Encrypted with Intel SGX enclaves in Azure SQL Database will retire on October 31, 2027 as support for SGX-enabled DC-series hardware is phased out. Customers should transition to Virtualization-Based Security (VBS) enclaves, a hardware-independent",
+      "publishedAt": "2026-10-06T16:42:33.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "CISO perspectives on managing vulnerability risks in the age of AI",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
+      "summary": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management.",
+      "publishedAt": "2026-10-06T16:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: AKS on bare metal now on Ubuntu",
+      "link": "https://azure.microsoft.com/updates?id=573782",
+      "summary": "Running Kubernetes on-premises often means adding a virtualization layer, adapting to unfamiliar infrastructure, or giving up control over the hardware and software your applications depend on. For AI workloads, these tradeoffs can limit access to local d",
+      "publishedAt": "2026-10-06T15:44:06.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
