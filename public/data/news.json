@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T18:07:47.312Z",
-  "itemCount": 1244,
+  "generatedAt": "2026-10-07T00:18:13.231Z",
+  "itemCount": 1247,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,30 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Pod name dimension in AKS pod platform metrics",
+      "link": "https://azure.microsoft.com/updates?id=570232",
+      "summary": "Beginning September 30, 2027, support for the pod name dimension on the following Azure Monitor platform metrics is retiring, and these metrics are transitioning to aggregate pod counters:Number of pods by phase (kube_pod_status_phase)Number of pods in Re",
+      "publishedAt": "2026-10-06T22:37:54.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Azure App Service on Azure Stack Hub",
+      "link": "https://azure.microsoft.com/updates?id=568178",
+      "summary": "Azure App Service on Azure Stack Hub will be retired on September 30, 2029. Starting September 30, 2026, new installations will no longer be supported, and no new product releases, features, or enhancements will be made available. Existing supported deplo",
+      "publishedAt": "2026-10-06T18:24:43.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027",
+      "link": "https://azure.microsoft.com/updates?id=568585",
+      "summary": "On September 1, 2027 support for Java 8, 11 and 17 will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available, and we’ll no longer provide customer service for Java 8, 11 and 17.Required actio",
+      "publishedAt": "2026-10-06T18:21:59.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
