@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T12:10:23.166Z",
-  "itemCount": 1248,
+  "generatedAt": "2026-10-07T18:08:50.404Z",
+  "itemCount": 1276,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,78 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.142 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.142-(insiders)",
+      "summary": "Learn what is new in Visual Studio Code 1.142 (Insiders) Read the full article",
+      "publishedAt": "2026-10-14T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "AI Development on Windows: from PyTorch and llama.cpp to Windows ML",
+      "link": "https://devblogs.microsoft.com/foundry-on-windows/build-on-winml-oct-7-26",
+      "summary": "Today we are highlighting improvements across a few key open-source projects many of you already use, as well as updates to Windows ML. To empower developers, we must support the broad range of tools for experimentation and exploration across inference and training, in addition to our production grade native inference",
+      "publishedAt": "2026-10-07T18:00:16.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Anyscale on Azure",
+      "link": "https://azure.microsoft.com/updates?id=573744",
+      "summary": "Anyscale on Azure is now Generally Available. Anyscale on Azure is a managed platform for running distributed Python workloads on Ray. It deploys directly onto your Azure Kubernetes Service (AKS) cluster and integrates with the Azure services your team al",
+      "publishedAt": "2026-10-07T17:06:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.141",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.141",
+      "summary": "Learn what's new in Visual Studio Code 1.141 Read the full article",
+      "publishedAt": "2026-10-07T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.141 (Insiders)",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-141-insiders",
+      "summary": "Learn what is new in Visual Studio Code 1.141 (Insiders). Read the full article",
+      "publishedAt": "2026-10-07T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
+      "link": "https://azure.microsoft.com/updates?id=573443",
+      "summary": "Starting with SQL Server 2025 CU9 and SQL Server 2022 CU27, SQL Server on Linux supports the bulkadmin fixed server role and the ADMINISTER BULK OPERATIONS permission for performing bulk data import operations without requiring users to be members of the",
+      "publishedAt": "2026-10-07T16:57:04.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "3 lessons from frontier AI vulnerability research",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+      "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel.",
+      "publishedAt": "2026-10-07T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit",
+      "link": "https://devblogs.microsoft.com/blog/from-spec-first-to-enterprise-ready-extending-github-spec-kit",
+      "summary": "How presets, extensions, bundles, workflows, and governed catalogs make Spec-Driven Development adaptable at scale This article continues Spec-Driven Development: A Spec-First Approach to AI-Native Engineering, which intro",
+      "publishedAt": "2026-10-07T15:00:26.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Try SqlClient’s new connection pool for faster parallel connections",
+      "link": "https://devblogs.microsoft.com/azure-sql/try-sqlclients-new-connection-pool-for-faster-parallel-connections",
+      "summary": "You told us that applications using Microsoft.Data.SqlClient can take too long to establish the database connections they need. When many requests need connections at the same time, waiting for the connection pool to grow can delay application readiness and increase latency. This can happen even in comm",
+      "publishedAt": "2026-10-06T22:42:12.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Retirement: Pod name dimension in AKS pod platform metrics",
@@ -49,6 +121,22 @@
       "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-global-industrial-aiot-platforms/",
       "summary": "We’re proud to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms.",
       "publishedAt": "2026-10-06T21:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Upcoming SQL and AI Events to Put on Your Calendar",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-calendar-2027q4",
+      "summary": "Developers, database administrators, data professionals, architects and technology decision makers have several opportunities to connect, learn and gain hands-on experience this fall. 2027 Q4 SQL Events Date Event City & region Registration",
+      "publishedAt": "2026-10-06T20:50:48.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build Azure canvases with the Canvas authoring plugin",
+      "link": "https://devblogs.microsoft.com/blog/build-azure-canvases-with-canvas-authoring",
+      "summary": "Building an Azure canvas no longer means starting with authentication, subscription scope, shared state, and host integration from scratch. The Canvas authoring plugin guides Copilot through the native canvas workflow and generates a project built on Microsoft Canvas",
+      "publishedAt": "2026-10-06T18:30:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -67,12 +155,52 @@
       "publishedAt": "2026-10-06T18:21:59.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing WinDbg MCP: Debug with natural language, grounded in evidence",
+      "link": "https://devblogs.microsoft.com/performance-diagnostics/introducing-windbg-mcp-debug-with-natural-language-grounded-in-evidence",
+      "summary": "Debugging rarely starts with a clear answer. You might have a crash dump, a failing application, a live target, or a Time Travel Debugging (TTD) trace, but the first challenge is often the same: Where do I start, and what should I investigate next? Today, we’re introducing WinDbg MCP, a new natural-langua",
+      "publishedAt": "2026-10-06T18:14:28.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "A faster, lighter C# Dev Kit",
+      "link": "https://devblogs.microsoft.com/dotnet/faster-lighter-csharp-dev-kit",
+      "summary": "We developers know just how fast computers can be, and we want to feel that speed in our tools. Waiting for language support to load, builds to complete and tests to run is time we could better spend in other ways. As part of .NET 11, C# Dev Kit has been completely rearchitected to deliver huge improvements to performance and memory usage.",
+      "publishedAt": "2026-10-06T17:05:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Bringing Native AOT to the Aspire dashboard",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-native-aot",
+      "summary": "Developers love the Aspire dashboard for viewing real-time telemetry and state of their apps. It's easy to use and automatically collects telemetry from Aspire apps. We want to build on that experience with faster startup and fewer runtime dependencies. Enter .NET Native AOT. In Aspire 13.",
+      "publishedAt": "2026-10-06T17:00:03.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Retirement: Always Encrypted with Intel SGX Enclaves",
       "link": "https://azure.microsoft.com/updates?id=569236",
       "summary": "Always Encrypted with Intel SGX enclaves in Azure SQL Database will retire on October 31, 2027 as support for SGX-enabled DC-series hardware is phased out. Customers should transition to Virtualization-Based Security (VBS) enclaves, a hardware-independent",
       "publishedAt": "2026-10-06T16:42:33.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "PostgreSQL to SQL Field Notes: Connections",
+      "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-connections",
+      "summary": "Welcome to SQL First, welcome to SQL! You’re going to like this. Upgrading from PostgreSQL is real work, and depending on your old database, this process will vary widely in complexity. I am confident that you’re going to love the mindful and modern features of SQL. Take your time, make the most of the resources built to help",
+      "publishedAt": "2026-10-06T16:39:17.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Is it MSIX? Part 2: Finding Package Identity with APIs",
+      "link": "https://devblogs.microsoft.com/insidemsix/find-package-identity-with-apis",
+      "summary": "We previously determined how to tell if a process is packaged or unpackaged using Task Manager. Now let's find its package and application identity in code. Windows provides APIs to retrieve package and application identity",
+      "publishedAt": "2026-10-06T16:00:16.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -89,6 +217,46 @@
       "link": "https://azure.microsoft.com/updates?id=573782",
       "summary": "Running Kubernetes on-premises often means adding a virtualization layer, adapting to unfamiliar infrastructure, or giving up control over the hardware and software your applications depend on. For AI workloads, these tradeoffs can limit access to local d",
       "publishedAt": "2026-10-06T15:44:06.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Bring agentic reasoning to Python function apps with Azure Functions Agent bindings (preview)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-functions-agent-binding",
+      "summary": "Azure Functions applications already have a strong model for event-driven work: a trigger starts the function, bindings connect it to other services, and application code validates input and controls the result. AI reasoning doesn't need to replace that model. Agent bindings for Python function apps add reasoning as a bounded step inside it",
+      "publishedAt": "2026-10-06T15:00:10.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What Would You Build in Azure If You Didn’t Have to Ask for a Budget First?",
+      "link": "https://devblogs.microsoft.com/visualstudio/what-would-you-build-in-azure-if-you-didnt-have-to-ask-for-a-budget-first",
+      "summary": "",
+      "publishedAt": "2026-10-06T14:00:03.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why does the compiler sometimes use ud2 and sometimes int 3 for code that shouldn&#039;t execute?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261006-00/?p=112757",
+      "summary": "There are two common ways for x86 compilers to indicate that execution should not have reached a particular point: One is the single-byte int 3 breakpoint opcode. And the other is the two-byte ud2 invalid instruction opcode. How do they decide which one to use? The two types of \"bad instructions\" are typica",
+      "publishedAt": "2026-10-06T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What is Agent Experience (AX)?",
+      "link": "https://devblogs.microsoft.com/blog/what-is-agent-experience-ax",
+      "summary": "Agent Experience is the experience AI agents have when discovering, choosing, and using your technology. Practicing AX means systematically improving that experience. Measurement is how you know whether you did. Developers now ask AI agents to build with your SDK, API, or CLI, and they judge your technology by what",
+      "publishedAt": "2026-10-06T09:18:05.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Connect Azure Functions to more services with managed connectors",
+      "link": "https://devblogs.microsoft.com/azure-sdk/connect-azure-functions-to-more-services-with-managed-connectors",
+      "summary": "Azure Functions can already connect to many Azure services through triggers and bindings. With managed connectors, your functions can access about 1,700 connectors across services such as Microsoft 365, Microsoft Teams, Dataverse, Sha",
+      "publishedAt": "2026-10-05T19:43:44.000Z"
     },
     {
       "source": "Azure Updates",
@@ -131,12 +299,68 @@
       "publishedAt": "2026-10-05T17:41:41.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "UWP and WinUI 3 apps: UI testing with MSTest",
+      "link": "https://devblogs.microsoft.com/dotnet/testing-uwp-and-winui-3-apps-with-mstest",
+      "summary": "Reliable testing of UWP and WinUI 3 apps needs the app's real UI dispatcher, not just a single-threaded apartment (STA) thread, so that test setup, async test code, and cleanup all run with UI-thread access. A WinUI 3 test still looks this simple: [UITestMethod] public async Task GridCanBeCreatedOnTheU",
+      "publishedAt": "2026-10-05T17:05:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "From an Empty Folder to an AI Agent: Meet create-cosmos-agent",
+      "link": "https://devblogs.microsoft.com/cosmosdb/from-an-empty-folder-to-an-ai-agent-meet-create-cosmos-agent",
+      "summary": "The first few minutes of a new AI project often feel productive. Create a chat endpoint, connect a model, send a prompt, and display the answer. Then the real questions arrive. Where should the agent store memory? How do we keep one customer's data away from another? How do we trace the source of an answer? What happens when an action re",
+      "publishedAt": "2026-10-05T14:12:38.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "If somebody tries to hot-patch an already-hot-patched function, how do they avoid conflicts?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261005-00/?p=112755",
+      "summary": "For the past few days, I did a quick survey of hot-patching mechanisms. But the hot-patch design accommodates only one hot-patcher. If somebody goes to hot-patch a function and finds that it's already been hot-patched, what happens? If somebody goes to hot-patch a function and finds that it's already been hot-patched, then something",
+      "publishedAt": "2026-10-05T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "I’m the Only Developer on This Project. Do I Really Need RBAC?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/im-the-only-developer-on-this-project-do-i-really-need-rbac",
+      "summary": "You own the account, wrote the application, and would be the one fixing it if something broke. So role-based access control (RBAC) can sound like an answer to a problem you do not have: managing other people. You do not need RBAC for your app to function; account keys still work while key-based authentication is enabled. But for a l",
+      "publishedAt": "2026-10-05T13:40:01.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
       "link": "https://azure.microsoft.com/updates?id=571504",
       "summary": "MVUs are now available for elastic clusters in Azure Database for PostgreSQL. You can upgrade an existing elastic cluster to a supported newer PostgreSQL version in place without provisioning a replacement cluster, migrating distributed data, or changing",
       "publishedAt": "2026-10-02T17:35:21.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why is there no Windows hot-patching support for other architectures like 32-bit ARM and MIPS?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261002-00/?p=112753",
+      "summary": "Windows hot-patching supports x86-32,",
+      "publishedAt": "2026-10-02T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Translating an Elasticsearch Search Request to Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/translating-an-elasticsearch-search-request-to-azure-cosmos-db",
+      "summary": "This tutorial shows how common Elasticsearch search requests can be expressed using Azure Cosmos DB query patterns. Some Elasticsearch capabilities map directly to Cosmos DB full-text search functions, while others require separate queries or application-layer handling. Each step shows the closest C",
+      "publishedAt": "2026-10-02T07:00:14.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Data API builder 2.1.5: JSON and Vector Data Type Support, and More",
+      "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-2-1-5-json-and-vector-data-type-support-and-more",
+      "summary": "Data API builder (DAB) 2.1.5 is now available as a stable release, and it is about meeting modern data where it lives: documents next to rows, embeddings next to both. This release brings native support for the SQL json and vector data types to the REST and GraphQL endpoints, so the same entities that serve your CRUD",
+      "publishedAt": "2026-10-02T01:10:52.000Z"
     },
     {
       "source": "Azure Updates",
