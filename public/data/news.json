@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T06:10:15.326Z",
-  "itemCount": 1247,
+  "generatedAt": "2026-10-07T12:10:23.166Z",
+  "itemCount": 1248,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://azure.microsoft.com/updates?id=570232",
       "summary": "Beginning September 30, 2027, support for the pod name dimension on the following Azure Monitor platform metrics is retiring, and these metrics are transitioning to aggregate pod counters:Number of pods by phase (kube_pod_status_phase)Number of pods in Re",
       "publishedAt": "2026-10-06T22:37:54.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms",
+      "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-global-industrial-aiot-platforms/",
+      "summary": "We’re proud to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Global Industrial AIoT Platforms.",
+      "publishedAt": "2026-10-06T21:00:00.000Z"
     },
     {
       "source": "Azure Updates",
