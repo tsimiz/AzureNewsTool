@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T12:09:40.934Z",
-  "itemCount": 1277,
+  "generatedAt": "2026-10-08T18:07:54.611Z",
+  "itemCount": 1280,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,30 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.142-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.142 (Insiders) Read the full article",
       "publishedAt": "2026-10-14T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
+      "link": "https://azure.microsoft.com/updates?id=574343",
+      "summary": "Announcing the general availability of exceptions for Web Application Firewall on Azure Application Gateway and Azure Front Door.Azure Web Application Firewall (WAF) helps protect your web applications from common threats and attacks. In some cases, WAF m",
+      "publishedAt": "2026-10-08T17:29:30.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Microsoft Agent 365 integration with Azure API Management",
+      "link": "https://azure.microsoft.com/updates?id=574204",
+      "summary": "The integration between Microsoft Agent 365 and Azure API Management is now available in public preview, helping organizations connect centralized governance with runtime enforcement for MCP servers and tools.With this integration, organizations can:Disco",
+      "publishedAt": "2026-10-08T17:24:34.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Hong Kong",
+      "link": "https://azure.microsoft.com/updates?id=571831",
+      "summary": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with partners that bring established customer relationships,",
+      "publishedAt": "2026-10-08T14:17:44.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
