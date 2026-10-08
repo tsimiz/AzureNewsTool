@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T18:08:50.404Z",
-  "itemCount": 1276,
+  "generatedAt": "2026-10-08T00:17:16.171Z",
+  "itemCount": 1277,
   "sources": [
     {
       "name": "Azure Updates",
@@ -97,6 +97,14 @@
       "link": "https://devblogs.microsoft.com/blog/from-spec-first-to-enterprise-ready-extending-github-spec-kit",
       "summary": "How presets, extensions, bundles, workflows, and governed catalogs make Spec-Driven Development adaptable at scale This article continues Spec-Driven Development: A Spec-First Approach to AI-Native Engineering, which intro",
       "publishedAt": "2026-10-07T15:00:26.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "AI transformation across the infrastructure lifecycle: From supply chain to fleet operations",
+      "link": "https://azure.microsoft.com/en-us/blog/ai-transformation-across-the-infrastructure-lifecycle-from-supply-chain-to-fleet-operations/",
+      "summary": "The opportunity is bigger than making individual tasks faster. It’s to build a system that learns from how infrastructure is designed, sourced, and operated.",
+      "publishedAt": "2026-10-07T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
