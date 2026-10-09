@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T18:07:54.611Z",
-  "itemCount": 1280,
+  "generatedAt": "2026-10-09T00:18:33.075Z",
+  "itemCount": 1293,
   "sources": [
     {
       "name": "Azure Updates",
@@ -45,6 +45,46 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "[Launched] Generally Available: Managed StandardV2 NAT Gateway for AKS",
+      "link": "https://azure.microsoft.com/updates?id=574430",
+      "summary": "AKS will now provision and manage a StandardV2 NAT Gateway for clusters using an AKS-managed virtual network.StandardV2 is now the default managed NAT Gateway SKU for new clusters in supported regions when using the managedNATGateway outbound type. Standa",
+      "publishedAt": "2026-10-08T22:51:01.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+      "summary": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness.",
+      "publishedAt": "2026-10-08T20:44:28.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Database for PostgreSQL flexible server in East US 3",
+      "link": "https://azure.microsoft.com/updates?id=573691",
+      "summary": "Now you can deploy Azure Database for PostgreSQL flexible server in the East US 3 Azure region. Learn more.",
+      "publishedAt": "2026-10-08T19:56:31.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Microsoft Dev Box will be retired on September 18, 2028",
+      "link": "https://azure.microsoft.com/updates?id=567933",
+      "summary": "Microsoft Dev Box will retire on September 18, 2028. Beginning on September 14, 2026, Microsoft Dev Box will begin the closing-down process. After retirement, Microsoft Dev Box will no longer be available. Microsoft Dev Box is currently in maintenance mod",
+      "publishedAt": "2026-10-08T18:23:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Azure Deployment Environments will be retired on February 22, 2027",
+      "link": "https://azure.microsoft.com/updates?id=567934",
+      "summary": "Azure Deployment Environments will retire on February 22, 2027. Beginning on September 14, 2026, Azure Deployment Environments will begin the closing-down process. After retirement, the service will no longer be available. To help avoid disruption, we rec",
+      "publishedAt": "2026-10-08T18:20:34.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[Launched] Generally Available: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
       "link": "https://azure.microsoft.com/updates?id=574343",
       "summary": "Announcing the general availability of exceptions for Web Application Firewall on Azure Application Gateway and Azure Front Door.Azure Web Application Firewall (WAF) helps protect your web applications from common threats and attacks. In some cases, WAF m",
@@ -59,12 +99,60 @@
       "publishedAt": "2026-10-08T17:24:34.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Adding persistence to the Aspire dashboard",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-persistence",
+      "summary": "Developers love the Aspire dashboard for collecting and visualizing telemetry from their apps. Structured logs help explain what happened, traces show how a request moved between services, and metrics reveal changes over time. Alongside telemetry, the dashboard displays resources, their configurat",
+      "publishedAt": "2026-10-08T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "New Wiki Editor Experience",
+      "link": "https://devblogs.microsoft.com/devops/new-wiki-editor-experience",
+      "summary": "We are excited to announce a new editing experience for Wiki pages. We are replacing the existing editor with a new editor built on Monaco Editor, the same editor technology that powers Visual Studio Code.",
+      "publishedAt": "2026-10-08T14:24:03.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Hong Kong",
       "link": "https://azure.microsoft.com/updates?id=571831",
       "summary": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with partners that bring established customer relationships,",
       "publishedAt": "2026-10-08T14:17:44.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Pre-authenticated (tempauth) URLs are retiring: move to Microsoft Entra ID tokens before April 1, 2027",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/pre-authenticated-tempauth-urls-are-retiring-move-to-microsoft-entra-id-tokens-before-april-1-2027",
+      "summary": "On April 1, 2027, SharePoint Online and OneDrive will begin removing pre-authenticated URLs, the self-issued tokens SharePoint embeds directly in a URL, commonly seen as the tempauth query parameter. After that date, URLs returned by the affected Microsoft Graph file APIs will require Entra authentication. If you",
+      "publishedAt": "2026-10-08T13:10:46.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Microsoft Power Pages is now available in Sweden Central and Italy North",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/microsoft-power-pages-is-now-available-in-sweden-central-and-italy-north/",
+      "summary": "We’re excited to announce the general availability of Microsoft Power Pages in the Sweden Central and Italy North regions. Whether you’re a no-code, low-code, or code-first developer, Power Pages empowers you to build scalable, secure, and business-centric websites.",
+      "publishedAt": "2026-10-08T12:36:38.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Faster by Design: Performance engineering in the Microsoft JDBC Driver for SQL Server",
+      "link": "https://devblogs.microsoft.com/java/faster-by-design-performance-engineering-in-the-microsoft-jdbc-driver-for-sql-server",
+      "summary": "A database driver sits on the critical path of many applications. When a frequently executed path performs unnecessary work, even a small amount of overhead can compound across millions of operations. Over the past several releases, we have systematically profiled frequently executed paths",
+      "publishedAt": "2026-10-08T07:25:06.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure Document Intelligence and Azure Content Understanding: a practical guide",
+      "link": "https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding",
+      "summary": "Document-processing tools can appear straightforward when every input follows a predictable format. Production workloads are rarely that tidy. Invoices arrive in different layouts, contracts hide important facts in prose, and a single business process can span PDFs, Office documents, images, audio, and video. The right approach affects extr",
+      "publishedAt": "2026-10-07T18:45:01.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -99,6 +187,14 @@
       "publishedAt": "2026-10-07T17:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.141",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-141-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.141 Read the full article",
+      "publishedAt": "2026-10-07T17:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
@@ -129,6 +225,14 @@
       "link": "https://azure.microsoft.com/en-us/blog/ai-transformation-across-the-infrastructure-lifecycle-from-supply-chain-to-fleet-operations/",
       "summary": "The opportunity is bigger than making individual tasks faster. It’s to build a system that learns from how infrastructure is designed, sourced, and operated.",
       "publishedAt": "2026-10-07T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How can undefined opcodes ud0 and ud1 have parameters? How undefined were they?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261007-00/?p=112759",
+      "summary": "Gunnar Dalsnes wondered how ud0 and ud1 could have parameters if they were undefined? \"Does it mean they were not completely undefined, just undocumented and not completely implemented?\" The",
+      "publishedAt": "2026-10-07T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -191,7 +295,7 @@
       "category": "Developer",
       "title": "Introducing WinDbg MCP: Debug with natural language, grounded in evidence",
       "link": "https://devblogs.microsoft.com/performance-diagnostics/introducing-windbg-mcp-debug-with-natural-language-grounded-in-evidence",
-      "summary": "Debugging rarely starts with a clear answer. You might have a crash dump, a failing application, a live target, or a Time Travel Debugging (TTD) trace, but the first challenge is often the same: Where do I start, and what should I investigate next? Today, we’re introducing WinDbg MCP, a new natural-langua",
+      "summary": "Debugging rarely starts with a clear answer. An app crashes, a service hangs, a driver fails, or a kernel dump offers few clues. Whether you’re working with a live target, crash dump, or Time Travel Debugging (TTD) trace, the first question is the same: Where do I start, and wha",
       "publishedAt": "2026-10-06T18:14:28.000Z"
     },
     {
