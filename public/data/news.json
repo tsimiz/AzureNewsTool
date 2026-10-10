@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T18:07:39.957Z",
-  "itemCount": 1293,
+  "generatedAt": "2026-10-10T00:18:25.941Z",
+  "itemCount": 1294,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.142-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.142 (Insiders) Read the full article",
       "publishedAt": "2026-10-14T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled Kubernetes clusters",
+      "link": "https://azure.microsoft.com/updates?id=570313",
+      "summary": "The Azure Key Vault Secrets Provider Extension for Azure Arc-enabled Kubernetes will be retired on October 9, 2027.Customers currently using the extension should plan to migrate to the Azure Key Vault Secret Store Extension before the retirement date. The",
+      "publishedAt": "2026-10-09T20:27:17.000Z"
     },
     {
       "source": "Azure Updates",
