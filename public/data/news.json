@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-12T18:07:16.499Z",
-  "itemCount": 1294,
+  "generatedAt": "2026-10-13T00:19:30.992Z",
+  "itemCount": 1295,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.142-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.142 (Insiders) Read the full article",
       "publishedAt": "2026-10-14T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Deep dive into Azure Maia 300 architecture",
+      "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+      "summary": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference.",
+      "publishedAt": "2026-10-12T13:00:00.000Z"
     },
     {
       "source": "Azure Updates",
