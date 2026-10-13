@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13T12:10:43.538Z",
-  "itemCount": 1295,
+  "generatedAt": "2026-10-13T18:08:57.229Z",
+  "itemCount": 1296,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.142-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.142 (Insiders) Read the full article",
       "publishedAt": "2026-10-14T17:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Create Power Pages sites in minutes with SPA templates",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/create-power-pages-sites-in-minutes-with-spa-templates/",
+      "summary": "We&#8217;re thrilled to share SPA template support in the Power Pages plugin for GitHub Copilot CLI and Claude Code. The /create-site skill can now create your site from a ready-made single-page application (SPA) template, instead of generating every page and component from scratch.",
+      "publishedAt": "2026-10-13T17:25:20.000Z"
     },
     {
       "source": "Azure Blog",
