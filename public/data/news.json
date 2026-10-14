@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T12:09:13.841Z",
-  "itemCount": 1309,
+  "generatedAt": "2026-10-14T18:07:40.036Z",
+  "itemCount": 1310,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.142-(insiders)",
       "summary": "Learn what's new in Visual Studio Code 1.142 (Insiders) Read the full article",
       "publishedAt": "2026-10-14T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
+      "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem.",
+      "publishedAt": "2026-10-14T13:00:00.000Z"
     },
     {
       "source": "Power Platform Blog",
