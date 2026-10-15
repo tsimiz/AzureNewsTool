@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T18:07:40.036Z",
-  "itemCount": 1310,
+  "generatedAt": "2026-10-15T00:15:24.773Z",
+  "itemCount": 1315,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,22 @@
   ],
   "items": [
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Cloud HSM hardware audit logging",
+      "link": "https://azure.microsoft.com/updates?id=576377",
+      "summary": "Hardware Audit Logging for Azure Cloud HSM provides hardware-generated audit records for supported HSM management operations, helping organizations strengthen security monitoring, compliance reporting, governance, and forensic investigations. Customers ca",
+      "publishedAt": "2026-10-14T19:17:47.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Site Recovery Support for Azure ARC-enabled Windows VMWare/Physical servers",
+      "link": "https://azure.microsoft.com/updates?id=576214",
+      "summary": "Azure Site Recovery (ASR) now supports disaster recovery for Azure ARC-enabled Windows VMWare virtual machines and on-premise physical servers. Customers can protect ARC-managed machines with ASR while continuing to use Azure ARC for governance, inventory",
+      "publishedAt": "2026-10-14T19:13:31.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Visual Studio Code 1.142 (Insiders)",
@@ -53,10 +69,34 @@
     {
       "source": "Power Platform Blog",
       "category": "Power Platform",
+      "title": "Go multilingual with the Power Pages plugin",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/go-multilingual-with-the-power-pages-plugin/",
+      "summary": "We&#8217;re thrilled to bring localization support to the Power Pages plugin for GitHub Copilot CLI and Claude Code. The new /add-localization skill makes it easy to create multilingual Power Pages SPA sites in 43+ languages, including experiences in right-to-left languages such as Arabic and Hebrew.",
+      "publishedAt": "2026-10-14T08:25:25.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
       "title": "Create Power Pages sites in minutes with SPA templates",
       "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/create-power-pages-sites-in-minutes-with-spa-templates/",
       "summary": "We&#8217;re thrilled to share SPA template support in the Power Pages plugin for GitHub Copilot CLI and Claude Code. The /create-site skill can now create your site from a ready-made single-page application (SPA) template, instead of generating every page and component from scratch.",
       "publishedAt": "2026-10-13T17:25:20.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Advancing hardware security with open-source Integrated HSM technology",
+      "link": "https://azure.microsoft.com/en-us/blog/advancing-hardware-security-with-open-source-integrated-hsm-technology/",
+      "summary": "Explore how Microsoft is advancing hardware security through open-source Integrated HSM technology, collaboration, and cryptographic key protection.",
+      "publishedAt": "2026-10-13T16:15:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Infrastructure for the frontier era: Scaling intelligence through open industry collaboration",
+      "link": "https://azure.microsoft.com/en-us/blog/infrastructure-for-the-frontier-era-scaling-intelligence-through-open-industry-collaboration/",
+      "summary": "AI is reaching such a pivotal moment, and the focus is shifting from building larger frontier models to intelligence that delivers practical impact.",
+      "publishedAt": "2026-10-13T16:15:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
