@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-15T12:09:16.545Z",
-  "itemCount": 1315,
+  "generatedAt": "2026-10-15T18:08:05.755Z",
+  "itemCount": 1331,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,70 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.143 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.143-(insiders)",
+      "summary": "Learn what is new in Visual Studio Code Insiders, including the latest features and improvements. Read the full article",
+      "publishedAt": "2026-10-21T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Standard service endpoint",
+      "link": "https://azure.microsoft.com/updates?id=571025",
+      "summary": "Standard service endpoint, a new capability in the Azure Private Link family, provides a scalable and secure approach for connecting Azure IaaS workloads to Azure PaaS services. Standard service endpoint addresses the manageability, and the scale limitati",
+      "publishedAt": "2026-10-15T17:39:51.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Availabile: Automatic zone balance for Virtual Machine Scale Sets",
+      "link": "https://azure.microsoft.com/updates?id=576334",
+      "summary": "Automatic zone balance for Virtual Machine Scale Sets is now generally available. This feature continuously monitors scale sets deployed across availability zones and automatically redistributes VM instances when zonal imbalances occur. This helps reduce",
+      "publishedAt": "2026-10-15T16:54:20.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Stop waiting on a failed build",
+      "link": "https://devblogs.microsoft.com/visualstudio/stop-waiting-on-a-failed-build",
+      "summary": "A project fails to compile, but the solution build keeps going. You already have an error to fix, while other projects continue using build time to tell you the solution still doesn't build. Visual Studio 2026 version 18.11 adds an opt-in way to stop a solution build after the first project failure. If your next step is to fix that failure",
+      "publishedAt": "2026-10-15T14:00:50.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "AI Agents: Meet the Azure Cosmos DB vNext Emulator",
+      "link": "https://devblogs.microsoft.com/cosmosdb/ai-agents-meet-the-azure-cosmos-db-vnext-emulator",
+      "summary": "Over a typical 2 day window, we record 10 times as many emulator sessions lasting more than 30 minutes for vNext as for the legacy emulator. Our bet is that agentic development is helping drive the difference!",
+      "publishedAt": "2026-10-15T13:38:16.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Vector stores in Agent Framework for Python: familiar foundations, streamlined for agents",
+      "link": "https://devblogs.microsoft.com/agent-framework/vector-stores-in-python-agent-framework-familiar-foundations-streamlined-for-agents",
+      "summary": "Vector stores have been part of the Python experience in Semantic Kernel for some time. With Microsoft Agent Framework, we have ported that work forward rather than starting over. This post focuses on Python. For the .NET equivalent, see",
+      "publishedAt": "2026-10-15T12:10:05.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Canada’s 2026 time zone updates: guidance for Microsoft SQL",
+      "link": "https://devblogs.microsoft.com/azure-sql/canadas-2026-time-zone-updates-guidance-for-microsoft-sql",
+      "summary": "Affected locations in British Columbia, Alberta, and Manitoba will not turn their clocks back at 02:00 local time on November 1, 2026. They will remain at UTC−07:00, UTC−06:00, and UTC−05:00, respectively.",
+      "publishedAt": "2026-10-15T05:21:10.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure MCP Server 3.0 stable release: More tools. More possibilities",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release",
+      "summary": "We're excited to share the stable release of Azure MCP Server 3.0, released on October 12, 2026. From reviewing backup protection to evaluating infrastructure changes, this release brings more everyday Azure operations into your agent workflows. It also introduces clearer tool contracts and security-focused defaults for new resources. If yo",
+      "publishedAt": "2026-10-14T20:35:34.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Azure Cloud HSM hardware audit logging",
@@ -59,6 +123,46 @@
       "publishedAt": "2026-10-14T17:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.142",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.142",
+      "summary": "Learn what's new in Visual Studio Code 1.142 Read the full article",
+      "publishedAt": "2026-10-14T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.142 (Insiders)",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-142-insiders",
+      "summary": "Learn what is new in Visual Studio Code 1.142 (Insiders) Read the full article",
+      "publishedAt": "2026-10-14T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build offline-first apps with Azure DocumentDB and PowerSync",
+      "link": "https://devblogs.microsoft.com/documentdb/build-offline-first-apps-with-azure-documentdb-and-powersync",
+      "summary": "Modern applications often need to work in places where network connectivity is slow, intermittent, or unavailable. Field service, retail, logistics, healthcare, and mobile SaaS applications are common examples. PowerSync recently introduced alpha support for Azure DocumentDB, giving developers a way to combine Azure DocumentDB as the cloud",
+      "publishedAt": "2026-10-14T15:45:34.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "From extraction to action: Using grounding and confidence to build reliable document workflows",
+      "link": "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl",
+      "summary": "“Civilization advances by extending the number of important operations which we can perform without thinking about them.” — Alfred North Whitehead Automation is the promise of agentic document processing, but getting AI to read a document is only part of the job. The harder part comes when an extracted value sta",
+      "publishedAt": "2026-10-14T15:38:56.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "New Tools, New Workflows and the Value of the Visual Studio Subscription: What We Learned at VSLive! San Diego",
+      "link": "https://devblogs.microsoft.com/visualstudio/new-tools-new-workflows-and-the-value-of-the-visual-studio-subscription-what-we-learned-at-vslive-san-diego",
+      "summary": "",
+      "publishedAt": "2026-10-14T14:00:25.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
@@ -73,6 +177,22 @@
       "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/go-multilingual-with-the-power-pages-plugin/",
       "summary": "We&#8217;re thrilled to bring localization support to the Power Pages plugin for GitHub Copilot CLI and Claude Code. The new /add-localization skill makes it easy to create multilingual Power Pages SPA sites in 43+ languages, including experiences in right-to-left languages such as Arabic and Hebrew.",
       "publishedAt": "2026-10-14T08:25:25.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "October Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-4",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps",
+      "publishedAt": "2026-10-13T20:20:06.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing .NET 11 Release Candidate 2",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-2",
+      "summary": ".NET 11 Release Candidate 2 is now available. This is our second release candidate, which comes with a go-live support license so you can confidently use this release for your production applications. This release of .NET 11 is supported in the new",
+      "publishedAt": "2026-10-13T19:40:00.000Z"
     },
     {
       "source": "Power Platform Blog",
@@ -137,6 +257,14 @@
       "link": "https://devblogs.microsoft.com/ifdef-windows/winui-gallery-3-0-is-here-tableview-charts-inkcanvas-and-more",
       "summary": "Hey W",
       "publishedAt": "2026-10-13T08:25:52.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": ".NET and .NET Framework October 2026 servicing releases updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-october-2026-servicing-updates",
+      "summary": "Welcome to our combined .NET servicing updates for October 2026. Let's get into the latest release of .NET and .NET Framework. Here's a quick overview of what's new in our servicing releases: Security improvements .NET has been refreshed with the latest update as of October 13, 2026. This update contains security and non-security fi",
+      "publishedAt": "2026-10-12T20:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
