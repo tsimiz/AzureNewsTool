@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-16T00:14:57.350Z",
-  "itemCount": 1332,
+  "generatedAt": "2026-10-16T06:10:10.394Z",
+  "itemCount": 1333,
   "sources": [
     {
       "name": "Azure Updates",
@@ -121,6 +121,14 @@
       "link": "https://azure.microsoft.com/updates?id=576214",
       "summary": "Azure Site Recovery (ASR) now supports disaster recovery for Azure ARC-enabled Windows VMWare virtual machines and on-premise physical servers. Customers can protect ARC-managed machines with ASR while continuing to use Azure ARC for governance, inventory",
       "publishedAt": "2026-10-14T19:13:31.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms",
+      "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-server-virtualization-platforms/",
+      "summary": "We're building operational consistency through Azure and Azure Arc, and infrastructure consistency through Hyper-V.",
+      "publishedAt": "2026-10-14T19:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
