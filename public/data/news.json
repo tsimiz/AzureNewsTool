@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-15T18:08:05.755Z",
-  "itemCount": 1331,
+  "generatedAt": "2026-10-16T00:14:57.350Z",
+  "itemCount": 1332,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.143-(insiders)",
       "summary": "Learn what is new in Visual Studio Code Insiders, including the latest features and improvements. Read the full article",
       "publishedAt": "2026-10-21T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Files cross-region data copy and synchronization with Azure Storage Mover",
+      "link": "https://azure.microsoft.com/updates?id=576542",
+      "summary": "Azure Files customers can now copy and synchronize file share data across storage accounts, Azure regions, and subscriptions within the same tenant using Azure Storage Mover. Schedule incremental transfers to maintain secondary copies that can support bus",
+      "publishedAt": "2026-10-15T19:05:18.000Z"
     },
     {
       "source": "Azure Updates",
