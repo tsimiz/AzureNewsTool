@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-18T00:16:46.492Z",
-  "itemCount": 1337,
+  "generatedAt": "2026-10-18T06:09:27.694Z",
+  "itemCount": 1338,
   "sources": [
     {
       "name": "Azure Updates",
@@ -57,6 +57,14 @@
       "link": "https://azure.microsoft.com/updates?id=574296",
       "summary": "External key management for Azure Key Vault Managed HSM is now generally available in all Azure public regions. For organizations with regulatory or sovereignty requirements to retain physical control of key-encryption keys, it lets Azure services that su",
       "publishedAt": "2026-10-16T16:50:27.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Managing open-weight model risk in enterprise deployments",
+      "link": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments/",
+      "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.",
+      "publishedAt": "2026-10-16T16:05:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
