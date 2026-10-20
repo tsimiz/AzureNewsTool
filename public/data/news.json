@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T12:08:37.188Z",
-  "itemCount": 1341,
+  "generatedAt": "2026-10-20T18:07:31.834Z",
+  "itemCount": 1363,
   "sources": [
     {
       "name": "Azure Updates",
@@ -45,10 +45,82 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "[Launched] Generally Available: Service tag match condition for Azure Front Door Premium WAF",
+      "link": "https://azure.microsoft.com/updates?id=577156",
+      "summary": "Announcing the general availability of the service tag match condition for Azure Web Application Firewall (WAF) custom rules on Azure Front Door Premium. Service tags represent groups of IP address prefixes used by Azure services, and Microsoft updates th",
+      "publishedAt": "2026-10-20T16:57:35.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Keyless TLS on Application Gateway with Azure Key Vault Managed HSM",
+      "link": "https://azure.microsoft.com/updates?id=577130",
+      "summary": "Azure Application Gateway now supports keyless TLS termination using certificates whose private keys stay in Azure Key Vault Managed HSM. Each TLS handshake signature is performed inside the HSM, and the private key is never exported to the gateway. This",
+      "publishedAt": "2026-10-20T16:55:59.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Advanced platform metrics for Azure Monitor",
+      "link": "https://azure.microsoft.com/updates?id=575329",
+      "summary": "Advanced platform metrics for Azure Monitor are now generally available. Advanced platform metrics provide finer-grained signals that help customers more quickly and accurately identify changes and trends within their resources.With this release, customer",
+      "publishedAt": "2026-10-20T16:54:24.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure DevOps available in Microsoft Copilot",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot",
+      "summary": "The Azure DevOps Plugin is now available in Microsoft Copilot. It brings Azure DevOps directly into Copilot Chat, Cowork, and Code, so you can work with your projects, work items, pull requests, test plans, pipelines, and more without switching to Azure DevOps. The plugin also includes built-in skills to help with everyday developme",
+      "publishedAt": "2026-10-20T16:48:07.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Activatable Extension Points",
+      "link": "https://devblogs.microsoft.com/insidemsix/activatable-extension-points",
+      "summary": "We often talk about \"running an application\", \"launching an app\", or \"starting an app\". This conjures up visions of CreateProcess() spinning up a new process, giving the application life. For packaged applications, Windows has a specific term for bringing an application",
+      "publishedAt": "2026-10-20T16:00:30.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Can a local git remote replace GitHub in your agent eval?",
+      "link": "https://devblogs.microsoft.com/blog/can-a-local-git-remote-replace-github-in-your-agent-eval",
+      "summary": "When an agent eval involves pushing, pulling or keeping a git branch in sync, the fixture needs a remote repository. The easiest one to set up is a bare repository next to the fixture. It takes one git init --bare, works offline and resets with the rest of the workspace. A real GitHub repository in comparison, needs a token, an",
+      "publishedAt": "2026-10-20T14:53:27.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Work IQ: the new retrieve tool",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/work-iq-retrieve-october-2026",
+      "summary": "The new Work IQ Retrieve tool grounds agents in the context of work, helping them reason over the right information and deliver more relevant, trustworthy responses. With one retrieval layer across work sources, developers can give agents richer organizational context without building separate search systems.",
+      "publishedAt": "2026-10-20T07:00:57.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Go 1.27.2-2 Microsoft build now available",
+      "link": "https://devblogs.microsoft.com/go/go-1-27-2-2-microsoft-build-now-available",
+      "summary": "A new release of the Microsoft build of Go is now available for download. Microsoft-specific changes This release includes significant changes specific to the Microsoft build of Go: Adds a GODEBUG setting named ms_tlsmldsacert.",
+      "publishedAt": "2026-10-19T21:37:41.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[Launched] Generally Available: Metrics usage insights for Azure Monitor workspace",
       "link": "https://azure.microsoft.com/updates?id=577165",
       "summary": "Metrics usage insights is now generally available, giving you greater visibility into what’s driving metrics usage across your Azure Monitor workspace. Monitor workspace utilization, identify unused metrics, understand usage trends, and investigate change",
       "publishedAt": "2026-10-19T20:23:15.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
+      "link": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
+      "summary": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency.",
+      "publishedAt": "2026-10-19T19:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -59,12 +131,60 @@
       "publishedAt": "2026-10-19T17:55:40.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Get Your .NET MAUI App Ready for Xcode 27",
+      "link": "https://devblogs.microsoft.com/dotnet/migrate-dotnet-maui-apps-uikit-scene-lifecycle",
+      "summary": "Your existing .NET MAUI app builds with Xcode 27, installs on an iPhone running iOS 27, shows its splash screen, and then disappears. Not exactly the grand entrance you were hoping for. That symptom can have many causes. But if the only thing that changed is that you're now building with Xcode 27 and running the app on iOS 27, and yo",
+      "publishedAt": "2026-10-19T16:05:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Bring Your Own Model to the GitHub Copilot SDK with C#",
+      "link": "https://devblogs.microsoft.com/dotnet/bring-your-own-model-to-the-github-copilot-sdk-with-csharp",
+      "summary": "Hi, I know, I keep coming back to the same theme on this blog: agent harnesses. In Build Your Own AI Agent Harness in C# we built one from scratch. In",
+      "publishedAt": "2026-10-19T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Plan Your Java Upgrade Ahead of Microsoft&#039;s 2027 Support Milestones",
+      "link": "https://devblogs.microsoft.com/java/plan-your-java-upgrade-ahead-of-microsofts-2027-support-milestones",
+      "summary": "In April 2021, we announced the Microsoft Build of OpenJDK. We were starting with a preview of our J",
+      "publishedAt": "2026-10-19T14:59:36.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Organize and revisit tabs with the keyboard",
+      "link": "https://devblogs.microsoft.com/visualstudio/organize-and-revisit-tabs-with-the-keyboard",
+      "summary": "When you're moving between an implementation, its tests, and a related interface, the order of your open tabs can become a useful part of the task. But arranging that order and returning to a particular position shouldn't require a mouse trip each time. Visual Studio 2026 version 18.11 adds keyboard commands for both jobs: move the active t",
+      "publishedAt": "2026-10-19T14:00:22.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why do we need ud2 when int 6 is right there?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261019-00/?p=112781",
+      "summary": "Some time ago, I mentioned that the ud2 instruction was created to be an architecturally undefined instruction. But why not just use an int 6 instruction? It's a two-byte i",
+      "publishedAt": "2026-10-19T14:00:00.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Agents are your newest insiders. Security must move at their speed.",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
       "summary": "New capabilities in Microsoft 365 E7 and Project Perception help organizations contain agent risk and adapt protection continuously.",
       "publishedAt": "2026-10-19T13:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Browser automation tool in Microsoft Foundry is now GA",
+      "link": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga",
+      "summary": "AI agents can reason over data, invoke APIs, and coordinate complex workflows. Yet many business processes still depend on websites, including internal portals, administrative consoles, vendor systems, dashboards, and applications without complete API coverage. Browser automation tool in Microsoft Foundry is now generally available.",
+      "publishedAt": "2026-10-19T10:32:13.000Z"
     },
     {
       "source": "Azure Updates",
@@ -99,6 +219,30 @@
       "publishedAt": "2026-10-16T16:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "C++ futures part 5: std:: future and std:: shared_future",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261016-00/?p=112778",
+      "summary": "Wrapping up our quick introduction to the C++ futures library, we come to the last two parts: std::future and std::shared_future. The",
+      "publishedAt": "2026-10-16T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What&#039;s new in Microsoft Foundry | September 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026",
+      "summary": "September's updates help you run agents on a schedule, load tool definitions on demand, and investigate behavior from traces. Routines and Tool Search are now GA; Insights enters public preview, and Model Router gains preview controls. We also expanded the GPT-6 lineup and introduced GPT-6.1 Sol. Jump to Fo",
+      "publishedAt": "2026-10-16T02:04:50.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MSVC Build Tools Version 14.52 Release Candidate Now Available",
+      "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-version-14-52-release-candidate-now-available",
+      "summary": "We are pleased to announce the availability of the release candidate for Microsoft C++ (MSVC) Build Tools version 14.52. With this release, C++23 is ready for production use and available through the /std:c++23 compiler option; see below for details. This is the last MSVC v14.52 preview before it moves to stable status and full support. You ca",
+      "publishedAt": "2026-10-15T20:07:03.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure Files cross-region data copy and synchronization with Azure Storage Mover",
@@ -123,6 +267,14 @@
       "publishedAt": "2026-10-15T16:54:20.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing dotnetup: A toolchain manager for .NET",
+      "link": "https://devblogs.microsoft.com/dotnet/introducing-dotnetup",
+      "summary": "Getting started with .NET on macOS and Linux has historically meant navigating a plethora of options: system package managers like apt or brew, platform-specific tarballs, or standalone shell scripts like dotnet-install.sh. While those methods have served us well, they often collide with administrative",
+      "publishedAt": "2026-10-15T16:50:00.000Z"
+    },
+    {
       "source": "Azure Blog",
       "category": "Azure",
       "title": "Evolving the cloud-native foundation for the next generation of AI",
@@ -137,6 +289,14 @@
       "link": "https://devblogs.microsoft.com/visualstudio/stop-waiting-on-a-failed-build",
       "summary": "A project fails to compile, but the solution build keeps going. You already have an error to fix, while other projects continue using build time to tell you the solution still doesn't build. Visual Studio 2026 version 18.11 adds an opt-in way to stop a solution build after the first project failure. If your next step is to fix that failure",
       "publishedAt": "2026-10-15T14:00:50.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "C++ futures part 4: What if I want an immediate on-thread std::async ?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261015-00/?p=112776",
+      "summary": "I noted last time that you are not allowed to ask std::async for an immediate on-thread calculation. The C++ library designers probably chose not to support it because there's no poi",
+      "publishedAt": "2026-10-15T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -161,6 +321,14 @@
       "link": "https://devblogs.microsoft.com/azure-sql/canadas-2026-time-zone-updates-guidance-for-microsoft-sql",
       "summary": "Affected locations in British Columbia, Alberta, and Manitoba will not turn their clocks back at 02:00 local time on November 1, 2026. They will remain at UTC−07:00, UTC−06:00, and UTC−05:00, respectively.",
       "publishedAt": "2026-10-15T05:21:10.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Modernizing the VS Code UI",
+      "link": "https://devblogs.microsoft.com/vscode-blog/modernizing-the-vs-code-ui",
+      "summary": "See how developer feedback is shaping the modern VS Code interface, from layout density and editor tabs to themes and responsiveness. Read the full article",
+      "publishedAt": "2026-10-15T00:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -216,6 +384,14 @@
       "title": "Visual Studio Code 1.142 (Insiders)",
       "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-142-insiders",
       "summary": "Learn what is new in Visual Studio Code 1.142 (Insiders) Read the full article",
+      "publishedAt": "2026-10-14T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.142",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-142-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.142 Read the full article",
       "publishedAt": "2026-10-14T17:00:00.000Z"
     },
     {
