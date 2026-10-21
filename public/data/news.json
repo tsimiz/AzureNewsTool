@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T12:08:59.321Z",
-  "itemCount": 1364,
+  "generatedAt": "2026-10-21T18:07:53.555Z",
+  "itemCount": 1377,
   "sources": [
     {
       "name": "Azure Updates",
@@ -37,10 +37,106 @@
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
+      "title": "Visual Studio Code 1.144 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.144-(insiders)",
+      "summary": "Learn what is new in Visual Studio Code 1.144 (Insiders) Read the full article",
+      "publishedAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Cosmos DB Safe Key Rotation",
+      "link": "https://azure.microsoft.com/updates?id=576716",
+      "summary": "Safe Key Rotation for Azure Cosmos DB is now generally available. You can view timestamp metadata showing when each account key was last used, helping you identify active keys before rotating or retiring credentials.This visibility helps reduce the risk o",
+      "publishedAt": "2026-10-21T17:13:16.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
       "title": "Visual Studio Code 1.143 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.143-(insiders)",
       "summary": "Learn what is new in Visual Studio Code Insiders, including the latest features and improvements. Read the full article",
       "publishedAt": "2026-10-21T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.143",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.143",
+      "summary": "Learn what's new in Visual Studio Code 1.143 Read the full article",
+      "publishedAt": "2026-10-21T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.143 (Insiders)",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-143-insiders",
+      "summary": "Learn what is new in Visual Studio Code Insiders, including the latest features and improvements. Read the full article",
+      "publishedAt": "2026-10-21T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Pylance + Pyrefly: bring your preferred type checker to Visual Studio Code",
+      "link": "https://devblogs.microsoft.com/python/announcing-tsp",
+      "summary": "At Microsoft, our focus is on providing the best possible experience for Python developers - both for everyday coding and for the agentic workflows that are increasingly central to how developers build software. A great type checking experience is a core part of that, not only for surfacing accurate and actionable diagnostics and providing a",
+      "publishedAt": "2026-10-21T16:42:20.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Advanced Shader Delivery is Available Now Across Hardware and Coming Soon to Other Storefronts",
+      "link": "https://devblogs.microsoft.com/directx/advanced-shader-delivery-is-available-now-across-hardware",
+      "summary": "A few weeks ago, we announced that Advanced Shader Delivery (ASD) is available for Gears of War: E-Day and teased that the feature is coming to devices across Windows 11. Today, we’re proud to anno",
+      "publishedAt": "2026-10-21T16:00:47.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Microsoft CppCon 2026 Trip Report",
+      "link": "https://devblogs.microsoft.com/cppblog/microsoft-cppcon-2026-trip-report",
+      "summary": "CppCon 2026 is a wrap! Microsoft returned to Aurora, Colorado, for a week of talks, technical discussions, and conversations with developers from across the C++ community. Microsoft C++ @ CppCon At our booth, we met people building games, financial systems, developer tools, embedded software, scientific tools, and other applications",
+      "publishedAt": "2026-10-21T15:47:02.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing Agentic Autofix for code and dependencies",
+      "link": "https://devblogs.microsoft.com/devops/introducing-agentic-autofix-for-code-and-dependencies",
+      "summary": "Fixing a vulnerability takes more than knowing where it is. You need a change that follows your coding standards and works with the rest of your code. Copilot Autofix for GitHub Advanced Security for Azure DevOps now runs on an agentic foundation. It also supports dependency vulnerability fixes and code scanning alerts from third-pa",
+      "publishedAt": "2026-10-21T15:06:27.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Compare today&#039;s code with an earlier commit",
+      "link": "https://devblogs.microsoft.com/visualstudio/compare-todays-code-with-an-earlier-commit",
+      "summary": "You know a change was present in an earlier commit, and you want to see how the code in front of you differs now. Comparing two commits answers part of that question, but it leaves out work you haven't committed yet. Visual Studio 2026 version 18.11 adds Compare with Working Tree to the repository-level commit workflow. You",
+      "publishedAt": "2026-10-21T14:00:30.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing GA of Safe Key Rotation in Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-public-preview-of-safe-key-rotation-in-azure-cosmos-db",
+      "summary": "In our previous post",
+      "publishedAt": "2026-10-21T14:00:23.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "PowerToys 0.102 is here: new mouse utilities, Command Palette improvements and much more",
+      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-102-is-here-new-mouse-utilities-command-palette-improvements-and-much-more",
+      "summary": "",
+      "publishedAt": "2026-10-21T11:06:49.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Go 1.27.3-1 and 1.26.10-1 Microsoft builds now available",
+      "link": "https://devblogs.microsoft.com/go/go-1-27-3-1-and-1-26-10-1-microsoft-builds-now-available",
+      "summary": "A new release of the Microsoft build of Go including security fixes is now available for download. Microsoft-specific changes The 1.26.10-1 release includes a significant change specific to the Microsoft build of Go: Adds support for persistent Microsoft",
+      "publishedAt": "2026-10-21T09:00:21.000Z"
     },
     {
       "source": "Azure Updates",
@@ -49,6 +145,14 @@
       "link": "https://azure.microsoft.com/updates?id=576242",
       "summary": "Announcing the public preview of disable VNet peering route, a route-table capability that gives you more control over traffic between peered virtual networks. DPR suppresses system-generated peering routes on subnets associated with the route table while",
       "publishedAt": "2026-10-20T18:55:47.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing TypeScript 7.1 Beta",
+      "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta",
+      "summary": "Today we're excited to announce the beta release of TypeScript 7.1! npm install -D typescript@beta Let's take a look at what's new in TypeScript 7.1! Support for Import Attributes in",
+      "publishedAt": "2026-10-20T17:53:06.000Z"
     },
     {
       "source": "Azure Updates",
