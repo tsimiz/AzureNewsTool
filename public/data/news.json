@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T18:07:31.834Z",
-  "itemCount": 1363,
+  "generatedAt": "2026-10-21T00:14:57.180Z",
+  "itemCount": 1364,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.143-(insiders)",
       "summary": "Learn what is new in Visual Studio Code Insiders, including the latest features and improvements. Read the full article",
       "publishedAt": "2026-10-21T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Disable VNet peering route",
+      "link": "https://azure.microsoft.com/updates?id=576242",
+      "summary": "Announcing the public preview of disable VNet peering route, a route-table capability that gives you more control over traffic between peered virtual networks. DPR suppresses system-generated peering routes on subnets associated with the route table while",
+      "publishedAt": "2026-10-20T18:55:47.000Z"
     },
     {
       "source": "Azure Updates",
