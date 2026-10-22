@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-22T00:14:26.222Z",
-  "itemCount": 1379,
+  "generatedAt": "2026-10-22T06:10:13.682Z",
+  "itemCount": 1380,
   "sources": [
     {
       "name": "Azure Updates",
@@ -169,6 +169,14 @@
       "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta",
       "summary": "Today we're excited to announce the beta release of TypeScript 7.1! npm install -D typescript@beta Let's take a look at what's new in TypeScript 7.1! Support for Import Attributes in",
       "publishedAt": "2026-10-20T17:53:06.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Advancing digital sovereignty with greater control and choice",
+      "link": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+      "summary": "Across conversations with leaders in government, critical infrastructure and regulated industries, one priority consistently rises to the top: putting technology to work on the most important systems while maintaining the control those systems require.",
+      "publishedAt": "2026-10-20T17:34:47.000Z"
     },
     {
       "source": "Azure Updates",
