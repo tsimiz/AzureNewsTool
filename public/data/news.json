@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T18:07:53.555Z",
-  "itemCount": 1377,
+  "generatedAt": "2026-10-22T00:14:26.222Z",
+  "itemCount": 1379,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,22 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.144-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.144 (Insiders) Read the full article",
       "publishedAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+      "summary": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments.",
+      "publishedAt": "2026-10-21T18:23:55.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
+      "link": "https://azure.microsoft.com/updates?id=577273",
+      "summary": "What and whyStarting October 30, 2026, Microsoft Entra ID will make the Choose Your Own Telephony Provider experience available. This feature enables organizations to use a supported third-party telecommunications provider for SMS and voice authentication",
+      "publishedAt": "2026-10-21T17:38:32.000Z"
     },
     {
       "source": "Azure Updates",
