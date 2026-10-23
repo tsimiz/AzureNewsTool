@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T00:16:07.580Z",
-  "itemCount": 1389,
+  "generatedAt": "2026-10-23T06:10:11.403Z",
+  "itemCount": 1390,
   "sources": [
     {
       "name": "Azure Updates",
@@ -49,6 +49,14 @@
       "link": "https://azure.microsoft.com/updates?id=577618",
       "summary": "ABFS Vectored Read helps compatible analytics engines reduce request overhead for selective reads in Azure Data Lake Storage. By combining nearby file ranges into fewer storage requests and executing reads asynchronously, it can reduce network round trips",
       "publishedAt": "2026-10-22T18:01:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Microsoft named a Leader in two evaluations of next-generation app development platforms",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/22/microsoft-named-a-leader-in-two-evaluations-of-next-generation-app-development-platforms/",
+      "summary": "Discover how Microsoft Power Platform and Microsoft Copilot Studio are shaping the next generation of business software with AI-powered development, agents, apps, workflows, and enterprise governance. Learn why Microsoft was recognized as a Leader in two 2026 analyst evaluations.",
+      "publishedAt": "2026-10-22T17:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
