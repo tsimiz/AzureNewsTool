@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T00:17:15.923Z",
-  "itemCount": 1392,
+  "generatedAt": "2026-10-25T06:09:16.823Z",
+  "itemCount": 1393,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.144-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.144 (Insiders) Read the full article",
       "publishedAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "AI that understands your business: Dataverse and Work IQ at PPCC 2026",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/23/dataverse-and-workiq-ppcc-2026/",
+      "summary": "With business applications in Work IQ, now in public preview, Copilot and agents understand your business too.",
+      "publishedAt": "2026-10-23T21:34:54.000Z"
     },
     {
       "source": "Azure Updates",
