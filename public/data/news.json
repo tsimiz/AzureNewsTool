@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-26T13:32:47.958Z",
-  "itemCount": 1393,
+  "generatedAt": "2026-10-26T18:09:36.042Z",
+  "itemCount": 1395,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,22 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.144-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.144 (Insiders) Read the full article",
       "publishedAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Network Watcher VNet flow logs filtering",
+      "link": "https://azure.microsoft.com/updates?id=577782",
+      "summary": "Azure Network Watcher VNet flow logs filtering is now generally available, enabling you to control which network traffic flows are logged based on specific criteria such as IP addresses, ports, protocols, encryption state, flow state, and traffic directio",
+      "publishedAt": "2026-10-26T16:02:05.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
+      "link": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
+      "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions.",
+      "publishedAt": "2026-10-26T16:00:00.000Z"
     },
     {
       "source": "Power Platform Blog",
