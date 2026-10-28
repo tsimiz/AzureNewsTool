@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T12:06:34.238Z",
-  "itemCount": 1416,
+  "generatedAt": "2026-10-28T18:05:56.175Z",
+  "itemCount": 1419,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,36 @@
   ],
   "items": [
     {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Cross Tenant Restore with Azure Backup",
+      "link": "https://azure.microsoft.com/updates?id=577117",
+      "summary": "Cross-Tenant Restore (CTR) helps organizations establish an independent recovery path by enabling Azure VM backups to be restored into a separate Azure tenant. It strengthens cyber resilience while using the existing backup copy, without requiring custome",
+      "publishedAt": "2026-10-28T17:09:30.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Visual Studio Code 1.144 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.144-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.144 (Insiders) Read the full article",
       "publishedAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Marketplace private offer enhancements",
+      "link": "https://azure.microsoft.com/updates?id=576547",
+      "summary": "Private offers through Microsoft Marketplace help you optimize your spending power with pricing and terms aligned to your organization’s needs, including flexible billing, custom contract lengths, and more. For eligible private offers, we are simplifying",
+      "publishedAt": "2026-10-28T16:23:43.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "The CISO’s evolving role: Protecting and defending in the agentic era",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+      "summary": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach both.",
+      "publishedAt": "2026-10-28T16:00:00.000Z"
     },
     {
       "source": "Azure Updates",
