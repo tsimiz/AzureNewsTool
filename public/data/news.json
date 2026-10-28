@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T18:05:25.904Z",
-  "itemCount": 1398,
+  "generatedAt": "2026-10-28T00:12:16.342Z",
+  "itemCount": 1416,
   "sources": [
     {
       "name": "Azure Updates",
@@ -45,6 +45,22 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "[Launched] Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
+      "link": "https://azure.microsoft.com/updates?id=578358",
+      "summary": "Higher Azure Storage account resource quotas are now generally available, supporting up to 1,000 storage accounts with standard endpoints per region, per subscription, up from the default of 250. Manage more accounts in a single subscription, reducing the",
+      "publishedAt": "2026-10-27T21:16:52.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure DevOps Server RC (26H2) Is Now Available",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available",
+      "summary": "Today we're releasing the release candidate (RC) of the next Azure DevOps Server release. It brings new features previously available in our hosted version, along with security and quality improvements. You can",
+      "publishedAt": "2026-10-27T20:31:59.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[Launched] Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
       "link": "https://azure.microsoft.com/updates?id=577260",
       "summary": "Microsoft Foundry now brings Claude models into Azure Cost Management alongside the rest of your Foundry spend, generally available. Until now, Claude charges appeared under SaaS rather than under the Foundry resource used to deploy them, and Claude deplo",
@@ -57,6 +73,46 @@
       "link": "https://azure.microsoft.com/updates?id=578153",
       "summary": "Announcing the general availability of profile and route level policies for Azure Web Application Firewall (WAF) on Azure Front Door Premium. WAF policies are no longer limited to individual domains: you can now apply broad baseline protection across an e",
       "publishedAt": "2026-10-27T16:58:04.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "External Location",
+      "link": "https://devblogs.microsoft.com/insidemsix/msix-external-location",
+      "summary": "We talked recently about PackageVolume as one of the ways to stage packages. Let's turn our gaze to External Location, which plays a distinct role in MSIX, with similarities to - and important differences from - other options. Why is External Locati",
+      "publishedAt": "2026-10-27T16:00:41.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-october-update-compare-commits-to-your-code-resolve-conflicts-in-bulk-keep-coding",
+      "summary": "The October Visual Studio update gives you a clearer view of how your code has changed and more control over resolving merge conflicts. Compare an earlier commit directly with your current working tree, including edits still in progress, and apply the same conflict resolution across multiple files at once. There's more to try beyond Git: a",
+      "publishedAt": "2026-10-27T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Blazor Welcomes Open-Source Contributions from Infragistics",
+      "link": "https://devblogs.microsoft.com/dotnet/blazor-welcomes-infragistics",
+      "summary": "We're pleased to welcome Infragistics as an active contributor to Blazor! As part of our collaboration, Infragistics has made more than 50 of its Blazor controls free and open source, and its engineers are contributing directly to the framework. Their work includes new Blazor analyzers for .NET 11 and tooling to help you get started with their",
+      "publishedAt": "2026-10-27T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Inspecting Local Data with Azure Cosmos DB Shell",
+      "link": "https://devblogs.microsoft.com/cosmosdb/inspecting-local-data-with-azure-cosmos-db-shell",
+      "summary": "Explore local data from the terminal, with the emulator as your development environment. Azure Cosmos DB Shell gives me a direct way to work with my data from the terminal. I can navigate databases and containers, query documents, and read a specific item without",
+      "publishedAt": "2026-10-27T13:31:06.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
+      "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026",
+      "summary": "Transcribe 25 new languages at up to 2x the speed. LLM Speech 09-2026 expands Azure AI Speech to 25 additional languages—including 11 Indic languages—while cutting processing time. Whether you're building voice agents, captioning systems, or contact center analytics, your multilingual workflows just got faster and more acc",
+      "publishedAt": "2026-10-26T17:10:00.000Z"
     },
     {
       "source": "Power Platform Blog",
@@ -83,6 +139,62 @@
       "publishedAt": "2026-10-26T16:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "PostgreSQL Like A Pro: Build, query, and troubleshoot without leaving VS Code",
+      "link": "https://devblogs.microsoft.com/blog/postgresql-like-a-pro-vscode",
+      "summary": "You're building an app in VS Code. Then you need to check a table, understand how two tables connect, or figure out why a query is slow. That often means opening another tool and finding your way back to the code. The PostgreSQL extension for VS Code brings common database tasks into y",
+      "publishedAt": "2026-10-26T15:05:12.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Puzzling out why a program doesn&#039;t work when run from a batch file, but works when double-clicked from Explorer",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261026-00/?p=112797",
+      "summary": "A customer asked for help writing a batch file to launch a program. For some reason, the program displayed an error message when the batch file ran it, whereas it worked fine when they double-clicked the program from Explorer. I immediately suspected that they were not setting the current directory. Some time ago, I noted th",
+      "publishedAt": "2026-10-26T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "PHP2Shell and Azure DevOps: what to check",
+      "link": "https://devblogs.microsoft.com/devops/php2shell-and-azure-devops-what-to-check",
+      "summary": "On October 21, 2026, PHP disclosed two critical vulnerabilities that can allow remote code execution. Neither Azure DevOps Services, our cloud-hosted offering, nor Azure DevOps Server, our on-premises product, uses PHP to handle custome",
+      "publishedAt": "2026-10-26T13:00:38.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Keep your investigation between sessions",
+      "link": "https://devblogs.microsoft.com/visualstudio/keep-your-investigation-between-sessions",
+      "summary": "A bug investigation often starts with a few notes: what you tried, which input reproduced the problem, and what you want to check next. You might not be ready to choose a filename or add those notes to a project. You still want them there when you return. In Visual Studio 2026 version 18.11, you can create a standalone Markdown file from",
+      "publishedAt": "2026-10-26T12:00:10.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Tune GitHub Copilot Inline Suggestions with Configurable Eagerness",
+      "link": "https://devblogs.microsoft.com/vscode-blog/tune-github-copilot-inline-suggestions-with-configurable-eagerness",
+      "summary": "Choose how proactively Copilot offers inline suggestions. Read the full article",
+      "publishedAt": "2026-10-26T00:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": ".NET October 2026 Out-of-Band Security Updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates",
+      "summary": "Today, we are releasing out-of-band (OOB) security updates for .NET 8, .NET 9, and .NET 10, along with .NET 11 Release Candidate 3. We recommend updating as soon as possible. Security updates This out-of-band release addresses CVE-2026-111497, a vuln",
+      "publishedAt": "2026-10-25T18:45:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The paper that split the database in four: inside Azure SQL Database Hyperscale, aka Socrates",
+      "link": "https://devblogs.microsoft.com/azure-sql/the-paper-that-split-the-database-in-four-inside-azure-sql-database-hyperscale-aka-socrates",
+      "summary": "Under the Hood: The Research Behind Microsoft SQL, part 1 The Microsoft SQL team is always innovating. They do this in day-to-day efforts, but there are also brand new efforts that are constantly being explored,",
+      "publishedAt": "2026-10-25T11:23:29.000Z"
+    },
+    {
       "source": "Power Platform Blog",
       "category": "Power Platform",
       "title": "AI that understands your business: Dataverse and Work IQ at PPCC 2026",
@@ -107,6 +219,30 @@
       "publishedAt": "2026-10-23T18:12:19.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Code with Cosmos: Build a Production-Ready AI App in Four Episodes",
+      "link": "https://devblogs.microsoft.com/cosmosdb/code-with-cosmos",
+      "summary": "Follow an AI application from a blank folder to a system built for production",
+      "publishedAt": "2026-10-23T17:18:03.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why didn&#039;t we use the COM static store to clean up the unmarshalable delegate?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261023-00/?p=112793",
+      "summary": "A third suggestion from Luca Bacci on creating a fake agile wrapper that is technically agile but is not useful outside its home apartment was to",
+      "publishedAt": "2026-10-23T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "From Local Development to CI Workflows with the Azure Cosmos DB Emulator",
+      "link": "https://devblogs.microsoft.com/cosmosdb/from-local-development-to-ci-workflows-with-the-azure-cosmos-db-emulator",
+      "summary": "When you change a database-backed feature, a successful HTTP response isn't enough. You need to know that the write reached storage, the application retrieved the updated record, and the next answer reflects it. The Azure Cosmos DB Emulator runs locally in Docker and l",
+      "publishedAt": "2026-10-23T12:33:30.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: ABFS Vectored Read for Azure Data Lake Storage",
@@ -129,6 +265,14 @@
       "link": "https://devblogs.microsoft.com/visualstudio/what-should-we-blog-about-next",
       "summary": "",
       "publishedAt": "2026-10-22T14:00:56.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why didn&#039;t we use CoRegisterInitializeSpy to clean up the unmarshalable delegate?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261022-00/?p=112791",
+      "summary": "Another suggestion from Luca Bacci on creating a fake agile wrapper that is technically agile but is not useful outside its home apartment was to",
+      "publishedAt": "2026-10-22T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
