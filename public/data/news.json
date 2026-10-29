@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T00:12:21.039Z",
-  "itemCount": 1424,
+  "generatedAt": "2026-10-29T06:08:01.894Z",
+  "itemCount": 1425,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://azure.microsoft.com/updates?id=577689",
       "summary": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function normally. However, we recommend planning a migration to th",
       "publishedAt": "2026-10-28T17:52:51.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
+      "link": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
+      "summary": "Today, we’re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview.",
+      "publishedAt": "2026-10-28T17:40:56.000Z"
     },
     {
       "source": "Azure Updates",
