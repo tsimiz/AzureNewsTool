@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T12:07:02.353Z",
-  "itemCount": 1425,
+  "generatedAt": "2026-10-29T18:05:36.607Z",
+  "itemCount": 1430,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,46 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: HTTP DDoS Ruleset for Azure Front Door Premium WAF",
+      "link": "https://azure.microsoft.com/updates?id=578681",
+      "summary": "Announcing the general availability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application downtime, and static controls such as IP filters and fixed rat",
+      "publishedAt": "2026-10-29T17:09:49.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure MCP Server 3.0",
+      "link": "https://azure.microsoft.com/updates?id=578662",
+      "summary": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded capabilities:Infrastructure as code: Azure Terraform to",
+      "publishedAt": "2026-10-29T17:04:58.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+      "summary": "As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are utilizing AI across their operations, reflecting a broader trend of threat actors incorporating AI into their attack chains.",
+      "publishedAt": "2026-10-29T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
+      "summary": "IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises.",
+      "publishedAt": "2026-10-29T16:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "From one prompt to a governed Dataverse app: the Dataverse plugin lands in Copilot Cowork",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/28/dataverse-plugin-copilot-cowork/",
+      "summary": "The Microsoft Dataverse plugin for Copilot Cowork turns a plain-language request into real Dataverse tables, sample data and a published app, with every change approved by you and every action running under your own permissions.",
+      "publishedAt": "2026-10-28T20:50:01.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
