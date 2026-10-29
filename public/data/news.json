@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T18:05:56.175Z",
-  "itemCount": 1419,
+  "generatedAt": "2026-10-29T00:12:21.039Z",
+  "itemCount": 1424,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
+      "link": "https://azure.microsoft.com/updates?id=577689",
+      "summary": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function normally. However, we recommend planning a migration to th",
+      "publishedAt": "2026-10-28T17:52:51.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
@@ -83,6 +91,14 @@
       "publishedAt": "2026-10-27T20:31:59.000Z"
     },
     {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Invite agentic coauthors to collaborate with you directly in canvas studio!",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/invite-agentic-coauthors-to-collaborate-with-you-directly-in-canvas-studio/",
+      "summary": "Today we&#8217;re excited to share big news for canvas app makers: agentic authoring in canvas studio using your GitHub account is now available in preview! In September, the canvas authoring agent plugin became generally available (GA), so you could build canvas apps from your own coding agent – GitHub Copilot CLI, Claude Code and more.",
+      "publishedAt": "2026-10-27T19:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
@@ -112,6 +128,14 @@
       "title": "Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-october-update-compare-commits-to-your-code-resolve-conflicts-in-bulk-keep-coding",
       "summary": "The October Visual Studio update gives you a clearer view of how your code has changed and more control over resolving merge conflicts. Compare an earlier commit directly with your current working tree, including edits still in progress, and apply the same conflict resolution across multiple files at once. There's more to try beyond Git: a",
+      "publishedAt": "2026-10-27T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "The AI advantage your company can keep",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/",
+      "summary": "New research across more than 200 enterprises looks at how shared knowledge can help companies coordinate their agents—and turn lessons from their work into an operational edge.",
       "publishedAt": "2026-10-27T16:00:00.000Z"
     },
     {
@@ -1105,6 +1129,14 @@
       "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-persistence",
       "summary": "Developers love the Aspire dashboard for collecting and visualizing telemetry from their apps. Structured logs help explain what happened, traces show how a request moved between services, and metrics reveal changes over time. Alongside telemetry, the dashboard displays resources, their configurat",
       "publishedAt": "2026-10-08T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Bringing CRM into the flow of work and agents into business process for sales and service teams",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/",
+      "summary": "The traditional boundaries of business applications are disappearing. For decades, people went to their customer relationship management (CRM) to find customer context, take action, and move work forward. AI is inverting that model. This shift creates two complementary opportunities: greater individual productivity and organization-wide process transformation.",
+      "publishedAt": "2026-10-08T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -2695,6 +2727,14 @@
       "category": "Microsoft 365",
       "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
       "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+      "summary": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely.",
+      "publishedAt": "2026-09-15T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
       "summary": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely.",
       "publishedAt": "2026-09-15T15:00:00.000Z"
     },
