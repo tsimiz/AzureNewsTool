@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T06:07:47.494Z",
-  "itemCount": 1453,
+  "generatedAt": "2026-10-30T12:07:05.713Z",
+  "itemCount": 1454,
   "sources": [
     {
       "name": "Azure Updates",
@@ -81,6 +81,14 @@
       "link": "https://azure.microsoft.com/updates?id=578662",
       "summary": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded capabilities:Infrastructure as code: Azure Terraform to",
       "publishedAt": "2026-10-29T17:04:58.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Built by makers: Five years of Power Platform Community Conference",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/29/built-by-makers-five-years-of-power-platform-community-conference/",
+      "summary": "Five years in, PPCC is still built by makers. Explore the ideas, innovations, and community moments that shaped this year’s event.",
+      "publishedAt": "2026-10-29T16:30:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
