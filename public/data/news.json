@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T18:05:36.607Z",
-  "itemCount": 1430,
+  "generatedAt": "2026-10-30T00:12:20.847Z",
+  "itemCount": 1453,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,9 +35,41 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.145 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.145-(insiders)",
+      "summary": "Learn what is new in Visual Studio Code 1.145 (Insiders). Read the full article",
+      "publishedAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+      "link": "https://azure.microsoft.com/updates?id=578850",
+      "summary": "Large OS Disk Encryption (LOSDE) is now generally available for Azure Confidential VM migration scenarios. Organizations can move larger, production-scale workloads into confidential computing with the OS disk fully protected, instead of being held back b",
+      "publishedAt": "2026-10-29T21:19:52.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What&#039;s New in vcpkg (Oct 2026)",
+      "link": "https://devblogs.microsoft.com/cppblog/whats-new-in-vcpkg-oct-2026",
+      "summary": "This blog post summarizes changes to the vcpkg package manager as part of the 2026-10-16 registry release and the 2026-09-26 tool release. These updates include c",
+      "publishedAt": "2026-10-29T17:58:54.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: HTTP DDoS Ruleset for Azure Front Door Premium WAF",
+      "link": "https://azure.microsoft.com/updates?id=578681",
+      "summary": "Announcing the general availability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application downtime, and static controls such as IP filters and fixed rat",
+      "publishedAt": "2026-10-29T17:09:49.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
       "link": "https://azure.microsoft.com/updates?id=578681",
       "summary": "Announcing the general availability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application downtime, and static controls such as IP filters and fixed rat",
       "publishedAt": "2026-10-29T17:09:49.000Z"
@@ -65,6 +97,22 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
       "summary": "IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises.",
       "publishedAt": "2026-10-29T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Blazor Welcomes Open-Source Contributions from Syncfusion",
+      "link": "https://devblogs.microsoft.com/dotnet/blazor-welcomes-syncfusion",
+      "summary": "We're pleased to announce our collaboration with Syncfusion to advance Blazor! Syncfusion has released a free, open-source toolkit of Blazor components, an",
+      "publishedAt": "2026-10-29T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Preparing for Your Next Certification Could Start with Your Visual Studio Subscription",
+      "link": "https://devblogs.microsoft.com/visualstudio/preparing-for-your-next-certification-could-start-with-your-visual-studio-subscription",
+      "summary": "",
+      "publishedAt": "2026-10-28T22:30:00.000Z"
     },
     {
       "source": "Power Platform Blog",
@@ -101,10 +149,82 @@
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
+      "title": "PIX 2610.28 - the biggest release of 2026",
+      "link": "https://devblogs.microsoft.com/pix/pix-2610-28",
+      "summary": "Today we released PIX 2610.28, available for download here. This release supports all the new retail and preview D3D12 features released today in DirectX Agility SDK 620 and 721. This is the first PIX build combining support for both retail and preview Agility SDKs, simplifying the",
+      "publishedAt": "2026-10-28T17:01:06.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "DirectX Dump Files are now ready for your retail games",
+      "link": "https://devblogs.microsoft.com/directx/directx-dump-files-are-now-released",
+      "summary": "At GDC 2026, we shared our vision for bringing console-level GPU developer tools to Windows, and in June we released the DirectX Dump Files public preview. Thank you to everyone who tried the preview and sent us feedback. Today, DirectX Dump Files are ready for your retail games. Starting with",
+      "publishedAt": "2026-10-28T17:00:02.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
       "title": "Visual Studio Code 1.144 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.144-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.144 (Insiders) Read the full article",
       "publishedAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.144",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.144",
+      "summary": "Learn what's new in Visual Studio Code 1.144 Read the full article",
+      "publishedAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.144",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-144-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.144 Read the full article",
+      "publishedAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing Agility SDK 1.620 Retail and 1.722 Preview: DirectX Dump Files, Partial Graphics Programs, and So Much More!",
+      "link": "https://devblogs.microsoft.com/directx/agilitysdk-1-620-retail-and-1-722-preview",
+      "summary": "Today, we are pleased to announce the release of Agility SDK 1.620 retail and Agility SDK 1.722-preview! Agility SDK 1.620 brings DirectX Dump Files to retail, along with Fence Barriers Tier 1, the Batched Asynchronous Command List APIs, and Partial Gra",
+      "publishedAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Publish Visual Studio Marketplace extensions securely with Trusted Publishing",
+      "link": "https://devblogs.microsoft.com/blog/trusted-publishing-visual-studio-marketplace",
+      "summary": "We are excited to announce Trusted Publishing for Visual Studio Marketplace —a simpler and safer way to publish Visual Studio Code and Visual Studio extensions from GitHub Actions or Azure Pipelines without storing a long-lived Azure DevOps personal access token (PAT). Trusted Publishing uses federated identity to veri",
+      "publishedAt": "2026-10-28T16:59:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "[PREVIEW] Raytracing: Clustered Geometry, Partitioned TLAS, Indirect Acceleration Structure Builds",
+      "link": "https://devblogs.microsoft.com/directx/clas-ptlas-preview",
+      "summary": "Today we're introducing a preview of DirectX Raytracing (DXR) Clustered Geometry and Partitioned Top-Level Acceleration Structures (PTLAS), with a unified GPU-driven API for building and updating them. This is part of a larger AgilitySDK release described in the parent post:",
+      "publishedAt": "2026-10-28T16:54:13.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Async Commands Fallback Layer",
+      "link": "https://devblogs.microsoft.com/directx/async-commands-fallback-layer",
+      "summary": "We're pleased to announce that Agility SDK 1.620.1 includes a fallback layer for Batched Async Commands, letting developers use the new commands on hardware that doesn't support them natively. You can find the NuGet package here. Background Batched Async C",
+      "publishedAt": "2026-10-28T16:52:19.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
+      "link": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry",
+      "summary": "A model can reason about a task. Completing that task takes more: the right context, tools, execution environment, and controls, and an agent loop that brings them together. Microsoft’s unified harness strategy brings a shared execution foundation across our agent experiences while pre",
+      "publishedAt": "2026-10-28T16:45:06.000Z"
     },
     {
       "source": "Azure Updates",
@@ -121,6 +241,62 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
       "summary": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach both.",
       "publishedAt": "2026-10-28T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure SDK Release (October 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-october-2026",
+      "summary": "Thank you for your interest in the new Azure SDKs! We release new features, improvements, and bug fixes every month. Subscribe to our Azure SDK Blog RSS Feed to get notified when a new release is available. You can find links to packages, code, and docs on our",
+      "publishedAt": "2026-10-28T15:00:44.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "C++/WinRT overcorrection: Using make_self and immediately converting it to the projected interface",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261028-00/?p=112803",
+      "summary": "In C++/WinRT, there are two ways of creating objects that you yourself implement. For the purpose of this discussion, let Impl be the class you wrote that implements a Windows Runtime object. If you are implementing something that was declared in an IDL file, it will be the winrt::Namespace::implemen",
+      "publishedAt": "2026-10-28T14:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Streamline creation and management of AI-ready, custom apps with SharePoint Embedded",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/streamline-creation-and-management-of-ai-ready-custom-apps-with-sharepoint-embedded",
+      "summary": "SharePoint content isn’t limited to sites and document libraries. Increasingly, organizations are bringing Microsoft 365 content capabilities directly into the custom apps their users rely on. That’s where",
+      "publishedAt": "2026-10-28T13:09:27.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents",
+      "link": "https://devblogs.microsoft.com/cosmosdb/agentic-ci-cd-with-azure-cosmos-db-isolated-environments-for-a-swarm-of-ai-agents",
+      "summary": "Give each coding task its own disposable database environment, then merge the reviewed changes - not the test database. When parallel coding agents share a database In",
+      "publishedAt": "2026-10-28T11:00:02.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Copilot UX components are generally available: bring interactive experiences into Copilot",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/copilot-ux-components-are-generally-available-bring-interactive-experiences-into-copilot",
+      "summary": "Copilot UX components are generally available with SharePoint Framework (SPFx) 1.24. Bring interactive dashboards, forms, and business actions directly into the Copilot conversation. Build with familiar web technologies, with component hosting handled by Microsoft 365.",
+      "publishedAt": "2026-10-28T10:55:44.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "VS Code Wrapped: GitHub Universe 2026",
+      "link": "https://devblogs.microsoft.com/vscode-blog/vs-code-wrapped:-github-universe-2026",
+      "summary": "Explore how VS Code evolved between GitHub Universe 2025 and 2026, with new ways to code, collaborate with agents, and manage work across tools and environments. Read the full article",
+      "publishedAt": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "VS Code Wrapped: GitHub Universe 2026",
+      "link": "https://devblogs.microsoft.com/external-blogs/vs-code-wrapped-github-universe-2026",
+      "summary": "Explore how VS Code evolved between GitHub Universe 2025 and 2026, with new ways to code, collaborate with agents, and manage work across tools and environments. Read the full article",
+      "publishedAt": "2026-10-28T00:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -193,6 +369,14 @@
       "link": "https://devblogs.microsoft.com/dotnet/blazor-welcomes-infragistics",
       "summary": "We're pleased to welcome Infragistics as an active contributor to Blazor! As part of our collaboration, Infragistics has made more than 50 of its Blazor controls free and open source, and its engineers are contributing directly to the framework. Their work includes new Blazor analyzers for .NET 11 and tooling to help you get started with their",
       "publishedAt": "2026-10-27T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why don&#039;t we run the taskbar and Task Manager at high priority, so they can remain responsive?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261027-00/?p=112800",
+      "summary": "If a system becomes CPU-starved, all processes begin to suffer. This includes the taskbar and Task Manager, even though they are often the tools you want to use to stop whatever it is that's making your system suffer. Why can't we run the taskbar and Task Manager at high priority? The catch with running anything at high priority is",
+      "publishedAt": "2026-10-27T14:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
