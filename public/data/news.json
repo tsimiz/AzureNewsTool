@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T18:04:32.131Z",
-  "itemCount": 1456,
+  "generatedAt": "2026-10-31T00:10:08.620Z",
+  "itemCount": 1457,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.145-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.145 (Insiders). Read the full article",
       "publishedAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
+      "link": "https://azure.microsoft.com/updates?id=577491",
+      "summary": "With database-level managed identity in Azure SQL Database, you can use a user-assigned managed identity for each database to query files in Azure Blob Storage and Azure Data Lake Storage Gen2 through external tables and OPENROWSET. You can authenticate t",
+      "publishedAt": "2026-10-30T17:16:27.000Z"
     },
     {
       "source": "Microsoft Security Blog",
