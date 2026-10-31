@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T00:10:08.620Z",
-  "itemCount": 1457,
+  "generatedAt": "2026-10-31T06:05:37.822Z",
+  "itemCount": 1458,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.145-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.145 (Insiders). Read the full article",
       "publishedAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+      "summary": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it.",
+      "publishedAt": "2026-10-31T01:02:57.000Z"
     },
     {
       "source": "Azure Updates",
