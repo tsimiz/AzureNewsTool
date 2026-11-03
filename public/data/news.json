@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T00:10:33.541Z",
-  "itemCount": 1467,
+  "generatedAt": "2026-11-03T06:06:53.388Z",
+  "itemCount": 1468,
   "sources": [
     {
       "name": "Azure Updates",
@@ -113,6 +113,14 @@
       "link": "https://azure.microsoft.com/updates?id=579111",
       "summary": "Azure Site Recovery support for Azure Local is now generally available, making enterprise-grade disaster recovery simpler, accessible, easier to setup and secure than ever before. Customers can protect supported Windows and Linux virtual machines by repli",
       "publishedAt": "2026-11-02T17:49:48.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Dataverse goes where you build: Copilot Cowork, coding agents and n8n",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/11/02/dataverse-for-coding-agents-n8n-copilot-cowork/",
+      "summary": "The Dataverse plugin and native integrations now reach Copilot Cowork, GitHub Copilot, Claude, Codex and ChatGPT, Cursor, Gemini CLI, Google Antigravity and n8n, so developers and makers get the same trusted business data and guardrails in the tools they already use.",
+      "publishedAt": "2026-11-02T16:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
