@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T18:05:03.696Z",
-  "itemCount": 1468,
+  "generatedAt": "2026-11-04T00:10:45.914Z",
+  "itemCount": 1476,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,70 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.145-(insiders)",
       "summary": "Learn what is new in Visual Studio Code 1.145 (Insiders). Read the full article",
       "publishedAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: JWT validation for Application Gateway for Containers",
+      "link": "https://azure.microsoft.com/updates?id=576382",
+      "summary": "Application Gateway for Containers now supports centralized JSON Web Token validation through the AuthPolicy custom resource. Teams can validate a token signature, issuer, lifetime, and configured audience by using signing keys retrieved from a trusted HT",
+      "publishedAt": "2026-11-03T21:17:08.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: MCP gateway for Application Gateway for Containers",
+      "link": "https://azure.microsoft.com/updates?id=576388",
+      "summary": "Application Gateway for Containers now supports Model Context Protocol routing through the new MCPRoute custom resource. Platform teams can publish MCP servers behind a stable hostname and path while centralizing TLS, JWT validation, Web Application Firew",
+      "publishedAt": "2026-11-03T21:16:36.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Private ingress for Application Gateway for Containers",
+      "link": "https://azure.microsoft.com/updates?id=576393",
+      "summary": "Application Gateway for Containers now supports private frontends that are reachable only through approved Azure Private Link private endpoints. This enables organizations to keep internal applications, shared services, and cross-cluster traffic on privat",
+      "publishedAt": "2026-11-03T21:15:46.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Advanced capacity insights are now available in Azure Storage Discovery",
+      "link": "https://azure.microsoft.com/updates?id=578655",
+      "summary": "Advanced capacity insights are now available for preview in Azure Storage Discovery. Storage Discovery now provides greater visibility into storage usage through insights such as access patterns, data age, storage tiers, object size distribution, retentio",
+      "publishedAt": "2026-11-03T20:20:29.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Extend immutability for PITR backups for Azure SQL Database and Azure SQL Managed Instance",
+      "link": "https://azure.microsoft.com/updates?id=579305",
+      "summary": "With this enhancement, you have the ability to lock your retention to the configured PITR retention, beyond the default 7 days of immutable backups that are already available. This is especially useful for financial customers who typically have 35 days of",
+      "publishedAt": "2026-11-03T18:36:12.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Enhanced Azure Site Recovery support for VMSS Flex",
+      "link": "https://azure.microsoft.com/updates?id=578926",
+      "summary": "Azure Site Recovery now offers an enhanced disaster recovery experience for virtual machines in Virtual Machine Scale Sets with flexible orchestration. The update improves target configuration and end-to-end recovery workflows, including failover, reprote",
+      "publishedAt": "2026-11-03T18:32:01.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+      "summary": "Microsoft Threat Intelligence tracks a fake-download campaign that uses trojanized Inno installers to deliver multiple monetization offers and provides detection and investigation guidance across the complete installer session.",
+      "publishedAt": "2026-11-03T17:32:47.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/",
+      "summary": "Read why Gartner named Microsoft a Leader in the inaugural 2026 Magic Quadrant for AI Agent Management Platforms.",
+      "publishedAt": "2026-11-03T17:00:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
@@ -1035,12 +1099,12 @@
       "publishedAt": "2026-10-16T16:05:00.000Z"
     },
     {
-      "source": "Microsoft Security Blog",
-      "category": "Security",
+      "source": "Azure Blog",
+      "category": "Azure",
       "title": "Managing open-weight model risk in enterprise deployments",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
-      "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls.",
-      "publishedAt": "2026-10-16T16:00:00.000Z"
+      "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.",
+      "publishedAt": "2026-10-16T16:05:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
