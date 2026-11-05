@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T06:06:41.071Z",
-  "itemCount": 1480,
+  "generatedAt": "2026-11-05T12:06:01.663Z",
+  "itemCount": 1482,
   "sources": [
     {
       "name": "Azure Updates",
@@ -75,6 +75,14 @@
       "publishedAt": "2026-11-04T17:00:00.000Z"
     },
     {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads",
+      "link": "https://azure.microsoft.com/en-us/blog/predicting-and-detecting-failures-how-azure-strengthens-reliability-for-mission-critical-workloads/",
+      "summary": "Azure Failure Prediction and Detection (AFPD) helps reduce interruptions by predicting hardware failures, moving eligible workloads, and notifying customers when action is needed. See what that means for SAP on Azure and other mission-critical workloads.",
+      "publishedAt": "2026-11-04T16:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: JWT validation for Application Gateway for Containers",
@@ -137,6 +145,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/",
       "summary": "Read why Gartner named Microsoft a Leader in the inaugural 2026 Magic Quadrant for AI Agent Management Platforms.",
       "publishedAt": "2026-11-03T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "The Platform Behind the Next AI Breakthrough",
+      "link": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
+      "summary": "The next frontier of AI is coming into focus as agents take on longer, more strategic work.",
+      "publishedAt": "2026-11-02T20:52:22.000Z"
     },
     {
       "source": "Microsoft Security Blog",
