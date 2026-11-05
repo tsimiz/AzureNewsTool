@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-04T18:04:03.866Z",
-  "itemCount": 1477,
+  "generatedAt": "2026-11-05T00:10:48.176Z",
+  "itemCount": 1480,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,30 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
+      "link": "https://azure.microsoft.com/updates?id=579300",
+      "summary": "The Azure Database for PostgreSQL Flexible Server REST API version 2026-10-01 is now generally available. This stable API release introduces expanded capabilities for maintenance management, immutable backups, multi-tenant encryption (cross-tenant custome",
+      "publishedAt": "2026-11-04T18:42:12.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Generally Available: Route maps for Azure Route Server",
+      "link": "https://azure.microsoft.com/updates?id=578966",
+      "summary": "Route maps for Azure Route Server are now generally available in the Azure public cloud. Route maps provide fine-grained control over inbound and outbound routing across hybrid connections. Customers can manage routes advertised to and from Azure Route Se",
+      "publishedAt": "2026-11-04T18:39:41.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Firewall IPv6 now supports application rules",
+      "link": "https://azure.microsoft.com/updates?id=579507",
+      "summary": "Azure Firewall now supports application rules in IPv6 Public Preview, enabling layer 7 filtering for IPv6 HTTP and HTTPS traffic. The enhancement extends application-level controls to IPv6 and dual-stack deployments, helping customers maintain consistent",
+      "publishedAt": "2026-11-04T18:09:43.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
