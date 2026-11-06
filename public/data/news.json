@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-06T06:07:01.619Z",
-  "itemCount": 1488,
+  "generatedAt": "2026-11-06T12:05:46.695Z",
+  "itemCount": 1490,
   "sources": [
     {
       "name": "Azure Updates",
@@ -75,11 +75,27 @@
       "publishedAt": "2026-11-05T17:00:00.000Z"
     },
     {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Stop treating agents as one-off projects and start running them as a continuous discipline",
+      "link": "https://azure.microsoft.com/en-us/blog/stop-treating-agents-as-one-off-projects-and-start-running-them-as-a-continuous-discipline/",
+      "summary": "AI must be selected, architected, and managed as a continuous business discipline, not a series of isolated projects.",
+      "publishedAt": "2026-11-05T17:00:00.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Email threat landscape: Q3 2026 trends and insights",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
       "summary": "Microsoft Threat Intelligence observed a sharp rise in email-based phishing activity at the end of Q3 2026 (July – September), even as QR code phishing declined, CAPTCHA-gated phishing recovered, and malicious messages spoofing familiar business-service sender domains exposed risks associated with security overrides.",
+      "publishedAt": "2026-11-05T16:00:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200",
+      "link": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
+      "summary": "Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable cloud infrastructure for silicon design and development.",
       "publishedAt": "2026-11-05T16:00:00.000Z"
     },
     {
