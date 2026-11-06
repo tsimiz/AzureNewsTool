@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-06T00:10:43.876Z",
-  "itemCount": 1487,
+  "generatedAt": "2026-11-06T06:07:01.619Z",
+  "itemCount": 1488,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+      "summary": "Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authenticated actions in the application’s tenant. Agents operating on behalf of threat actors then used the compromised OAuth applications to perform a variety of subsequent actions within compromised organizations.",
+      "publishedAt": "2026-11-05T23:46:50.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
