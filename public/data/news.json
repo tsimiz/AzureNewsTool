@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T00:08:51.876Z",
-  "itemCount": 1490,
+  "generatedAt": "2026-11-07T06:05:29.764Z",
+  "itemCount": 1491,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "ARTEX abuse expands as cybercriminals target financial sector",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+      "summary": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX.",
+      "publishedAt": "2026-11-07T02:44:34.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
