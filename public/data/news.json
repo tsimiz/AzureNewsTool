@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T18:04:02.237Z",
-  "itemCount": 1491,
+  "generatedAt": "2026-11-08T00:11:09.505Z",
+  "itemCount": 1492,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
       "summary": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX.",
       "publishedAt": "2026-11-07T02:44:34.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
+      "summary": "Microsoft and fal partner to expand video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications.",
+      "publishedAt": "2026-11-06T19:08:44.000Z"
     },
     {
       "source": "Microsoft Security Blog",
