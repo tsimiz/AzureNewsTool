@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T12:06:00.803Z",
-  "itemCount": 1493,
+  "generatedAt": "2026-11-09T18:05:42.167Z",
+  "itemCount": 1494,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "New Authentication Governance Controls in Power Pages",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/new-authentication-governance-controls-in-power-pages/",
+      "summary": "We&#8217;re excited to announce the public preview of new authentication governance controls in Power Pages. Administrators can now allow or block individual authentication protocols, supported OAuth 2.0 identity providers, and local authentication from the Power Platform admin center (PPAC).",
+      "publishedAt": "2026-11-09T15:54:30.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
