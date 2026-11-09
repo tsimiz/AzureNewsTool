@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T00:11:00.545Z",
-  "itemCount": 1492,
+  "generatedAt": "2026-11-09T06:09:22.513Z",
+  "itemCount": 1493,
   "sources": [
     {
       "name": "Azure Updates",
@@ -49,6 +49,14 @@
       "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
       "summary": "Microsoft and fal partner to expand video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications.",
       "publishedAt": "2026-11-06T19:08:44.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Create and edit non-SPA Power Pages sites with Agentic Coding tools",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/create-and-edit-non-spa-power-pages-sites-with-agentic-coding-tools/",
+      "summary": "We&#8217;re pleased to introduce preview support for Power Pages sites built with web templates and Liquid (non-SPA or traditional portals). With the Power Pages plugin for GitHub Copilot CLI and Claude Code, describe the site you want to create or edit. The plugin helps you build pages, update content and templates, and customize styling.",
+      "publishedAt": "2026-11-06T17:26:59.000Z"
     },
     {
       "source": "Microsoft Security Blog",
