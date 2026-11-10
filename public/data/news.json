@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T18:05:42.167Z",
-  "itemCount": 1494,
+  "generatedAt": "2026-11-10T00:09:59.152Z",
+  "itemCount": 1497,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,30 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
+      "link": "https://azure.microsoft.com/updates?id=575106",
+      "summary": "Support for .NET 8 and .NET 9 will end on November 10, 2026. Please transition your managed Functions APIs to .NET 10 by that date. Your apps will continue to operate, but security updates will no longer be provided and support for .NET 8 and .NET 9 on Az",
+      "publishedAt": "2026-11-09T22:50:01.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
+      "summary": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team investigated three patterns of misplaced trust in unsafe code and what they reveal about Rust's safety guarantees.",
+      "publishedAt": "2026-11-09T20:17:31.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Modernize Arc-enabled Windows Servers with Azure File Sync",
+      "link": "https://azure.microsoft.com/updates?id=579854",
+      "summary": "Azure File Sync provides hybrid access or seamless migration of data from Windows Server to Azure Files while preserving the familiar local file server experience for users and applications. Now in preview, users have a guided Azure portal experience to s",
+      "publishedAt": "2026-11-09T17:20:57.000Z"
+    },
     {
       "source": "Power Platform Blog",
       "category": "Power Platform",
