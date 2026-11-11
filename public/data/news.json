@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T18:03:45.206Z",
-  "itemCount": 1497,
+  "generatedAt": "2026-11-11T00:10:34.501Z",
+  "itemCount": 1527,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,142 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.146 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.146-(insiders)",
+      "summary": "Learn what is new in Visual Studio Code Insiders. Read the full article",
+      "publishedAt": "2026-11-11T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing PowerShell 7.7 GA Release",
+      "link": "https://devblogs.microsoft.com/powershell/announcing-powershell-7-7",
+      "summary": "We're excited to announce the General Availability of PowerShell 7.7, the next Standard Term Support (STS) release of PowerShell. PowerShell 7.7 is built on .NET 11, continuing the alignment between PowerShell and the modern .NET platform. PowerShell 7.7 focuses on security hardening, new and improve",
+      "publishedAt": "2026-11-10T21:05:06.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Distributed accelerator for cloud storage on AKS",
+      "link": "https://azure.microsoft.com/updates?id=578454",
+      "summary": "Distributed accelerator for cloud storage (DACS) is now in public preview for AI workloads running on Azure Kubernetes Service (AKS). DACS is a distributed read-through cache that runs within your AKS cluster and uses local NVMe disks across nodes to keep",
+      "publishedAt": "2026-11-10T20:08:32.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Functions support for .NET 11",
+      "link": "https://azure.microsoft.com/updates?id=578773",
+      "summary": "Azure Functions support for .NET 11 is now generally available.You can now build Azure Functions apps targeting .NET 11 using the isolated worker model, while continuing to use the Azure Functions programming model and host integration. Your serverless ap",
+      "publishedAt": "2026-11-10T20:07:45.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Front Door adds native gRPC support",
+      "link": "https://azure.microsoft.com/updates?id=579383",
+      "summary": "Announcing the public preview of gRPC support in Azure Front Door. Build and deliver gRPC applications through Azure Front Door Standard and Premium. Now in preview, gRPC support lets you route calls to specific services and methods, distribute traffic ac",
+      "publishedAt": "2026-11-10T18:55:53.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Front Door edge actions",
+      "link": "https://azure.microsoft.com/updates?id=579310",
+      "summary": "Announcing the general availability of Azure Front Door edge actions (serverless compute at the edge). With edge actions, customers can execute lightweight JavaScript functions during Azure Front Door client request/response processing to make real-time d",
+      "publishedAt": "2026-11-10T18:55:09.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Public Preview: Azure Route Server dual-stack IPv4/IPv6 support",
+      "link": "https://azure.microsoft.com/updates?id=579746",
+      "summary": "Azure Route Server now supports IPv4/IPv6 dual-stack mode in public preview, enabling route exchange for both address families across supported hybrid networking connections. Existing IPv4 connections remain unchanged, so organizations can adopt IPv6 rout",
+      "publishedAt": "2026-11-10T18:21:41.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing Visual Studio 2026 LTSC 18.11",
+      "link": "https://devblogs.microsoft.com/visualstudio/announcing-visual-studio-2026-ltsc-1811",
+      "summary": "Today, we are announcing Visual Studio 2026 Long-Term Servicing Channel (LTSC) 18.11 alongside Visual Studio 2026 18.12 on the Stable channel. LTSC 18.11 will receive two years of support, through November 14, 2028, rather than the one",
+      "publishedAt": "2026-11-10T18:06:36.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Auto SR Officially Launches on ROG XBOX Ally X and X20, Expands to Copilot+ PCs powered by AMD Ryzen",
+      "link": "https://devblogs.microsoft.com/directx/autosr-performance-mode",
+      "summary": "We're excited to officially bring Automatic Super Resolution (Auto SR) out of preview on the ROG XBOX Ally X and the ROG XBOX Ally X20. Auto SR is also now available on select Windows Copilot+ PCs, powered by AMD Ryzen, with several major new features beginning to roll out today. �",
+      "publishedAt": "2026-11-10T18:00:04.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Automatic MSBuild configuration for the Microsoft C++ Language Server in Copilot CLI",
+      "link": "https://devblogs.microsoft.com/cppblog/automatic-msbuild-configuration-for-the-microsoft-c-language-server-in-copilot-cli",
+      "summary": "Accurate C++ code intelligence starts with understanding how your project builds. Compiler options, include paths, and preprocessor definitions all affect how the language server interprets your source files. A compilation database, such as compile_commands.json,",
+      "publishedAt": "2026-11-10T17:02:48.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Activation via AppUserModelId",
+      "link": "https://devblogs.microsoft.com/insidemsix/activation-via-appusermodelid",
+      "summary": "An application can be directly activated by calling IApplicationActivationManager::ActivateApplication() with its",
+      "publishedAt": "2026-11-10T17:00:57.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing .NET 11",
+      "link": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11",
+      "summary": "Today, we're excited to announce the release of .NET 11! This year's release makes building modern applications faster, more productive, and has improvements across C# 15, ASP.NET Core, .NET MAUI, and Windows development. With hundreds of runtime optimizations, more responsive SDK tooling, and less overhead in everyday",
+      "publishedAt": "2026-11-10T16:11:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": ".NET and .NET Framework November 2026 servicing updates",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2026-servicing-updates",
+      "summary": "The November 10, 2026 servicing updates for .NET 10, .NET 9, and .NET 8 include security and non-security fixes. This post brings together the security advisories, release notes, and download links for this month's updates, along with resources for .NET Framework servicing. Security improvements The following table covers vulnerabil",
+      "publishedAt": "2026-11-10T16:10:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Microsoft employee price list from 1987",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261110-00/?p=112843",
+      "summary": "I present for your amusement the Microsoft employee price list from 1987. Marvel at the Microsoft software catalog from nearly 40 years ago. Use your inflation calculators to figure out how much those prices translate into today's dollars. (Note that these are the discounted employee prices, not the retail price.)",
+      "publishedAt": "2026-11-10T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Copilot in Visual Studio Just Got a Major Upgrade",
+      "link": "https://devblogs.microsoft.com/visualstudio/copilot-in-visual-studio-just-got-a-major-upgrade",
+      "summary": "Copilot Chat in Visual Studio just got a new engine. Starting with Visual Studio 2026 version 18.12, it runs on the Microsoft Copilot SDK developed by GitHub, the same technology powering GitHub Copilot CLI, the GitHub Copilot app, and VS Code. It’s on by default, and it’",
+      "publishedAt": "2026-11-10T08:00:35.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Go 1.25.14-2 Microsoft build now available",
+      "link": "https://devblogs.microsoft.com/go/go-1-25-14-2-microsoft-build-now-available",
+      "summary": "Go 1.25 is end-of-life and no longer supported. We've published this release as a one-time measure to help users who still rely on Go 1.25 to mitigate this specific certificate revocation security issue. Please upgrade to a supported, secure version of Go such as the latest patch release of 1.26 or 1.27. Microsoft build of Go 1.25.14-2 is",
+      "publishedAt": "2026-11-10T04:50:13.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Join the Azure DocumentDB team at Microsoft Ignite 2026 in San Francisco!",
+      "link": "https://devblogs.microsoft.com/documentdb/azure-documentdb-microsoft-ignite-2026",
+      "summary": "Microsoft Ignite 2026 is just around the corner! From November 17–20, the Azure DocumentDB team will be in San Francisco, and we're excited to connect with developers, architects, and database professionals from around the world. We're especially looking forward to our breakout session",
+      "publishedAt": "2026-11-09T23:33:53.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
@@ -51,12 +187,36 @@
       "publishedAt": "2026-11-09T20:17:31.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "When one pass isn&#039;t enough: agentic mode in Azure Content Understanding",
+      "link": "https://devblogs.microsoft.com/foundry/when-one-pass-isnt-enough-agentic-mode-in-azure-content-understanding",
+      "summary": "Most document analysis takes one efficient pass. Learn how agentic mode gives AI a document-native harness for the hardest tasks, and when to choose it over standard mode. “Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.” Francis Bacon, “Of Studies”, 1625 A.D. F",
+      "publishedAt": "2026-11-09T20:04:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Windows App Development CLI v0.8: WinUI DevTools Experimental Preview",
+      "link": "https://devblogs.microsoft.com/ifdef-windows/windows-app-development-cli-v0-8",
+      "summary": "",
+      "publishedAt": "2026-11-09T19:37:22.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Modernize Arc-enabled Windows Servers with Azure File Sync",
       "link": "https://azure.microsoft.com/updates?id=579854",
       "summary": "Azure File Sync provides hybrid access or seamless migration of data from Windows Server to Azure Files while preserving the familiar local file server experience for users and applications. Now in preview, users have a guided Azure portal experience to s",
       "publishedAt": "2026-11-09T17:20:57.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Do AI coding agents care about SemVer?",
+      "link": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-care-about-semver",
+      "summary": "Semantic versioning tells developers how risky an upgrade is. A patch fixes bugs, a minor release adds features without breaking anything and a major release breaks things, so you know how closely to look before you upgrade. On paper, that signal is redundant when an AI coding agent does the upgrade. The agent has no muscle memory tied to t",
+      "publishedAt": "2026-11-09T16:01:03.000Z"
     },
     {
       "source": "Power Platform Blog",
@@ -67,12 +227,36 @@
       "publishedAt": "2026-11-09T15:54:30.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "If the Windows Update hot patcher checks that the function hasn&#039;t already been patched, does that mean you can&#039;t install two hot-patches?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261109-00/?p=112841",
+      "summary": "In my earlier discussion of how Windows Update uses the hot-patching space (and how nobody else should be using it), the question arose of what happens when Wind",
+      "publishedAt": "2026-11-09T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How do you run a query against data the database can’t read?",
+      "link": "https://devblogs.microsoft.com/azure-sql/how-do-you-run-a-query-against-data-the-database-cant-read",
+      "summary": "Under the Hood: The Research Behind Microsoft SQL, part 3 Encryption at rest solves one threat. It stops someone who walks off with the disk. It does nothing about someone with administrative access to the runnin",
+      "publishedAt": "2026-11-09T11:56:57.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "ARTEX abuse expands as cybercriminals target financial sector",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
       "summary": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX.",
       "publishedAt": "2026-11-07T02:44:34.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Java OpenJDK October 2026 Patch & Security Update",
+      "link": "https://devblogs.microsoft.com/java/java-openjdk-october-2026-patch-security-update",
+      "summary": "Hello Java customers! We are happy to announce the latest October 2026 patch set update release for the Microsoft Build of OpenJDK. Check our",
+      "publishedAt": "2026-11-06T23:56:56.000Z"
     },
     {
       "source": "Azure Blog",
@@ -91,6 +275,22 @@
       "publishedAt": "2026-11-06T17:26:59.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why are we all worked up about atomicity when applying hot-patches if we can just suspend all the threads?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261106-00/?p=112838",
+      "summary": "I noted that one of the concerns of the Windows hot-patching system is that the patch can be activated atomically. But why does it need to be atomic? Can't just suspend all the threads of the process (except for the one doing the patching)? That way, nobody else can be executing a half-installed patch. For processors with variable-l",
+      "publishedAt": "2026-11-06T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Work IQ: SharePoint Tools",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/work-iq-sharepoint-mcp-tools",
+      "summary": "Bring SharePoint into your custom apps and agents with Work IQ API New SharePoint tools are coming to the Work IQ API, bringing SharePoint content",
+      "publishedAt": "2026-11-06T08:30:50.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
@@ -105,6 +305,38 @@
       "link": "https://azure.microsoft.com/updates?id=577668",
       "summary": "Azure Front Door now supports configurable TLS key exchange policies, including hybrid post-quantum key exchange, to help you prepare for evolving cryptographic threats while meeting your security and client compatibility requirements. Choose a predefined",
       "publishedAt": "2026-11-05T23:19:48.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
+      "link": "https://devblogs.microsoft.com/foundry/microsoft-foundry-azure-developer-cli-ga",
+      "summary": "Microsoft Foundry extension for Azure Developer CLI is generally available Today, the Microsoft Foundry extension bundle (microsoft.foundry) for Azure Developer CLI (azd) reaches version 1.0 and is generally available. azd provisions Azure resources and deploys application code; the Foundry exte",
+      "publishedAt": "2026-11-05T20:55:45.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
+      "link": "https://devblogs.microsoft.com/azure-sdk/microsoft-foundry-azure-developer-cli-ga",
+      "summary": "Today, the Microsoft Foundry extension bundle (microsoft.foundry) for Azure Developer CLI (azd) reaches version 1.0 and is generally available. azd provisions Azure resources and deploys application code; the Foundry extension adds agent setup and local testing. Agent and deployment configuration stays al",
+      "publishedAt": "2026-11-05T19:39:43.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Help Shape the Future of .NET: Take the 2026 .NET Developer Survey",
+      "link": "https://devblogs.microsoft.com/dotnet/dotnet-developer-survey-2026",
+      "summary": "It's that time of the year! The 2026 .NET Developer Survey is open, and we'd love to hear about your experience. The survey takes about 15 minutes to complete, and your feedback helps the .NET team understand where to invest next. [cta-button align='center' text='Take the 2026 .NET Developer Survey' url='https://nam.dcv.ms/UPTcBN6NBa",
+      "publishedAt": "2026-11-05T19:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Modernize your .NET apps for Windows Arm64 with GitHub Copilot",
+      "link": "https://devblogs.microsoft.com/dotnet/modernize-dotnet-apps-for-windows-arm64",
+      "summary": "Arm64 offers the potential for lower compute costs and more efficient infrastructure. But what would it take to get your existing .NET application running on it? The answer may be scattered across your code, dependencies, and build settings. You need to know what already supports Arm64, what needs updating, and how much work is involved. Fi",
+      "publishedAt": "2026-11-05T18:05:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -153,6 +385,14 @@
       "link": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
       "summary": "Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable cloud infrastructure for silicon design and development.",
       "publishedAt": "2026-11-05T16:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Your best AX fixes are hiding in agent trajectories",
+      "link": "https://devblogs.microsoft.com/blog/your-best-ax-fixes-are-hiding-in-agent-trajectories",
+      "summary": "An eval score tells you whether the agent finished the task. To improve how agents work with your product, you need to see where they struggled, and that's in the trajectory, the record of every step the agent took and why. Agents are persistent. They guess another URL after a 404 and try values until an error goes away, so the struggle rar",
+      "publishedAt": "2026-11-05T15:40:49.000Z"
     },
     {
       "source": "Azure Updates",
