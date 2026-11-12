@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T18:04:30.594Z",
-  "itemCount": 1529,
+  "generatedAt": "2026-11-12T00:10:40.262Z",
+  "itemCount": 1532,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,12 +35,36 @@
   ],
   "items": [
     {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
+      "summary": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity.",
+      "publishedAt": "2026-11-11T19:49:57.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Rate limit grouping for Azure Front Door Premium WAF",
+      "link": "https://azure.microsoft.com/updates?id=580155",
+      "summary": "Announcing the public preview of rate limit grouping for Azure Web Application Firewall (WAF) on Azure Front Door Premium. By default, a rate limit rule counts requests separately for each client IP address. Distributed attacks get around this by spreadin",
+      "publishedAt": "2026-11-11T18:18:27.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Visual Studio Code 1.146 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.146-(insiders)",
       "summary": "Learn what is new in Visual Studio Code Insiders. Read the full article",
       "publishedAt": "2026-11-11T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Lessons from 59 Linux Kernel Bug Reports",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+      "summary": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning AI-generated findings into validated vulnerabilities and upstream fixes.",
+      "publishedAt": "2026-11-11T16:55:00.000Z"
     },
     {
       "source": "Microsoft Security Blog",
