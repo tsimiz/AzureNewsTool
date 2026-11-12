@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-12T12:05:56.964Z",
-  "itemCount": 1532,
+  "generatedAt": "2026-11-12T18:05:07.129Z",
+  "itemCount": 1533,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,14 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: SQL performance monitoring for Azure SQL Managed Instance",
+      "link": "https://azure.microsoft.com/updates?id=574158",
+      "summary": "The public preview of Microsoft-managed performance monitoring for Azure SQL Managed Instance is now available. Customers monitoring business-critical SQL Managed Instance workloads often rely on custom scripts and disconnected monitoring tools. This requ",
+      "publishedAt": "2026-11-12T16:59:40.000Z"
+    },
     {
       "source": "Microsoft Security Blog",
       "category": "Security",
