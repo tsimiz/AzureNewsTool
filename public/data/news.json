@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-12T18:05:07.129Z",
-  "itemCount": 1533,
+  "generatedAt": "2026-11-13T00:10:24.174Z",
+  "itemCount": 1537,
   "sources": [
     {
       "name": "Azure Updates",
@@ -34,6 +34,38 @@
     }
   ],
   "items": [
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: JWT validation with Azure Front Door Auth Policy",
+      "link": "https://azure.microsoft.com/updates?id=577673",
+      "summary": "JSON Web Token (JWT) validation through Azure Front Door Auth Policy is now in public preview on Azure Front Door Premium. Validate bearer tokens issued by Microsoft Entra ID at the edge before requests reach your APIs or web applications, helping you cen",
+      "publishedAt": "2026-11-12T22:36:37.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Front Door mutual TLS authentication",
+      "link": "https://azure.microsoft.com/updates?id=577678",
+      "summary": "Mutual TLS (mTLS), also known as client certificate authentication, is now generally available on Azure Front Door Premium. Use X.509 client certificates to help protect sensitive applications and APIs in business-to-business, Internet of Things, financia",
+      "publishedAt": "2026-11-12T22:27:35.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Auto scaling of ingestion limits in Azure Monitor workspace",
+      "link": "https://azure.microsoft.com/updates?id=578207",
+      "summary": "Auto scaling introduces a per-workspace capability in Azure Monitor Workspace (AMW) to automatically scale ingestion limits based on observed usage patterns. When enabled, the system dynamically adjusts ingestion limits (quota ceiling) to maintain healthy",
+      "publishedAt": "2026-11-12T18:23:52.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+      "summary": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities.",
+      "publishedAt": "2026-11-12T17:00:00.000Z"
+    },
     {
       "source": "Azure Updates",
       "category": "Azure",
