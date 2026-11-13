@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T12:05:26.203Z",
-  "itemCount": 1537,
+  "generatedAt": "2026-11-13T18:04:39.045Z",
+  "itemCount": 1538,
   "sources": [
     {
       "name": "Azure Updates",
@@ -96,6 +96,14 @@
       "title": "Visual Studio Code 1.146 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.146-(insiders)",
       "summary": "Learn what is new in Visual Studio Code Insiders. Read the full article",
+      "publishedAt": "2026-11-11T17:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Act faster: hourly alerts for your critical flows, apps, and agents",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/11/11/act-faster-hourly-alerts-for-your-critical-flows-apps-and-agents/",
+      "summary": "Spot performance and reliability issues sooner with hourly alerts in Monitor. By checking supported health metrics hourly instead of daily, these alerts help your team identify issues across apps, flows, and agents—and respond faster when thresholds are breached.",
       "publishedAt": "2026-11-11T17:00:00.000Z"
     },
     {
