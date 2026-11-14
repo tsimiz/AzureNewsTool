@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T18:04:39.045Z",
-  "itemCount": 1538,
+  "generatedAt": "2026-11-14T00:10:09.272Z",
+  "itemCount": 1558,
   "sources": [
     {
       "name": "Azure Updates",
@@ -35,6 +35,46 @@
   ],
   "items": [
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.147 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.147-(insiders)",
+      "summary": "Learn what is new in Visual Studio Code Insiders, including agent session management, chat resources, and Markdown editing. Read the full article",
+      "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
+      "summary": "SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting.",
+      "publishedAt": "2026-11-13T21:31:44.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Azure Data Share will be retired on November 12, 2029",
+      "link": "https://azure.microsoft.com/updates?id=578818",
+      "summary": "Azure Data Share will retire on November 12, 2029. Before that date, transition your data sharing workloads to Microsoft Fabric, which offers External data sharing, Cross tenant delegated shortcuts and IQ share or an appropriate data-source-specific shari",
+      "publishedAt": "2026-11-13T19:54:45.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MSVC Build Tools Preview updates - November 2026",
+      "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-preview-updates-november-2026",
+      "summary": "The MSVC Build Tools Preview is updated regularly with the latest features and fixes from the MSVC development team. This post covers the last month's updates of the Preview build tools, currently targeting the v14.53 release. This encompasses changes across the compiler frontend, backend, linker, standard library, and related tools. Althou",
+      "publishedAt": "2026-11-13T18:12:10.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How can I make it easier to use the helper class that lets me pass more than one parameter to co_await ?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261113-00/?p=112856",
+      "summary": "Last time, we figured out how to pass more than one parameter to co_await by combining the multiple parameter into a single mega-parameter. But having to name the mega-parameter is",
+      "publishedAt": "2026-11-13T15:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: JWT validation with Azure Front Door Auth Policy",
@@ -49,6 +89,22 @@
       "link": "https://azure.microsoft.com/updates?id=577678",
       "summary": "Mutual TLS (mTLS), also known as client certificate authentication, is now generally available on Azure Front Door Premium. Use X.509 client certificates to help protect sensitive applications and APIs in business-to-business, Internet of Things, financia",
       "publishedAt": "2026-11-12T22:27:35.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Bring Your Expertise to Git-Ape",
+      "link": "https://devblogs.microsoft.com/all-things-azure/bring-your-expertise-to-git-ape-the-platform-engineering-framework",
+      "summary": "The new Community Skills Feature. Bring Your Expertise to Git-Ape",
+      "publishedAt": "2026-11-12T21:02:31.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Challenges of building machine learning compilers across varying hardware architecture",
+      "link": "https://devblogs.microsoft.com/foundry-on-windows/machine-learning-compilers-challenges-hardware",
+      "summary": "Additional Contributors: Justin Stoecker, Sheil Kumar Overview One of the biggest challenges in building AI/ML platform stacks for mobile, client, or server is creating a machine learning (ML) compiler that is both scalable yet performant. A common approach is to build specialized compilers for specific AI hardware, framewo",
+      "publishedAt": "2026-11-12T19:00:42.000Z"
     },
     {
       "source": "Azure Updates",
@@ -75,6 +131,38 @@
       "publishedAt": "2026-11-12T16:59:40.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "C++ Dynamic Debugging is now generally available",
+      "link": "https://devblogs.microsoft.com/cppblog/c-dynamic-debugging-is-now-generally-available",
+      "summary": "Introduction We are excited to announce that C++ Dynamic Debugging is now generally available in all Visual Studio 2026 channels and the Microsoft C++ (MSVC) Build Tools version 14.52",
+      "publishedAt": "2026-11-12T16:49:13.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build better applications with Bold BI, a Visual Studio subscriber benefit from Syncfusion",
+      "link": "https://devblogs.microsoft.com/visualstudio/build-better-applications-with-bold-bi-a-visual-studio-subscriber-benefit-from-syncfusion",
+      "summary": "",
+      "publishedAt": "2026-11-12T15:00:31.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How can I pass more than one parameter to co_await ?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261112-00/?p=112851",
+      "summary": "Suppose you have an awaitable object, but you want the caller to pass a bonus parameter when they do a co_await. For example, you may want the caller to be able to pass a priority or a timeout or something else that modifies how the await occurs. struct Widget { ⟦ ... other stuff ... ⟧ bool await_read",
+      "publishedAt": "2026-11-12T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Resources for the SQL AI Developer",
+      "link": "https://devblogs.microsoft.com/azure-sql/dp-800-sql-ai-certification",
+      "summary": "I know you have work to do. Between SQL’s latest announcements and your next deadline, you need time to understand what matters and how it fits your business. Personally, I organize the opportunity around three agentic stories. They help me explain where SQL is going and why. Spoiler alert: I want you to consider DP-800.",
+      "publishedAt": "2026-11-11T22:48:44.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
@@ -83,12 +171,36 @@
       "publishedAt": "2026-11-11T19:49:57.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Preconfigured agents with Microsoft Agent Framework for Go",
+      "link": "https://devblogs.microsoft.com/go/preconfigured-agents-with-microsoft-agent-framework-for-go",
+      "summary": "Microsoft Agent Framework for Go helps you build agents that track tasks, save and revisit notes, load reusable skills, and call your application's tools. Approval rules let your application handle tool calls that require a user's decision. Tracing provides timing and error data for investigating model and tool calls. Combining these capa",
+      "publishedAt": "2026-11-11T18:45:31.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Content Understanding adds GPT-6.1, 6, and 5.6: Choose the right model for your workload",
+      "link": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload",
+      "summary": "",
+      "publishedAt": "2026-11-11T18:24:28.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Rate limit grouping for Azure Front Door Premium WAF",
       "link": "https://azure.microsoft.com/updates?id=580155",
       "summary": "Announcing the public preview of rate limit grouping for Azure Web Application Firewall (WAF) on Azure Front Door Premium. By default, a rate limit rule counts requests separately for each client IP address. Distributed attacks get around this by spreadin",
       "publishedAt": "2026-11-11T18:18:27.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Bring Your Own Model is now generally available in Visual Studio",
+      "link": "https://devblogs.microsoft.com/visualstudio/bring-your-own-model-is-now-generally-available-in-visual-studio",
+      "summary": "Whether your team hosts its own AI models, you have an API key from a model provider, or you want to experiment with a model running on your machine, Bring Your Own Model (BYOM) lets you use those models without leaving Visual Studio. BYOM is now generally available in Visual Studio 18.12. Since the August Preview, your feedback has shaped",
+      "publishedAt": "2026-11-11T17:00:48.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -107,12 +219,60 @@
       "publishedAt": "2026-11-11T17:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.146",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.146",
+      "summary": "Learn what's new in Visual Studio Code 1.146 Read the full article",
+      "publishedAt": "2026-11-11T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.146",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-146-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.146 Read the full article",
+      "publishedAt": "2026-11-11T17:00:00.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Lessons from 59 Linux Kernel Bug Reports",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
       "summary": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning AI-generated findings into validated vulnerabilities and upstream fixes.",
       "publishedAt": "2026-11-11T16:55:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "I didn&#039;t write a program with emoji, but I did use a control character",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261111-00/?p=112848",
+      "summary": "Adventures in PC Emulation recently wrote about Executable Emoji: Writing an MS-DOS program using machine code represented solely by Unicode emoji characters. This reminded me that back in the day I did something si",
+      "publishedAt": "2026-11-11T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Make business content ready for AI with M-Files - SharePoint Embedded partner spotlight",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/make-business-content-ready-for-ai-with-m-files-sharepoint-embedded-partner-spotlight",
+      "summary": "What happens when intelligent information management meets the Microsoft 365 ecosystem? Organizations are looking for better ways to manage growing volumes of business-critical content while preparing that content for AI. As they’re building cu",
+      "publishedAt": "2026-11-11T14:00:54.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Go 1.27.4-1 and 1.26.11-1 Microsoft builds now available",
+      "link": "https://devblogs.microsoft.com/go/go-1-27-4-1-and-1-26-11-1-microsoft-builds-now-available",
+      "summary": "A new release of the Microsoft build of Go including security fixes is now available for download. For more information about this release and the changes included, see the table below: Microsoft Release Upstream Tag",
+      "publishedAt": "2026-11-11T12:09:57.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What&#039;s new across Microsoft SQL in 2026 so far: the PASS Summit West roundup",
+      "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-the-pass-summit-west-roundup",
+      "summary": "",
+      "publishedAt": "2026-11-11T11:48:48.000Z"
     },
     {
       "source": "Microsoft Security Blog",
