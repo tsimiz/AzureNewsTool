@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-17T00:10:23.548Z",
-  "itemCount": 1558,
+  "generatedAt": "2026-11-17T06:06:55.214Z",
+  "itemCount": 1559,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,14 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.147-(insiders)",
       "summary": "Learn what is new in Visual Studio Code Insiders, including agent session management, chat resources, and Markdown editing. Read the full article",
       "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+      "summary": "Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide.",
+      "publishedAt": "2026-11-17T00:08:41.000Z"
     },
     {
       "source": "Microsoft Security Blog",
