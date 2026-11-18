@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T00:10:26.764Z",
-  "itemCount": 1726,
+  "generatedAt": "2026-11-18T06:06:58.358Z",
+  "itemCount": 1744,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,102 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.147-(insiders)",
       "summary": "Learn what is new in Visual Studio Code Insiders, including agent session management, chat resources, and Markdown editing. Read the full article",
       "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Immutable snapshots for Azure Disk Storage",
+      "link": "https://azure.microsoft.com/updates?id=581503",
+      "summary": "Immutable snapshots for Azure Disk Storage are now available in public preview. Immutable snapshots complement Azure Backup immutable vaults. Use vaults for cost-efficient long-term retention, and immutable snapshots for short-term backups that need faste",
+      "publishedAt": "2026-11-18T00:00:09.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Azure Boost observability for NVMe disks",
+      "link": "https://azure.microsoft.com/updates?id=581227",
+      "summary": "Azure Boost observability for NVMe disks is an open-source command-line tool that you run inside compatible Azure VMs. Backed by Azure Boost, the tool provides remote disk I/O and latency metrics and maps each disk inside your VM to the corresponding disk",
+      "publishedAt": "2026-11-18T00:00:09.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Generally Available: Cobalt 200 Arm-based Dplsv7, Dpsv7, Epsv7, Mpsv4, and Lpsv5-series Virtual Machines",
+      "link": "https://azure.microsoft.com/updates?id=581298",
+      "summary": "The general purpose Dpsv7 and Dplsv7, memory-optimized Epsv7, high-memory Mpsv4, and dense storage Lpsv5 VMs are now generally available. These virtual machines deliver significant enhancements over the previous generation Cobalt 100 VMs, offering improve",
+      "publishedAt": "2026-11-17T23:55:53.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Intel and AMD v6 with temp disk for Azure Database for PostgreSQL",
+      "link": "https://azure.microsoft.com/updates?id=579590",
+      "summary": "Azure Database for PostgreSQL Flexible Server is announcing the general availability of Intel and AMD v6 compute tiers with local temporary disk. The new v6 generation expands the Flexible Server compute portfolio with higher performance, larger scale, an",
+      "publishedAt": "2026-11-17T23:52:49.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Intel and AMD v5 diskless tier for Azure Database for PostgreSQL",
+      "link": "https://azure.microsoft.com/updates?id=579595",
+      "summary": "Azure Database for PostgreSQL Flexible Server is announcing the general availability of Intel and AMD V5 diskless compute. These new options expand the v5 compute portfolio with General Purpose and Memory Optimized SKUs that do not include local temporary",
+      "publishedAt": "2026-11-17T23:51:44.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Cobalt 200 compute for Azure Database for PostgreSQL",
+      "link": "https://azure.microsoft.com/updates?id=579585",
+      "summary": "Azure Database for PostgreSQL Flexible Server is announcing the general availability of Cobalt 200 ARM-based compute. Cobalt 200 expands the Flexible Server compute portfolio with Microsoft-designed ARM64-based compute, giving you an additional architectu",
+      "publishedAt": "2026-11-17T23:50:40.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Geo-redundant backup and restore for Azure HorizonDB",
+      "link": "https://azure.microsoft.com/updates?id=574168",
+      "summary": "Geo-redundant backup and restore for Azure HorizonDB is now available. You can use geo-redundant backups to strengthen data protection and restore your HorizonDB deployment in another Azure region when needed. With this capability, you have an additional",
+      "publishedAt": "2026-11-17T23:47:55.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Generally Available: Customize backup retention from 1 to 35 days in Azure HorizonDB",
+      "link": "https://azure.microsoft.com/updates?id=574163",
+      "summary": "You can now configure backup retention for your Azure HorizonDB deployments from 1 to 35 days, giving you greater flexibility to align backup retention with your application and data protection requirements. Choose the retention period that best fits you",
+      "publishedAt": "2026-11-17T23:46:26.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Throughput buckets in Azure Cosmos DB",
+      "link": "https://azure.microsoft.com/updates?id=571488",
+      "summary": "We're excited to announce the general availability of throughput buckets in Azure Cosmos DB. You can manage the resource consumption of multiple workloads using the same container by limiting the maximum throughput a workload can consume. You may need to",
+      "publishedAt": "2026-11-17T23:44:26.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Limited Preview: AI model management in Azure HorizonDB",
+      "link": "https://azure.microsoft.com/updates?id=563097",
+      "summary": "AI model management in Azure HorizonDB is now in limited preview, designed to simplify how you bring AI into your database. With just a single step, you can provision fully managed AI models for embeddings, semantic ranking, and generation through Microso",
+      "publishedAt": "2026-11-17T23:42:10.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Semantic Reranker in Azure Cosmos DB",
+      "link": "https://azure.microsoft.com/updates?id=577520",
+      "summary": "Semantic Reranker in Azure Cosmos DB improves search relevance by reordering candidate results based on the meaning of the search text and surrounding context. It uses an AI model to evaluate candidate documents and promote the ones that best match the in",
+      "publishedAt": "2026-11-17T23:07:42.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Pod Sandboxing kata-vm-isolation-v2 runtime class",
+      "link": "https://azure.microsoft.com/updates?id=581120",
+      "summary": "Isolated pods should not force a tradeoff between security and startup performance. With classic sandboxed pod flows, every pod boots a new Kata VM, which adds cold-start latency and extra memory overhead before your app begins work.The new kata-vm-isolat",
+      "publishedAt": "2026-11-17T23:00:02.000Z"
     },
     {
       "source": "Azure Updates",
@@ -613,14 +709,6 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
-      "title": "[In preview] Public Preview: Migrate Azure Database for PostgreSQL to Azure HorizonDB with Azure Database Migration Service (DMS)",
-      "link": "https://azure.microsoft.com/updates?id=579612",
-      "summary": "Now you can migrate existing Azure Database for PostgreSQL workloads to Azure HorizonDB through a seamless, managed experience powered by Azure Database Migration Service (DMS). With this update, you can extend the DMS V2 architecture with HorizonDB as a",
-      "publishedAt": "2026-11-17T20:00:32.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
       "title": "[In preview] Public Preview: Migrate Oracle databases to Azure Database for PostgreSQL using Azure Database Migration Service",
       "link": "https://azure.microsoft.com/updates?id=579607",
       "summary": "Azure Database Migration Service now supports offline data migrations from Oracle to Azure Database for PostgreSQL servers. You can configure source and target connections, select the schemas to migrate, start the data transfer, and track migration status",
@@ -640,14 +728,6 @@
       "title": "[Launched] Generally Available: Azure HorizonDB Generic Log Analytics Integration",
       "link": "https://azure.microsoft.com/updates?id=579574",
       "summary": "Azure HorizonDB now supports integration with Azure Monitor diagnostic settings, enabling you to send database logs and diagnostic data to Azure Log Analytics. This provides a centralized way to query and analyze database activity, troubleshoot issues, an",
-      "publishedAt": "2026-11-17T20:00:32.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[In preview] Public Preview: Migrate PostgreSQL servers to Azure HorizonDB",
-      "link": "https://azure.microsoft.com/updates?id=579564",
-      "summary": "Azure Database Migration Service support for migrations to Azure HorizonDB is now available in public preview. You can use a guided, Azure portal–based experience to migrate supported PostgreSQL workloads to Azure HorizonDB, including Azure Database for P",
       "publishedAt": "2026-11-17T20:00:32.000Z"
     },
     {
@@ -1229,10 +1309,50 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "[In preview] Public Preview: Migrate Azure Database for PostgreSQL to Azure HorizonDB with Azure Database Migration Service (DMS)",
+      "link": "https://azure.microsoft.com/updates?id=579612",
+      "summary": "Now you can migrate existing Azure Database for PostgreSQL workloads to Azure HorizonDB through a seamless, managed experience powered by Azure Database Migration Service (DMS). With this update, you can extend the DMS V2 architecture with HorizonDB as a",
+      "publishedAt": "2026-11-17T20:00:24.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Migrate PostgreSQL servers to Azure HorizonDB",
+      "link": "https://azure.microsoft.com/updates?id=579564",
+      "summary": "Azure Database Migration Service support for migrations to Azure HorizonDB is now available in public preview. You can use a guided, Azure portal–based experience to migrate supported PostgreSQL workloads to Azure HorizonDB, including Azure Database for P",
+      "publishedAt": "2026-11-17T20:00:24.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[In preview] Limited Preview: Compute templates for Azure",
       "link": "https://azure.microsoft.com/updates?id=580624",
       "summary": "Announcing the limited preview of Azure compute templates, a new capability that simplifies virtual machine (VM) configuration management by enabling customers to define, version, and reuse standardized VM configurations across deployments.With compute te",
       "publishedAt": "2026-11-17T20:00:24.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Microsoft and Oracle bring agentic AI into flow of enterprise work",
+      "link": "https://azure.microsoft.com/en-us/blog/microsoft-and-oracle-bring-agentic-ai-into-flow-of-enterprise-work/",
+      "summary": "Our new integrations let AI agents reason across Oracle’s business-critical data.",
+      "publishedAt": "2026-11-17T18:35:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Introducing Azure Catalyst agentic modernization and new AI infrastructure innovations",
+      "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-catalyst-agentic-modernization-and-new-ai-infrastructure-innovations/",
+      "summary": "At Microsoft Ignite 2026, we’ll showcase what’s possible when models, silicon, and cloud infrastructure converge into a single, co-engineered system. By tuning the entire stack, and introducing new capabilities across isolated execution, networking, context management, and inference efficiency, we’re fundamentally improving agent speed, security, and unit economics.",
+      "publishedAt": "2026-11-17T18:35:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Microsoft Ignite 2026: What&#8217;s new in Azure, the platform purpose-built for AI",
+      "link": "https://azure.microsoft.com/en-us/blog/microsoft-ignite-2026-whats-new-in-azure-the-platform-purpose-built-for-ai/",
+      "summary": "At Microsoft Ignite, we're sharing what's new across every layer of the platform. New capabilities spanning compute, storage, and networking let you run AI at scale with the control of your own infrastructure, without having to build, secure, and operate all of it yourself.",
+      "publishedAt": "2026-11-17T18:35:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -1259,12 +1379,36 @@
       "publishedAt": "2026-11-17T18:23:46.000Z"
     },
     {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Azure Cobalt 200 VMs now available, proven on real workloads and built for the agentic era",
+      "link": "https://azure.microsoft.com/en-us/blog/azure-cobalt-200-vms-now-available-proven-on-real-workloads-and-built-for-the-agentic-era/",
+      "summary": "Azure Cobalt 200 VMs bring improved performance and efficiency to cloud-native applications, databases, developer tools, and agentic AI workloads.",
+      "publishedAt": "2026-11-17T18:20:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Continuous improvement comes to Microsoft Foundry",
+      "link": "https://azure.microsoft.com/en-us/blog/continuous-improvement-comes-to-microsoft-foundry/",
+      "summary": "Discover how continuous improvement in Microsoft Foundry helps organizations evaluate, optimize, and improve agents over time while keeping teams in control.",
+      "publishedAt": "2026-11-17T18:15:00.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Security for the agentic era, powered by Microsoft Perception",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
       "summary": "Read about updates to Microsoft Perception and the new Microsoft Security cyber stack to defend against threats, secure agents, and protect your digital estate.",
       "publishedAt": "2026-11-17T18:14:00.000Z"
+    },
+    {
+      "source": "Azure Blog",
+      "category": "Azure",
+      "title": "Introducing the new Microsoft IQ: Putting your organization&#8217;s intelligence to work in every agent",
+      "link": "https://azure.microsoft.com/en-us/blog/introducing-the-new-microsoft-iq-putting-your-organizations-intelligence-to-work-in-every-agent/",
+      "summary": "Today, we are announcing Microsoft IQ, the enterprise context management platform that helps organizations create their own IQ. What sets an organization apart is everything around the model: its own intelligence.",
+      "publishedAt": "2026-11-17T18:05:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
