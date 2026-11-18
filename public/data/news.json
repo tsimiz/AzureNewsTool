@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T06:06:58.358Z",
-  "itemCount": 1744,
+  "generatedAt": "2026-11-18T12:05:32.205Z",
+  "itemCount": 1751,
   "sources": [
     {
       "name": "Azure Updates",
@@ -1331,6 +1331,54 @@
       "publishedAt": "2026-11-17T20:00:24.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Accelerate development and AI agent integration with Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-ai-agent-developer-tools",
+      "summary": "Building applications with Azure Cosmos DB involves more than writing queries. Developers need to make data-modeling decisions, understand how their workloads behave, and connect application data to emerging AI experiences. They also need the flexibility to work in their preferred environment, whether that is an editor, a terminal, or an AI cl",
+      "publishedAt": "2026-11-17T18:45:56.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Announcing the General Availability of the Azure Cosmos DB SDK for Rust!",
+      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-the-general-availability-of-the-azure-cosmos-db-sdk-for-rust",
+      "summary": "The Azure Cosmos DB SDK for Rust is now generally available. It is a native client for Azure Cosmos DB for NoSQL, built for production workloads, and it builds on the public preview",
+      "publishedAt": "2026-11-17T18:45:35.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Generally available: Control shared workloads with throughput buckets in Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/generally-available-control-shared-workloads-with-throughput-buckets-in-azure-cosmos-db",
+      "summary": "Today, we're excited to announce the general availability of throughput buckets in Azure Cosmos DB for NoSQL. You can now set workload-level throughput limits within a shared container, so background work has a clear boundary without requiring a separate copy of your data. The challenge: competing workloads in one container A contai",
+      "publishedAt": "2026-11-17T18:45:20.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Improve search relevance with semantic reranking and BM25 score projection in Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/improve-search-relevance-with-semantic-reranking-and-bm25-score-projection-in-azure-cosmos-db",
+      "summary": "At Ignite 2026 on November 17, we are announcing two generally available capabilities in Azure Cosmos DB to help you build better search experiences: Semantic reranker in Azure Cosmos DB Score projection for full-text ranking These capabilities let you improve result quality and make ranking behavior easie",
+      "publishedAt": "2026-11-17T18:45:12.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Simplify AI retrieval with embedding generation using Microsoft-Embedding-1",
+      "link": "https://devblogs.microsoft.com/cosmosdb/microsoft-embedding-one",
+      "summary": "Most enterprise knowledge doesn’t live in clean text. It lives in charts, tables, scanned pages, and diagrams, where text-only search often misses it:",
+      "publishedAt": "2026-11-17T18:45:11.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Go beyond exact matches with full-text search in Azure DocumentDB",
+      "link": "https://devblogs.microsoft.com/documentdb/fts-azure-documentdb",
+      "summary": "A customer searches for \"waterprof jacket.\" They expect your application to understand the typo, find relevant products, and show options they can buy. Someone searching a knowledge base for \"connection timeout\" needs a different kind of precision: those words should appear together, not somewhere in an unrelated article. Azure DocumentDB f",
+      "publishedAt": "2026-11-17T18:45:10.000Z"
+    },
+    {
       "source": "Azure Blog",
       "category": "Azure",
       "title": "Microsoft and Oracle bring agentic AI into flow of enterprise work",
@@ -1457,6 +1505,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
       "summary": "Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide.",
       "publishedAt": "2026-11-17T00:08:41.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What&#039;s new across Microsoft SQL at Microsoft Ignite 2026",
+      "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-at-microsoft-ignite-2026",
+      "summary": "",
+      "publishedAt": "2026-11-16T23:40:42.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
