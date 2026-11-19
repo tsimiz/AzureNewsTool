@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T18:04:38.959Z",
-  "itemCount": 1751,
+  "generatedAt": "2026-11-19T00:10:30.960Z",
+  "itemCount": 1776,
   "sources": [
     {
       "name": "Azure Updates",
@@ -37,17 +37,153 @@
     {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
+      "title": "Visual Studio Code 1.148 (Insiders)",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.148-(insiders)",
+      "summary": "Learn what is new in the latest Visual Studio Code Insiders build, including agent session management and editor tab improvements. Read the full article",
+      "publishedAt": "2026-11-25T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: AI bot ruleset for Azure Front Door Premium WAF",
+      "link": "https://azure.microsoft.com/updates?id=581604",
+      "summary": "Announcing the public preview of the AI bot ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. AI crawlers and agents visit your site for different reasons, and you may want to allow some but not others. Robots.txt only works wh",
+      "publishedAt": "2026-11-18T18:27:29.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: The new Azure Databricks on Azure Government is now in Beta",
+      "link": "https://azure.microsoft.com/updates?id=581645",
+      "summary": "A new Azure Databricks environment is now available in Beta on Microsoft Azure Government. It brings the modern data and AI platform from global Azure to U.S. public sector agencies and their partners, delivered as a first-party Azure service. The Beta in",
+      "publishedAt": "2026-11-18T18:01:03.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Cross-subscription backup for Azure Virtual Machines in Azure Backup",
+      "link": "https://azure.microsoft.com/updates?id=581048",
+      "summary": "Azure Backup now supports cross-subscription backup for Azure Virtual Machines, enabling customers to protect VMs using a Recovery Services vault located in a different Azure subscription within the same tenant.This capability allows organizations to cent",
+      "publishedAt": "2026-11-18T18:00:04.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: AI-powered application and database modernization with Modernize CLI",
+      "link": "https://azure.microsoft.com/updates?id=579943",
+      "summary": "Modernize CLI brings application and database modernization together as one connected, agentic journey. It assesses application architecture, dependencies, and cloud readiness while discovering the databases the application relies on and invoking speciali",
+      "publishedAt": "2026-11-18T17:58:45.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Hosted agents in Foundry Agent Service at Ignite 2026: from pilot to production inside your enterprise boundaries",
+      "link": "https://devblogs.microsoft.com/foundry/hosted-agents-foundry-agent-service-ignite-2026",
+      "summary": "Over the last few months I've worked with a lot of teams taking a hosted agent from pilot to production. A working demo is only the start. The questions that decide whether it ships come next: Will the subnet hold up when usage takes off? Can the agent call internal services that use our own certificates? Where exactly can it connect, and who",
+      "publishedAt": "2026-11-18T17:00:54.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Browser Automation Tool in Microsoft Foundry : Ignite&#039;26 Announcements",
+      "link": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ignite",
+      "summary": "Enterprise-ready cloud browsers for every agent Much of the work that keeps a business running still happens in a browser: internal portals, vendor consoles and legacy apps with no API. The Browser Automation tool in Foundry Agent Service, powered by Azure Playwright Workspaces, is now generally available. It give",
+      "publishedAt": "2026-11-18T17:00:47.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The Foundry Dev Pack is here: build Foundry agents your way",
+      "link": "https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way",
+      "summary": "Your next agent can start wherever you like to build: in your editor, at the terminal, or with your favorite coding agent. At Microsoft Ignite, we're making that first step easier: the Foundry Dev Pack (aka.ms/foundrydevpa",
+      "publishedAt": "2026-11-18T17:00:39.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What&#039;s new in Foundry Agent Service at Ignite 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-foundry-agent-service-at-ignite-2026",
+      "summary": "Your customers don't judge agents by how well they demo. They judge them by whether the work gets done: the case resolved, the report delivered, the follow-up sent. That takes more than a model. It takes the right context and tools, a runtime that holds up under real demand, and a way to keep improving once real users put agents to work. At",
+      "publishedAt": "2026-11-18T17:00:28.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build once, reuse across your agent fleet: Tools and Toolboxes in Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/build-once-reuse-across-your-agent-fleet-tools-and-toolboxes-in-foundry",
+      "summary": "Connecting one tool to one agent is not hard. The challenge is managing a useful set of tools and agentic capabilities across a fleet of production agents at scale. Every new agent shouldn't require you to build the same integrations, copy the same instructions, and troubleshoot the same dependencies. And adding a useful capability shouldn't r",
+      "publishedAt": "2026-11-18T17:00:18.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
       "title": "Visual Studio Code 1.147 (Insiders)",
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.147-(insiders)",
       "summary": "Learn what is new in Visual Studio Code Insiders, including agent session management, chat resources, and Markdown editing. Read the full article",
       "publishedAt": "2026-11-18T17:00:00.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.147",
+      "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.147",
+      "summary": "Learn what's new in Visual Studio Code 1.147 Read the full article",
+      "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.147 (Insiders)",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-147-insiders",
+      "summary": "Learn what is new in Visual Studio Code Insiders, including agent session management, chat resources, and Markdown editing. Read the full article",
+      "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Java OpenJDK November 2026 Critical Patch Update",
+      "link": "https://devblogs.microsoft.com/java/java-openjdk-november-2026-critical-patch-update",
+      "summary": "Hello Java customers! We are happy to announce the latest November 2026 critical patch update release for the Microsoft Build of OpenJDK. Check our",
+      "publishedAt": "2026-11-18T16:58:21.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Frontier Tuning opens to more customers, with new tools for your teams",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-opens-to-more-customers-with-new-tools-for-your-teams",
+      "summary": "In June at Microsoft Build, we introduced Frontier Tuning and opened a private preview with a focused group of customers. The idea is to help AI work the way your business does, using your own expertise as the standard it's measured against. Sinc",
+      "publishedAt": "2026-11-18T16:00:06.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "SPFx Dev Skills for SPFx 1.24.1: tested across agents and models",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/spfx-dev-skills-for-spfx-1-24-1-tested-across-agents-and-models",
+      "summary": "Updating a skill's instructions is the easy part. Knowing whether AI coding agents follow them, and whether the result beats what the agent would have done on its own, takes more work. Today, we’re releasing SPFx Dev Skills v1.1.2 with support for S",
+      "publishedAt": "2026-11-18T11:56:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Aspire 17 is ready for primetime",
+      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-17",
+      "summary": "Aspire 17 is here! 🎉 Back in June (which is basically an eternity ago), we sat down to plan the next few months of Aspire. We were excited to realize we'd already shipped most of the roadmap we'd planned the year before. But... what comes next? We'd flown through",
+      "publishedAt": "2026-11-18T07:15:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "New Create and Apply wizards in SSMS (Preview)",
+      "link": "https://devblogs.microsoft.com/azure-sql/new-create-and-apply-wizards-in-ssms-preview",
+      "summary": "Need to save a database schema, move schema and data to another environment, or deploy a DACPAC to an existing database but find the existing options confusing? SQL Server Management Studio (SSMS) has new preview wizards that streamlines those tasks: Create bacpac/dacpac and Apply bacpac/dacpac. The Create",
+      "publishedAt": "2026-11-18T01:02:47.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Immutable snapshots for Azure Disk Storage",
       "link": "https://azure.microsoft.com/updates?id=581503",
-      "summary": "Immutable snapshots for Azure Disk Storage are now available in public preview. Immutable snapshots complement Azure Backup immutable vaults. Use vaults for cost-efficient long-term retention, and immutable snapshots for short-term backups that need faste",
+      "summary": "Immutable snapshots for Azure Disk Storage are now available in public preview. You can now apply an immutability policy to snapshots of any Azure disk type to prevent deletion for up to 90 days. While the policy is active, no one can delete the snapshot,",
       "publishedAt": "2026-11-18T00:00:09.000Z"
     },
     {
@@ -57,6 +193,14 @@
       "link": "https://azure.microsoft.com/updates?id=581227",
       "summary": "Azure Boost observability for NVMe disks is an open-source command-line tool that you run inside compatible Azure VMs. Backed by Azure Boost, the tool provides remote disk I/O and latency metrics and maps each disk inside your VM to the corresponding disk",
       "publishedAt": "2026-11-18T00:00:09.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "The Copilot harness: Building on a shared foundation",
+      "link": "https://devblogs.microsoft.com/vscode-blog/the-copilot-harness:-building-on-a-shared-foundation",
+      "summary": "Learn why VS Code is moving from the Local harness to the Copilot harness, guided by data and user feedback. Read the full article",
+      "publishedAt": "2026-11-18T00:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -121,6 +265,22 @@
       "link": "https://azure.microsoft.com/updates?id=563097",
       "summary": "AI model management in Azure HorizonDB is now in limited preview, designed to simplify how you bring AI into your database. With just a single step, you can provision fully managed AI models for embeddings, semantic ranking, and generation through Microso",
       "publishedAt": "2026-11-17T23:42:10.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build locally with Azure SQL Database container, now in public preview",
+      "link": "https://devblogs.microsoft.com/azure-sql/build-locally-with-azure-sql-database-container-now-in-public-preview",
+      "summary": "Azure SQL Database container: build locally, test continuously, ship to Azure. Today at Microsoft Ignite, we’re announcing the public preview of Azure SQL Database container—bringing the Azure SQL Database engine into your local development workflow. Build and test applications without provisioning a",
+      "publishedAt": "2026-11-17T23:23:52.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing the Starter Pack for Work IQ",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/introducing-the-starter-pack-for-work-iq",
+      "summary": "Announcing the Starter Pack for Work IQ Anyone who has prepared a Copilot demo or who wanted to play with Copilot and Work IQ without touching real business data knows the hardest part is the lack of demo/test content in the target tenant: no emails worth summarizing, no meetings to recap, no documents or business records for an agen",
+      "publishedAt": "2026-11-17T23:15:21.000Z"
     },
     {
       "source": "Azure Updates",
@@ -195,6 +355,14 @@
       "publishedAt": "2026-11-17T22:35:29.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "MSSQL Extension for VS Code: Local Azure SQL Database Provisioning, Query Performance Dashboard, and more",
+      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-november2026",
+      "summary": "A local database is a useful starting point, but deploying it and understanding how queries behave should fit into the same development workflow. The MSSQL extension for VS Code v1.48 brings three new public previews: Azure SQL Database local container pr",
+      "publishedAt": "2026-11-17T22:03:17.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[Launched] Generally Available: Near-instant provisioning for Azure DocumentDB clusters",
@@ -219,12 +387,28 @@
       "publishedAt": "2026-11-17T21:00:05.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing staged publishing on NuGet.org",
+      "link": "https://devblogs.microsoft.com/dotnet/nuget-staged-publishing",
+      "summary": "A successful build tells you that your pipeline finished. It does not tell you that you meant to release. Today, we are introducing staged publishing on NuGet.org, available to all package publishers, so you can prepare and validate packages privately before making an explicit decision to publish them. Upload a secur",
+      "publishedAt": "2026-11-17T21:00:00.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Generally Available: Private endpoint support for Azure HorizonDB clusters",
       "link": "https://azure.microsoft.com/updates?id=574153",
       "summary": "You can now connect to Azure HorizonDB clusters privately through Azure Private Link, using a private IP address from your virtual network. Private DNS integration makes connection setup easier, while the option to disable public access keeps database tra",
       "publishedAt": "2026-11-17T20:56:06.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Fuzzy string matching is now generally available across Microsoft SQL",
+      "link": "https://devblogs.microsoft.com/azure-sql/fuzzy-string-matching-is-now-generally-available-across-microsoft-sql",
+      "summary": "Four native T-SQL functions that tell you how close two strings are, not just whether they're equal. MICROSFT isn't MICROSOFT. MARHTA isn't MARTHA. INV-1O08 isn't",
+      "publishedAt": "2026-11-17T20:54:16.000Z"
     },
     {
       "source": "Azure Updates",
@@ -275,6 +459,14 @@
       "publishedAt": "2026-11-17T20:25:18.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure DevOps and GitHub: Start Your Agentic Journey Where You Are",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-and-github-start-your-agentic-journey-where-you-are",
+      "summary": "Software development is changing fast as developers shift from writing code to directing agents. Today, we’re bringing more of that agentic experience to Azure DevOps teams who keep their code in Azure Repos: the GitHub Copilot app now works with Azure Repos, Copilot Code Review for Azure DevOps is generally available, and Copilot Autofix",
+      "publishedAt": "2026-11-17T20:17:28.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure API Management Application",
@@ -297,6 +489,14 @@
       "link": "https://azure.microsoft.com/updates?id=580916",
       "summary": "Running AI agents that execute untrusted, model-generated code requires isolated environments for each session. Today, teams building on Kubernetes assemble their own sandbox lifecycle, storage, and warm-up logic, adding operational overhead and making us",
       "publishedAt": "2026-11-17T20:15:03.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "PowerShell 7 is coming to Windows",
+      "link": "https://devblogs.microsoft.com/powershell/powershell-7-coming-to-windows",
+      "summary": "PowerShell 7 is coming to Windows. Beginning with the next release of Windows, PowerShell 7 will be included as the upgrade for Windows PowerShell 5.1. The Windows team has published the details in KB5137172. Here is what this means for you, your",
+      "publishedAt": "2026-11-17T20:07:20.000Z"
     },
     {
       "source": "Azure Updates",
