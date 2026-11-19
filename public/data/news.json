@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-19T12:05:28.267Z",
-  "itemCount": 1776,
+  "generatedAt": "2026-11-19T18:05:05.086Z",
+  "itemCount": 1778,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,22 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.148-(insiders)",
       "summary": "Learn what is new in the latest Visual Studio Code Insiders build, including agent session management and editor tab improvements. Read the full article",
       "publishedAt": "2026-11-25T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Database Agent for Azure Database for PostgreSQL",
+      "link": "https://azure.microsoft.com/updates?id=579579",
+      "summary": "Database Agent helps you detect, understand, and respond to database health and performance issues more quickly in Azure Database for PostgreSQL. It proactively monitors database health to identify issues, brings together database metrics, configuration,",
+      "publishedAt": "2026-11-19T17:25:28.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Turn AI ambition into real business value with Power Platform",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/11/18/turn-ai-ambition-into-real-business-value-with-power-platform/",
+      "summary": "At Microsoft Ignite 2026, see how Power Platform helps you put AI to work without starting over.",
+      "publishedAt": "2026-11-18T19:00:00.000Z"
     },
     {
       "source": "Azure Updates",
