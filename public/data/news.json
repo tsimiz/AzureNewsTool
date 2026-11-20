@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-19T18:05:05.086Z",
-  "itemCount": 1778,
+  "generatedAt": "2026-11-20T00:09:45.203Z",
+  "itemCount": 1780,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,22 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.148-(insiders)",
       "summary": "Learn what is new in the latest Visual Studio Code Insiders build, including agent session management and editor tab improvements. Read the full article",
       "publishedAt": "2026-11-25T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: PostgreSQL 19 on Azure Database for PostgreSQL",
+      "link": "https://azure.microsoft.com/updates?id=574587",
+      "summary": "You can now try PostgreSQL 19 in public preview on Azure Database for PostgreSQL – Flexible Server in the East Asia region. With this preview, you can provision new PostgreSQL 19 servers through the Azure portal and Azure CLI, enabling you to test major v",
+      "publishedAt": "2026-11-19T23:25:49.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Zone resilience for Azure VMs",
+      "link": "https://azure.microsoft.com/updates?id=581254",
+      "summary": "Zone resilience for Azure VMs, now in public preview, lets you recover an eligible zonal VM in another availability zone in the same region, retaining the existing VM resource and configuration.ZRS managed disks replicate data synchronously across zones b",
+      "publishedAt": "2026-11-19T20:34:19.000Z"
     },
     {
       "source": "Azure Updates",

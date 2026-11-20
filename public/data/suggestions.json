@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T18:05:05.086Z",
+  "generatedAt": "2026-11-20T00:09:45.203Z",
   "values": [
     "across",
     "actions",
@@ -47,7 +47,6 @@
     "Blob",
     "Boost",
     "boundaries",
-    "Bring-your-own",
     "Browser",
     "buckets",
     "build",
@@ -172,7 +171,6 @@
     "hybrid",
     "Hyperscale",
     "Ignite",
-    "image",
     "images",
     "Immutable",
     "Improved",
@@ -293,6 +291,7 @@
     "Rename",
     "Report",
     "Reranker",
+    "resilience",
     "Resiliency",
     "rest",
     "restore",
@@ -309,7 +308,6 @@
     "Security",
     "Semantic",
     "series",
-    "server",
     "Server",
     "Serverless",
     "service",
@@ -374,6 +372,7 @@
     "Work",
     "Workload",
     "your",
-    "Your"
+    "Your",
+    "Zone"
   ]
 }
