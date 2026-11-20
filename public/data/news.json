@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-20T00:09:45.203Z",
-  "itemCount": 1780,
+  "generatedAt": "2026-11-20T06:06:53.702Z",
+  "itemCount": 1782,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,22 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.148-(insiders)",
       "summary": "Learn what is new in the latest Visual Studio Code Insiders build, including agent session management and editor tab improvements. Read the full article",
       "publishedAt": "2026-11-25T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Malaysia and Saudi Arabia",
+      "link": "https://azure.microsoft.com/updates?id=580700",
+      "summary": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with partners that bring established customer relationships,",
+      "publishedAt": "2026-11-20T00:00:14.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Soft delete in Azure Compute Gallery",
+      "link": "https://azure.microsoft.com/updates?id=581907",
+      "summary": "Soft delete in Azure Compute Gallery is now generally available, so you can recover image versions that were deleted by accident. You can set a retention period of 7 to 365 days. During retention, you can still deploy from soft-deleted images (API version",
+      "publishedAt": "2026-11-19T23:47:55.000Z"
     },
     {
       "source": "Azure Updates",
