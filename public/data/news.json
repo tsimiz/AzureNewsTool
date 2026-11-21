@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-20T18:04:56.237Z",
-  "itemCount": 1783,
+  "generatedAt": "2026-11-21T00:10:27.498Z",
+  "itemCount": 1790,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,46 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.148-(insiders)",
       "summary": "Learn what is new in the latest Visual Studio Code Insiders build, including agent session management and editor tab improvements. Read the full article",
       "publishedAt": "2026-11-25T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Support for Azure Functions OpenAI Extension ends on April 20, 2027",
+      "link": "https://azure.microsoft.com/updates?id=579952",
+      "summary": "Support for Azure Functions OpenAI extension will end on April 20, 2027. Please migrate to OpenAI, Microsoft Foundry, or Azure AI Search SDKs directly, depending on your scenario, by that date. Until you migrate to the appropriate scenario SDK, .NET app",
+      "publishedAt": "2026-11-20T23:16:31.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Programmed Training in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581713",
+      "summary": "Programmed Training, an API for building your own post-training loop over open-weight models, is available in public preview in Microsoft Foundry. Access is available by request through the preview sign-up form.Managed training jobs work well when you onl",
+      "publishedAt": "2026-11-20T22:58:28.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Multi-turn evaluation in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581746",
+      "summary": "Multi-turn evaluation is now in public preview in Microsoft Foundry. You can assess complete agent conversations against your quality standards, not only individual responses.A response can look correct on its own and still be part of a conversation that",
+      "publishedAt": "2026-11-20T22:56:51.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Firewall for Containers",
+      "link": "https://azure.microsoft.com/updates?id=581963",
+      "summary": "Azure Firewall for Containers extends Azure Firewall protection to containerized workloads, providing a centralized approach to securing network traffic for container environments. Customers can use Azure Firewall capabilities as part of their container n",
+      "publishedAt": "2026-11-20T20:05:17.000Z"
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "category": "Security",
+      "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+      "summary": "We're honored that Microsoft has once again been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM).",
+      "publishedAt": "2026-11-20T17:00:00.000Z"
     },
     {
       "source": "Power Platform Blog",
@@ -5255,7 +5295,7 @@
       "category": "Azure",
       "title": "[Launched] Generally Available: Network egress controls for hosted agents in Microsoft Foundry",
       "link": "https://azure.microsoft.com/updates?id=571821",
-      "summary": "Network egress controls govern the outbound connections a Foundry hosted agent can make, is generally available. Ordered rules match on destination host (FQDN, with wildcards such as *.contoso.com) and apply an Allow, Deny, or Rewrite (redirect to another",
+      "summary": "Network egress controls for hosted agents in Foundry Agent Service are now generally available.Create rules that allow or deny destinations, or rewrite destinations. Audit mode logs deny decisions without blocking them. Rewrite rules still take effect.Hea",
       "publishedAt": "2026-09-18T17:23:21.000Z"
     },
     {
@@ -10589,6 +10629,14 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "[Launched] Generally Available: Semantic chunking and image descriptions with Azure Content Understanding in Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=563661",
+      "summary": "Foundry IQ—formerly Azure AI Search—now offers generally available semantic chunking and optional AI-generated image descriptions through the Azure Content Understanding skill.The skill uses document structure to create chunks with Markdown and location m",
+      "publishedAt": "2026-06-04T19:00:34.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[Launched] Generally Available: Azure Monitor Service Level Indicators (SLI)",
       "link": "https://azure.microsoft.com/updates?id=565159",
       "summary": "Azure Monitor now includes Service Level Indicators (SLIs) and Service Level Objectives (SLOs), giving teams a clearer way to measure how customers actually experience their applications. Instead of relying only on infrastructure signals like CPU or isola",
@@ -10848,6 +10896,14 @@
       "title": "[In preview] Public Preview: Azure API Management introduces a Unified Model API for multi-model AI applications.",
       "link": "https://azure.microsoft.com/updates?id=562853",
       "summary": "As organizations adopt multiple LLM providers, developers often need to handle different API formats, SDKs, and integration patterns for each model vendor. This increases application complexity and makes provider switching, failover, and governance more d",
+      "publishedAt": "2026-06-02T21:00:30.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Cobalt 200 Arm-based Dpsv7, Dplsv7, Epsv7, Mpsv4, and Lpsv5-series Virtual Machines",
+      "link": "https://azure.microsoft.com/updates?id=564451",
+      "summary": "The general purpose Dpsv7 and Dplsv7, memory-optimized Epsv7, high-memory Mpsv4, and dense storage Lpsv5 VMs are now generally available. These virtual machines deliver significant enhancements over the previous generation Cobalt 100 VMs, offering improve",
       "publishedAt": "2026-06-02T21:00:30.000Z"
     },
     {
