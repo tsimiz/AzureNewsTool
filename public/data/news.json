@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-23T18:04:56.398Z",
-  "itemCount": 1792,
+  "generatedAt": "2026-11-24T00:10:22.844Z",
+  "itemCount": 1827,
   "sources": [
     {
       "name": "Azure Updates",
@@ -45,6 +45,198 @@
     {
       "source": "Azure Updates",
       "category": "Azure",
+      "title": "[In preview] Public Preview: Enterprise Knowledge Graph in Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=581333",
+      "summary": "Foundry IQ adds Enterprise Knowledge Graph as a knowledge source for questions that depend on relationships across your content.During indexing, it extracts entities and relationships from unstructured content, guided by an ontology you provide. Agents ca",
+      "publishedAt": "2026-11-23T21:16:32.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Updated Guardrails experience in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581338",
+      "summary": "In Microsoft Foundry, Guardrails helps developers configure runtime safety controls for agents, including classifiers, deterministic rules, and LLM-based judges.When an administrator policy requires controls for a project, Guardrails surfaces those requir",
+      "publishedAt": "2026-11-23T21:15:04.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: IQ Retriever Zero in Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=581343",
+      "summary": "Foundry IQ can use an iterative retrieval model to break complex questions into focused searches. The model reviews search results and searches again when needed, within a configured budget, then passes the retrieved evidence to the model that answers the",
+      "publishedAt": "2026-11-23T21:13:44.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Public Preview: Style and instruction control for HD V3 voices in Azure Speech in Foundry Tools",
+      "link": "https://azure.microsoft.com/updates?id=581353",
+      "summary": "Azure Speech in Foundry Tools provides HD V3 voices with style and instruction control in public preview.Use supported controls to shape voice delivery for voice agents, narration, and other speech experiences.Learn more.",
+      "publishedAt": "2026-11-23T21:12:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Human annotation for agent evaluations in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581358",
+      "summary": "Human annotation for agent evaluations is in public preview in Microsoft Foundry, as announced in the Microsoft IQ launch blog.Reviewers can add ratings, tags, comments, and expected outputs to agent traces. Use annotated conversation traces to build eval",
+      "publishedAt": "2026-11-23T21:11:23.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Agent insights in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581363",
+      "summary": "In Microsoft Foundry, insights analyze agent traces to surface recurring patterns and group related issues.Review an insight and its supporting traces to investigate common failures and decide what to improve first.Use agent optimizer to test potential fi",
+      "publishedAt": "2026-11-23T21:10:07.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Files knowledge source for Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=581368",
+      "summary": "Upload files directly to a managed knowledge source in Foundry IQ. Foundry IQ processes and indexes the files for retrieval through a knowledge base, so you don't need to provision a storage account or scheduled indexer.Learn more.",
+      "publishedAt": "2026-11-23T21:08:46.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "More deployment choice for open-source DocumentDB with Azure Arc and Azure Local",
+      "link": "https://devblogs.microsoft.com/documentdb/documentdb-azure-arc-azure-local",
+      "summary": "The right place for an application is not always an Azure region. Your team may need to work alongside existing systems in a datacenter, explore an application in another cloud, or bring data closer to devices at the edge. Evaluating a document database should start with those application needs. Open-source Doc",
+      "publishedAt": "2026-11-23T20:41:01.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Call model router without a deployment in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581378",
+      "summary": "Microsoft Foundry now lets you use model router without deploying it first. In a region that supports model router, set model to auto in a Responses or Chat Completions request to your Foundry resource.By default, Auto uses the Balanced routing mode acros",
+      "publishedAt": "2026-11-23T20:32:57.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Use the Messages API with model router in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581383",
+      "summary": "Model router in Microsoft Foundry supports the Messages API in public preview. Messages-based applications and coding tools can use automatic model selection while keeping the Anthropic request and response format.Messages requests route only to supported",
+      "publishedAt": "2026-11-23T20:31:40.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Use your model deployments with model router in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581388",
+      "summary": "Model router in Microsoft Foundry can use your existing model deployments to serve routed requests, in public preview. This helps you use capacity you already have while model router selects a model for each request.After selecting a model, model router f",
+      "publishedAt": "2026-11-23T20:29:36.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Model router now supports the Responses API protocol in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581393",
+      "summary": "Model router in Microsoft Foundry now supports the Responses API protocol in general availability on both resource and project endpoints. Set model to your model router deployment name to add automatic model selection to Responses-based applications and a",
+      "publishedAt": "2026-11-23T20:28:24.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Agentic Autofix for GitHub Advanced Security for Azure DevOps is in public preview",
+      "link": "https://devblogs.microsoft.com/devops/agentic-autofix-for-advanced-security-for-azure-devops-public-preview",
+      "summary": "Today, we're announcing the public preview of Agentic Autofix for GitHub Advanced Security for Azure DevOps. Thank you to everyone who participated in our June private preview and our October limited preview. Your feedback help",
+      "publishedAt": "2026-11-23T20:21:42.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Use model router with AI Gateway",
+      "link": "https://azure.microsoft.com/updates?id=581398",
+      "summary": "Automatic model selection in AI Gateway uses model router from Microsoft Foundry to rank the models behind a model alias for each request. The gateway combines that ranking with the alias's priorities and weights to select a backend, while its access cont",
+      "publishedAt": "2026-11-23T20:15:53.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Deploy hosted agents from your own container registry in Foundry Toolkit for VS Code",
+      "link": "https://azure.microsoft.com/updates?id=581478",
+      "summary": "Foundry Toolkit for Visual Studio Code now deploys hosted agents from prebuilt images in customer-managed container registries, including registries other than Azure Container Registry. Choose the matching registry connection in your Foundry project; the",
+      "publishedAt": "2026-11-23T20:13:42.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Wildcard domain support in Azure Firewall network rules",
+      "link": "https://azure.microsoft.com/updates?id=582030",
+      "summary": "Wildcard domain support in Azure Firewall network rules is now generally available. This capability enables customers to use wildcard patterns, such as *.contoso.com, when defining FQDN-based network rules. Wildcard support makes it easier to secure desti",
+      "publishedAt": "2026-11-23T18:51:31.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "Retirement: Azure AI Content Safety selected features will be retired on April 30, 2027",
+      "link": "https://azure.microsoft.com/updates?id=577474",
+      "summary": "The following Azure AI Content Safety preview capabilities will retire on April 30, 2027:Analyze MultimodalCustom categories (rapid), including text and imageConnected containers for Text, Image, and Prompt ShieldsDisconnected containers for Text, ImageEm",
+      "publishedAt": "2026-11-23T18:11:31.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Database for PostgreSQL enhanced Burstable tier (Basv2)",
+      "link": "https://azure.microsoft.com/updates?id=574535",
+      "summary": "Enhanced Burstable tier (Basv2) builds on the existing burstable model with improved performance predictability and more efficient burst utilization, delivering a better cost-performance balance. Now you can run steady workloads more economically while au",
+      "publishedAt": "2026-11-23T18:09:39.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Run local models in your .NET apps with Llama on Windows",
+      "link": "https://devblogs.microsoft.com/dotnet/local-models-dotnet-llama-windows",
+      "summary": "Running AI models locally lets you keep your prompts and responses on your PC, work offline after downloading a model, and experiment without paying per request. Getting started can take some setup: finding a model that fits your hardware, downloading it, and running a server your apps can call. Llama on Windows takes care of that fo",
+      "publishedAt": "2026-11-23T18:05:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: WAF Insights for Azure Application Gateway",
+      "link": "https://azure.microsoft.com/updates?id=579280",
+      "summary": "WAF Insights for Azure Application Gateway Web Application Firewall (WAF) is now generally available. WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate block",
+      "publishedAt": "2026-11-23T18:02:38.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: WAF Insights for Azure Front Door",
+      "link": "https://azure.microsoft.com/updates?id=579285",
+      "summary": "WAF Insights is now generally available for Azure Front Door Web Application Firewall (WAF). WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate blocked reques",
+      "publishedAt": "2026-11-23T18:01:19.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "New guidance to optimize Git performance in Azure Repos",
+      "link": "https://devblogs.microsoft.com/devops/new-guidance-to-optimize-git-performance-in-azure-repos",
+      "summary": "Git works well for most development workflows. But a change that seems harmless can make a repository harder to work with. Here are a few examples of how that can happen. Committing binaries directly to your repository Binaries are more likely than source code files to differ a lot between versions, so delta compression is",
+      "publishedAt": "2026-11-23T18:00:44.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Do AI coding agents struggle with non-REST APIs?",
+      "link": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-struggle-with-non-rest-apis",
+      "summary": "Plenty of APIs skip REST conventions. Some send every write over POST, and some name every endpoint after an action, like /updateBin or /deleteBin. On paper, agents should have a harder time with those. REST maps the intent onto the HTTP method, so changing a record is a PATCH and removing it is a",
+      "publishedAt": "2026-11-23T10:25:28.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
+      "link": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup",
+      "summary": "Over the last few weeks I have worked with several teams moving hosted agents into their own virtual network. Different industries, same five questions. This post answers each one with the commands I use to check it. Picture a financial services team running claims agents in a locked-down network. Public access on the Foundry resource is of",
+      "publishedAt": "2026-11-21T18:12:21.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
       "title": "[Launched] Generally Available: Governance policy guidance in Foundry Canvas and VS Code",
       "link": "https://azure.microsoft.com/updates?id=581463",
       "summary": "Microsoft Foundry governance guidance is now available in Foundry Canvas and the Foundry Toolkit for Visual Studio Code. As developers build agents, both experiences surface relevant policies for agent types, models, toolboxes, and guardrails, with warnin",
@@ -83,6 +275,14 @@
       "publishedAt": "2026-11-20T22:56:51.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "How to Chunk Documents in Azure SQL Database for RAG",
+      "link": "https://devblogs.microsoft.com/azure-sql/how-to-chunk-documents-in-azure-sql-database-for-rag",
+      "summary": "Quick answer Azure SQL Database can split text into fixed-size chunks using AI_GENERATE_CHUNKS, with the OVERLAP percentage controlling repeated text between chunks. Store embeddings generated through an external Azure OpenAI endpoint in VECTOR columns, then retrieve passages with VECTOR_DISTANCE or VECTOR_SEARCH. This walkthrough co",
+      "publishedAt": "2026-11-20T22:23:17.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Azure Firewall for Containers",
@@ -91,12 +291,52 @@
       "publishedAt": "2026-11-20T20:05:17.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Copilot Code Reviews for Azure Repos is generally available",
+      "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-is-generally-available",
+      "summary": "Today, we're announcing the general availability of Copilot Code Review for Azure Repos, bringing the power of GitHub Copilot to Azure DevOps. Thank you to everyone who participated in the private preview in June and the public preview in August. Your feedback helped us improve the experience and prepare for general availability.",
+      "publishedAt": "2026-11-20T18:41:47.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "AI is Changing the Cross-Platform Decision Matrix",
+      "link": "https://devblogs.microsoft.com/dotnet/ai-cross-platform-decision-matrix",
+      "summary": "How you build a cross-platform app has always come down to a few hard constraints. Over the years I've talked with a lot of teams about how they chose their approach, and the factors are consistent: what the team already knows, how many codebases it has the capacity to support, what it costs to build and to maintain, solution characteristic",
+      "publishedAt": "2026-11-20T18:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Embracing MLIR in Windows ML: Windows-native inferencing built on DX CGC",
+      "link": "https://devblogs.microsoft.com/foundry-on-windows/winml-cgc",
+      "summary": "Additional Contributors: Angela Serrano Brummett, Nick Eubanks, Pawan Tahiliani With the release of Windows ML 2.9.42 Experimental, we are expanding on the Windows ML Runtime API, our new Windows-native inferencing path",
+      "publishedAt": "2026-11-20T17:29:29.000Z"
+    },
+    {
       "source": "Microsoft Security Blog",
       "category": "Security",
       "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
       "summary": "We're honored that Microsoft has once again been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM).",
       "publishedAt": "2026-11-20T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Serve open models in production with Foundry Managed Compute",
+      "link": "https://devblogs.microsoft.com/foundry/managed-compute-ga",
+      "summary": "We are excited to announce the general availability of Managed Compu",
+      "publishedAt": "2026-11-20T15:00:44.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Another failed attempt to get the icon for the icon for the .. parent folder",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261120-00/?p=112883",
+      "summary": "Last time, we looked at why asking SHGet­File­Info for the icon of .. (the parent folder) produces inconsistent results. One of the things the cus",
+      "publishedAt": "2026-11-20T15:00:00.000Z"
     },
     {
       "source": "Power Platform Blog",
@@ -131,6 +371,14 @@
       "publishedAt": "2026-11-19T23:25:49.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Live technical training, wherever you are: A VSLive! benefit for Visual Studio subscribers",
+      "link": "https://devblogs.microsoft.com/visualstudio/live-technical-training-wherever-you-are-a-vslive-benefit-for-visual-studio-subscribers",
+      "summary": "",
+      "publishedAt": "2026-11-19T21:30:48.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Zone resilience for Azure VMs",
@@ -139,12 +387,44 @@
       "publishedAt": "2026-11-19T20:34:19.000Z"
     },
     {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "PIX 2611.19 - misc bug fixes and improvements",
+      "link": "https://devblogs.microsoft.com/pix/pix-2611-19",
+      "summary": "Today we released PIX 2611.19 which can be downloaded here. This release includes everything in the previous 2610.28 release, plus the bug fixes and improvements listed below. Thank you to everyone who reported issues and",
+      "publishedAt": "2026-11-19T20:33:54.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Build trusted autonomous agents for your team with Microsoft Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry",
+      "summary": "Enterprises are all-in on AI agents, but the ROI hasn’t followed. What’s holding those agents back isn’t capability. Today’s agents can do remarkable work on their own. They can solve math problems that stumped mathematicians for decades, build functional operating systems from scratch, and teach themselves a new skill by",
+      "publishedAt": "2026-11-19T19:53:30.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Azure DevOps integration with the GitHub Copilot app (public preview)",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-integration-with-the-github-copilot-app-public-preview",
+      "summary": "We’re excited to announce the public preview of Azure DevOps integration in the Copilot app. You can now start agent sessions that work directly with your Azure DevOps repositories to create branches, make code changes, commit changes, and open pull requests. This brings GitHub Copilot's coding agents to teams using Azure DevOps repositor",
+      "publishedAt": "2026-11-19T17:39:09.000Z"
+    },
+    {
       "source": "Azure Updates",
       "category": "Azure",
       "title": "[In preview] Public Preview: Database Agent for Azure Database for PostgreSQL",
       "link": "https://azure.microsoft.com/updates?id=579579",
       "summary": "Database Agent helps you detect, understand, and respond to database health and performance issues more quickly in Azure Database for PostgreSQL. It proactively monitors database health to identify issues, brings together database metrics, configuration,",
       "publishedAt": "2026-11-19T17:25:28.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Why do I get inconsistent results when I ask for the icon for the .. parent folder?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261119-00/?p=112879",
+      "summary": "A customer wanted their program to show a file listing with icons, and they also wanted to include an entry for the parent folder, programmatically known as .. (double period). Update: The idea is that they are showing a file listing unrelated to the file system. For example, they are an online photo album browser. T",
+      "publishedAt": "2026-11-19T15:00:00.000Z"
     },
     {
       "source": "Power Platform Blog",
@@ -191,7 +471,7 @@
       "category": "Developer",
       "title": "Hosted agents in Foundry Agent Service at Ignite 2026: from pilot to production inside your enterprise boundaries",
       "link": "https://devblogs.microsoft.com/foundry/hosted-agents-foundry-agent-service-ignite-2026",
-      "summary": "Over the last few months I've worked with a lot of teams taking a hosted agent from pilot to production. A working demo is only the start. The questions that decide whether it ships come next: Will the subnet hold up when usage takes off? Can the agent call internal services that use our own certificates? Where exactly can it connect, and who",
+      "summary": "Over the last few months I've worked with a lot of teams taking a hosted agent from pilot to production. A working demo is only the start. The questions that decide whether it ships come next: Will the subnet hold up when usage takes off? Can the agent call internal services that use our own certificates? Where exactly can it connect, and w",
       "publishedAt": "2026-11-18T17:00:54.000Z"
     },
     {
@@ -248,6 +528,14 @@
       "title": "Visual Studio Code 1.147 (Insiders)",
       "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-147-insiders",
       "summary": "Learn what is new in Visual Studio Code Insiders, including agent session management, chat resources, and Markdown editing. Read the full article",
+      "publishedAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio Code 1.147",
+      "link": "https://devblogs.microsoft.com/external-blogs/visual-studio-code-1-147-insiders",
+      "summary": "Learn what's new in Visual Studio Code 1.147 Read the full article",
       "publishedAt": "2026-11-18T17:00:00.000Z"
     },
     {
@@ -2409,14 +2697,6 @@
       "link": "https://devblogs.microsoft.com/dotnet/modernize-dotnet-apps-for-windows-arm64",
       "summary": "Arm64 offers the potential for lower compute costs and more efficient infrastructure. But what would it take to get your existing .NET application running on it? The answer may be scattered across your code, dependencies, and build settings. You need to know what already supports Arm64, what needs updating, and how much work is involved. Fi",
       "publishedAt": "2026-11-05T18:05:00.000Z"
-    },
-    {
-      "source": "Azure Updates",
-      "category": "Azure",
-      "title": "[Launched] Generally Available: WAF Insights for Azure Application Gateway",
-      "link": "https://azure.microsoft.com/updates?id=579280",
-      "summary": "WAF Insights for Azure Application Gateway Web Application Firewall (WAF) is now generally available. WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate block",
-      "publishedAt": "2026-11-05T17:11:31.000Z"
     },
     {
       "source": "Microsoft Security Blog",
