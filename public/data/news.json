@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T12:05:46.844Z",
-  "itemCount": 1827,
+  "generatedAt": "2026-11-24T18:04:59.797Z",
+  "itemCount": 1834,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,62 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.148-(insiders)",
       "summary": "Learn what is new in the latest Visual Studio Code Insiders build, including agent session management and editor tab improvements. Read the full article",
       "publishedAt": "2026-11-25T17:00:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Optimize agents from insights in Foundry Agent Service",
+      "link": "https://azure.microsoft.com/updates?id=581483",
+      "summary": "Optimization from insights is in public preview in Foundry Agent Service. In the Foundry portal, start from an eligible insight in a prompt-agent trace to generate and evaluate candidate changes to the agent's instructions and function-calling tool descri",
+      "publishedAt": "2026-11-24T16:52:07.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Govern MCP tools with your own gateway in Microsoft Foundry Agent Service",
+      "link": "https://azure.microsoft.com/updates?id=581498",
+      "summary": "In public preview, Microsoft Foundry Agent Service lets you route MCP tool traffic through existing AI Gateway or Azure API Management endpoints that your organization manages. Configure the MCP route in the gateway first, then enter the gateway-routed en",
+      "publishedAt": "2026-11-24T16:50:47.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Use Azure Storage permissions in Azure AI Search and Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=581303",
+      "summary": "Azure AI Search and Foundry IQ in Microsoft Foundry can use supported Azure Storage permissions to control access to search results.Once configured, search applications and AI agents return content based on each user's access. This reduces the need to cre",
+      "publishedAt": "2026-11-24T16:49:39.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Native A2A passthrough for hosted agents in Foundry Agent Service",
+      "link": "https://azure.microsoft.com/updates?id=581313",
+      "summary": "Bring your existing Agent2Agent (A2A) agents to Agent Service without a protocol conversion layer.Previously, Agent Service converted incoming A2A requests to the Responses protocol. With A2A passthrough, Agent Service forwards native A2A requests directl",
+      "publishedAt": "2026-11-24T16:48:25.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Azure Developer CLI extension for Azure Document Intelligence and Content Understanding in Foundry Tools",
+      "link": "https://azure.microsoft.com/updates?id=581318",
+      "summary": "Within Microsoft Foundry, use azd ai cu commands to analyze documents with Azure Document Intelligence and Content Understanding in Foundry Tools. The extension for Azure Developer CLI (azd) can save analysis results as Markdown or JSON.You can start with",
+      "publishedAt": "2026-11-24T16:45:59.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Cost controls for model and agent spending in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581323",
+      "summary": "Within Microsoft Foundry, cost controls set a spending or token budget for a Foundry resource or project. When usage reaches a threshold that you set, a cost control sends an alert through Azure Event Grid or blocks new requests.You can apply a budget to",
+      "publishedAt": "2026-11-24T16:43:40.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[In preview] Public Preview: Central governance of hosted-agent outbound domains in Foundry Agent Service",
+      "link": "https://azure.microsoft.com/updates?id=581328",
+      "summary": "Administrators can use Azure Policy to govern outbound destinations for hosted agents in Foundry Agent Service. Agent authors configure and attach a compliant egress policy before creating an agent version. The egress policy then controls outbound request",
+      "publishedAt": "2026-11-24T16:42:20.000Z"
     },
     {
       "source": "Azure Updates",
