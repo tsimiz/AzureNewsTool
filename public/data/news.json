@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T00:10:25.793Z",
-  "itemCount": 1849,
+  "generatedAt": "2026-11-25T06:07:29.436Z",
+  "itemCount": 1850,
   "sources": [
     {
       "name": "Azure Updates",
@@ -152,6 +152,14 @@
       "title": "When happens to entries in the CoreApplication Properties when the source apartment shuts down?",
       "link": "https://devblogs.microsoft.com/oldnewthing/20261124-00/?p=112889",
       "summary": "Commenter Luca Bacci observed: Don't know why, but last I tried the COM static store (runtime class \"Windows.ApplicationModel.Core.CoreApplication\") was accessible from an unpackaged, Win32 applicat",
+      "publishedAt": "2026-11-24T15:00:00.000Z"
+    },
+    {
+      "source": "Power Platform Blog",
+      "category": "Power Platform",
+      "title": "Now available: Cross-region Link to Fabric and Update connection",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/11/24/now-available-cross-region-link-to-fabric-and-update-connection/",
+      "summary": "Link to Fabric helps customers bring Microsoft Dataverse data into Fabric without building and maintaining complex data pipelines. Today, we are announcing two updates that make creating and managing these links simpler and more resilient: • Cross-region Link to Fabric: Connect any Dataverse region to any Microsoft Fabric region.",
       "publishedAt": "2026-11-24T15:00:00.000Z"
     },
     {
