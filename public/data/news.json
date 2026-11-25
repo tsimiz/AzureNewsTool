@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T18:04:59.797Z",
-  "itemCount": 1834,
+  "generatedAt": "2026-11-25T00:10:25.793Z",
+  "itemCount": 1849,
   "sources": [
     {
       "name": "Azure Updates",
@@ -41,6 +41,38 @@
       "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.148-(insiders)",
       "summary": "Learn what is new in the latest Visual Studio Code Insiders build, including agent session management and editor tab improvements. Read the full article",
       "publishedAt": "2026-11-25T17:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Introducing DocumentExtractionClient (preview): Extract documents in .NET",
+      "link": "https://devblogs.microsoft.com/dotnet/document-extraction-dotnet-preview",
+      "summary": "A lot of the information your apps need lives in documents. Invoices, contracts, reports, forms, and slide decks arrive as PDFs, scans, images, and Office files. Getting their content and structure out is the first step for search, automation, data entry, and archiving. It's also how AI apps get the context they need. Before a model can ans",
+      "publishedAt": "2026-11-24T18:05:00.000Z"
+    },
+    {
+      "source": "Azure Updates",
+      "category": "Azure",
+      "title": "[Launched] Generally Available: Azure Site Recovery support for zonal disaster recovery for Ultra disks",
+      "link": "https://azure.microsoft.com/updates?id=582171",
+      "summary": "Azure Site Recovery now supports Zone-to-Zone Disaster Recovery (Zonal DR) for Azure Ultra disks. Customers can protect performance-intensive virtual machines across Availability Zones against zonal disruptions by replication and recovering them to anothe",
+      "publishedAt": "2026-11-24T17:48:22.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Package.appxmanifest vs AppxManifest.xml",
+      "link": "https://devblogs.microsoft.com/insidemsix/package-appxmanifest-vs-appxmanifest-xml",
+      "summary": "Ever notice some MSIX project source trees have a Package.appxmanifest file instead of AppxManifest.xml and wonder: Why, and how do they differ? Package.appxmanifest vs. AppxManifest.xml: What's the difference? Package.appxmanifest is a templated variant of AppxManifest.xml",
+      "publishedAt": "2026-11-24T17:00:53.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Visual Studio November Update – Faster Workflows, Better Reviews",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-faster-workflows-better-reviews",
+      "summary": "Long waits have a way of breaking concentration. Visual Studio now does less repeated work when you open or close large solutions, launch designers and dialogs, and refresh source-control status. In Open Folder, you can also restore MSBuild dependencies without opening a solution first. The new Copilot Chat is now on by default for",
+      "publishedAt": "2026-11-24T17:00:00.000Z"
     },
     {
       "source": "Azure Updates",
@@ -97,6 +129,46 @@
       "link": "https://azure.microsoft.com/updates?id=581328",
       "summary": "Administrators can use Azure Policy to govern outbound destinations for hosted agents in Foundry Agent Service. Agent authors configure and attach a compliant egress policy before creating an agent version. The egress policy then controls outbound request",
       "publishedAt": "2026-11-24T16:42:20.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "What&#039;s new in Microsoft Foundry | Ignite 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026",
+      "summary": "At Ignite, we added a more direct path from a recurring problem in your agent's traces to a fix you can test. New preview capabilities connect Insights to Agent Optimizer, learn reusable skills from real conversations, and find cheaper configurations that still meet your quality bar. You decide which changes go into the next version.",
+      "publishedAt": "2026-11-24T16:00:51.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Is \"sort by impact\" just vibes?",
+      "link": "https://devblogs.microsoft.com/blog/is-sort-by-impact-just-vibes",
+      "summary": "\"Give me the top five, sorted by impact.\" People ask AI agents for this all the time, whether it's a backlog or a pile of growth ideas. Yet \"impact\" is one of the vaguest words in the language. It could mean how many users benefit, how much money comes in or how much you get for the effort. Hardly anyone says which, so we suspected the orde",
+      "publishedAt": "2026-11-24T15:23:13.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "When happens to entries in the CoreApplication Properties when the source apartment shuts down?",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261124-00/?p=112889",
+      "summary": "Commenter Luca Bacci observed: Don't know why, but last I tried the COM static store (runtime class \"Windows.ApplicationModel.Core.CoreApplication\") was accessible from an unpackaged, Win32 applicat",
+      "publishedAt": "2026-11-24T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Choose the right document platform for your app: SharePoint Embedded",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/choose-the-right-document-platform-for-your-app-sharepoint-embedded",
+      "summary": "Choosing a document platform is an architectural decision—not simply a storage decision.",
+      "publishedAt": "2026-11-24T14:00:41.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Copilot UX components now available in Cowork with plugins - SPFx roadmap update for November 2026",
+      "link": "https://devblogs.microsoft.com/microsoft365dev/copilot-ux-components-now-available-in-cowork-with-plugins-spfx-roadmap-update-for-november-2026",
+      "summary": "A month ago, on October 28, Copilot UX components became generally available (GA) with SPFx 1.24. Thank you to everyone who tried the samples, filed issues, joined the",
+      "publishedAt": "2026-11-24T11:21:11.000Z"
     },
     {
       "source": "Azure Updates",
@@ -273,6 +345,14 @@
       "link": "https://devblogs.microsoft.com/devops/new-guidance-to-optimize-git-performance-in-azure-repos",
       "summary": "Git works well for most development workflows. But a change that seems harmless can make a repository harder to work with. Here are a few examples of how that can happen. Committing binaries directly to your repository Binaries are more likely than source code files to differ a lot between versions, so delta compression is",
       "publishedAt": "2026-11-23T18:00:44.000Z"
+    },
+    {
+      "source": "Microsoft Developer Blogs",
+      "category": "Developer",
+      "title": "Having two secutity products installed at the same time isn&#039;t a great idea, but sometimes you have to do it",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20261123-00/?p=112887",
+      "summary": "Not too long ago, I noted that if you install multiple anti-malware products, they might each think the other is malware. I used a metaphor of hiring two security services to patrol",
+      "publishedAt": "2026-11-23T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -2115,6 +2195,14 @@
       "publishedAt": "2026-11-17T18:05:00.000Z"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Copilot at Microsoft Ignite: Expanding what’s possible with intelligence built for work",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/",
+      "summary": "Explore new Microsoft Copilot experiences and capabilities announced at Microsoft Ignite 2026, including Home, Autopilot, Workspaces, and Code.",
+      "publishedAt": "2026-11-17T18:05:00.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Activation via Command Line",
@@ -2185,6 +2273,14 @@
       "link": "https://devblogs.microsoft.com/cppblog/msvc-build-tools-version-14-52-now-generally-available",
       "summary": "Microsoft C++ (MSVC) Build Tools version 14.52 is now generally available as a long-term support (LTS) release. It is available with Visual Studio 2026 version 18.12 on the Stable Channel and",
       "publishedAt": "2026-11-16T22:17:16.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "What AI at work really costs",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs/",
+      "summary": "What does AI at work really cost? New research compares the total cost of leading enterprise AI options and explores the factors that can shape the cost of everyday and advanced AI work.",
+      "publishedAt": "2026-11-16T16:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
@@ -2795,6 +2891,14 @@
       "publishedAt": "2026-11-05T16:00:00.000Z"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Bringing Claude models in Microsoft Copilot into the EU Data Boundary",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary/",
+      "summary": "Greater model choice, consistent protection. Claude models are coming to the EU Data Boundary in Microsoft Copilot.",
+      "publishedAt": "2026-11-05T16:00:00.000Z"
+    },
+    {
       "source": "Microsoft Developer Blogs",
       "category": "Developer",
       "title": "Your best AX fixes are hiding in agent trajectories",
@@ -3104,6 +3208,14 @@
       "title": "Blazor Welcomes Open-Source Contributions from Syncfusion",
       "link": "https://devblogs.microsoft.com/dotnet/blazor-welcomes-syncfusion",
       "summary": "We're pleased to announce our collaboration with Syncfusion to advance Blazor! Syncfusion has released a free, open-source toolkit of Blazor components, an",
+      "publishedAt": "2026-10-29T15:00:00.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Microsoft Copilot for finance: Purpose-built for the way finance teams work",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/",
+      "summary": "Discover Microsoft Copilot for finance, purpose-built skills for accounting, capital markets, and broader finance work.",
       "publishedAt": "2026-10-29T15:00:00.000Z"
     },
     {
@@ -3505,6 +3617,14 @@
       "link": "https://devblogs.microsoft.com/cosmosdb/code-with-cosmos",
       "summary": "Follow an AI application from a blank folder to a system built for production",
       "publishedAt": "2026-10-23T17:18:03.000Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "category": "Microsoft 365",
+      "title": "Introducing Microsoft Copilot for legal",
+      "link": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/introducing-microsoft-copilot-for-legal/4564246",
+      "summary": "In legal work, the answer rarely sits neatly in one place. It may depend on precedent, organizational standards, or a regulatory consideration that changes the whole analysis.",
+      "publishedAt": "2026-10-23T15:00:00.000Z"
     },
     {
       "source": "Microsoft Developer Blogs",
